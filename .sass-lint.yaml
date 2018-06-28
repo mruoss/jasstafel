@@ -1,0 +1,96 @@
+# Linter Options
+options:
+  # Don't merge default rules
+  merge-default-rules: false
+  # Set the formatter to 'html'
+  # formatter: html
+  # Output file instead of logging results
+  # output-file: 'linters/sass-lint.html'
+  # Raise an error if more than 1 warnings are generated
+  max-warnings: 1
+
+# File Options
+files:
+  include:
+    - 'src/**/*.s+(a|c)ss'
+  ignore:
+
+# Rule Configuration
+rules:
+  # bem-depth: 2
+  border-zero: 2
+  class-name-format:
+    - 2
+    - convention: hyphenatedbem
+  clean-import-paths: 1
+  declarations-before-nesting: 2
+  empty-args: 2
+  extends-before-mixins: 2
+  extends-before-declarations: 2
+  final-newline: 2
+  hex-length:
+    - 2
+    - style: short
+  hex-notation:
+    - 2
+    - style: uppercase
+  id-name-format:
+    - 1
+    - allow-leading-underscore: false
+  # indentation:
+  #   - 2
+  #   - size: 'tab'
+  mixins-before-declarations:
+    - 2
+    # - exclude:
+    #     - breakpoint
+    #     - mq
+  mixin-name-format:
+    - 1
+    - allow-leading-underscore: false
+  nesting-depth:
+    - 2
+    - max-depth: 2 # to be changed to 1
+  # no-combinators: 2
+  no-css-comments: 1
+  no-debug: 1
+  no-duplicate-properties: 1
+  no-empty-rulesets: 1
+  no-extends: 2
+  no-ids: 2
+  # no-important: 2
+  no-invalid-hex: 2
+  no-mergeable-selectors: 2
+  no-misspelled-properties: 2
+  # no-qualifying-elements:
+  #   - 2
+  #   - allow-element-with-attribute: true
+  no-trailing-whitespace: 1
+  no-trailing-zero: 1
+  no-transition-all: 1
+  # no-universal-selectors: 2
+  no-vendor-prefixes: 2
+  no-warn: 1
+  placeholder-in-extend: 2
+
+  pseudo-element: 2
+  quotes: 2
+  shorthand-values: 2
+  single-line-per-selector: 2
+  space-after-bang: 1
+  space-after-colon: 1
+  # space-after-comma: 1
+  space-before-colon: 1
+  space-between-parens: 1
+  variable-for-property:
+     - 1
+     -
+       properties:
+          - z-index
+  #       - content
+  variable-name-format:
+    - 1
+    - allow-leading-underscore: false
+  zero-unit:
+    - 2
+    - include: false

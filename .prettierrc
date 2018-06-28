@@ -1,0 +1,7 @@
+# .prettierrc
+printWidth: 120
+useTabs: true
+tabWidth: 3
+semi: false
+singleQuote: true
+trailingComma: "all"
