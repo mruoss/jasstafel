@@ -5,6 +5,7 @@ import { compose, withState, lifecycle } from 'recompose'
 import { withDimensions, zColor, strokeWidth } from '../utils/drawing'
 
 import Score from './Score'
+import TouchScreen from './TouchScreen'
 
 const enhance = compose(
 	withDimensions,
@@ -33,34 +34,78 @@ const enhance = compose(
 	}),
 )
 
-const Schiefertafel = ({ width, height, getPoint, schiefer }) => {
+const Schiefertafel = ({ width, height, getPointForPlayer, getPointOnCanvas, schiefer }) => {
+	const Z = ({ otherPlayer = false }) => (
+		<Line
+			points={[
+				...Object.values(getPointForPlayer(90, 10, otherPlayer)),
+				...Object.values(getPointForPlayer(10, 10, otherPlayer)),
+				...Object.values(getPointForPlayer(90, 90, otherPlayer)),
+				...Object.values(getPointForPlayer(10, 90, otherPlayer)),
+			]}
+			stroke={zColor}
+			strokeWidth={strokeWidth}
+		/>
+	)
+	Z.propTypes = {
+		otherPlayer: PropTypes.bool,
+	}
+
 	return (
 		<Stage width={width} height={height} left={0} top={0}>
 			<Layer>{schiefer && <Image image={schiefer} />}</Layer>
 			<Layer>
+				<Z />
 				<Line
-					points={[...getPoint(10, 5), ...getPoint(90, 5), ...getPoint(10, 45), ...getPoint(90, 45)]}
+					points={[...Object.values(getPointOnCanvas(2, 50)), ...Object.values(getPointOnCanvas(98, 50))]}
 					stroke={zColor}
 					strokeWidth={strokeWidth}
 				/>
-				<Line points={[...getPoint(2, 50), ...getPoint(98, 50)]} stroke={zColor} strokeWidth={strokeWidth} />
-				<Line
-					points={[...getPoint(10, 55), ...getPoint(90, 55), ...getPoint(10, 95), ...getPoint(90, 95)]}
-					stroke={zColor}
-					strokeWidth={strokeWidth}
-				/>
+				<Z otherPlayer />
 			</Layer>
-			<Score
-				player1={{ hundred: 13, fifty: 40, twenty: 22, one: 5 }}
-				player2={{ hundred: 13, fifty: 7, twenty: 22, one: 7 }}
+			<Score score={{ hundred: 13, fifty: 20, twenty: 22, one: 5 }} />
+			<Score otherPlayer score={{ hundred: 13, fifty: 7, twenty: 22, one: 7 }} />
+			<TouchScreen
+				onClickHundred={() => {
+					console.log('P1 onClickHundred')
+				}}
+				onClickFifty={() => {
+					console.log('P1 onClickFifty')
+				}}
+				onClickTwenty={() => {
+					console.log('P1 onClickTwenty')
+				}}
+				onClickOne={() => {
+					console.log('P1 onClickOne')
+				}}
+				debug
+			/>
+			<TouchScreen
+				otherPlayer
+				onClickHundred={() => {
+					console.log('P2 onClickHundred')
+				}}
+				onClickFifty={() => {
+					console.log('P2 onClickFifty')
+				}}
+				onClickTwenty={() => {
+					console.log('P2 onClickTwenty')
+				}}
+				onClickOne={() => {
+					console.log('P2 onClickOne')
+				}}
+				debug
 			/>
 		</Stage>
 	)
 }
+// <Score
+// />
 Schiefertafel.propTypes = {
 	width: PropTypes.number.isRequired,
 	height: PropTypes.number.isRequired,
-	getPoint: PropTypes.func.isRequired,
+	getPointForPlayer: PropTypes.func.isRequired,
+	getPointOnCanvas: PropTypes.func.isRequired,
 	schiefer: PropTypes.object,
 }
 

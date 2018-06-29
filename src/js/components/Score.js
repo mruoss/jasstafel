@@ -8,101 +8,73 @@ import { withDimensions, strokeWidth } from '../utils/drawing'
 
 const enhance = compose(withDimensions)
 
-const Score = ({ player1, player2, getPoint, getPointObject }) => (
+const Score = ({ score, otherPlayer, getPointForPlayer }) => (
 	<Layer>
-		{[...Array(player1.hundred)].map((_, i) => (
+		{[...Array(score.hundred)].map((_, i) => (
 			<Line
 				key={`hundred-${i}`}
 				points={
 					(i + 1) % 5 === 0
-						? [...getPoint(88 - i + 5, 48), ...getPoint(88 - i, 42)]
-						: [...getPoint(88 - i, 48), ...getPoint(88 - i, 42)]
+						? [
+								...Object.values(getPointForPlayer(12 + (i - 5) * 1.5, 96, otherPlayer)),
+								...Object.values(getPointForPlayer(12 + i * 1.5, 84, otherPlayer)),
+						  ]
+						: [
+								...Object.values(getPointForPlayer(12 + i * 1.5, 96, otherPlayer)),
+								...Object.values(getPointForPlayer(12 + i * 1.5, 84, otherPlayer)),
+						  ]
 				}
 				stroke="white"
 				strokeWidth={strokeWidth / 3}
 			/>
 		))}
-		{[...Array(player1.fifty)].map((_, i) => (
+		{[...Array(score.fifty)].map((_, i) => (
 			<Line
 				key={`fifty-${i}`}
 				points={
 					i % 2 === 0
-						? [...getPoint(80 - i * 1.5, 6 + i * 0.75), ...getPoint(79 - i * 1.5 + 1, 14 + i * 0.75)]
-						: [...getPoint(79 - i * 1.5, 6.5 + i * 0.75), ...getPoint(83 - i * 1.5 + 1, 12 + i * 0.75)]
+						? [
+								...Object.values(getPointForPlayer(22 + i * 2 * 1.5, 14 + i * 3, otherPlayer)),
+								...Object.values(getPointForPlayer(21 + i * 2 * 1.5 + 1, 30 + i * 3, otherPlayer)),
+						  ]
+						: [
+								...Object.values(getPointForPlayer(22 + i * 2 * 1.5, 14 + i * 3, otherPlayer)),
+								...Object.values(getPointForPlayer(15 + i * 2 * 1.5 + 1, 24 + i * 3, otherPlayer)),
+						  ]
 					// :[]
 				}
 				stroke="white"
 				strokeWidth={strokeWidth / 3}
 			/>
 		))}
-		{[...Array(player1.twenty)].map((_, i) => (
+		{[...Array(score.twenty)].map((_, i) => (
 			<Line
 				key={`twenty-${i}`}
 				points={
 					(i + 1) % 5 === 0
-						? [...getPoint(12 + i - 5, 2), ...getPoint(12 + i, 8)]
-						: [...getPoint(12 + i, 2), ...getPoint(12 + i, 8)]
+						? [
+								...Object.values(getPointForPlayer(88 - (i - 5) * 1.5, 4, otherPlayer)),
+								...Object.values(getPointForPlayer(88 - i * 1.5, 16, otherPlayer)),
+						  ]
+						: [
+								...Object.values(getPointForPlayer(88 - i * 1.5, 4, otherPlayer)),
+								...Object.values(getPointForPlayer(88 - i * 1.5, 16, otherPlayer)),
+						  ]
 				}
 				stroke="white"
 				strokeWidth={strokeWidth / 3}
 			/>
 		))}
 		<Shape
-			{...getPointObject(13, 23)}
+			{...getPointForPlayer(87, 46, otherPlayer)}
 			sceneFunc={ctx => {
-				ctx.rotate(Math.PI)
+				if (!otherPlayer) {
+					ctx.rotate(Math.PI)
+				}
 				ctx.fillStyle = 'white'
 				ctx.font = '30px Arial'
 
-				ctx.fillText(player1.one, 0, 0)
-				ctx.fill()
-			}}
-		/>
-
-		{[...Array(player2.hundred)].map((_, i) => (
-			<Line
-				key={`hundred-${i}`}
-				points={
-					(i + 1) % 5 === 0
-						? [...getPoint(12 + i + 5, 52), ...getPoint(12 + i, 58)]
-						: [...getPoint(12 + i, 52), ...getPoint(12 + i, 58)]
-				}
-				stroke="white"
-				strokeWidth={strokeWidth / 3}
-			/>
-		))}
-		{[...Array(player2.fifty)].map((_, i) => (
-			<Line
-				key={`fifty-${i}`}
-				points={
-					i % 2 === 0
-						? [...getPoint(20 + i * 1.5, 94 - i * 0.75), ...getPoint(21 + i * 1.5 - 1, 86 - i * 0.75)]
-						: [...getPoint(21 + i * 1.5, 93.5 - i * 0.75), ...getPoint(17 + i * 1.5 - 1, 88 - i * 0.75)]
-					// :[]
-				}
-				stroke="white"
-				strokeWidth={strokeWidth / 3}
-			/>
-		))}
-		{[...Array(player2.twenty)].map((_, i) => (
-			<Line
-				key={`twenty-${i}`}
-				points={
-					(i + 1) % 5 === 0
-						? [...getPoint(88 - i + 5, 98), ...getPoint(88 - i, 92)]
-						: [...getPoint(88 - i, 98), ...getPoint(88 - i, 92)]
-				}
-				stroke="white"
-				strokeWidth={strokeWidth / 3}
-			/>
-		))}
-		<Shape
-			{...getPointObject(87, 77)}
-			sceneFunc={ctx => {
-				ctx.fillStyle = 'white'
-				ctx.font = '30px Arial'
-
-				ctx.fillText(player2.one, 0, 0)
+				ctx.fillText(score.one, 0, 0)
 				ctx.fill()
 			}}
 		/>
@@ -110,10 +82,9 @@ const Score = ({ player1, player2, getPoint, getPointObject }) => (
 )
 
 Score.propTypes = {
-	player1: PropTypes.object.isRequired,
-	player2: PropTypes.object.isRequired,
-	getPoint: PropTypes.func.isRequired,
-	getPointObject: PropTypes.func.isRequired,
+	score: PropTypes.object.isRequired,
+	getPointForPlayer: PropTypes.func.isRequired,
+	otherPlayer: PropTypes.bool,
 }
 
 export default enhance(Score)
