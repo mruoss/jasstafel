@@ -113,7 +113,6 @@ rules:
   valid-jsdoc: 0
   react/display-name: 0
   react/prop-types: 1
-  react/no-array-index-key: 1
   babel/no-invalid-this: 2
 
 env:
