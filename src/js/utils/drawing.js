@@ -4,9 +4,10 @@ const mapPlayerBoardY = (position, otherPlayer) => (otherPlayer ? 100 - position
 const mapPlayerBoardX = (position, otherPlayer) => (otherPlayer ? position : 100 - position)
 
 export const withDimensions = withSizes(({ width, height }) => {
-	const getPointByPercentage = (x, y) => ({ x: (width / 100) * x, y: (height / 100) * y })
+	const boardWidth = width > height ? height * 0.8 : width
+	const getPointByPercentage = (x, y) => ({ x: (boardWidth / 100) * x, y: (height / 100) * y })
 	return {
-		width,
+		width: boardWidth,
 		height,
 		getPointOnCanvas: getPointByPercentage,
 		getPointForPlayer: (x, y, otherPlayer) =>
