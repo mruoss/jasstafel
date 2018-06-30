@@ -73,8 +73,7 @@ const Score = ({ scope, score }) => (
 							//noop
 						}
 						ctx.fillStyle = 'white'
-						ctx.font = '30px Arial'
-
+						ctx.font = `2rem Arial`
 						ctx.fillText(score.one, 0, 0)
 						ctx.fill()
 					}}
