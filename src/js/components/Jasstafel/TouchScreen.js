@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Layer, Line } from 'react-konva'
 import { compose } from 'recompose'
-import { withDimensions } from '../utils/drawing'
+import { withDimensions } from '../../utils/drawing'
 
 const enhance = compose(withDimensions)
 

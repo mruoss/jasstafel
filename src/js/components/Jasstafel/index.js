@@ -1,11 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Stage, Layer, Image, Line } from 'react-konva'
+import { Stage, Layer, Line } from 'react-konva'
 import { compose, withState, lifecycle } from 'recompose'
-import { withDimensions, zColor, strokeWidth } from '../utils/drawing'
+import { withDimensions } from '../../utils/drawing'
+import { zColor, strokeWidth } from '../../utils/constants'
 
+import Blackboard from '../Blackboard'
 import Score from './Score'
 import TouchScreen from './TouchScreen'
+import Z from './Z'
 
 const enhance = compose(
 	withDimensions,
@@ -34,65 +37,51 @@ const enhance = compose(
 	}),
 )
 
-const Schiefertafel = ({ width, height, getPointForPlayer, getPointOnCanvas, schiefer }) => {
-	const Z = ({ otherPlayer = false }) => (
-		<Line
-			points={[
-				...Object.values(getPointForPlayer(90, 10, otherPlayer)),
-				...Object.values(getPointForPlayer(10, 10, otherPlayer)),
-				...Object.values(getPointForPlayer(90, 90, otherPlayer)),
-				...Object.values(getPointForPlayer(10, 90, otherPlayer)),
-			]}
-			stroke={zColor}
-			strokeWidth={strokeWidth}
-		/>
-	)
-	Z.propTypes = {
-		otherPlayer: PropTypes.bool,
-	}
-
+const Jasstafel = ({ width, height, getPointOnCanvas }) => {
 	return (
 		<Stage width={width} height={height} left={0} top={0}>
-			<Layer>{schiefer && <Image image={schiefer} />}</Layer>
+			<Blackboard />
+			<Z />
+			<Z otherPlayer />
 			<Layer>
-				<Z />
 				<Line
 					points={[...Object.values(getPointOnCanvas(2, 50)), ...Object.values(getPointOnCanvas(98, 50))]}
 					stroke={zColor}
 					strokeWidth={strokeWidth}
 				/>
-				<Z otherPlayer />
 			</Layer>
+
 			<Score score={{ hundred: 13, fifty: 20, twenty: 22, one: 5 }} />
 			<Score otherPlayer score={{ hundred: 13, fifty: 7, twenty: 22, one: 7 }} />
+
 			<TouchScreen
 				onClickHundred={() => {
-					console.log('P1 onClickHundred')
+					window.console.log('P1 onClickHundred')
 				}}
 				onClickFifty={() => {
-					console.log('P1 onClickFifty')
+					window.console.log('P1 onClickFifty')
 				}}
 				onClickTwenty={() => {
-					console.log('P1 onClickTwenty')
+					window.console.log('P1 onClickTwenty')
 				}}
 				onClickOne={() => {
-					console.log('P1 onClickOne')
+					window.console.log('P1 onClickOne')
 				}}
 				debug
 			/>
 			<TouchScreen
 				otherPlayer
 				onClickHundred={() => {
-					console.log('P2 onClickHundred')
+					window.console.log('P2 onClickHundred')
 				}}
 				onClickFifty={() => {
-					console.log('P2 onClickFifty')
+					window.console.log('P2 onClickFifty')
 				}}
 				onClickTwenty={() => {
-					console.log('P2 onClickTwenty')
+					window.console.log('P2 onClickTwenty')
 				}}
 				onClickOne={() => {
-					console.log('P2 onClickOne')
+					window.console.log('P2 onClickOne')
 				}}
 				debug
 			/>
@@ -101,7 +90,7 @@ const Schiefertafel = ({ width, height, getPointForPlayer, getPointOnCanvas, sch
 }
 // <Score
 // />
-Schiefertafel.propTypes = {
+Jasstafel.propTypes = {
 	width: PropTypes.number.isRequired,
 	height: PropTypes.number.isRequired,
 	getPointForPlayer: PropTypes.func.isRequired,
@@ -109,4 +98,4 @@ Schiefertafel.propTypes = {
 	schiefer: PropTypes.object,
 }
 
-export default enhance(Schiefertafel)
+export default enhance(Jasstafel)

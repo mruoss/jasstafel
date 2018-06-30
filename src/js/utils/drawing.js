@@ -14,6 +14,3 @@ export const withDimensions = withSizes(({ width, height }) => {
 			getPointByPercentage(mapPlayerBoardX(x, otherPlayer), mapPlayerBoardY(y, otherPlayer)),
 	}
 })
-
-export const zColor = '#bc1818'
-export const strokeWidth = 6

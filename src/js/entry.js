@@ -3,7 +3,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import '../sass/global.sass'
 
-import Schiefertafel from './components/Schiefertafel'
+import Jasstafel from './components/Jasstafel'
 
 const appRootElement = document.getElementById('jasstafel')
-render(<Schiefertafel />, appRootElement)
+render(<Jasstafel />, appRootElement)

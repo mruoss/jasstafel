@@ -4,7 +4,8 @@ import { compose } from 'recompose'
 
 import { Layer, Line, Shape } from 'react-konva'
 
-import { withDimensions, strokeWidth } from '../utils/drawing'
+import { withDimensions } from '../../utils/drawing'
+import { strokeWidth } from '../../utils/constants'
 
 const enhance = compose(withDimensions)
 
