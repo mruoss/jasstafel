@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Layer, Image } from 'react-konva'
 import { compose, withState, lifecycle } from 'recompose'
-import { withDimensions } from '../utils/drawing'
+import withSizes from 'react-sizes'
 
 const enhance = compose(
-	withDimensions,
+	withSizes(props => props),
 	withState('schiefer', 'setSchiefer', null),
 	lifecycle({
 		componentDidMount() {
@@ -31,11 +31,10 @@ const enhance = compose(
 	}),
 )
 
-const Schiefertafel = ({ schiefer }) => <Layer>{schiefer && <Image image={schiefer} />}</Layer>
-// <Score
-// />
-Schiefertafel.propTypes = {
+const Blackboard = ({ schiefer }) => <Layer>{schiefer && <Image image={schiefer} />}</Layer>
+
+Blackboard.propTypes = {
 	schiefer: PropTypes.object,
 }
 
-export default enhance(Schiefertafel)
+export default enhance(Blackboard)

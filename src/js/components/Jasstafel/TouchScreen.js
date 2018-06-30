@@ -1,71 +1,64 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Layer, Line } from 'react-konva'
-import { compose } from 'recompose'
-import { withDimensions } from '../../utils/drawing'
 
-const enhance = compose(withDimensions)
+import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
 
-const TouchScreen = ({
-	otherPlayer,
-	getPointForPlayer,
-	onClickHundred,
-	onClickFifty,
-	onClickTwenty,
-	onClickOne,
-	debug = false,
-}) => (
-	<Layer>
-		<Line
-			points={[
-				...Object.values(getPointForPlayer(10, 2, otherPlayer)),
-				...Object.values(getPointForPlayer(90, 2, otherPlayer)),
-				...Object.values(getPointForPlayer(90, 18, otherPlayer)),
-				...Object.values(getPointForPlayer(10, 18, otherPlayer)),
-			]}
-			fill={debug && 'rgba(93,121,255,.2)'}
-			onClick={onClickTwenty}
-			closed
-		/>
-		<Line
-			points={[
-				...Object.values(getPointForPlayer(10, 20, otherPlayer)),
-				...Object.values(getPointForPlayer(70, 80, otherPlayer)),
-				...Object.values(getPointForPlayer(90, 80, otherPlayer)),
-				...Object.values(getPointForPlayer(30, 20, otherPlayer)),
-			]}
-			closed
-			onClick={onClickFifty}
-			fill={debug && 'rgba(93,121,255,.2)'}
-		/>
-		<Line
-			points={[
-				...Object.values(getPointForPlayer(10, 82, otherPlayer)),
-				...Object.values(getPointForPlayer(90, 82, otherPlayer)),
-				...Object.values(getPointForPlayer(90, 98, otherPlayer)),
-				...Object.values(getPointForPlayer(10, 98, otherPlayer)),
-			]}
-			closed
-			onClick={onClickHundred}
-			fill={debug && 'rgba(93,121,255,.2)'}
-		/>
-		<Line
-			points={[
-				...Object.values(getPointForPlayer(80, 30, otherPlayer)),
-				...Object.values(getPointForPlayer(80, 65, otherPlayer)),
-				...Object.values(getPointForPlayer(95, 65, otherPlayer)),
-				...Object.values(getPointForPlayer(95, 30, otherPlayer)),
-			]}
-			closed
-			onClick={onClickOne}
-			fill={debug && 'rgba(93,121,255,.2)'}
-		/>
-	</Layer>
+const TouchScreen = ({ scope, onClickHundred, onClickFifty, onClickTwenty, onClickOne, debug = false }) => (
+	<DimensionsConsumer scope={scope}>
+		{({ getPoint }) => (
+			<Layer>
+				<Line
+					points={[
+						...Object.values(getPoint(10, 2)),
+						...Object.values(getPoint(90, 2)),
+						...Object.values(getPoint(90, 18)),
+						...Object.values(getPoint(10, 18)),
+					]}
+					fill={debug && 'rgba(93,121,255,.2)'}
+					onClick={onClickTwenty}
+					closed
+				/>
+				<Line
+					points={[
+						...Object.values(getPoint(10, 20)),
+						...Object.values(getPoint(70, 80)),
+						...Object.values(getPoint(90, 80)),
+						...Object.values(getPoint(30, 20)),
+					]}
+					closed
+					onClick={onClickFifty}
+					fill={debug && 'rgba(93,121,255,.2)'}
+				/>
+				<Line
+					points={[
+						...Object.values(getPoint(10, 82)),
+						...Object.values(getPoint(90, 82)),
+						...Object.values(getPoint(90, 98)),
+						...Object.values(getPoint(10, 98)),
+					]}
+					closed
+					onClick={onClickHundred}
+					fill={debug && 'rgba(93,121,255,.2)'}
+				/>
+				<Line
+					points={[
+						...Object.values(getPoint(80, 30)),
+						...Object.values(getPoint(80, 65)),
+						...Object.values(getPoint(95, 65)),
+						...Object.values(getPoint(95, 30)),
+					]}
+					closed
+					onClick={onClickOne}
+					fill={debug && 'rgba(93,121,255,.2)'}
+				/>
+			</Layer>
+		)}
+	</DimensionsConsumer>
 )
 
 TouchScreen.propTypes = {
-	otherPlayer: PropTypes.bool,
-	getPointForPlayer: PropTypes.func.isRequired,
+	scope: PropTypes.string.isRequired,
 	onClickHundred: PropTypes.func.isRequired,
 	onClickFifty: PropTypes.func.isRequired,
 	onClickTwenty: PropTypes.func.isRequired,
@@ -73,4 +66,4 @@ TouchScreen.propTypes = {
 	debug: PropTypes.bool,
 }
 
-export default enhance(TouchScreen)
+export default TouchScreen

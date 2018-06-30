@@ -1,29 +1,29 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Layer, Line } from 'react-konva'
-import { compose } from 'recompose'
-import { withDimensions } from '../../utils/drawing'
+import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
 import { zColor, strokeWidth } from '../../utils/constants'
 
-const enhance = compose(withDimensions)
-
-const Z = ({ otherPlayer = false, getPointForPlayer }) => (
+const Z = ({ scope }) => (
 	<Layer>
-		<Line
-			points={[
-				...Object.values(getPointForPlayer(90, 10, otherPlayer)),
-				...Object.values(getPointForPlayer(10, 10, otherPlayer)),
-				...Object.values(getPointForPlayer(90, 90, otherPlayer)),
-				...Object.values(getPointForPlayer(10, 90, otherPlayer)),
-			]}
-			stroke={zColor}
-			strokeWidth={strokeWidth}
-		/>
+		<DimensionsConsumer scope={scope}>
+			{({ getPoint }) => (
+				<Line
+					points={[
+						...Object.values(getPoint(90, 10)),
+						...Object.values(getPoint(10, 10)),
+						...Object.values(getPoint(90, 90)),
+						...Object.values(getPoint(10, 90)),
+					]}
+					stroke={zColor}
+					strokeWidth={strokeWidth}
+				/>
+			)}
+		</DimensionsConsumer>
 	</Layer>
 )
 Z.propTypes = {
-	otherPlayer: PropTypes.bool,
-	getPointForPlayer: PropTypes.func.isRequired,
+	scope: PropTypes.string.isRequired,
 }
 
-export default enhance(Z)
+export default Z
