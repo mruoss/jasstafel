@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Layer, Line } from 'react-konva'
 import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
-import { zColor, strokeWidth } from '../../utils/constants'
+import { zColor, strokeWidth } from '../../constants/board'
 
 const Z = ({ scope }) => (
 	<Layer>

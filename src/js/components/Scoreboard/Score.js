@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { strokeWidth } from '../../utils/constants'
+import { strokeWidth } from '../../constants/board'
 
 import { Layer, Line, Shape } from 'react-konva'
 import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'

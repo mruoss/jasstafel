@@ -45,9 +45,15 @@ module.exports = ({ mode, applicationEnv }) => [
 			loader: 'babel-loader',
 			options: {
 				babelrc: false,
-				// see also fe/.babelrc
-				// TODO remove es2015, replace with babel env
 				presets: ['env', 'react'],
+				plugins: [
+					[
+						'transform-object-rest-spread',
+						{
+							useBuiltIns: true,
+						},
+					],
+				],
 			},
 		},
 	},

@@ -54,7 +54,7 @@ rules:
   # fp/no-mutation: [1, { exceptions: [{ property: "propTypes" }, { property: "contextTypes" }] }]
   fp/no-mutating-methods: [ 1, { allowedObjects: [ 'history' ] }]
   fp/no-nil: 0
-  fp/no-rest-parameters: 1
+  fp/no-rest-parameters: 0
   fp/no-throw: 1
   fp/no-unused-expression: 0
   # to be refactored
