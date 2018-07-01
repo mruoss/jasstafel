@@ -44,7 +44,6 @@ const Layers = ({ score, addHundred, addFifty, addTwenty, addOne }) => [
 		onClickFifty={() => addFifty(players.PLAYER_1, 1)}
 		onClickTwenty={() => addTwenty(players.PLAYER_1, 1)}
 		onClickOne={() => addOne(players.PLAYER_1, 1)}
-		debug
 	/>,
 	<TouchScreen
 		key="ts-p2"
@@ -53,7 +52,6 @@ const Layers = ({ score, addHundred, addFifty, addTwenty, addOne }) => [
 		onClickFifty={() => addFifty(players.PLAYER_2, 1)}
 		onClickTwenty={() => addTwenty(players.PLAYER_2, 1)}
 		onClickOne={() => addOne(players.PLAYER_2, 1)}
-		debug
 	/>,
 ]
 

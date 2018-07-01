@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { strokeWidth } from '../../constants/board'
 
 import { Layer, Line, Shape } from 'react-konva'
+import { getNumericScore } from '../../helpers/score'
 import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
 import { SCOPE_PLAYER_1, SCOPE_PLAYER_2 } from '../DimensionsContext/context'
 
@@ -75,6 +76,27 @@ const Score = ({ scope, score }) => (
 						ctx.fillStyle = 'white'
 						ctx.font = `2rem Arial`
 						ctx.fillText(score.one, 0, 0)
+						ctx.fill()
+					}}
+				/>
+				<Shape
+					{...getPoint(50, 45)}
+					sceneFunc={ctx => {
+						switch (scope) {
+							case SCOPE_PLAYER_1:
+								ctx.rotate((transposed ? 0.5 : 1) * Math.PI)
+								break
+							case SCOPE_PLAYER_2:
+								ctx.rotate((transposed ? 1.5 : 0) * Math.PI)
+								break
+							default:
+							//noop
+						}
+						ctx.fillStyle = 'rgba(255,255,255,0.2)'
+						ctx.textAlign = 'center'
+						ctx.textBaseline = 'middle'
+						ctx.font = `8rem Arial`
+						ctx.fillText(getNumericScore(score), 0, 0)
 						ctx.fill()
 					}}
 				/>
