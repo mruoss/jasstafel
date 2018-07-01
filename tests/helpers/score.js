@@ -41,7 +41,7 @@ describe('score helper', () => {
 	it('sanitizes a score object with too many fifties correctly', () => {
 		const scoreBeforeSanitizing = {
 			hundred: 0,
-			fifty: 11,
+			fifty: 21,
 			twenty: 0,
 			one: 0,
 		}
@@ -50,8 +50,8 @@ describe('score helper', () => {
 		expect(getNumericScore(scoreBeforeSanitizing)).equals(getNumericScore(scoreAfterSanitizing))
 
 		expect(scoreAfterSanitizing).to.matchPattern({
-			hundred: 3,
-			fifty: 5,
+			hundred: 6,
+			fifty: 9,
 			twenty: 0,
 			one: 0,
 		})
@@ -98,7 +98,7 @@ describe('score helper', () => {
 	it('sanitizes a score object with too many ones => twenties and fifties correctly', () => {
 		const scoreBeforeSanitizing = {
 			hundred: 0,
-			fifty: 11,
+			fifty: 19,
 			twenty: 41,
 			one: 33,
 		}
@@ -107,8 +107,8 @@ describe('score helper', () => {
 		expect(getNumericScore(scoreBeforeSanitizing)).equals(getNumericScore(scoreAfterSanitizing))
 
 		expect(scoreAfterSanitizing).to.matchPattern({
-			hundred: 7,
-			fifty: 5,
+			hundred: 9,
+			fifty: 9,
 			twenty: 22,
 			one: 13,
 		})

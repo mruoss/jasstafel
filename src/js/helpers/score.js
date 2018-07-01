@@ -17,7 +17,7 @@ export const sanitizeScore = score => {
 	const one = score.one % 20
 	const twentyTmp = score.twenty + Math.floor(score.one / 20)
 	const twenty = twentyTmp > 40 ? 20 + (twentyTmp % 5) : twentyTmp
-	const fifty = score.fifty > 8 ? 4 + (score.fifty % 2) : score.fifty
+	const fifty = score.fifty > 18 ? 8 + (score.fifty % 2) : score.fifty
 	const hundred = score.hundred + Math.floor((score.fifty - fifty) / 2) + Math.floor((twentyTmp - twenty) / 5)
 	return {
 		hundred,
