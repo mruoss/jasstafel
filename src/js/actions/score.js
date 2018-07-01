@@ -23,3 +23,9 @@ export const addOne = (player, qty) => ({
 	player,
 	qty,
 })
+
+export const addNumber = (player, points) => ({
+	type: actionTypes.ADD_POINTS,
+	player,
+	points,
+})

@@ -13,6 +13,7 @@ plugins:
   - lodash-fp
   - react
   - css-modules
+  - jasmine
 
 extends:
   - eslint:recommended
@@ -23,6 +24,7 @@ extends:
   - plugin:import/errors
   - plugin:import/warnings
   - plugin:css-modules/recommended
+  - plugin:jasmine/recommended
 
 settings:
   "import/resolver":
@@ -117,3 +119,4 @@ rules:
 
 env:
   es6: true
+  jasmine: true
