@@ -1,5 +1,4 @@
 import * as players from '../../constants/redux-store/players'
-import * as scopes from '../../constants/redux-store/scopes'
 
 import player from './player'
 
@@ -11,11 +10,16 @@ const initialState = {
 }
 
 export default (state = initialState, action) => {
-	if (action.scope === scopes.SCORE && action.player) {
-		return {
-			...state,
-			[action.player]: player(state[action.player], action),
-		}
+	if (action.player) {
+		return action.player === players.ALL
+			? {
+					[players.PLAYER_1]: player(state[players.PLAYER_1], action),
+					[players.PLAYER_2]: player(state[players.PLAYER_2], action),
+			  }
+			: {
+					...state,
+					[action.player]: player(state[action.player], action),
+			  }
 	}
 	return state
 }
