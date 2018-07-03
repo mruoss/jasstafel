@@ -70,6 +70,23 @@ module.exports = ({ mode, applicationEnv }) => [
 		use: cssUseEntry({ mode, with_modules: false, applicationEnv }),
 	},
 	{
+		// only 3rd party fonts
+		test: /\.(ttf|eot|svg|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+		exclude: [path.resolve('../src/js')],
+		use: [
+			{
+				loader: mode === 'production' ? 'file-loader' : 'url-loader',
+				options: {
+					context: path.node_modules,
+					name: '[path][name].[ext]?[hash]',
+					outputPath: 'lib/',
+					publicPath: '../lib/',
+					emitFile: mode === 'production',
+				},
+			},
+		],
+	},
+	{
 		test: /\.html$/,
 		use: [
 			{

@@ -17,6 +17,7 @@ module.exports = ({ WEBPACK_MODE, APPLICATION_ENV }) => ({
 	devServer: {
 		inline: true,
 		port: process.env.PORT,
+		host: '0.0.0.0',
 	},
 	plugins: [
 		new HtmlWebPackPlugin({

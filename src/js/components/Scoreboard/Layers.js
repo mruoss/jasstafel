@@ -8,6 +8,7 @@ import * as players from '../../constants/redux-store/players'
 import { addHundred, addFifty, addTwenty, addOne } from '../../actions/score'
 
 import Blackboard from '../Blackboard'
+import Keyboard from './Keyboard'
 import Score from './Score'
 import TouchScreen from './TouchScreen'
 import Z from './Z'
@@ -53,6 +54,9 @@ const Layers = ({ score, addHundred, addFifty, addTwenty, addOne }) => [
 		onClickTwenty={() => addTwenty(players.PLAYER_2, 1)}
 		onClickOne={() => addOne(players.PLAYER_2, 1)}
 	/>,
+
+	...(score[players.PLAYER_1].hundred > 1 ? [<Keyboard key="kb-p1" scope={SCOPE_PLAYER_1} />] : []),
+	...(score[players.PLAYER_2].hundred > 1 ? [<Keyboard key="kb-p2" scope={SCOPE_PLAYER_2} />] : []),
 ]
 
 Layers.propTypes = {
