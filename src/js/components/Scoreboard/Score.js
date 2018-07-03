@@ -5,7 +5,6 @@ import { strokeWidth } from '../../constants/board'
 import { Layer, Line, Shape } from 'react-konva'
 import { getNumericScore } from '../../helpers/score'
 import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
-import { SCOPE_PLAYER_1, SCOPE_PLAYER_2 } from '../DimensionsContext/context'
 
 const Score = ({ scope, score }) => (
 	<DimensionsConsumer scope={scope}>
