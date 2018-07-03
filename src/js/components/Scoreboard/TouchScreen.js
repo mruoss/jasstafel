@@ -17,6 +17,7 @@ const TouchScreen = ({ scope, onClickHundred, onClickFifty, onClickTwenty, onCli
 					]}
 					fill={debug && 'rgba(93,121,255,.2)'}
 					onClick={onClickTwenty}
+					onTap={onClickTwenty}
 					closed
 				/>
 				<Line
@@ -28,6 +29,7 @@ const TouchScreen = ({ scope, onClickHundred, onClickFifty, onClickTwenty, onCli
 					]}
 					closed
 					onClick={onClickFifty}
+					onTap={onClickFifty}
 					fill={debug && 'rgba(93,121,255,.2)'}
 				/>
 				<Line
@@ -39,6 +41,7 @@ const TouchScreen = ({ scope, onClickHundred, onClickFifty, onClickTwenty, onCli
 					]}
 					closed
 					onClick={onClickHundred}
+					onTap={onClickHundred}
 					fill={debug && 'rgba(93,121,255,.2)'}
 				/>
 				<Line
@@ -50,6 +53,7 @@ const TouchScreen = ({ scope, onClickHundred, onClickFifty, onClickTwenty, onCli
 					]}
 					closed
 					onClick={onClickOne}
+					onTap={onClickOne}
 					fill={debug && 'rgba(93,121,255,.2)'}
 				/>
 			</Layer>
