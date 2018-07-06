@@ -77,8 +77,8 @@ const Layers = ({
 					onConfirm={({ me, you }) => {
 						addPoints(players.PLAYER_1, me)
 						you > 0 && addPoints(players.PLAYER_2, you)
-						closeKeyboard()
 					}}
+					closeKeyboard={closeKeyboard}
 				/>,
 		  ]
 		: []),
@@ -90,8 +90,8 @@ const Layers = ({
 					onConfirm={({ me, you }) => {
 						addPoints(players.PLAYER_2, me)
 						you > 0 && addPoints(players.PLAYER_1, you)
-						closeKeyboard()
 					}}
+					closeKeyboard={closeKeyboard}
 				/>,
 		  ]
 		: []),

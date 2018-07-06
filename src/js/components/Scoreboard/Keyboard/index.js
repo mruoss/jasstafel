@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { compose, setPropTypes, withStateHandlers, withState } from 'recompose'
+import { compose, withStateHandlers, withState } from 'recompose'
 import { keyboardToPoints } from '../../../helpers/score'
 
 import { Layer } from 'react-konva'
@@ -9,9 +9,6 @@ import DimensionsConsumer from '../../DimensionsContext/DimensionsConsumer'
 import Key from './Key'
 
 const enhance = compose(
-	setPropTypes({
-		onConfirm: PropTypes.func.isRequired,
-	}),
 	withStateHandlers(
 		() => ({
 			points: 0,
@@ -32,7 +29,17 @@ const enhance = compose(
 	withState('complementOn', 'setComplementOn', true),
 )
 
-const Keyboard = ({ scope, points, complementOn, addDigit, removeDigit, resetPoints, setComplementOn, onConfirm }) => (
+const Keyboard = ({
+	scope,
+	points,
+	complementOn,
+	addDigit,
+	removeDigit,
+	resetPoints,
+	setComplementOn,
+	onConfirm,
+	closeKeyboard,
+}) => (
 	<DimensionsConsumer scope={scope}>
 		{({ getPoint, rotation }) => (
 			<Layer
@@ -191,6 +198,7 @@ const Keyboard = ({ scope, points, complementOn, addDigit, removeDigit, resetPoi
 						}
 						onConfirm(keyboardToPoints(points, 1, complementOn))
 						resetPoints()
+						closeKeyboard()
 					}}
 				/>
 				<Key
@@ -205,6 +213,7 @@ const Keyboard = ({ scope, points, complementOn, addDigit, removeDigit, resetPoi
 						}
 						onConfirm(keyboardToPoints(points, 2, complementOn))
 						resetPoints()
+						closeKeyboard()
 					}}
 				/>
 				<Key
@@ -219,6 +228,7 @@ const Keyboard = ({ scope, points, complementOn, addDigit, removeDigit, resetPoi
 						}
 						onConfirm(keyboardToPoints(points, 3, complementOn))
 						resetPoints()
+						closeKeyboard()
 					}}
 				/>
 			</Layer>
@@ -235,6 +245,7 @@ Keyboard.propTypes = {
 	resetPoints: PropTypes.func.isRequired,
 	setComplementOn: PropTypes.func.isRequired,
 	onConfirm: PropTypes.func.isRequired,
+	closeKeyboard: PropTypes.func.isRequired,
 }
 
 export default enhance(Keyboard)
