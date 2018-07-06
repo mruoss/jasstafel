@@ -1,6 +1,6 @@
 import chai from 'chai'
 import chaiMatchPattern from 'chai-match-pattern'
-import { sanitizeScore, getNumericScore, addPointsToScore } from '../../src/js/helpers/score'
+import { sanitizeScore, getNumericScore, addPointsToScore, keyboardToPoints } from '../../src/js/helpers/score'
 
 chai.use(chaiMatchPattern)
 
@@ -130,6 +130,40 @@ describe('score helper', () => {
 			fifty: 12,
 			twenty: 2,
 			one: 23,
+		})
+	})
+
+	it('turns keyboard input to points without completion', () => {
+		expect(keyboardToPoints(40, 1, false)).to.matchPattern({
+			me: 40,
+			you: 0,
+		})
+
+		expect(keyboardToPoints(40, 2, false)).to.matchPattern({
+			me: 80,
+			you: 0,
+		})
+
+		expect(keyboardToPoints(40, 3, false)).to.matchPattern({
+			me: 120,
+			you: 0,
+		})
+	})
+
+	it('turns keyboard input to points with completion', () => {
+		expect(keyboardToPoints(57, 1, true)).to.matchPattern({
+			me: 57,
+			you: 100,
+		})
+
+		expect(keyboardToPoints(57, 2, true)).to.matchPattern({
+			me: 114,
+			you: 200,
+		})
+
+		expect(keyboardToPoints(57, 3, true)).to.matchPattern({
+			me: 171,
+			you: 300,
 		})
 	})
 })

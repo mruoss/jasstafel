@@ -38,3 +38,7 @@ export const addPointsToScore = (score, pointsToAdd) => {
 		one: score.one + scoreToAdd.one,
 	}
 }
+
+export const keyboardToPoints = (points, factor, complementOn) => {
+	return { me: factor * points, you: factor * (complementOn && points < 157 ? 157 - points : 0) }
+}

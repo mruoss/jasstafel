@@ -1,6 +1,8 @@
 export const ADD_HUNDRED = 'ADD_HUNDRED'
 export const ADD_FIFITY = 'ADD_FIFITY'
 export const ADD_TWENTY = 'ADD_TWENTY'
-export const ADD_ONE = 'ADD_ONE'
 export const ADD_POINTS = 'ADD_POINTS'
 export const RESET_SCORE = 'RESET_SCORE'
+
+export const UI_OPEN_KEYBOARD = 'UI_OPEN_KEYBOARD'
+export const UI_CLOSE_KEYBOARD = 'UI_CLOSE_KEYBOARD'

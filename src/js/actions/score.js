@@ -18,13 +18,7 @@ export const addTwenty = (player, qty) => ({
 	qty,
 })
 
-export const addOne = (player, qty) => ({
-	type: actionTypes.ADD_ONE,
-	player,
-	qty,
-})
-
-export const addNumber = (player, points) => ({
+export const addPoints = (player, points) => ({
 	type: actionTypes.ADD_POINTS,
 	player,
 	points,

@@ -3,9 +3,11 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
 import { selectScore } from '../../selectors/score'
+import { selectKeyboardOpenFor } from '../../selectors/ui'
 import { SCOPE_PLAYER_1, SCOPE_PLAYER_2 } from '../DimensionsContext/context'
 import * as players from '../../constants/redux-store/players'
-import { addHundred, addFifty, addTwenty, addOne } from '../../actions/score'
+import { addHundred, addFifty, addTwenty, addPoints } from '../../actions/score'
+import { openKeyboardForPlayer, closeKeyboard } from '../../actions/ui'
 
 import Blackboard from '../Blackboard'
 import Keyboard from './Keyboard'
@@ -15,13 +17,16 @@ import Z from './Z'
 
 const mapStateToProps = state => ({
 	score: selectScore(state),
+	keyboardOpenFor: selectKeyboardOpenFor(state),
 })
 
 const mapDispatchToProps = {
 	addHundred,
 	addFifty,
 	addTwenty,
-	addOne,
+	addPoints,
+	openKeyboardForPlayer,
+	closeKeyboard,
 }
 
 const enhance = connect(
@@ -29,7 +34,16 @@ const enhance = connect(
 	mapDispatchToProps,
 )
 
-const Layers = ({ score, addHundred, addFifty, addTwenty, addOne }) => [
+const Layers = ({
+	score,
+	keyboardOpenFor,
+	addHundred,
+	addFifty,
+	addTwenty,
+	addPoints,
+	openKeyboardForPlayer,
+	closeKeyboard,
+}) => [
 	<Blackboard key="blackboard" />,
 
 	<Z key="z-p1" scope={SCOPE_PLAYER_1} />,
@@ -44,7 +58,7 @@ const Layers = ({ score, addHundred, addFifty, addTwenty, addOne }) => [
 		onClickHundred={() => addHundred(players.PLAYER_1, 1)}
 		onClickFifty={() => addFifty(players.PLAYER_1, 1)}
 		onClickTwenty={() => addTwenty(players.PLAYER_1, 1)}
-		onClickOne={() => addOne(players.PLAYER_1, 1)}
+		onClickOne={() => openKeyboardForPlayer(players.PLAYER_1)}
 	/>,
 	<TouchScreen
 		key="ts-p2"
@@ -52,19 +66,45 @@ const Layers = ({ score, addHundred, addFifty, addTwenty, addOne }) => [
 		onClickHundred={() => addHundred(players.PLAYER_2, 1)}
 		onClickFifty={() => addFifty(players.PLAYER_2, 1)}
 		onClickTwenty={() => addTwenty(players.PLAYER_2, 1)}
-		onClickOne={() => addOne(players.PLAYER_2, 1)}
+		onClickOne={() => openKeyboardForPlayer(players.PLAYER_2)}
 	/>,
 
-	...(score[players.PLAYER_1].hundred > 1 ? [<Keyboard key="kb-p1" scope={SCOPE_PLAYER_1} />] : []),
-	...(score[players.PLAYER_2].hundred > 1 ? [<Keyboard key="kb-p2" scope={SCOPE_PLAYER_2} />] : []),
+	...(keyboardOpenFor === players.PLAYER_1
+		? [
+				<Keyboard
+					key="kb-p1"
+					scope={SCOPE_PLAYER_1}
+					onConfirm={({ me, you }) => {
+						addPoints(players.PLAYER_1, me)
+						you > 0 && addPoints(players.PLAYER_2, you)
+						closeKeyboard()
+					}}
+				/>,
+		  ]
+		: []),
+	...(keyboardOpenFor === players.PLAYER_2
+		? [
+				<Keyboard
+					key="kb-p2"
+					scope={SCOPE_PLAYER_2}
+					onConfirm={({ me, you }) => {
+						addPoints(players.PLAYER_2, me)
+						you > 0 && addPoints(players.PLAYER_1, you)
+						closeKeyboard()
+					}}
+				/>,
+		  ]
+		: []),
 ]
 
 Layers.propTypes = {
 	score: PropTypes.object.isRequired,
+	keyboardOpenFor: PropTypes.string,
 	addHundred: PropTypes.func.isRequired,
 	addFifty: PropTypes.func.isRequired,
 	addTwenty: PropTypes.func.isRequired,
-	addOne: PropTypes.func.isRequired,
+	openKeyboardForPlayer: PropTypes.func.isRequired,
+	closeKeyboard: PropTypes.func.isRequired,
 }
 
 export default enhance(Layers)

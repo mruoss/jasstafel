@@ -25,11 +25,6 @@ export default (state = initialState, action) => {
 				...state,
 				twenty: state.twenty + action.qty,
 			})
-		case actionTypes.ADD_ONE:
-			return sanitizeScore({
-				...state,
-				one: state.one + action.qty,
-			})
 		case actionTypes.ADD_POINTS:
 			return sanitizeScore(addPointsToScore(state, action.points))
 		case actionTypes.RESET_SCORE:

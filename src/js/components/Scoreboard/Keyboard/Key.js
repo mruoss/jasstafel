@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import { pointShape } from '../../../constants/prop-types'
 
 import { Line, Shape } from 'react-konva'
-import { strokeWidth, keyboardStrokeColor, keyboardFillColor } from '../../../constants/board'
+import { keyboardStrokeColor, keyboardFillColor } from '../../../constants/board'
 
-const Key = ({ bottomLeft, topRight, textPosition, text, rotation, bgProps, fgProps }) => [
+const Key = ({ bottomLeft, topRight, textPosition, text, rotation, onStrike, bgProps, fgProps }) => [
 	<Line
 		key="bg"
 		points={[
@@ -18,6 +18,20 @@ const Key = ({ bottomLeft, topRight, textPosition, text, rotation, bgProps, fgPr
 		fill={keyboardFillColor}
 		closed
 		{...bgProps}
+		{...(onStrike
+			? {
+					onClick: onStrike,
+					onTap: onStrike,
+					onMouseEnter: () => {
+						// eslint-disable-next-line no-undef
+						window.document.body.style.cursor = 'pointer'
+					},
+					onMouseLeave: () => {
+						// eslint-disable-next-line no-undef
+						window.document.body.style.cursor = 'default'
+					},
+			  }
+			: {})}
 	/>,
 	<Shape
 		key="fg"
@@ -27,7 +41,7 @@ const Key = ({ bottomLeft, topRight, textPosition, text, rotation, bgProps, fgPr
 			ctx.fillStyle = keyboardStrokeColor
 			ctx.textAlign = 'center'
 			ctx.textBaseline = 'middle'
-			ctx.font = `2rem Arial`
+			ctx.font = `1.7rem Arial`
 			if (fgProps) {
 				Object.entries(fgProps).forEach(([prop, value]) => {
 					ctx[prop] = value
@@ -44,6 +58,7 @@ Key.propTypes = {
 	textPosition: pointShape.isRequired,
 	text: PropTypes.string.isRequired,
 	rotation: PropTypes.number.isRequired,
+	onStrike: PropTypes.func,
 	bgProps: PropTypes.object,
 }
 

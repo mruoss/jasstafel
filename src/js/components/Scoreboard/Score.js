@@ -59,18 +59,16 @@ const Score = ({ scope, score }) => (
 						strokeWidth={strokeWidth / 3}
 					/>
 				))}
-				{score.one > 0 && (
-					<Shape
-						{...getPoint(87, 46)}
-						sceneFunc={ctx => {
-							ctx.rotate(rotation)
-							ctx.fillStyle = 'white'
-							ctx.font = `2rem Arial`
-							ctx.fillText(score.one, 0, 0)
-							ctx.fill()
-						}}
-					/>
-				)}
+				<Shape
+					{...getPoint(87, 46)}
+					sceneFunc={ctx => {
+						ctx.rotate(rotation)
+						ctx.fillStyle = 'white'
+						ctx.font = `2rem Arial`
+						ctx.fillText(score.one, 0, 0)
+						ctx.fill()
+					}}
+				/>
 				<Shape
 					{...getPoint(50, 45)}
 					sceneFunc={ctx => {
