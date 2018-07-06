@@ -41,7 +41,7 @@ const Keyboard = ({ scope, points, complementOn, addDigit, removeDigit, resetPoi
 				}}
 			>
 				<Key
-					text={points}
+					text={points.toString()}
 					bottomLeft={getPoint(29, 129)}
 					topRight={getPoint(71, 143)}
 					textPosition={getPoint(50, 135.5)}
