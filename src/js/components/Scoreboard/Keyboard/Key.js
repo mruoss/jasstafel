@@ -20,8 +20,8 @@ const Key = ({ bottomLeft, topRight, textPosition, text, rotation, onStrike, bgP
 		{...bgProps}
 		{...(onStrike
 			? {
+					onTouchstart: onStrike,
 					onClick: onStrike,
-					onTap: onStrike,
 					onMouseEnter: () => {
 						// eslint-disable-next-line no-undef
 						window.document.body.style.cursor = 'pointer'

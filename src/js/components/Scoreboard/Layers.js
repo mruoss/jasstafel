@@ -52,22 +52,26 @@ const Layers = ({
 	<Score key="score-p1" scope={SCOPE_PLAYER_1} score={score[players.PLAYER_1]} />,
 	<Score key="score-p2" scope={SCOPE_PLAYER_2} score={score[players.PLAYER_2]} />,
 
-	<TouchScreen
-		key="ts-p1"
-		scope={SCOPE_PLAYER_1}
-		onClickHundred={() => addHundred(players.PLAYER_1, 1)}
-		onClickFifty={() => addFifty(players.PLAYER_1, 1)}
-		onClickTwenty={() => addTwenty(players.PLAYER_1, 1)}
-		onClickOne={() => openKeyboardForPlayer(players.PLAYER_1)}
-	/>,
-	<TouchScreen
-		key="ts-p2"
-		scope={SCOPE_PLAYER_2}
-		onClickHundred={() => addHundred(players.PLAYER_2, 1)}
-		onClickFifty={() => addFifty(players.PLAYER_2, 1)}
-		onClickTwenty={() => addTwenty(players.PLAYER_2, 1)}
-		onClickOne={() => openKeyboardForPlayer(players.PLAYER_2)}
-	/>,
+	...(keyboardOpenFor
+		? []
+		: [
+				<TouchScreen
+					key="ts-p1"
+					scope={SCOPE_PLAYER_1}
+					onClickHundred={() => addHundred(players.PLAYER_1, 1)}
+					onClickFifty={() => addFifty(players.PLAYER_1, 1)}
+					onClickTwenty={() => addTwenty(players.PLAYER_1, 1)}
+					onClickOne={() => openKeyboardForPlayer(players.PLAYER_1)}
+				/>,
+				<TouchScreen
+					key="ts-p2"
+					scope={SCOPE_PLAYER_2}
+					onClickHundred={() => addHundred(players.PLAYER_2, 1)}
+					onClickFifty={() => addFifty(players.PLAYER_2, 1)}
+					onClickTwenty={() => addTwenty(players.PLAYER_2, 1)}
+					onClickOne={() => openKeyboardForPlayer(players.PLAYER_2)}
+				/>,
+		  ]),
 
 	...(keyboardOpenFor === players.PLAYER_1
 		? [
