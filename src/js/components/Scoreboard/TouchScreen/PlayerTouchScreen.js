@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Layer, Line } from 'react-konva'
 
-import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
+import DimensionsConsumer from '../../DimensionsContext/DimensionsConsumer'
 
-const TouchScreen = ({ scope, onClickHundred, onClickFifty, onClickTwenty, onClickOne, debug = false }) => (
+const PlayerTouchScreen = ({ scope, onClickHundred, onClickFifty, onClickTwenty, onClickOne, debug = false }) => (
 	<DimensionsConsumer scope={scope}>
 		{({ getPoint }) => (
 			<Layer>
@@ -61,7 +61,7 @@ const TouchScreen = ({ scope, onClickHundred, onClickFifty, onClickTwenty, onCli
 	</DimensionsConsumer>
 )
 
-TouchScreen.propTypes = {
+PlayerTouchScreen.propTypes = {
 	scope: PropTypes.string.isRequired,
 	onClickHundred: PropTypes.func.isRequired,
 	onClickFifty: PropTypes.func.isRequired,
@@ -70,4 +70,4 @@ TouchScreen.propTypes = {
 	debug: PropTypes.bool,
 }
 
-export default TouchScreen
+export default PlayerTouchScreen

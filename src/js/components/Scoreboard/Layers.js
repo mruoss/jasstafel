@@ -12,7 +12,8 @@ import { openKeyboardForPlayer, closeKeyboard } from '../../actions/ui'
 import Blackboard from '../Blackboard'
 import Keyboard from './Keyboard'
 import Score from './Score'
-import TouchScreen from './TouchScreen'
+import PlayerTouchScreen from './TouchScreen/PlayerTouchScreen'
+import GlobalTouchScreen from './TouchScreen/GlobalTouchScreen'
 import Z from './Z'
 
 const mapStateToProps = state => ({
@@ -55,7 +56,7 @@ const Layers = ({
 	...(keyboardOpenFor
 		? []
 		: [
-				<TouchScreen
+				<PlayerTouchScreen
 					key="ts-p1"
 					scope={SCOPE_PLAYER_1}
 					onClickHundred={() => addHundred(players.PLAYER_1, 1)}
@@ -63,7 +64,7 @@ const Layers = ({
 					onClickTwenty={() => addTwenty(players.PLAYER_1, 1)}
 					onClickOne={() => openKeyboardForPlayer(players.PLAYER_1)}
 				/>,
-				<TouchScreen
+				<PlayerTouchScreen
 					key="ts-p2"
 					scope={SCOPE_PLAYER_2}
 					onClickHundred={() => addHundred(players.PLAYER_2, 1)}
@@ -71,6 +72,7 @@ const Layers = ({
 					onClickTwenty={() => addTwenty(players.PLAYER_2, 1)}
 					onClickOne={() => openKeyboardForPlayer(players.PLAYER_2)}
 				/>,
+				<GlobalTouchScreen key="ts-g" />,
 		  ]),
 
 	...(keyboardOpenFor === players.PLAYER_1
@@ -79,8 +81,9 @@ const Layers = ({
 					key="kb-p1"
 					scope={SCOPE_PLAYER_1}
 					onConfirm={({ me, you }) => {
-						addPoints(players.PLAYER_1, me)
-						you > 0 && addPoints(players.PLAYER_2, you)
+						const timestamp = Date.now()
+						addPoints(players.PLAYER_1, me, timestamp)
+						you > 0 && addPoints(players.PLAYER_2, you, timestamp)
 					}}
 					closeKeyboard={closeKeyboard}
 				/>,
@@ -92,8 +95,9 @@ const Layers = ({
 					key="kb-p2"
 					scope={SCOPE_PLAYER_2}
 					onConfirm={({ me, you }) => {
-						addPoints(players.PLAYER_2, me)
-						you > 0 && addPoints(players.PLAYER_1, you)
+						const timestamp = Date.now()
+						addPoints(players.PLAYER_2, me, timestamp)
+						you > 0 && addPoints(players.PLAYER_1, you, timestamp)
 					}}
 					closeKeyboard={closeKeyboard}
 				/>,

@@ -21,7 +21,9 @@
 		"react-redux": "^5.0.7",
 		"react-sizes": "^1.0.4",
 		"recompose": "^0.27.1",
-		"redux": "^4.0.0"
+		"redux": "^4.0.0",
+		"redux-undo": "^1.0.0-beta9-9-7",
+		"reselect": "^3.0.1"
 	},
 	"devDependencies": {
 		"@fortawesome/fontawesome-free": "^5.1.0",

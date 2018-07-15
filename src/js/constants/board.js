@@ -1,6 +1,7 @@
 export const zColor = '#bc1818'
 
 export const keyboardStrokeColor = '#ffffff'
+export const keyboardStrokeColorDisabled = '#888888'
 export const keyboardFillColor = '#3b3b3b'
 export const keyboardMaskColor = 'rgba(255, 255, 255 , .2)'
 export const keyboardSingleBgColor = '#2a86e3'

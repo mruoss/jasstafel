@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { compose, withStateHandlers, withState } from 'recompose'
 import { keyboardToPoints } from '../../../helpers/score'
+import { getIconChar } from '../../../helpers/icons'
 
 import { Layer, Line } from 'react-konva'
 import {
@@ -161,7 +162,7 @@ const Keyboard = ({
 						onStrike={() => addDigit(0)}
 					/>
 					<Key
-						text={String.fromCharCode(parseInt('f55a', 16))}
+						text={getIconChar('f55a')}
 						bottomLeft={getPoint(57, 73)}
 						topRight={getPoint(71, 87)}
 						textPosition={getPoint(63.5, 80)}
@@ -187,7 +188,7 @@ const Keyboard = ({
 						}}
 					/>
 					<Key
-						text={String.fromCharCode(parseInt(complementOn ? 'f205' : 'f204', 16))} //on: f205, off: f204
+						text={getIconChar(complementOn ? 'f205' : 'f204')} //on: f205, off: f204
 						bottomLeft={getPoint(57, 59)}
 						topRight={getPoint(71, 73)}
 						textPosition={getPoint(63.5, 66)}

@@ -1,11 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { pointShape } from '../../../constants/prop-types'
+import { getIconChar } from '../../../helpers/icons'
+
+import { keyboardStrokeColor, keyboardStrokeColorDisabled } from '../../../constants/board'
 
 import { Line, Shape } from 'react-konva'
-import { keyboardStrokeColor, keyboardFillColor } from '../../../constants/board'
 
-const Key = ({ bottomLeft, topRight, textPosition, text, rotation, onStrike, bgProps, fgProps }) => [
+const IconButton = ({ bottomLeft, topRight, textPosition, charUnicode, onStrike, disabled, debug }) => [
 	<Line
 		key="bg"
 		points={[
@@ -14,11 +16,8 @@ const Key = ({ bottomLeft, topRight, textPosition, text, rotation, onStrike, bgP
 			...Object.values(topRight),
 			...[bottomLeft.x, topRight.y],
 		]}
-		stroke={keyboardStrokeColor}
-		fill={keyboardFillColor}
-		closed
-		{...bgProps}
-		{...(onStrike
+		fill={debug && 'rgba(93,121,255,.2)'}
+		{...(onStrike && !disabled
 			? {
 					onTouchstart: onStrike,
 					onClick: onStrike,
@@ -32,34 +31,29 @@ const Key = ({ bottomLeft, topRight, textPosition, text, rotation, onStrike, bgP
 					},
 			  }
 			: {})}
+		closed
 	/>,
 	<Shape
 		key="fg"
 		{...textPosition}
 		sceneFunc={ctx => {
-			ctx.rotate(rotation)
-			ctx.fillStyle = keyboardStrokeColor
+			ctx.fillStyle = disabled ? keyboardStrokeColorDisabled : keyboardStrokeColor
 			ctx.textAlign = 'center'
 			ctx.textBaseline = 'middle'
-			ctx.font = '1.7rem Arial'
-			if (fgProps) {
-				Object.entries(fgProps).forEach(([prop, value]) => {
-					ctx[prop] = value
-				})
-			}
-			ctx.fillText(text, 0, 0)
+			ctx.font = '1.5rem "Font Awesome 5 Free"'
+			ctx.fillText(getIconChar(charUnicode), 0, 0)
 		}}
 	/>,
 ]
 
-Key.propTypes = {
+IconButton.propTypes = {
 	bottomLeft: pointShape.isRequired,
 	topRight: pointShape.isRequired,
 	textPosition: pointShape.isRequired,
-	text: PropTypes.string.isRequired,
-	rotation: PropTypes.number.isRequired,
-	onStrike: PropTypes.func,
-	bgProps: PropTypes.object,
+	charUnicode: PropTypes.string.isRequired,
+	onStrike: PropTypes.func.isRequired,
+	disabled: PropTypes.bool,
+	debug: PropTypes.bool,
 }
 
-export default Key
+export default IconButton

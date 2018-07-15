@@ -1,0 +1,17 @@
+{
+	"name": "Jasstafel",
+	"short_name": "Jasstafel",
+	"lang": "de-CH",
+	"orientation": "portrait",
+	"prefer_related_applications": false,
+	"start_url": ".",
+	"display": "fullscreen",
+	"background_color": "#383136",
+	"theme_color": "#383136",
+	"description": "Eine Jasstafel für das schweizer Kartenspiel Schieber und andere Spielarten.",
+	"related_applications": [
+		{
+			"platform": "Web"
+		}
+	]
+}
