@@ -9,7 +9,7 @@
 		"lint:js": "eslint src/js/",
 		"lint:sass": "sass-lint -c .sass-lint.yml -v -q --max-warnings 0",
 		"prettier": "prettier --write '**/*.js'",
-		"start": "webpack-dev-server --open --mode development --env.WEBPACK_MODE=development",
+		"start": "webpack-dev-server --content-base public/ --open --mode development --env.WEBPACK_MODE=development",
 		"test": "mocha --require babel-register ./tests/**/*.js"
 	},
 	"dependencies": {
