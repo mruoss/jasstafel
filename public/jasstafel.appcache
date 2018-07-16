@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# Version: {version}
+assets/schiefer.jpg
+index.html
+index.js
+css/styles.css
+lib/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2
+lib/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff
+lib/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf
+lib/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg
+lib/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot
+manifest.json
