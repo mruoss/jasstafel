@@ -1,0 +1,31 @@
+FROM node:8.11.1-alpine
+
+RUN apk update && apk upgrade && apk add \
+  build-base \
+  alpine-sdk \
+  autoconf \
+  automake \
+  git \
+  nasm \
+  libjpeg-turbo \
+  libjpeg-turbo-dev \
+  libpng \
+  libpng-dev \
+  libtool \
+  libwebp \
+  libwebp-dev \
+  zlib \
+  zlib-dev
+
+COPY package.json /app/builder/
+COPY yarn.lock /app/builder/
+
+RUN cd /app/builder && yarn install
+
+WORKDIR /app/builder
+
+COPY . .
+
+ENV NODE_ENV production
+
+RUN yarn build

@@ -1,0 +1,6 @@
+:80 {
+  root /app
+  mime .appcache text/cache-manifest
+  log stdout
+  errors stdout
+}
