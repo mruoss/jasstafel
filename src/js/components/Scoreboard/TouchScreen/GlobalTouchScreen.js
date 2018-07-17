@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
+import { faUndo, faRedo, faEraser } from '@fortawesome/free-solid-svg-icons'
 
 import { Layer } from 'react-konva'
 import { SCOPE_GLOBAL } from '../../DimensionsContext/context'
@@ -31,29 +32,32 @@ const enhance = connect(
 
 const GlobalTouchScreen = ({ undo, redo, resetScore, isUndoEnabled, isRedoEnabled }) => (
 	<DimensionsConsumer scope={SCOPE_GLOBAL}>
-		{({ getPoint }) => (
+		{({ getPoint, iconScale }) => (
 			<Layer>
 				<IconButton
-					charUnicode="f0e2"
+					iconPath={faUndo.icon[4]}
 					bottomLeft={getPoint(1, 39)}
 					topRight={getPoint(8, 46)}
-					textPosition={getPoint(4.5, 42.5)}
+					iconPosition={getPoint(2, 40)}
+					iconScale={iconScale}
 					onStrike={() => undo()}
 					disabled={!isUndoEnabled}
 				/>
 				<IconButton
-					charUnicode="f01e"
+					iconPath={faRedo.icon[4]}
 					bottomLeft={getPoint(1, 47)}
 					topRight={getPoint(8, 54)}
-					textPosition={getPoint(4.5, 50.5)}
+					iconPosition={getPoint(2, 48)}
+					iconScale={iconScale}
 					onStrike={() => redo()}
 					disabled={!isRedoEnabled}
 				/>
 				<IconButton
-					charUnicode="f12d"
+					iconPath={faEraser.icon[4]}
 					bottomLeft={getPoint(1, 55)}
 					topRight={getPoint(8, 62)}
-					textPosition={getPoint(4.5, 58.5)}
+					iconPosition={getPoint(2, 56)}
+					iconScale={iconScale}
 					onStrike={() => resetScore()}
 				/>
 			</Layer>

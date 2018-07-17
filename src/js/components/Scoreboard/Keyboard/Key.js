@@ -59,6 +59,7 @@ Key.propTypes = {
 	text: PropTypes.string.isRequired,
 	rotation: PropTypes.number.isRequired,
 	onStrike: PropTypes.func,
+	fgProps: PropTypes.object,
 	bgProps: PropTypes.object,
 }
 

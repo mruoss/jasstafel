@@ -2,7 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { compose, withStateHandlers, withState } from 'recompose'
 import { keyboardToPoints } from '../../../helpers/score'
-import { getIconChar } from '../../../helpers/icons'
+import IconButton from '../TouchScreen/IconButton'
+import { faBackspace, faToggleOn, faToggleOff } from '@fortawesome/free-solid-svg-icons'
+import { keyboardStrokeColor, keyboardFillColor } from '../../../constants/board'
 
 import { Layer, Line } from 'react-konva'
 import {
@@ -49,7 +51,7 @@ const Keyboard = ({
 	closeKeyboard,
 }) => (
 	<DimensionsConsumer scope={scope}>
-		{({ getPoint, rotation }) => {
+		{({ getPoint, rotation, iconScale }) => {
 			return (
 				<Layer
 					sceneFunc={ctx => {
@@ -161,15 +163,17 @@ const Keyboard = ({
 						rotation={rotation}
 						onStrike={() => addDigit(0)}
 					/>
-					<Key
-						text={getIconChar('f55a')}
+					<IconButton
+						iconPath={faBackspace.icon[4]}
+						iconScale={iconScale}
 						bottomLeft={getPoint(57, 73)}
 						topRight={getPoint(71, 87)}
-						textPosition={getPoint(63.5, 80)}
+						iconPosition={getPoint(61, 84)}
 						rotation={rotation}
 						onStrike={removeDigit}
-						fgProps={{
-							font: '1.5rem "Font Awesome 5 Free"',
+						bgProps={{
+							stroke: keyboardStrokeColor,
+							fill: keyboardFillColor,
 						}}
 					/>
 					<Key
@@ -187,20 +191,16 @@ const Keyboard = ({
 							fill: 'transparent',
 						}}
 					/>
-					<Key
-						text={getIconChar(complementOn ? 'f205' : 'f204')} //on: f205, off: f204
+					<IconButton
+						iconPath={(complementOn ? faToggleOn : faToggleOff).icon[4]}
+						iconScale={iconScale}
 						bottomLeft={getPoint(57, 59)}
 						topRight={getPoint(71, 73)}
-						textPosition={getPoint(63.5, 66)}
+						iconPosition={getPoint(62, 70)}
 						rotation={rotation}
 						onStrike={() => setComplementOn(!complementOn)}
 						fgProps={{
-							font: '1.5rem "Font Awesome 5 Free"',
-							fillStyle: complementOn ? keyboardSwitchOn : keyboardSwitchOff,
-						}}
-						bgProps={{
-							stroke: 'transparent',
-							fill: 'transparent',
+							fill: complementOn ? keyboardSwitchOn : keyboardSwitchOff,
 						}}
 					/>
 					<Key

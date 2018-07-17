@@ -1,13 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { pointShape } from '../../../constants/prop-types'
-import { getIconChar } from '../../../helpers/icons'
 
 import { keyboardStrokeColor, keyboardStrokeColorDisabled } from '../../../constants/board'
 
-import { Line, Shape } from 'react-konva'
+import { Line, Path } from 'react-konva'
 
-const IconButton = ({ bottomLeft, topRight, textPosition, charUnicode, onStrike, disabled, debug }) => [
+const IconButton = ({
+	bottomLeft,
+	topRight,
+	iconPosition,
+	iconScale,
+	iconPath,
+	onStrike,
+	disabled,
+	fgProps,
+	bgProps,
+	debug,
+}) => [
 	<Line
 		key="bg"
 		points={[
@@ -32,27 +42,42 @@ const IconButton = ({ bottomLeft, topRight, textPosition, charUnicode, onStrike,
 			  }
 			: {})}
 		closed
+		{...bgProps}
 	/>,
-	<Shape
+	<Path
 		key="fg"
-		{...textPosition}
-		sceneFunc={ctx => {
-			ctx.fillStyle = disabled ? keyboardStrokeColorDisabled : keyboardStrokeColor
-			ctx.textAlign = 'center'
-			ctx.textBaseline = 'middle'
-			ctx.font = '1.5rem "Font Awesome 5 Free"'
-			ctx.fillText(getIconChar(charUnicode), 0, 0)
-		}}
+		{...iconPosition}
+		fill={disabled ? keyboardStrokeColorDisabled : keyboardStrokeColor}
+		data={iconPath}
+		scale={iconScale}
+		{...(onStrike && !disabled
+			? {
+					onTouchstart: onStrike,
+					onClick: onStrike,
+					onMouseEnter: () => {
+						// eslint-disable-next-line no-undef
+						window.document.body.style.cursor = 'pointer'
+					},
+					onMouseLeave: () => {
+						// eslint-disable-next-line no-undef
+						window.document.body.style.cursor = 'default'
+					},
+			  }
+			: {})}
+		{...fgProps}
 	/>,
 ]
 
 IconButton.propTypes = {
 	bottomLeft: pointShape.isRequired,
 	topRight: pointShape.isRequired,
-	textPosition: pointShape.isRequired,
-	charUnicode: PropTypes.string.isRequired,
+	iconPosition: pointShape.isRequired,
+	iconScale: pointShape.isRequired,
+	iconPath: PropTypes.string.isRequired,
 	onStrike: PropTypes.func.isRequired,
 	disabled: PropTypes.bool,
+	fgProps: PropTypes.object,
+	bgProps: PropTypes.object,
 	debug: PropTypes.bool,
 }
 
