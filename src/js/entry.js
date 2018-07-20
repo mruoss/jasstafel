@@ -14,4 +14,4 @@ const enhancer = composeEnhancers()
 const store = createStore(reducer, {}, enhancer)
 
 const appRootElement = document.getElementById('jasstafel')
-window.addEventListener('load', () => render(<Jasstafel store={store} />, appRootElement))
+render(<Jasstafel store={store} />, appRootElement)
