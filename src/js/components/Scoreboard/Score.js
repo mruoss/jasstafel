@@ -64,7 +64,7 @@ const Score = ({ scope, score }) => (
 					sceneFunc={ctx => {
 						ctx.rotate(rotation)
 						ctx.fillStyle = 'white'
-						ctx.font = `2rem Arial`
+						ctx.font = `6vmin Arial, Helvetica, sans-serif	`
 						ctx.fillText(score.one, 0, 0)
 						ctx.fill()
 					}}
@@ -76,7 +76,7 @@ const Score = ({ scope, score }) => (
 						ctx.fillStyle = 'rgba(255,255,255,0.2)'
 						ctx.textAlign = 'center'
 						ctx.textBaseline = 'middle'
-						ctx.font = `8rem Arial`
+						ctx.font = `24vmin Arial, Helvetica, sans-serif`
 						ctx.fillText(getNumericScore(score), 0, 0)
 						ctx.fill()
 					}}

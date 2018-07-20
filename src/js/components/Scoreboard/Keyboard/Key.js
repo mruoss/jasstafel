@@ -41,7 +41,7 @@ const Key = ({ bottomLeft, topRight, textPosition, text, rotation, onStrike, bgP
 			ctx.fillStyle = keyboardStrokeColor
 			ctx.textAlign = 'center'
 			ctx.textBaseline = 'middle'
-			ctx.font = '1.7rem Arial'
+			ctx.font = '5.1vmin monospace'
 			if (fgProps) {
 				Object.entries(fgProps).forEach(([prop, value]) => {
 					ctx[prop] = value

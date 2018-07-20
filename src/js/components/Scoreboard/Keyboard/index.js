@@ -4,7 +4,6 @@ import { compose, withStateHandlers, withState } from 'recompose'
 import { keyboardToPoints } from '../../../helpers/score'
 import IconButton from '../TouchScreen/IconButton'
 import { faBackspace, faToggleOn, faToggleOff } from '@fortawesome/free-solid-svg-icons'
-import { keyboardStrokeColor, keyboardFillColor } from '../../../constants/board'
 
 import { Layer, Line } from 'react-konva'
 import {
@@ -14,6 +13,8 @@ import {
 	keyboardTripleBgColor,
 	keyboardSwitchOn,
 	keyboardSwitchOff,
+	keyboardStrokeColor,
+	keyboardFillColor,
 } from '../../../constants/board'
 import DimensionsConsumer from '../../DimensionsContext/DimensionsConsumer'
 import Key from './Key'
@@ -183,7 +184,7 @@ const Keyboard = ({
 						textPosition={getPoint(30, 66)}
 						rotation={rotation}
 						fgProps={{
-							font: '1rem Arial',
+							font: '3vmin Arial, Helvetica, sans-serif',
 							textAlign: 'left',
 						}}
 						bgProps={{
