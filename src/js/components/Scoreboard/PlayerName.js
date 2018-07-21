@@ -10,7 +10,7 @@ import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
 
 const askForName = (scope, oldName, setPlayerName) => {
 	const newName = window.prompt('Spielername:', oldName)
-	setPlayerName(scope, newName)
+	setPlayerName(scope, newName.substring(0, 30))
 }
 
 const PlayerName = ({ scope, name, setPlayerName }) => (
