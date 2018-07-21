@@ -7,6 +7,7 @@ import score from './score'
 import ui from './ui'
 
 const undoableConfig = {
+	limit: 200,
 	groupBy: get('timestamp'),
 	filter: includeAction([
 		actionTypes.ADD_HUNDRED,

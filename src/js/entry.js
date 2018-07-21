@@ -2,6 +2,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import '../sass/global.sass'
+import initAppcache from './helpers/appcache'
 import { createStore, compose } from 'redux'
 
 import Jasstafel from './components/Jasstafel'
@@ -15,3 +16,4 @@ const store = createStore(reducer, {}, enhancer)
 
 const appRootElement = document.getElementById('jasstafel')
 render(<Jasstafel store={store} />, appRootElement)
+initAppcache()

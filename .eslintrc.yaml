@@ -75,7 +75,6 @@ rules:
   #     ignoreTemplateLiterals: true
   #     ignoreRegExpLiterals: true
   no-eq-null: 0
-  no-alert: 2
   no-caller: 2
   no-debugger: 1
   no-case-declarations: 2
