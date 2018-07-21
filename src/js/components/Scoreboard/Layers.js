@@ -2,23 +2,26 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
+import { scoreShape } from '../../constants/prop-types'
 import { selectScore } from '../../selectors/score'
-import { selectKeyboardOpenFor } from '../../selectors/ui'
+import { selectKeyboardOpenFor, selectPlayerNames } from '../../selectors/ui'
 import { SCOPE_PLAYER_1, SCOPE_PLAYER_2 } from '../DimensionsContext/context'
 import * as players from '../../constants/redux-store/players'
 import { addHundred, addFifty, addTwenty, addPoints } from '../../actions/score'
-import { openKeyboardForPlayer, closeKeyboard } from '../../actions/ui'
+import { openKeyboardForPlayer, closeKeyboard, setPlayerName } from '../../actions/ui'
 
 import Blackboard from '../Blackboard'
 import Keyboard from './Keyboard'
 import Score from './Score'
 import PlayerTouchScreen from './TouchScreen/PlayerTouchScreen'
 import GlobalTouchScreen from './TouchScreen/GlobalTouchScreen'
+import PlayerName from './PlayerName'
 import Z from './Z'
 
 const mapStateToProps = state => ({
 	score: selectScore(state),
 	keyboardOpenFor: selectKeyboardOpenFor(state),
+	playerNames: selectPlayerNames(state),
 })
 
 const mapDispatchToProps = {
@@ -27,6 +30,7 @@ const mapDispatchToProps = {
 	addTwenty,
 	addPoints,
 	openKeyboardForPlayer,
+	setPlayerName,
 	closeKeyboard,
 }
 
@@ -37,12 +41,14 @@ const enhance = connect(
 
 const Layers = ({
 	score,
+	playerNames,
 	keyboardOpenFor,
 	addHundred,
 	addFifty,
 	addTwenty,
 	addPoints,
 	openKeyboardForPlayer,
+	setPlayerName,
 	closeKeyboard,
 }) => [
 	<Blackboard key="blackboard" />,
@@ -52,6 +58,19 @@ const Layers = ({
 
 	<Score key="score-p1" scope={SCOPE_PLAYER_1} score={score[players.PLAYER_1]} />,
 	<Score key="score-p2" scope={SCOPE_PLAYER_2} score={score[players.PLAYER_2]} />,
+
+	<PlayerName
+		key="playername-p1"
+		scope={SCOPE_PLAYER_1}
+		name={playerNames[players.PLAYER_1]}
+		setPlayerName={setPlayerName}
+	/>,
+	<PlayerName
+		key="playername-p2"
+		scope={SCOPE_PLAYER_2}
+		name={playerNames[players.PLAYER_2]}
+		setPlayerName={setPlayerName}
+	/>,
 
 	...(keyboardOpenFor
 		? []
@@ -106,12 +125,20 @@ const Layers = ({
 ]
 
 Layers.propTypes = {
-	score: PropTypes.object.isRequired,
+	score: PropTypes.shape({
+		[players.PLAYER_1]: scoreShape,
+		[players.PLAYER_2]: scoreShape,
+	}),
+	playerNames: PropTypes.shape({
+		[players.PLAYER_1]: PropTypes.string.isRequired,
+		[players.PLAYER_2]: PropTypes.string.isRequired,
+	}),
 	keyboardOpenFor: PropTypes.string,
 	addHundred: PropTypes.func.isRequired,
 	addFifty: PropTypes.func.isRequired,
 	addTwenty: PropTypes.func.isRequired,
 	openKeyboardForPlayer: PropTypes.func.isRequired,
+	setPlayerName: PropTypes.func.isRequired,
 	closeKeyboard: PropTypes.func.isRequired,
 }
 

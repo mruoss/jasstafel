@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { pointShape } from '../../../constants/prop-types'
+import { onClick } from '../../../helpers/ui'
 
 import { keyboardStrokeColor, keyboardStrokeColorDisabled } from '../../../constants/board'
 
@@ -27,20 +28,7 @@ const IconButton = ({
 			...[bottomLeft.x, topRight.y],
 		]}
 		fill={debug && 'rgba(93,121,255,.2)'}
-		{...(onStrike && !disabled
-			? {
-					onTouchstart: onStrike,
-					onClick: onStrike,
-					onMouseEnter: () => {
-						// eslint-disable-next-line no-undef
-						window.document.body.style.cursor = 'pointer'
-					},
-					onMouseLeave: () => {
-						// eslint-disable-next-line no-undef
-						window.document.body.style.cursor = 'default'
-					},
-			  }
-			: {})}
+		{...(onStrike && !disabled ? onClick(onStrike) : {})}
 		closed
 		{...bgProps}
 	/>,
@@ -50,20 +38,7 @@ const IconButton = ({
 		fill={disabled ? keyboardStrokeColorDisabled : keyboardStrokeColor}
 		data={iconPath}
 		scale={iconScale}
-		{...(onStrike && !disabled
-			? {
-					onTouchstart: onStrike,
-					onClick: onStrike,
-					onMouseEnter: () => {
-						// eslint-disable-next-line no-undef
-						window.document.body.style.cursor = 'pointer'
-					},
-					onMouseLeave: () => {
-						// eslint-disable-next-line no-undef
-						window.document.body.style.cursor = 'default'
-					},
-			  }
-			: {})}
+		{...(onStrike && !disabled ? onClick(onStrike) : {})}
 		{...fgProps}
 	/>,
 ]

@@ -12,3 +12,5 @@ export const keyboardSwitchOn = '#00db00'
 export const keyboardSwitchOff = '#b6b6b6'
 
 export const strokeWidth = 6
+
+export const fontText = 'Arial, Helvetica, sans-serif'

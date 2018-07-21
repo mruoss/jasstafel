@@ -36,6 +36,7 @@ globals:
   APPLICATION_ENV: false
   module: false
   require: false
+  window: false
 
 rules:
   accessor-pairs: 2

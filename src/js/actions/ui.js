@@ -8,3 +8,9 @@ export const openKeyboardForPlayer = player => ({
 export const closeKeyboard = () => ({
 	type: actionTypes.UI_CLOSE_KEYBOARD,
 })
+
+export const setPlayerName = (player, name) => ({
+	type: actionTypes.SET_PLAYER_NAME,
+	player,
+	name,
+})

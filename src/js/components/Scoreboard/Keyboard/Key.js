@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { pointShape } from '../../../constants/prop-types'
+import { onClick } from '../../../helpers/ui'
 
 import { Line, Shape } from 'react-konva'
 import { keyboardStrokeColor, keyboardFillColor } from '../../../constants/board'
@@ -18,20 +19,7 @@ const Key = ({ bottomLeft, topRight, textPosition, text, rotation, onStrike, bgP
 		fill={keyboardFillColor}
 		closed
 		{...bgProps}
-		{...(onStrike
-			? {
-					onTouchstart: onStrike,
-					onClick: onStrike,
-					onMouseEnter: () => {
-						// eslint-disable-next-line no-undef
-						window.document.body.style.cursor = 'pointer'
-					},
-					onMouseLeave: () => {
-						// eslint-disable-next-line no-undef
-						window.document.body.style.cursor = 'default'
-					},
-			  }
-			: {})}
+		{...(onStrike ? onClick(onStrike) : {})}
 	/>,
 	<Shape
 		key="fg"

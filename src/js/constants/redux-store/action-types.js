@@ -4,5 +4,6 @@ export const ADD_TWENTY = 'ADD_TWENTY'
 export const ADD_POINTS = 'ADD_POINTS'
 export const RESET_SCORE = 'RESET_SCORE'
 
+export const SET_PLAYER_NAME = 'SET_PLAYER_NAME'
 export const UI_OPEN_KEYBOARD = 'UI_OPEN_KEYBOARD'
 export const UI_CLOSE_KEYBOARD = 'UI_CLOSE_KEYBOARD'

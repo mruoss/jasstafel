@@ -1,7 +1,12 @@
 import * as actionTypes from '../../constants/redux-store/action-types'
+import * as players from '../../constants/redux-store/players'
 
 const initialState = {
 	keyboardOpenFor: null,
+	playerNames: {
+		[players.PLAYER_1]: 'Team Green',
+		[players.PLAYER_2]: 'Team Blue',
+	},
 }
 
 export default (state = initialState, action) => {
@@ -15,6 +20,14 @@ export default (state = initialState, action) => {
 			return {
 				...state,
 				keyboardOpenFor: null,
+			}
+		case actionTypes.SET_PLAYER_NAME:
+			return {
+				...state,
+				playerNames: {
+					...state.playerNames,
+					[action.player]: action.name,
+				},
 			}
 		default:
 			return state

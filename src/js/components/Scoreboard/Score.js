@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { strokeWidth } from '../../constants/board'
+import { strokeWidth, fontText } from '../../constants/board'
 import { scoreShape } from '../../constants/prop-types'
 
 import { Layer, Line, Shape } from 'react-konva'
@@ -109,7 +109,7 @@ const Score = ({ scope, score }) => (
 					sceneFunc={ctx => {
 						ctx.rotate(rotation)
 						ctx.fillStyle = 'white'
-						ctx.font = `6vmin Arial, Helvetica, sans-serif	`
+						ctx.font = `6vmin ${fontText}`
 						ctx.fillText(score.one, 0, 0)
 						ctx.fill()
 					}}
@@ -121,7 +121,7 @@ const Score = ({ scope, score }) => (
 						ctx.fillStyle = 'rgba(255,255,255,0.2)'
 						ctx.textAlign = 'center'
 						ctx.textBaseline = 'middle'
-						ctx.font = `24vmin Arial, Helvetica, sans-serif`
+						ctx.font = `24vmin ${fontText}`
 						ctx.fillText(getNumericScore(score), 0, 0)
 						ctx.fill()
 					}}

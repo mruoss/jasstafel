@@ -15,6 +15,7 @@ import {
 	keyboardSwitchOff,
 	keyboardStrokeColor,
 	keyboardFillColor,
+	fontText,
 } from '../../../constants/board'
 import DimensionsConsumer from '../../DimensionsContext/DimensionsConsumer'
 import Key from './Key'
@@ -184,7 +185,7 @@ const Keyboard = ({
 						textPosition={getPoint(30, 66)}
 						rotation={rotation}
 						fgProps={{
-							font: '3vmin Arial, Helvetica, sans-serif',
+							font: `3vmin ${fontText}`,
 							textAlign: 'left',
 						}}
 						bgProps={{
