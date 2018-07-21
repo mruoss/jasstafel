@@ -9,6 +9,8 @@ const expect = chai.expect
 describe('score helper', () => {
 	it('turns score to a number of points', () => {
 		const score = {
+			thousand: 1,
+			fivehundred: 1,
 			hundred: 5,
 			fifty: 12,
 			twenty: 14,
@@ -16,14 +18,16 @@ describe('score helper', () => {
 		}
 		const numericScore = getNumericScore(score)
 
-		expect(numericScore).to.equal(1398)
+		expect(numericScore).to.equal(2898)
 	})
 
-	it('sanitizes a score object with too many twenties correctly', () => {
+	it('sanitizes a score object with too many fivehundreds correctly', () => {
 		const scoreBeforeSanitizing = {
+			thousand: 0,
+			fivehundred: 3,
 			hundred: 0,
 			fifty: 0,
-			twenty: 41,
+			twenty: 0,
 			one: 0,
 		}
 		const scoreAfterSanitizing = sanitizeScore(scoreBeforeSanitizing)
@@ -31,15 +35,42 @@ describe('score helper', () => {
 		expect(getNumericScore(scoreBeforeSanitizing)).equals(getNumericScore(scoreAfterSanitizing))
 
 		expect(scoreAfterSanitizing).to.matchPattern({
-			hundred: 4,
+			thousand: 1,
+			fivehundred: 1,
+			hundred: 0,
 			fifty: 0,
-			twenty: 21,
+			twenty: 0,
+			one: 0,
+		})
+	})
+
+	it('sanitizes a score object with too many hundreds correctly', () => {
+		const scoreBeforeSanitizing = {
+			thousand: 0,
+			fivehundred: 0,
+			hundred: 36,
+			fifty: 0,
+			twenty: 0,
+			one: 0,
+		}
+		const scoreAfterSanitizing = sanitizeScore(scoreBeforeSanitizing)
+
+		expect(getNumericScore(scoreBeforeSanitizing)).equals(getNumericScore(scoreAfterSanitizing))
+
+		expect(scoreAfterSanitizing).to.matchPattern({
+			thousand: 1,
+			fivehundred: 0,
+			hundred: 26,
+			fifty: 0,
+			twenty: 0,
 			one: 0,
 		})
 	})
 
 	it('sanitizes a score object with too many fifties correctly', () => {
 		const scoreBeforeSanitizing = {
+			thousand: 0,
+			fivehundred: 0,
 			hundred: 0,
 			fifty: 21,
 			twenty: 0,
@@ -50,6 +81,8 @@ describe('score helper', () => {
 		expect(getNumericScore(scoreBeforeSanitizing)).equals(getNumericScore(scoreAfterSanitizing))
 
 		expect(scoreAfterSanitizing).to.matchPattern({
+			thousand: 0,
+			fivehundred: 0,
 			hundred: 6,
 			fifty: 9,
 			twenty: 0,
@@ -57,8 +90,33 @@ describe('score helper', () => {
 		})
 	})
 
+	it('sanitizes a score object with too many twenties correctly', () => {
+		const scoreBeforeSanitizing = {
+			thousand: 0,
+			fivehundred: 0,
+			hundred: 0,
+			fifty: 0,
+			twenty: 41,
+			one: 0,
+		}
+		const scoreAfterSanitizing = sanitizeScore(scoreBeforeSanitizing)
+
+		expect(getNumericScore(scoreBeforeSanitizing)).equals(getNumericScore(scoreAfterSanitizing))
+
+		expect(scoreAfterSanitizing).to.matchPattern({
+			thousand: 0,
+			fivehundred: 0,
+			hundred: 4,
+			fifty: 0,
+			twenty: 21,
+			one: 0,
+		})
+	})
+
 	it('sanitizes a score object with too many ones correctly', () => {
 		const scoreBeforeSanitizing = {
+			thousand: 0,
+			fivehundred: 0,
 			hundred: 0,
 			fifty: 0,
 			twenty: 0,
@@ -69,6 +127,8 @@ describe('score helper', () => {
 		expect(getNumericScore(scoreBeforeSanitizing)).equals(getNumericScore(scoreAfterSanitizing))
 
 		expect(scoreAfterSanitizing).to.matchPattern({
+			thousand: 0,
+			fivehundred: 0,
 			hundred: 0,
 			fifty: 0,
 			twenty: 2,
@@ -78,6 +138,8 @@ describe('score helper', () => {
 
 	it('sanitizes a score object with too many ones that lead to too many twenties correctly', () => {
 		const scoreBeforeSanitizing = {
+			thousand: 0,
+			fivehundred: 0,
 			hundred: 0,
 			fifty: 0,
 			twenty: 40,
@@ -88,6 +150,8 @@ describe('score helper', () => {
 		expect(getNumericScore(scoreBeforeSanitizing)).equals(getNumericScore(scoreAfterSanitizing))
 
 		expect(scoreAfterSanitizing).to.matchPattern({
+			thousand: 0,
+			fivehundred: 0,
 			hundred: 4,
 			fifty: 0,
 			twenty: 21,
@@ -97,6 +161,8 @@ describe('score helper', () => {
 
 	it('sanitizes a score object with too many ones => twenties and fifties correctly', () => {
 		const scoreBeforeSanitizing = {
+			thousand: 0,
+			fivehundred: 0,
 			hundred: 0,
 			fifty: 19,
 			twenty: 41,
@@ -107,6 +173,8 @@ describe('score helper', () => {
 		expect(getNumericScore(scoreBeforeSanitizing)).equals(getNumericScore(scoreAfterSanitizing))
 
 		expect(scoreAfterSanitizing).to.matchPattern({
+			thousand: 0,
+			fivehundred: 0,
 			hundred: 9,
 			fifty: 9,
 			twenty: 22,
@@ -116,16 +184,20 @@ describe('score helper', () => {
 
 	it('adds a given number of points to a score', () => {
 		const scoreBeforeAddingPoints = {
+			thousand: 0,
+			fivehundred: 0,
 			hundred: 0,
 			fifty: 11,
 			twenty: 1,
 			one: 4,
 		}
-		const pointsToAdd = 189
+		const pointsToAdd = 1689
 
 		const scoreAfterAddingPoints = addPointsToScore(scoreBeforeAddingPoints, pointsToAdd)
 
 		expect(scoreAfterAddingPoints).to.matchPattern({
+			thousand: 1,
+			fivehundred: 1,
 			hundred: 1,
 			fifty: 12,
 			twenty: 2,

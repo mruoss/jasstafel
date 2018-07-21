@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { strokeWidth } from '../../constants/board'
+import { scoreShape } from '../../constants/prop-types'
 
 import { Layer, Line, Shape } from 'react-konva'
 import { getNumericScore } from '../../helpers/score'
@@ -10,6 +11,49 @@ const Score = ({ scope, score }) => (
 	<DimensionsConsumer scope={scope}>
 		{({ getPoint, rotation }) => (
 			<Layer>
+				{[...Array(score.thousand)].map((_, i) => [
+					<Line
+						key={`thousand-${i}-1`}
+						points={[
+							...Object.values(getPoint(88 - (i + 0.7) * 5, 96)),
+							...Object.values(getPoint(88 - i * 5, 84)),
+						]}
+						stroke="white"
+						strokeWidth={strokeWidth / 3}
+					/>,
+					<Line
+						key={`thousand-${i}-2`}
+						points={[
+							...Object.values(getPoint(88 - (i + 0.7) * 5, 84)),
+							...Object.values(getPoint(88 - i * 5, 96)),
+						]}
+						stroke="white"
+						strokeWidth={strokeWidth / 3}
+					/>,
+				])}
+				{[...Array(score.fivehundred)].map((_, i) => {
+					const shift = score.thousand * 5 + 0.7
+					return [
+						<Line
+							key={`fivehundred-${i}-1`}
+							points={[
+								...Object.values(getPoint(88 - shift - (i + 0.3) * 5, 84)),
+								...Object.values(getPoint(88 - shift - i * 5, 96)),
+							]}
+							stroke="white"
+							strokeWidth={strokeWidth / 3}
+						/>,
+						<Line
+							key={`fivehundred-${i}-2`}
+							points={[
+								...Object.values(getPoint(88 - shift - (i + 0.6) * 5, 96)),
+								...Object.values(getPoint(88 - shift - (i + 0.3) * 5, 84)),
+							]}
+							stroke="white"
+							strokeWidth={strokeWidth / 3}
+						/>,
+					]
+				})}
 				{[...Array(score.hundred)].map((_, i) => (
 					<Line
 						key={`hundred-${i}`}
@@ -21,6 +65,7 @@ const Score = ({ scope, score }) => (
 								  ]
 								: [...Object.values(getPoint(12 + i * 1.5, 96)), ...Object.values(getPoint(12 + i * 1.5, 84))]
 						}
+						thousand
 						stroke="white"
 						strokeWidth={strokeWidth / 3}
 					/>
@@ -88,7 +133,7 @@ const Score = ({ scope, score }) => (
 
 Score.propTypes = {
 	scope: PropTypes.string.isRequired,
-	score: PropTypes.object.isRequired,
+	score: scoreShape.isRequired,
 }
 
 export default Score

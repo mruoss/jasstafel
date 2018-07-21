@@ -2,6 +2,8 @@ import * as actionTypes from '../../constants/redux-store/action-types'
 import { addPointsToScore, sanitizeScore } from '../../helpers/score'
 
 const initialState = {
+	thousand: 0,
+	fivehundred: 0,
 	hundred: 0,
 	fifty: 0,
 	twenty: 0,
