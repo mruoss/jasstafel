@@ -173,7 +173,6 @@ const Keyboard = ({
 							stroke: keyboardStrokeColor,
 							fill: keyboardFillColor,
 						}}
-						debug
 					/>
 					<Key
 						text="Gegner Ergänzen:"
@@ -201,7 +200,6 @@ const Keyboard = ({
 						fgProps={{
 							fill: complementOn ? keyboardSwitchOn : keyboardSwitchOff,
 						}}
-						debug
 					/>
 					<Key
 						text="1x"
