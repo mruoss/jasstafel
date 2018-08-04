@@ -1,17 +1,31 @@
 import React from 'react'
-import { Provider as ReduxProvider } from 'react-redux'
 import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
 
 import Scoreboard from './Scoreboard'
+import Flipper from './Flipper'
 
-const Jasstafel = ({ store }) => (
-	<ReduxProvider store={store}>
-		<Scoreboard store={store} />
-	</ReduxProvider>
+import { selectisBoardFlipped } from '../selectors/ui'
+
+const mapStateToProps = state => ({
+	isBoardFlipped: selectisBoardFlipped(state),
+})
+
+const enhance = connect(mapStateToProps)
+
+const Jasstafel = ({ store, isBoardFlipped }) => (
+	<Flipper
+		width="100vw"
+		height="100vh"
+		flipped={isBoardFlipped}
+		renderFrontside={() => <Scoreboard store={store} />}
+		renderBackside={() => <div>asdf</div>}
+	/>
 )
 
 Jasstafel.propTypes = {
 	store: PropTypes.object.isRequired,
+	isBoardFlipped: PropTypes.bool.isRequired,
 }
 
-export default Jasstafel
+export default enhance(Jasstafel)

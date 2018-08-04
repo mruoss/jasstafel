@@ -3,6 +3,7 @@ import * as players from '../../constants/redux-store/players'
 
 const initialState = {
 	keyboardOpenFor: null,
+	isBoardFlipped: false,
 	playerNames: {
 		[players.PLAYER_1]: 'Team Green',
 		[players.PLAYER_2]: 'Team Blue',
@@ -28,6 +29,11 @@ export default (state = initialState, action) => {
 					...state.playerNames,
 					[action.player]: action.name,
 				},
+			}
+		case actionTypes.UI_FLIP_BOARD:
+			return {
+				...state,
+				isBoardFlipped: !state.isBoardFlipped,
 			}
 		default:
 			return state

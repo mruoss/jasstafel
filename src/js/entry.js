@@ -1,5 +1,6 @@
 /* eslint-env browser */
 import React from 'react'
+import { Provider as ReduxProvider } from 'react-redux'
 import { render } from 'react-dom'
 import '../sass/global.sass'
 import initAppcache from './helpers/appcache'
@@ -15,5 +16,10 @@ const enhancer = composeEnhancers()
 const store = createStore(reducer, {}, enhancer)
 
 const appRootElement = document.getElementById('jasstafel')
-render(<Jasstafel store={store} />, appRootElement)
+render(
+	<ReduxProvider store={store}>
+		<Jasstafel store={store} />
+	</ReduxProvider>,
+	appRootElement,
+)
 initAppcache()

@@ -1,13 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { faUndo, faRedo, faEraser } from '@fortawesome/free-solid-svg-icons'
+import { faUndo, faRedo, faEraser, faCode } from '@fortawesome/free-solid-svg-icons'
 
 import { Layer } from 'react-konva'
 import { SCOPE_GLOBAL } from '../../DimensionsContext/context'
 
 import { ActionCreators as UndoActionCreators } from 'redux-undo'
 import { resetScore } from '../../../actions/score'
+import { flipBoard } from '../../../actions/ui'
 import { selectPastScoreLength, selectFutureScoreLength } from '../../../selectors/score'
 
 import DimensionsConsumer from '../../DimensionsContext/DimensionsConsumer'
@@ -18,6 +19,7 @@ const mapDispatchToProps = {
 	undo,
 	redo,
 	resetScore,
+	flipBoard,
 }
 
 const mapStateToProps = state => ({
@@ -30,7 +32,7 @@ const enhance = connect(
 	mapDispatchToProps,
 )
 
-const GlobalTouchScreen = ({ undo, redo, resetScore, isUndoEnabled, isRedoEnabled }) => (
+const GlobalTouchScreen = ({ undo, redo, resetScore, flipBoard, isUndoEnabled, isRedoEnabled }) => (
 	<DimensionsConsumer scope={SCOPE_GLOBAL}>
 		{({ getPoint, iconScale }) => (
 			<Layer>
@@ -60,6 +62,14 @@ const GlobalTouchScreen = ({ undo, redo, resetScore, isUndoEnabled, isRedoEnable
 					iconScale={iconScale}
 					onStrike={() => resetScore()}
 				/>
+				<IconButton
+					iconPath={faCode.icon[4]}
+					bottomLeft={getPoint(91, 47)}
+					topRight={getPoint(98, 54)}
+					iconPosition={getPoint(91.5, 48.5)}
+					iconScale={iconScale}
+					onStrike={() => flipBoard()}
+				/>
 			</Layer>
 		)}
 	</DimensionsConsumer>
@@ -68,6 +78,7 @@ GlobalTouchScreen.propTypes = {
 	undo: PropTypes.func.isRequired,
 	redo: PropTypes.func.isRequired,
 	resetScore: PropTypes.func.isRequired,
+	flipBoard: PropTypes.func.isRequired,
 	isUndoEnabled: PropTypes.bool,
 	isRedoEnabled: PropTypes.bool,
 }

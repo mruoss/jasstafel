@@ -14,3 +14,7 @@ export const setPlayerName = (player, name) => ({
 	player,
 	name,
 })
+
+export const flipBoard = () => ({
+	type: actionTypes.UI_FLIP_BOARD,
+})
