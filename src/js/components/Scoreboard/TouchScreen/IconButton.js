@@ -15,6 +15,7 @@ const IconButton = ({
 	iconPath,
 	onStrike,
 	disabled,
+	rotation,
 	fgProps,
 	bgProps,
 	debug,
@@ -38,6 +39,7 @@ const IconButton = ({
 		fill={disabled ? keyboardStrokeColorDisabled : keyboardStrokeColor}
 		data={iconPath}
 		scale={iconScale}
+		rotation={rotation}
 		{...(onStrike && !disabled ? onClick(onStrike) : {})}
 		{...fgProps}
 	/>,
@@ -51,6 +53,7 @@ IconButton.propTypes = {
 	iconPath: PropTypes.string.isRequired,
 	onStrike: PropTypes.func.isRequired,
 	disabled: PropTypes.bool,
+	rotation: PropTypes.number,
 	fgProps: PropTypes.object,
 	bgProps: PropTypes.object,
 	debug: PropTypes.bool,

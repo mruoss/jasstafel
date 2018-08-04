@@ -27,6 +27,7 @@ const withDimensions = withSizes(({ width, height }) => ({
 			height: boardHeight,
 			getPoint: getPointByPercentage,
 			rotation: (scope === SCOPE_PLAYER_1 ? (transposed ? 0.5 : 1) : transposed ? 1.5 : 0) * Math.PI,
+			rotationDeg: scope === SCOPE_PLAYER_1 ? (transposed ? 90 : 180) : transposed ? 270 : 0,
 			iconScale: { x: iconScale, y: iconScale },
 		}
 	},

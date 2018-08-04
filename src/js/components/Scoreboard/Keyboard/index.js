@@ -53,13 +53,9 @@ const Keyboard = ({
 	closeKeyboard,
 }) => (
 	<DimensionsConsumer scope={scope}>
-		{({ getPoint, rotation, iconScale }) => {
+		{({ getPoint, rotation, rotationDeg, iconScale }) => {
 			return (
-				<Layer
-					sceneFunc={ctx => {
-						ctx.rotate(rotation)
-					}}
-				>
+				<Layer>
 					<Line
 						points={[
 							...Object.values(getPoint(0, 0)),
@@ -171,12 +167,13 @@ const Keyboard = ({
 						bottomLeft={getPoint(57, 73)}
 						topRight={getPoint(71, 87)}
 						iconPosition={getPoint(61, 84)}
-						rotation={rotation}
+						rotation={rotationDeg}
 						onStrike={removeDigit}
 						bgProps={{
 							stroke: keyboardStrokeColor,
 							fill: keyboardFillColor,
 						}}
+						debug
 					/>
 					<Key
 						text="Gegner Ergänzen:"
@@ -199,11 +196,12 @@ const Keyboard = ({
 						bottomLeft={getPoint(57, 59)}
 						topRight={getPoint(71, 73)}
 						iconPosition={getPoint(62, 70)}
-						rotation={rotation}
+						rotation={rotationDeg}
 						onStrike={() => setComplementOn(!complementOn)}
 						fgProps={{
 							fill: complementOn ? keyboardSwitchOn : keyboardSwitchOff,
 						}}
+						debug
 					/>
 					<Key
 						text="1x"
