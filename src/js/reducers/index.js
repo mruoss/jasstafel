@@ -5,6 +5,7 @@ import * as actionTypes from '../constants/redux-store/action-types'
 
 import score from './score'
 import ui from './ui'
+import backside from './backside'
 
 const undoableConfig = {
 	limit: 200,
@@ -19,4 +20,4 @@ const undoableConfig = {
 	debug: true,
 }
 
-export default combineReducers({ score: undoable(score, undoableConfig), ui })
+export default combineReducers({ score: undoable(score, undoableConfig), ui, backside })

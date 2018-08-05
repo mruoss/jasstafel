@@ -64,9 +64,9 @@ const GlobalTouchScreen = ({ undo, redo, resetScore, flipBoard, isUndoEnabled, i
 				/>
 				<IconButton
 					iconPath={faCode.icon[4]}
-					bottomLeft={getPoint(91, 47)}
-					topRight={getPoint(98, 54)}
-					iconPosition={getPoint(91.5, 48.5)}
+					bottomLeft={getPoint(88, 48)}
+					topRight={getPoint(97, 52)}
+					iconPosition={getPoint(89.5, 48.5)}
 					iconScale={iconScale}
 					onStrike={() => flipBoard()}
 				/>

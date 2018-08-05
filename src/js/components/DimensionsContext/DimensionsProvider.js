@@ -13,7 +13,7 @@ const withDimensions = withSizes(({ width, height }) => ({
 		const iconScale = width / 10000
 		const boardWidth = transposed ? height : width
 		const boardHeight = transposed ? width : height
-		const getPointByPercentage = (scopeX, scopeY) => {
+		const getScreenPointByPercentage = (scopeX, scopeY) => {
 			const boardX = scope === SCOPE_GLOBAL ? scopeX : mapPlayerBoardX(scopeX, scope)
 			const boardY = scope === SCOPE_GLOBAL ? scopeY : mapPlayerBoardY(scopeY, scope)
 
@@ -22,10 +22,17 @@ const withDimensions = withSizes(({ width, height }) => ({
 				y: (height / 100) * (transposed ? 100 - boardX : boardY),
 			}
 		}
+		const getScopePointByPercentage = (x, y) => {
+			return {
+				x: ((transposed ? y : x) * 100) / width,
+				y: ((transposed ? 100 - x : y) * 100) / height,
+			}
+		}
 		return {
 			width: boardWidth,
 			height: boardHeight,
-			getPoint: getPointByPercentage,
+			getPoint: getScreenPointByPercentage,
+			getPointReverse: getScopePointByPercentage,
 			rotation: (scope === SCOPE_PLAYER_1 ? (transposed ? 0.5 : 1) : transposed ? 1.5 : 0) * Math.PI,
 			rotationDeg: scope === SCOPE_PLAYER_1 ? (transposed ? 90 : 180) : transposed ? 270 : 0,
 			iconScale: { x: iconScale, y: iconScale },
