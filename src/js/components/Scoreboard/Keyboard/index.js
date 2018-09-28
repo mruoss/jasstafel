@@ -271,7 +271,7 @@ const Keyboard = ({
 						}}
 					/>
 					<Key
-						text="512"
+						text="514"
 						bottomLeft={getPoint(43.5, 28)}
 						topRight={getPoint(56.5, 42)}
 						textPosition={getPoint(50, 34)}
