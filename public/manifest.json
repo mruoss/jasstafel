@@ -3,7 +3,6 @@
 	"short_name": "Jasstafel",
 	"lang": "de-CH",
 	"orientation": "portrait",
-	"prefer_related_applications": false,
 	"start_url": ".",
 	"display": "fullscreen",
 	"background_color": "#383136",
@@ -45,11 +44,6 @@
 			"sizes": "192x192",
 			"type": "image\/png",
 			"density": "4.0"
-		}
-	],
-	"related_applications": [
-		{
-			"platform": "Web"
 		}
 	]
 }
