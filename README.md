@@ -4,7 +4,7 @@ A web application built with React, Redux, [react-konva](https://github.com/konv
 
 The app makes use of the HTML5 application cache to make the it available when offline.
 
-## I just want to use the apple
+## I just want to use the application
 
 * Go to https://jasstafel.michaelruoss.ch/, preferrably on a tablet
 * [Add the app to the home screen of your device](https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/)
