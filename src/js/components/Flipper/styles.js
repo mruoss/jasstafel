@@ -15,11 +15,11 @@ export const Flipper = styled.div`
 	transform: ${({ flipped }) => (flipped ? 'rotateY(180deg)' : 'none')};
 `
 
-export const FrontSide = FlipperSide.extend`
+export const FrontSide = styled(FlipperSide)`
 	z-index: 2;
 `
 
-export const BackSide = FlipperSide.extend`
+export const BackSide = styled(FlipperSide)`
 	transform: rotateY(180deg);
 `
 

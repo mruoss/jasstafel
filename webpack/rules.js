@@ -8,7 +8,6 @@ const cssLoaders = (mode, with_modules, applicationEnv) => [
 			sourceMap: true,
 			importLoaders: 1, // postcss-loader does not count
 			...(with_modules ? { modules: true, localIdentName: '[path]___[name]__[local]___[hash:base64:5]' } : {}),
-			...(mode === 'production' ? { minimize: true } : {}),
 		},
 	},
 	{
@@ -22,8 +21,6 @@ const cssLoaders = (mode, with_modules, applicationEnv) => [
 		loader: 'sass-loader',
 		options: {
 			sourceMap: true,
-			data: '$application-env: ' + applicationEnv + ';',
-			...(with_modules ? { includePaths: [path.resolve('../src/sass')] } : {}),
 		},
 	},
 ]
@@ -45,10 +42,24 @@ module.exports = ({ mode, applicationEnv }) => [
 			loader: 'babel-loader',
 			options: {
 				babelrc: false,
-				presets: ['env', 'react'],
+				presets: [
+					[
+						'@babel/preset-env',
+						{
+							useBuiltIns: 'entry',
+							corejs: '2.0.0',
+						},
+					],
+					[
+						'@babel/preset-react',
+						{
+							useBuiltIns: 'entry',
+						},
+					],
+				],
 				plugins: [
 					[
-						'transform-object-rest-spread',
+						'@babel/plugin-proposal-object-rest-spread',
 						{
 							useBuiltIns: true,
 						},

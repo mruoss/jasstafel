@@ -29,6 +29,8 @@ extends:
 settings:
   "import/resolver":
     "babel-module": {}
+  "react":
+    "version": "16.4"
 
 globals:
   ___DEV___: false
