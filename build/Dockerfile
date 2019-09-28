@@ -21,7 +21,7 @@ RUN apk update && apk upgrade && apk add \
 
 WORKDIR /app/builder
 
-RUN --mount=type=bind,source=.,target=/app/builder,rw yarn install && NODE_ENV=production yarn build --output-path=/dist/
+RUN --mount=type=bind,source=.,target=/app/builder,rw rm -rf node_modules && yarn install && NODE_ENV=production yarn build --output-path=/dist/
 
 FROM abiosoft/caddy
 
@@ -29,7 +29,5 @@ WORKDIR /app
 
 COPY --from=build /dist/ /app/
 COPY ./public/ /app/
-
-RUN sed -i -e "s#{version}#$(date +%s)#g" "/app/jasstafel.appcache"
 
 COPY build/caddy/Caddyfile /etc/Caddyfile

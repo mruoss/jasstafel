@@ -1,7 +1,7 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path')
 
-const cssLoaders = (mode, with_modules, applicationEnv) => [
+const cssLoaders = (mode, with_modules) => [
 	{
 		loader: 'css-loader',
 		options: {
@@ -25,16 +25,16 @@ const cssLoaders = (mode, with_modules, applicationEnv) => [
 	},
 ]
 
-const cssUseEntry = ({ mode, with_modules, applicationEnv }) =>
+const cssUseEntry = ({ mode, with_modules }) =>
 	mode === 'development'
 		? // dev server
-		  [{ loader: 'style-loader' }, ...cssLoaders(mode, with_modules, applicationEnv)]
+		  [{ loader: 'style-loader' }, ...cssLoaders(mode, with_modules)]
 		: // build client && server
-		  [MiniCssExtractPlugin.loader, ...cssLoaders(mode, with_modules, applicationEnv)]
+		  [MiniCssExtractPlugin.loader, ...cssLoaders(mode, with_modules)]
 
 // =============================================================================
 
-module.exports = ({ mode, applicationEnv }) => [
+module.exports = ({ mode }) => [
 	{
 		test: /\.js$/,
 		exclude: /node_modules/,
@@ -72,13 +72,13 @@ module.exports = ({ mode, applicationEnv }) => [
 		// only for src/js/**/.*.sass
 		test: /\.(scss|sass)$/,
 		include: [path.resolve('../src/js')],
-		use: cssUseEntry({ mode, with_modules: true, applicationEnv }),
+		use: cssUseEntry({ mode, with_modules: true }),
 	},
 	{
 		// for src/sass/**/.*.sass
 		test: /\.(scss|sass)$/,
 		exclude: [path.resolve('../src/js')],
-		use: cssUseEntry({ mode, with_modules: false, applicationEnv }),
+		use: cssUseEntry({ mode, with_modules: false }),
 	},
 	{
 		// only 3rd party fonts

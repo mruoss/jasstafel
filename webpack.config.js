@@ -1,29 +1,48 @@
 /* eslint-env node */
 
+const webpack = require('webpack')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 const path = require('path')
-const rules = require('./webpack/rules')
-const plugins = require('./webpack/plugins')
+const webpackMerge = require('webpack-merge')
 
-module.exports = ({ WEBPACK_MODE, APPLICATION_ENV }) => ({
-	module: {
-		rules: [...rules({ mode: WEBPACK_MODE, applicationEnv: APPLICATION_ENV })],
-	},
-	entry: path.resolve('./src/js/entry.js'),
-	output: {
-		path: path.resolve('dist'),
-		filename: 'index.js',
-	},
-	devServer: {
-		inline: true,
-		port: process.env.PORT,
-		host: '0.0.0.0',
-	},
-	plugins: [
-		new HtmlWebPackPlugin({
-			template: path.join(__dirname, 'src/index.html'),
-			filename: 'index.html',
-		}),
-		...plugins(WEBPACK_MODE),
-	],
-})
+const rules = require('./webpack/rules')
+const loadPresets = require('./webpack/loadPresets')
+
+const modeConfig = env => require(`./webpack/webpack.${env.mode}.js`)(env)
+
+module.exports = ({ mode, presets }) =>
+	webpackMerge(
+		{
+			module: {
+				rules: [...rules({ mode })],
+			},
+			entry: path.resolve('./src/js/entry.js'),
+			output: {
+				path: path.resolve('dist'),
+				filename: 'index.js',
+			},
+			devServer: {
+				inline: true,
+				port: process.env.PORT,
+				host: '0.0.0.0',
+			},
+			plugins: [
+				new webpack.DefinePlugin({
+					APP_VERSION: JSON.stringify('2.0.0'),
+				}),
+				new CleanWebpackPlugin(),
+				new webpack.ProgressPlugin(),
+				new HtmlWebPackPlugin({
+					template: path.join(__dirname, 'src/index.html'),
+					filename: 'index.html',
+				}),
+				new CopyWebpackPlugin([{ from: 'src/assets', to: 'assets/' }, 'src/manifest.webmanifest'], {
+					ignore: ['.DS_Store'],
+				}),
+			],
+		},
+		modeConfig({ mode, presets }),
+		loadPresets({ mode, presets }),
+	)

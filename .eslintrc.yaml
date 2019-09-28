@@ -39,6 +39,7 @@ globals:
   module: false
   require: false
   window: false
+  APP_VERSION: false
 
 rules:
   accessor-pairs: 2
