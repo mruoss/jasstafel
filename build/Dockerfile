@@ -28,6 +28,6 @@ FROM abiosoft/caddy
 WORKDIR /app
 
 COPY --from=build /dist/ /app/
-COPY ./public/ /app/
+COPY ./src/assets/ /app/
 
 COPY build/caddy/Caddyfile /etc/Caddyfile
