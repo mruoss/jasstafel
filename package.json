@@ -18,7 +18,7 @@
 		"bluebird": "^3.5.1",
 		"core-js": "3.2.1",
 		"konva": "^4.0.12",
-		"lodash": "^4.17.14",
+		"lodash": "^4.17.19",
 		"react": "^16.4.1",
 		"react-dom": "^16.4.1",
 		"react-konva": "^16.9.0-1",
