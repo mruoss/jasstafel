@@ -29,7 +29,7 @@
 		"redux-undo": "^1.0.0-beta9-9-7",
 		"reselect": "^3.0.1",
 		"styled-components": "^3.4.0",
-		"workbox-webpack-plugin": "^4.3.1"
+		"workbox-webpack-plugin": "^5.1.4"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.0.0-0",
