@@ -43,7 +43,7 @@
 		"chai": "^4.1.2",
 		"chai-match-pattern": "^1.1.0",
 		"clean-webpack-plugin": "^3.0.0",
-		"copy-webpack-plugin": "^5.0.4",
+		"copy-webpack-plugin": "^6.3.1",
 		"css-loader": "^3.0.0",
 		"eslint": "^7.12.0",
 		"eslint-config-prettier": "^6.3.0",
