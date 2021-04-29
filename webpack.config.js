@@ -12,7 +12,7 @@ const loadPresets = require('./webpack/loadPresets')
 
 const modeConfig = env => require(`./webpack/webpack.${env.mode}.js`)(env)
 
-module.exports = ({ mode, presets }) =>
+module.exports = ({ presets }, { mode }) =>
 	webpackMerge(
 		{
 			module: {
