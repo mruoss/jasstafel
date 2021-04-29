@@ -16,7 +16,7 @@
 	"dependencies": {
 		"@fortawesome/free-solid-svg-icons": "^5.15.3",
 		"bluebird": "^3.5.1",
-		"core-js": "3.2.1",
+		"core-js": "3.11.1",
 		"konva": "^7.2.5",
 		"lodash": "^4.17.21",
 		"react": "^17.0.2",
