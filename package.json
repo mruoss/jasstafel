@@ -4,7 +4,7 @@
 	"description": "Jasstafel zum Schreiben von Jasspartien",
 	"license": "MIT",
 	"scripts": {
-		"build": "webpack --env.mode production --env.presets serviceworker",
+		"build": "webpack --mode production --env presets=serviceworker",
 		"lint": "yarn run lint:js && yarn run lint:sass",
 		"lint:js": "eslint src/js/",
 		"lint:sass": "sass-lint -c .sass-lint.yml -v -q --max-warnings 0",
@@ -70,7 +70,7 @@
 		"style-loader": "^1.0.0",
 		"url-loader": "^4.1.1",
 		"webpack": "^4.12.2",
-		"webpack-cli": "^3.0.8",
+		"webpack-cli": "^4.6.0",
 		"webpack-dev-server": "^3.11.2",
 		"webpack-merge": "^4.2.2"
 	}
