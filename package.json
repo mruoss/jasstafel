@@ -14,7 +14,7 @@
 		"test": "mocha --require babel-register ./tests/**/*.js"
 	},
 	"dependencies": {
-		"@fortawesome/free-solid-svg-icons": "^5.1.0",
+		"@fortawesome/free-solid-svg-icons": "^5.15.3",
 		"bluebird": "^3.5.1",
 		"core-js": "3.2.1",
 		"konva": "^4.0.12",
