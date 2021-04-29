@@ -38,8 +38,8 @@ module.exports = ({ mode, presets }) =>
 					template: path.join(__dirname, 'src/index.html'),
 					filename: 'index.html',
 				}),
-				new CopyWebpackPlugin([{ from: 'src/assets', to: 'assets/' }, 'src/manifest.webmanifest'], {
-					ignore: ['.DS_Store'],
+				new CopyWebpackPlugin({
+					patterns: [{ from: 'src/assets', to: 'assets/', globOptions: {ignore: ['.DS_Store']} }, 'src/manifest.webmanifest'],
 				}),
 			],
 		},
