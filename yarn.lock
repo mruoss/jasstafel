@@ -3797,13 +3797,13 @@ eslint-config-prettier@^8.3.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
-eslint-import-resolver-babel-module@^5.1.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-babel-module/-/eslint-import-resolver-babel-module-5.2.0.tgz#0d328bd8e5968daebcb4d705e0cfec0819a4c23f"
-  integrity sha512-BoVKAfaveJSzKGI1wIaomg/lEbE7Zr08+fDSCWccgYrE9wRQjCbtYIQsNRNYFCcwbFv48/y+Qa19FwOv0B5g5A==
+eslint-import-resolver-babel-module@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-babel-module/-/eslint-import-resolver-babel-module-5.3.1.tgz#808a42f311a6c33d473f9f4c846d1d487d29eff4"
+  integrity sha512-WomQAkjO7lUNOdU3FG2zgNgylkoAVUmaw04bHgSpM9QrMWuOLLWa2qcP6CrsBd4VWuLRbUPyzrgBc9ZQIx9agw==
   dependencies:
-    pkg-up "^2.0.0"
-    resolve "^1.10.0"
+    pkg-up "^3.1.0"
+    resolve "^1.20.0"
 
 eslint-import-resolver-node@^0.3.4:
   version "0.3.4"
@@ -5236,13 +5236,6 @@ is-callable@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.2.3.tgz#8b1e0500b73a1d76c70487636f368e519de8db8e"
   integrity sha512-J1DcMe8UYTBSrKezuIUTUwjXsho29693unXM2YhJUTR2txK/eG47bvNa/wipPFmZFgr/N6f1GA66dv0mEyTIyQ==
-
-is-core-module@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.0.0.tgz#58531b70aed1db7c0e8d4eb1a0a2d1ddd64bd12d"
-  integrity sha512-jq1AH6C8MuteOoBPwkxHafmByhL9j5q4OaPGdbuD+ZtQJVzH+i6E3BJDQcBA09k57i2Hh2yQbEG8yObZ0jdlWw==
-  dependencies:
-    has "^1.0.3"
 
 is-core-module@^2.2.0:
   version "2.3.0"
@@ -6854,6 +6847,13 @@ pkg-up@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
+pkg-up@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/pkg-up/-/pkg-up-3.1.0.tgz#100ec235cc150e4fd42519412596a28512a0def5"
+  integrity sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==
+  dependencies:
+    find-up "^3.0.0"
+
 pluralize@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-1.2.1.tgz#d1a21483fd22bb41e58a12fa3421823140897c45"
@@ -7496,15 +7496,7 @@ resolve-url@^0.2.1:
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.10.0, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.17.0, resolve@^1.4.0:
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.18.1.tgz#018fcb2c5b207d2a6424aee361c5a266da8f4130"
-  integrity sha512-lDfCPaMKfOJXjy0dPayzPdF1phampNWr3qFCjAu+rw/qbQmr5jWH5xN2hwh9QKfw9E5v4hwV7A+jrCmL8yjjqA==
-  dependencies:
-    is-core-module "^2.0.0"
-    path-parse "^1.0.6"
-
-resolve@^1.19.0, resolve@^1.9.0:
+resolve@^1.10.0, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.17.0, resolve@^1.19.0, resolve@^1.20.0, resolve@^1.4.0, resolve@^1.9.0:
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
   integrity sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==
