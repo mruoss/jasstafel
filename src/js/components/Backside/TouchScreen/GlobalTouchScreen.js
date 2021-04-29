@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useCallback } from 'react'
+import { useDispatch } from 'react-redux'
+
 import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
-import { compose } from 'recompose'
 import { faCode, faEraser } from '@fortawesome/free-solid-svg-icons'
 
 import { Layer } from 'react-konva'
@@ -13,22 +13,11 @@ import { clearBackside } from '../../../actions/backside'
 import DimensionsConsumer from '../../DimensionsContext/DimensionsConsumer'
 import IconButton from '../../Scoreboard/TouchScreen/IconButton'
 
-const mapDispatchToProps = {
-	clearBackside,
-	flipBoard,
-}
 
-const mapStateToProps = null
+const GlobalTouchScreen = () => {
+	const dispatch = useDispatch()
 
-const enhance = compose(
-	connect(
-		mapStateToProps,
-		mapDispatchToProps,
-	),
-)
-
-const GlobalTouchScreen = ({ clearBackside, flipBoard }) => (
-	<DimensionsConsumer scope={SCOPE_GLOBAL}>
+	return <DimensionsConsumer scope={SCOPE_GLOBAL}>
 		{({ getPoint, iconScale }) => (
 			<Layer>
 				<IconButton
@@ -37,7 +26,7 @@ const GlobalTouchScreen = ({ clearBackside, flipBoard }) => (
 					topRight={getPoint(97, 52)}
 					iconPosition={getPoint(89.5, 48.5)}
 					iconScale={iconScale}
-					onStrike={() => flipBoard()}
+					onStrike={() => dispatch(flipBoard())}
 				/>
 				<IconButton
 					iconPath={faEraser.icon[4]}
@@ -45,15 +34,11 @@ const GlobalTouchScreen = ({ clearBackside, flipBoard }) => (
 					topRight={getPoint(8, 54)}
 					iconPosition={getPoint(2, 48)}
 					iconScale={iconScale}
-					onStrike={() => clearBackside()}
+					onStrike={() => dispatch(clearBackside())}
 				/>
 			</Layer>
 		)}
 	</DimensionsConsumer>
-)
-GlobalTouchScreen.propTypes = {
-	clearBackside: PropTypes.func.isRequired,
-	flipBoard: PropTypes.func.isRequired,
 }
 
-export default enhance(GlobalTouchScreen)
+export default GlobalTouchScreen

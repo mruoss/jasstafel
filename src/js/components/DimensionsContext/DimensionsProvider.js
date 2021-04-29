@@ -1,14 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import withSizes from 'react-sizes'
 
 import { DimensionsContext, SCOPE_GLOBAL, SCOPE_PLAYER_1, SCOPE_PLAYER_2 } from './context'
+import useWindowSizes from '../../hooks/use-window-sizes'
 
 const mapPlayerBoardY = (position, scope) => (scope === SCOPE_PLAYER_2 ? 100 - position / 2 : position / 2)
 const mapPlayerBoardX = (position, scope) => (scope === SCOPE_PLAYER_2 ? position : 100 - position)
 
-const withDimensions = withSizes(({ width, height }) => ({
-	getDimensions: scope => {
+const DimensionProvider = ({ children }) => {
+	const {width, height} = useWindowSizes()
+
+	const getDimensions = (scope) => {
 		const transposed = false // width > height
 		const iconScale = width / 10000
 		const boardWidth = transposed ? height : width
@@ -37,11 +39,9 @@ const withDimensions = withSizes(({ width, height }) => ({
 			rotationDeg: scope === SCOPE_PLAYER_1 ? (transposed ? 90 : 180) : transposed ? 270 : 0,
 			iconScale: { x: iconScale, y: iconScale },
 		}
-	},
-}))
+	}
 
-const DimensionProvider = ({ children, getDimensions }) => (
-	<DimensionsContext.Provider
+	return <DimensionsContext.Provider
 		value={{
 			[SCOPE_PLAYER_1]: getDimensions(SCOPE_PLAYER_1),
 			[SCOPE_PLAYER_2]: getDimensions(SCOPE_PLAYER_2),
@@ -50,11 +50,10 @@ const DimensionProvider = ({ children, getDimensions }) => (
 	>
 		{children}
 	</DimensionsContext.Provider>
-)
+}
 
 DimensionProvider.propTypes = {
 	children: PropTypes.node.isRequired,
-	getDimensions: PropTypes.func.isRequired,
 }
 
-export default withDimensions(DimensionProvider)
+export default DimensionProvider

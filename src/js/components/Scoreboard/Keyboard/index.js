@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { compose, withStateHandlers, withState } from 'recompose'
 import { keyboardToPoints } from '../../../helpers/score'
 import IconButton from '../TouchScreen/IconButton'
 import { faBackspace, faToggleOn, faToggleOff } from '@fortawesome/free-solid-svg-icons'
@@ -20,39 +19,22 @@ import {
 import DimensionsConsumer from '../../DimensionsContext/DimensionsConsumer'
 import Key from './Key'
 
-const enhance = compose(
-	withStateHandlers(
-		() => ({
-			points: 0,
-		}),
-		{
-			addDigit: ({ points }) => digit => {
-				const newNumber = 10 * points + digit
-				return { points: newNumber > 10000 ? points : newNumber }
-			},
-			removeDigit: ({ points }) => () => ({
-				points: Math.floor(points / 10),
-			}),
-			resetPoints: () => () => ({
-				points: 0,
-			}),
-		},
-	),
-	withState('complementOn', 'setComplementOn', true),
-)
-
 const Keyboard = ({
 	scope,
-	points,
-	complementOn,
-	addDigit,
-	removeDigit,
-	resetPoints,
-	setComplementOn,
 	onConfirm,
 	closeKeyboard,
-}) => (
-	<DimensionsConsumer scope={scope}>
+}) => {
+	const [points, setPoints] = useState(0)
+	const [complementOn, setComplementOn] = useState(true)
+
+	const addDigit = (digit) => {
+		const newNumber = 10 * points + digit
+		setPoints(newNumber > 10000 ? points : newNumber)
+	}
+	const removeDigit = () => setPoints(Math.floor(points / 10))
+	const resetPoints = () => setPoints(0)
+
+	return <DimensionsConsumer scope={scope}>
 		{({ getPoint, rotation, rotationDeg, iconScale }) => {
 			return (
 				<Layer>
@@ -304,18 +286,12 @@ const Keyboard = ({
 			)
 		}}
 	</DimensionsConsumer>
-)
+}
 
 Keyboard.propTypes = {
 	scope: PropTypes.string.isRequired,
-	points: PropTypes.number.isRequired,
-	complementOn: PropTypes.bool.isRequired,
-	addDigit: PropTypes.func.isRequired,
-	removeDigit: PropTypes.func.isRequired,
-	resetPoints: PropTypes.func.isRequired,
-	setComplementOn: PropTypes.func.isRequired,
 	onConfirm: PropTypes.func.isRequired,
 	closeKeyboard: PropTypes.func.isRequired,
 }
 
-export default enhance(Keyboard)
+export default Keyboard

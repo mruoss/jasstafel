@@ -1,9 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, { useEffect, useState } from "react";
+
 import { Layer, Image } from 'react-konva'
-import { compose, withState, lifecycle } from 'recompose'
-import withSizes from 'react-sizes'
 import { Promise } from 'bluebird'
+
+import useWindowSizes from '../hooks/use-window-sizes'
 
 export const getSchiefer = () => {
 	if (window.schieferImage) {
@@ -21,32 +21,19 @@ export const getSchiefer = () => {
 	return window.schieferImage
 }
 
-const enhance = compose(
-	withSizes(props => props),
-	withState('schiefer', 'setSchiefer', null),
-	lifecycle({
-		componentDidMount() {
-			const props = this.props
-			getSchiefer().then(image => {
-				image.width = props.width
-				image.height = props.height
-				this.props.setSchiefer(image)
-			})
-		},
-		componentDidUpdate() {
-			const { width, height, schiefer } = this.props
-			if (schiefer) {
-				schiefer.height = height
-				schiefer.width = width
-			}
-		},
-	}),
-)
+const Blackboard = () => {
+	const { width, height } = useWindowSizes()
+	const [schiefer, setSchiefer] = useState(null);
 
-const Blackboard = ({ schiefer }) => <Layer>{schiefer && <Image image={schiefer} />}</Layer>
+	useEffect(() => {
+		getSchiefer().then(image => {
+			image.width = width
+			image.height = height
+			setSchiefer(image)
+		})
+	});
 
-Blackboard.propTypes = {
-	schiefer: PropTypes.object,
+	return <Layer>{schiefer && <Image image={schiefer} />}</Layer>
 }
 
-export default enhance(Blackboard)
+export default Blackboard

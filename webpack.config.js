@@ -22,6 +22,7 @@ module.exports = ({ presets }, { mode }) =>
 			output: {
 				path: path.resolve('dist'),
 				filename: 'index.js',
+				assetModuleFilename: 'assets/[hash][ext][query]'
 			},
 			devServer: {
 				inline: true,

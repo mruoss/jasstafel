@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
-import { compose, withStateHandlers } from 'recompose'
+import { useDispatch, useSelector } from 'react-redux'
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons'
 
 import isEmpty from 'lodash/fp/isEmpty'
@@ -12,53 +11,26 @@ import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
 import { SCOPE_GLOBAL } from '../DimensionsContext/context'
 import { strokeWidth } from '../../constants/board'
 
-const mapStateToProps = state => ({
-	backsideLines: selectBacksideLines(state),
-})
+const Lines = () => {
+	const backsideLines = useSelector(state => selectBacksideLines(state))
+	const dispatch = useDispatch()
+	const [{ drawing, points }, setDrawer] = useState({drawing: false, points: []});
 
-const mapDispatchToProps = {
-	addLineOnBackside,
-}
+	const startDrawing = (event, getPointReverse) => {
+		if (drawing) {
+			dispatch(addLineOnBackside(points))
+		}
+		setDrawer({drawing: true, points: [getPointReverse(event.clientX, event.clientY)]})
+	}
+	const draw = (event, getPointReverse) => setDrawer({drawing, points: drawing ? [...points, getPointReverse(event.clientX, event.clientY)] : points})
+	const stopDrawing = () => {
+		if (drawing) {
+			dispatch(addLineOnBackside(points))
+		}
+		setDrawer({drawing: false, points: []})
+	}
 
-const enhance = compose(
-	connect(
-		mapStateToProps,
-		mapDispatchToProps,
-	),
-	withStateHandlers(
-		() => ({
-			drawing: false,
-			points: [],
-		}),
-		{
-			startDrawing: ({ drawing, points }, { addLineOnBackside }) => (event, getPointReverse) => {
-				if (drawing) {
-					addLineOnBackside(points)
-				}
-				return {
-					drawing: true,
-					points: [getPointReverse(event.clientX, event.clientY)],
-				}
-			},
-			draw: ({ drawing, points }) => (event, getPointReverse) => ({
-				drawing,
-				points: drawing ? [...points, getPointReverse(event.clientX, event.clientY)] : points,
-			}),
-			stopDrawing: ({ drawing, points }, { addLineOnBackside }) => () => {
-				if (drawing) {
-					addLineOnBackside(points)
-				}
-				return {
-					drawing: false,
-					points: [],
-				}
-			},
-		},
-	),
-)
-
-const Lines = ({ points, backsideLines, startDrawing, draw, stopDrawing }) => (
-	<DimensionsConsumer scope={SCOPE_GLOBAL}>
+	return <DimensionsConsumer scope={SCOPE_GLOBAL}>
 		{({ getPoint, iconScale, getPointReverse }) => (
 			<Layer>
 				<Path
@@ -101,13 +73,7 @@ const Lines = ({ points, backsideLines, startDrawing, draw, stopDrawing }) => (
 			</Layer>
 		)}
 	</DimensionsConsumer>
-)
-Lines.propTypes = {
-	points: PropTypes.array.isRequired,
-	backsideLines: PropTypes.array.isRequired,
-	startDrawing: PropTypes.func.isRequired,
-	draw: PropTypes.func.isRequired,
-	stopDrawing: PropTypes.func.isRequired,
 }
 
-export default enhance(Lines)
+
+export default Lines
