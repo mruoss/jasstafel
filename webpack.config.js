@@ -5,7 +5,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 const path = require('path')
-const webpackMerge = require('webpack-merge')
+const { merge } = require('webpack-merge')
 
 const rules = require('./webpack/rules')
 const loadPresets = require('./webpack/loadPresets')
@@ -13,7 +13,7 @@ const loadPresets = require('./webpack/loadPresets')
 const modeConfig = env => require(`./webpack/webpack.${env.mode}.js`)(env)
 
 module.exports = ({ presets }, { mode }) =>
-	webpackMerge(
+	merge(
 		{
 			module: {
 				rules: [...rules({ mode })],
