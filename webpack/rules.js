@@ -88,13 +88,5 @@ module.exports = ({ mode }) => [
 		generator: {
 			filename: 'static/[hash][ext][query]'
 		}
-	},
-	{
-		test: /\.html$/,
-		use: [
-			{
-				loader: 'html-loader',
-			},
-		],
-	},
+	}
 ]
