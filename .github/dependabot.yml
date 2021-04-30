@@ -3,10 +3,12 @@ updates:
 - package-ecosystem: npm
   directory: "/"
   schedule:
-    interval: daily
+    interval: weekly
   open-pull-requests-limit: 10
+  default_assignees: ["mruoss"]
 - package-ecosystem: docker
   directory: "/build"
   schedule:
-    interval: daily
+    interval: weekly
   open-pull-requests-limit: 10
+  default_assignees: ["mruoss"]
