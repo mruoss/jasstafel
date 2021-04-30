@@ -7,7 +7,7 @@ import isEmpty from 'lodash/fp/isEmpty'
 import { addLineOnBackside } from '../../actions/backside'
 import { selectBacksideLines } from '../../selectors/backside'
 import { Layer, Line, Path } from 'react-konva'
-import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
+import UseDimensionsContext from '../DimensionsContext/UseDimensionsContext'
 import { SCOPE_GLOBAL } from '../DimensionsContext/context'
 import { strokeWidth } from '../../constants/board'
 
@@ -30,49 +30,49 @@ const Lines = () => {
 		setDrawer({drawing: false, points: []})
 	}
 
-	return <DimensionsConsumer scope={SCOPE_GLOBAL}>
-		{({ getPoint, iconScale, getPointReverse }) => (
-			<Layer>
-				<Path
-					{...getPoint(45, 45)}
-					fill="#666"
-					data={faPencilAlt.icon[4]}
-					scale={{ x: iconScale.x * 3, y: iconScale.y * 3 }}
-				/>
-				{backsideLines.map((line, key) => (
-					<Line
-						key={key}
-						points={line.reduce((carry, point) => [...carry, ...Object.values(getPoint(point.x, point.y))], [])}
-						stroke="#ffffff"
-						strokeWidth={strokeWidth}
-					/>
-				))}
-				{!isEmpty(points) && (
-					<Line
-						points={points.reduce((carry, point) => [...carry, ...Object.values(getPoint(point.x, point.y))], [])}
-						stroke="#ffffff"
-						strokeWidth={strokeWidth}
-					/>
-				)}
+	const { getPoint, iconScale, getPointReverse } = UseDimensionsContext(SCOPE_GLOBAL)
+
+	return (
+		<Layer>
+			<Path
+				{...getPoint(45, 45)}
+				fill="#666"
+				data={faPencilAlt.icon[4]}
+				scale={{ x: iconScale.x * 3, y: iconScale.y * 3 }}
+			/>
+			{backsideLines.map((line, key) => (
 				<Line
-					points={[
-						...Object.values(getPoint(0, 0)),
-						...Object.values(getPoint(0, 100)),
-						...Object.values(getPoint(100, 100)),
-						...Object.values(getPoint(100, 0)),
-					]}
-					closed
-					onMouseDown={e => startDrawing(e.evt, getPointReverse)}
-					onTouchstart={e => startDrawing(e.evt.touches[0], getPointReverse)}
-					onMousemove={e => draw(e.evt, getPointReverse)}
-					onTouchmove={e => draw(e.evt.touches[0], getPointReverse)}
-					onMouseout={() => stopDrawing()}
-					onMouseup={() => stopDrawing()}
-					onTouchend={() => stopDrawing()}
+					key={key}
+					points={line.reduce((carry, point) => [...carry, ...Object.values(getPoint(point.x, point.y))], [])}
+					stroke="#ffffff"
+					strokeWidth={strokeWidth}
 				/>
-			</Layer>
-		)}
-	</DimensionsConsumer>
+			))}
+			{!isEmpty(points) && (
+				<Line
+					points={points.reduce((carry, point) => [...carry, ...Object.values(getPoint(point.x, point.y))], [])}
+					stroke="#ffffff"
+					strokeWidth={strokeWidth}
+				/>
+			)}
+			<Line
+				points={[
+					...Object.values(getPoint(0, 0)),
+					...Object.values(getPoint(0, 100)),
+					...Object.values(getPoint(100, 100)),
+					...Object.values(getPoint(100, 0)),
+				]}
+				closed
+				onMouseDown={e => startDrawing(e.evt, getPointReverse)}
+				onTouchstart={e => startDrawing(e.evt.touches[0], getPointReverse)}
+				onMousemove={e => draw(e.evt, getPointReverse)}
+				onTouchmove={e => draw(e.evt.touches[0], getPointReverse)}
+				onMouseout={() => stopDrawing()}
+				onMouseup={() => stopDrawing()}
+				onTouchend={() => stopDrawing()}
+			/>
+		</Layer>
+	)
 }
 
 

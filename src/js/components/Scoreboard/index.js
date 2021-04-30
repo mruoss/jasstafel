@@ -6,7 +6,7 @@ import { Stage } from 'react-konva'
 
 import DimensionsProvider from '../DimensionsContext/DimensionsProvider'
 import Layers from './Layers'
-import useWindowSizes from '../../hooks/use-window-sizes'
+import useWindowSizes from '../../hooks/UseWindowSizes'
 
 const Scoreboard = ({ store }) => {
 	const {width, height} = useWindowSizes()

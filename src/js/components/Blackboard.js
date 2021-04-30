@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Layer, Image } from 'react-konva'
 import { Promise } from 'bluebird'
 
-import useWindowSizes from '../hooks/use-window-sizes'
+import useWindowSizes from '../hooks/UseWindowSizes'
 
 export const getSchiefer = () => {
 	if (window.schieferImage) {

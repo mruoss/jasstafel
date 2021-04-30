@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { DimensionsContext, SCOPE_GLOBAL, SCOPE_PLAYER_1, SCOPE_PLAYER_2 } from './context'
-import useWindowSizes from '../../hooks/use-window-sizes'
+import useWindowSizes from '../../hooks/UseWindowSizes'
 
 const mapPlayerBoardY = (position, scope) => (scope === SCOPE_PLAYER_2 ? 100 - position / 2 : position / 2)
 const mapPlayerBoardX = (position, scope) => (scope === SCOPE_PLAYER_2 ? position : 100 - position)

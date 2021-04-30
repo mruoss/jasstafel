@@ -4,7 +4,7 @@ import { Provider as ReduxProvider } from 'react-redux'
 
 import { Stage } from 'react-konva'
 
-import useWindowSizes from '../../hooks/use-window-sizes'
+import useWindowSizes from '../../hooks/UseWindowSizes'
 import DimensionsProvider from '../DimensionsContext/DimensionsProvider'
 import Layers from './Layers'
 
