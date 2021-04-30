@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import PropTypes from 'prop-types'
 import { faCode, faEraser } from '@fortawesome/free-solid-svg-icons'
 
-import { Layer } from 'react-konva'
+import { Group } from 'react-konva'
 import { SCOPE_GLOBAL } from '../../DimensionsContext/context'
 
 import { flipBoard } from '../../../actions/ui'
@@ -18,7 +18,7 @@ const GlobalTouchScreen = () => {
 	const { getPoint, iconScale } = UseDimensionsContext(SCOPE_GLOBAL)
 
 	return (
-		<Layer>
+		<Group>
 			<IconButton
 				iconPath={faCode.icon[4]}
 				bottomLeft={getPoint(88, 48)}
@@ -35,7 +35,7 @@ const GlobalTouchScreen = () => {
 				iconScale={iconScale}
 				onStrike={() => dispatch(clearBackside())}
 			/>
-		</Layer>
+		</Group>
 	)
 }
 

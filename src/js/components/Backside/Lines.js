@@ -6,7 +6,7 @@ import { faPencilAlt } from '@fortawesome/free-solid-svg-icons'
 import isEmpty from 'lodash/fp/isEmpty'
 import { addLineOnBackside } from '../../actions/backside'
 import { selectBacksideLines } from '../../selectors/backside'
-import { Layer, Line, Path } from 'react-konva'
+import { Group, Line, Path } from 'react-konva'
 import UseDimensionsContext from '../DimensionsContext/UseDimensionsContext'
 import { SCOPE_GLOBAL } from '../DimensionsContext/context'
 import { strokeWidth } from '../../constants/board'
@@ -33,7 +33,7 @@ const Lines = () => {
 	const { getPoint, iconScale, getPointReverse } = UseDimensionsContext(SCOPE_GLOBAL)
 
 	return (
-		<Layer>
+		<Group>
 			<Path
 				{...getPoint(45, 45)}
 				fill="#666"
@@ -71,7 +71,7 @@ const Lines = () => {
 				onMouseup={() => stopDrawing()}
 				onTouchend={() => stopDrawing()}
 			/>
-		</Layer>
+		</Group>
 	)
 }
 

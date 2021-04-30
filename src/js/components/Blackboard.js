@@ -33,7 +33,7 @@ const Blackboard = () => {
 		})
 	});
 
-	return <Layer>{schiefer && <Image image={schiefer} />}</Layer>
+	return schiefer && <Image hitStrokeWidth={0} image={schiefer} />
 }
 
 export default Blackboard

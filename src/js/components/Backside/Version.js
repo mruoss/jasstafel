@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Layer, Shape } from 'react-konva'
+import { Group, Shape } from 'react-konva'
 import { fontText } from '../../constants/board'
 import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
 import { SCOPE_GLOBAL } from '../DimensionsContext/context'
@@ -10,7 +10,7 @@ const Version = () => {
 	const { getPoint, iconScale, getPointReverse } = UseDimensionsContext(SCOPE_GLOBAL)
 
 	return (
-		<Layer>
+		<Group>
 			<Shape
 				{...getPoint(98, 98)}
 				sceneFunc={ctx => {
@@ -20,7 +20,7 @@ const Version = () => {
 					ctx.fillText(`Version ${APP_VERSION}`, 0, 0)
 				}}
 			/>
-		</Layer>
+		</Group>
 	)
 }
 

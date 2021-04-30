@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
+import { Layer, Group } from 'react-konva'
 
 import { scoreShape } from '../../constants/prop-types'
 import { selectScore } from '../../selectors/score'
@@ -50,66 +51,68 @@ const Layers = ({
 	openKeyboardForPlayer,
 	setPlayerName,
 	closeKeyboard,
-}) => [
-	<Blackboard key="blackboard" />,
+}) =>
+	<Layer>
+		<Blackboard key="blackboard"/>
 
-	<Z key="z-p1" scope={SCOPE_PLAYER_1} />,
-	<Z key="z-p2" scope={SCOPE_PLAYER_2} />,
+		<Score key="score-p1" scope={SCOPE_PLAYER_1} score={score[players.PLAYER_1]} />
+		<Score key="score-p2" scope={SCOPE_PLAYER_2} score={score[players.PLAYER_2]} />
 
-	<Score key="score-p1" scope={SCOPE_PLAYER_1} score={score[players.PLAYER_1]} />,
-	<Score key="score-p2" scope={SCOPE_PLAYER_2} score={score[players.PLAYER_2]} />,
+		<Z key="z-p1" scope={SCOPE_PLAYER_1} />
+		<Z key="z-p2" scope={SCOPE_PLAYER_2} />
 
-	<PlayerName
-		key="playername-p1"
-		scope={SCOPE_PLAYER_1}
-		name={playerNames[players.PLAYER_1]}
-		setPlayerName={setPlayerName}
-	/>,
-	<PlayerName
-		key="playername-p2"
-		scope={SCOPE_PLAYER_2}
-		name={playerNames[players.PLAYER_2]}
-		setPlayerName={setPlayerName}
-	/>,
+		<PlayerName
+			key="playername-p1"
+			scope={SCOPE_PLAYER_1}
+			name={playerNames[players.PLAYER_1]}
+			setPlayerName={setPlayerName}
+		/>
+		<PlayerName
+			key="playername-p2"
+			scope={SCOPE_PLAYER_2}
+			name={playerNames[players.PLAYER_2]}
+			setPlayerName={setPlayerName}
+		/>
 
-	...(keyboardOpenFor
-		? []
-		: [
-				<PlayerTouchScreen
-					key="ts-p1"
-					scope={SCOPE_PLAYER_1}
-					onClickHundred={() => addHundred(players.PLAYER_1, 1)}
-					onClickFifty={() => addFifty(players.PLAYER_1, 1)}
-					onClickTwenty={() => addTwenty(players.PLAYER_1, 1)}
-					onClickOne={() => openKeyboardForPlayer(players.PLAYER_1)}
-				/>,
-				<PlayerTouchScreen
-					key="ts-p2"
-					scope={SCOPE_PLAYER_2}
-					onClickHundred={() => addHundred(players.PLAYER_2, 1)}
-					onClickFifty={() => addFifty(players.PLAYER_2, 1)}
-					onClickTwenty={() => addTwenty(players.PLAYER_2, 1)}
-					onClickOne={() => openKeyboardForPlayer(players.PLAYER_2)}
-				/>,
-				<GlobalTouchScreen key="ts-g" />,
-		  ]),
-
-	...(keyboardOpenFor === players.PLAYER_1
-		? [
+		{
+			keyboardOpenFor ? null : (
+				<Group>
+					<PlayerTouchScreen
+						key="ts-p1"
+						scope={SCOPE_PLAYER_1}
+						onClickHundred={() => addHundred(players.PLAYER_1, 1)}
+						onClickFifty={() => addFifty(players.PLAYER_1, 1)}
+						onClickTwenty={() => addTwenty(players.PLAYER_1, 1)}
+						onClickOne={() => openKeyboardForPlayer(players.PLAYER_1)}
+					/>
+					<PlayerTouchScreen
+						key="ts-p2"
+						scope={SCOPE_PLAYER_2}
+						onClickHundred={() => addHundred(players.PLAYER_2, 1)}
+						onClickFifty={() => addFifty(players.PLAYER_2, 1)}
+						onClickTwenty={() => addTwenty(players.PLAYER_2, 1)}
+						onClickOne={() => openKeyboardForPlayer(players.PLAYER_2)}
+					/>
+					<GlobalTouchScreen key="ts-g" />
+				</Group>
+			)
+		}
+		{
+			keyboardOpenFor === players.PLAYER_1 ? (
 				<Keyboard
 					key="kb-p1"
 					scope={SCOPE_PLAYER_1}
-					onConfirm={({ me, you }) => {
+					onConfirm={({me, you}) => {
 						const timestamp = Date.now()
 						addPoints(players.PLAYER_1, me, timestamp)
 						you > 0 && addPoints(players.PLAYER_2, you, timestamp)
 					}}
 					closeKeyboard={closeKeyboard}
-				/>,
-		  ]
-		: []),
-	...(keyboardOpenFor === players.PLAYER_2
-		? [
+				/>
+			) : null
+		}
+		{
+			keyboardOpenFor === players.PLAYER_2 ? (
 				<Keyboard
 					key="kb-p2"
 					scope={SCOPE_PLAYER_2}
@@ -119,10 +122,10 @@ const Layers = ({
 						you > 0 && addPoints(players.PLAYER_1, you, timestamp)
 					}}
 					closeKeyboard={closeKeyboard}
-				/>,
-		  ]
-		: []),
-]
+				/>
+			) : null
+		}
+	</Layer>
 
 Layers.propTypes = {
 	score: PropTypes.shape({

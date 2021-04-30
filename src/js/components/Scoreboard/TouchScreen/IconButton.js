@@ -28,7 +28,7 @@ const IconButton = ({
 			...Object.values(topRight),
 			...[bottomLeft.x, topRight.y],
 		]}
-		fill={debug && 'rgba(93,121,255,.2)'}
+		fill={debug ? 'rgba(93,121,255,.2)' : 'transparent'}
 		{...(onStrike && !disabled ? onClick(onStrike) : {})}
 		closed
 		{...bgProps}

@@ -9,7 +9,6 @@ const mapPlayerBoardX = (position, scope) => (scope === SCOPE_PLAYER_2 ? positio
 
 const DimensionProvider = ({ children }) => {
 	const {width, height} = useWindowSizes()
-
 	const getDimensions = (scope) => {
 		const transposed = false // width > height
 		const iconScale = width / 10000
@@ -41,7 +40,7 @@ const DimensionProvider = ({ children }) => {
 		}
 	}
 
-	return <DimensionsContext.Provider
+	return width == undefined ? null : <DimensionsContext.Provider
 		value={{
 			[SCOPE_PLAYER_1]: getDimensions(SCOPE_PLAYER_1),
 			[SCOPE_PLAYER_2]: getDimensions(SCOPE_PLAYER_2),
