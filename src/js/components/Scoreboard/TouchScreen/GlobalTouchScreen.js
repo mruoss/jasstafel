@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { faUndo, faRedo, faEraser, faCode } from '@fortawesome/free-solid-svg-icons'
 
 import { Group } from 'react-konva'
@@ -16,25 +16,13 @@ import IconButton from './IconButton'
 import UseDimensionsContext from '../../DimensionsContext/UseDimensionsContext'
 
 const { undo, redo } = UndoActionCreators
-const mapDispatchToProps = {
-	undo,
-	redo,
-	resetScore,
-	flipBoard,
-}
 
-const mapStateToProps = state => ({
-	isUndoEnabled: selectPastScoreLength(state) > 0,
-	isRedoEnabled: selectFutureScoreLength(state) > 0,
-})
-
-const enhance = connect(
-	mapStateToProps,
-	mapDispatchToProps,
-)
-
-const GlobalTouchScreen = ({ undo, redo, resetScore, flipBoard, isUndoEnabled, isRedoEnabled }) => {
+const GlobalTouchScreen = () => {
+	const isUndoEnabled = useSelector(state => selectPastScoreLength(state) > 0)
+	const isRedoEnabled = useSelector(state => selectFutureScoreLength(state) > 0)
 	const { getPoint, iconScale } = UseDimensionsContext(SCOPE_GLOBAL)
+	const dispatch = useDispatch()
+
 	return (
 		<Group>
 			<IconButton
@@ -43,7 +31,7 @@ const GlobalTouchScreen = ({ undo, redo, resetScore, flipBoard, isUndoEnabled, i
 				topRight={getPoint(8, 46)}
 				iconPosition={getPoint(2, 40)}
 				iconScale={iconScale}
-				onStrike={() => undo()}
+				onStrike={() => dispatch(undo())}
 				disabled={!isUndoEnabled}
 			/>
 			<IconButton
@@ -52,7 +40,7 @@ const GlobalTouchScreen = ({ undo, redo, resetScore, flipBoard, isUndoEnabled, i
 				topRight={getPoint(8, 54)}
 				iconPosition={getPoint(2, 48)}
 				iconScale={iconScale}
-				onStrike={() => redo()}
+				onStrike={() => dispatch(redo())}
 				disabled={!isRedoEnabled}
 			/>
 			<IconButton
@@ -61,7 +49,7 @@ const GlobalTouchScreen = ({ undo, redo, resetScore, flipBoard, isUndoEnabled, i
 				topRight={getPoint(8, 62)}
 				iconPosition={getPoint(2, 56)}
 				iconScale={iconScale}
-				onStrike={() => resetScore()}
+				onStrike={() => dispatch(resetScore())}
 			/>
 			<IconButton
 				iconPath={faCode.icon[4]}
@@ -69,19 +57,10 @@ const GlobalTouchScreen = ({ undo, redo, resetScore, flipBoard, isUndoEnabled, i
 				topRight={getPoint(97, 52)}
 				iconPosition={getPoint(89.5, 48.5)}
 				iconScale={iconScale}
-				onStrike={() => flipBoard()}
+				onStrike={() => dispatch(flipBoard())}
 			/>
 		</Group>
 	)
 }
 
-GlobalTouchScreen.propTypes = {
-	undo: PropTypes.func.isRequired,
-	redo: PropTypes.func.isRequired,
-	resetScore: PropTypes.func.isRequired,
-	flipBoard: PropTypes.func.isRequired,
-	isUndoEnabled: PropTypes.bool,
-	isRedoEnabled: PropTypes.bool,
-}
-
-export default enhance(GlobalTouchScreen)
+export default GlobalTouchScreen
