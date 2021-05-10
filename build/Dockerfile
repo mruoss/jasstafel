@@ -1,6 +1,6 @@
 # syntax = docker/dockerfile:experimental
 
-FROM node:14.16.1-alpine as build
+FROM node:16.1.0-alpine as build
 
 RUN apk update && apk upgrade && apk add \
   build-base \
