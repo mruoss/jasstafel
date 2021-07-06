@@ -83,7 +83,7 @@ const Layers = () =>
 							addPoints(players.PLAYER_1, me, timestamp)
 							you > 0 && dispatch(addPoints(players.PLAYER_2, you, timestamp))
 						}}
-						closeKeyboard={dispatch(closeKeyboard)}
+						closeKeyboard={() => dispatch(closeKeyboard())}
 					/>
 				) : null
 			}
@@ -97,7 +97,7 @@ const Layers = () =>
 							addPoints(players.PLAYER_2, me, timestamp)
 							you > 0 && dispatch(addPoints(players.PLAYER_1, you, timestamp))
 						}}
-						closeKeyboard={dispatch(closeKeyboard)}
+						closeKeyboard={() =>dispatch(closeKeyboard())}
 					/>
 				) : null
 			}
