@@ -3,7 +3,7 @@ const path = require('path')
 
 const cssLoaders = (mode, with_modules) => [
 	{
-		loader: 'css-loader',
+		loader: require.resolve('css-loader'),
 		options: {
 			sourceMap: true,
 			importLoaders: 1, // postcss-loader does not count
@@ -11,14 +11,14 @@ const cssLoaders = (mode, with_modules) => [
 		},
 	},
 	{
-		loader: 'postcss-loader',
+		loader: require.resolve('postcss-loader'),
 		options: {
 			sourceMap: true,
 			plugins: () => [],
 		},
 	},
 	{
-		loader: 'sass-loader',
+		loader: require.resolve('sass-loader'),
 		options: {
 			sourceMap: true,
 		},
@@ -28,7 +28,7 @@ const cssLoaders = (mode, with_modules) => [
 const cssUseEntry = ({ mode, with_modules }) =>
 	mode === 'development'
 		? // dev server
-		  [{ loader: 'style-loader' }, ...cssLoaders(mode, with_modules)]
+		  [{ loader: require.resolve('style-loader') }, ...cssLoaders(mode, with_modules)]
 		: // build client && server
 		  [MiniCssExtractPlugin.loader, ...cssLoaders(mode, with_modules)]
 
@@ -39,7 +39,7 @@ module.exports = ({ mode }) => [
 		test: /\.js$/,
 		exclude: /node_modules/,
 		use: {
-			loader: 'babel-loader',
+			loader: require.resolve('babel-loader'),
 			options: {
 				babelrc: false,
 				presets: [
