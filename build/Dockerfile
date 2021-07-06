@@ -21,7 +21,7 @@ RUN apk update && apk upgrade && apk add \
 
 WORKDIR /app/builder
 
-RUN --mount=type=bind,source=.,target=/app/builder,rw NODE_ENV=production yarn build --output-path=/dist/
+RUN --mount=type=bind,source=.,target=/app/builder,rw yarn install && NODE_ENV=production yarn build --output-path=/dist/
 
 FROM abiosoft/caddy
 

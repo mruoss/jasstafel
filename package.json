@@ -1,6 +1,6 @@
 {
 	"name": "jasstafel",
-	"version": "2.1.1",
+	"version": "2.1.2",
 	"description": "Jasstafel zum Schreiben von Jasspartien",
 	"license": "MIT",
 	"scripts": {

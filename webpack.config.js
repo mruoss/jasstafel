@@ -31,7 +31,7 @@ module.exports = ({ presets }, { mode }) =>
 			},
 			plugins: [
 				new webpack.DefinePlugin({
-					APP_VERSION: JSON.stringify('2.1.1'),
+					APP_VERSION: JSON.stringify('2.1.2'),
 				}),
 				new CleanWebpackPlugin(),
 				new webpack.ProgressPlugin(),
