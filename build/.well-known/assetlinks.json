@@ -1,0 +1,5 @@
+[{
+	"relation": ["delegate_permission/common.handle_all_urls"],
+	"target" : { "namespace": "android_app", "package_name": "ch.michaelruoss.jasstafel",
+					 "sha256_cert_fingerprints": ["98:8B:FA:70:C5:EE:6D:40:B7:73:FD:1E:11:5F:4F:B3:8F:D9:11:92:1C:64:4A:C8:2C:EA:6B:43:04:22:88:8B"] }
+ }]

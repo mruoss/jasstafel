@@ -80,7 +80,7 @@ const Layers = () =>
 						scope={SCOPE_PLAYER_1}
 						onConfirm={({me, you}) => {
 							const timestamp = Date.now()
-							addPoints(players.PLAYER_1, me, timestamp)
+							dispatch(addPoints(players.PLAYER_1, me, timestamp))
 							you > 0 && dispatch(addPoints(players.PLAYER_2, you, timestamp))
 						}}
 						closeKeyboard={() => dispatch(closeKeyboard())}
@@ -94,7 +94,7 @@ const Layers = () =>
 						scope={SCOPE_PLAYER_2}
 						onConfirm={({ me, you }) => {
 							const timestamp = Date.now()
-							addPoints(players.PLAYER_2, me, timestamp)
+							dispatch(addPoints(players.PLAYER_2, me, timestamp))
 							you > 0 && dispatch(addPoints(players.PLAYER_1, you, timestamp))
 						}}
 						closeKeyboard={() =>dispatch(closeKeyboard())}
