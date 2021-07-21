@@ -4,7 +4,7 @@ FROM node:16.5.0-slim as build
 
 WORKDIR /app/builder
 
-RUN --mount=type=bind,source=.,target=/app/builder NODE_ENV=production yarn build --output-path=/dist/
+RUN --mount=type=bind,source=.,target=/app/builder,rw NODE_ENV=production yarn build --output-path=/dist/
 
 FROM abiosoft/caddy
 
