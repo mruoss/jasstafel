@@ -1,27 +1,10 @@
 # syntax = docker/dockerfile:experimental
 
-FROM node:16.5.0-alpine as build
-
-RUN apk update && apk upgrade && apk add \
-  build-base \
-  alpine-sdk \
-  autoconf \
-  automake \
-  git \
-  nasm \
-  libjpeg-turbo \
-  libjpeg-turbo-dev \
-  libpng \
-  libpng-dev \
-  libtool \
-  libwebp \
-  libwebp-dev \
-  zlib \
-  zlib-dev
+FROM node:16.5.0-slim as build
 
 WORKDIR /app/builder
 
-RUN --mount=type=bind,source=.,target=/app/builder,rw NODE_ENV=production yarn build --output-path=/dist/
+RUN --mount=type=bind,source=.,target=/app/builder NODE_ENV=production yarn build --output-path=/dist/
 
 FROM abiosoft/caddy
 
