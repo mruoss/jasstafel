@@ -14,7 +14,6 @@ const cssLoaders = (mode, with_modules) => [
 		loader: require.resolve('postcss-loader'),
 		options: {
 			sourceMap: true,
-			plugins: () => [],
 		},
 	},
 	{
