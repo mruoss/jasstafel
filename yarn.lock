@@ -3250,7 +3250,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:3.5.2":
+"chokidar@npm:3.5.2, chokidar@npm:>=3.0.0 <4.0.0":
   version: 3.5.2
   resolution: "chokidar@npm:3.5.2"
   dependencies:
@@ -6938,6 +6938,7 @@ fsevents@^1.2.7:
     redux: ^4.1.0
     redux-undo: ^1.0.1
     reselect: ^4.0.0
+    sass: ^1.35.2
     sass-lint: ^1.13.1
     sass-loader: ^12.1.0
     style-loader: ^3.2.1
@@ -9922,6 +9923,17 @@ resolve@^2.0.0-next.3:
     sass:
       optional: true
   checksum: 75f523e64ce00f495d0a510ecd9719f8ea3be128a295e0c9b8fb33029a355b7842729c0900b4f05605fa97d8dfc87a9a627ae2ec9ff1b39c21612cdb00a967f2
+  languageName: node
+  linkType: hard
+
+"sass@npm:^1.35.2":
+  version: 1.35.2
+  resolution: "sass@npm:1.35.2"
+  dependencies:
+    chokidar: ">=3.0.0 <4.0.0"
+  bin:
+    sass: sass.js
+  checksum: d102e3fd6e6aa1a61f9c765fb31ff701d78ef05cf256ebb9ed80994c86638dcc8cc71832df1a1f71edce427cf823449c2fc43618b29ad51a8ca5bf93349ccaf4
   languageName: node
   linkType: hard
 
