@@ -6,6 +6,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 const path = require('path')
 const { merge } = require('webpack-merge')
+const PnpWebpackPlugin = require(`pnp-webpack-plugin`);
 
 const rules = require('./webpack/rules')
 const loadPresets = require('./webpack/loadPresets')
@@ -28,6 +29,16 @@ module.exports = ({ presets }, { mode }) =>
 				inline: true,
 				port: process.env.PORT,
 				host: '0.0.0.0',
+			},
+			resolve: {
+				plugins: [
+					PnpWebpackPlugin,
+				],
+			},
+			resolveLoader: {
+				plugins: [
+					PnpWebpackPlugin.moduleLoader(module),
+				],
 			},
 			plugins: [
 				new webpack.DefinePlugin({
