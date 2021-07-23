@@ -2,4 +2,5 @@
   root /app
   log stdout
   errors stdout
+  header /.well-known/* Cache-Control no-cache
 }
