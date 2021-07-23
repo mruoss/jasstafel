@@ -7,35 +7,54 @@ import useWindowSizes from '../../hooks/UseWindowSizes'
 const mapPlayerBoardY = (position, scope) => (scope === SCOPE_PLAYER_2 ? 100 - position / 2 : position / 2)
 const mapPlayerBoardX = (position, scope) => (scope === SCOPE_PLAYER_2 ? position : 100 - position)
 
+const doRotate = (angle, {centerX, centerY}) => ({x, y}) => ({
+	x: (x - centerX) * Math.cos(angle) - (y - centerY) * Math.sin(angle) + centerX,
+	y: (x - centerX) * Math.sin(angle) + (y - centerY) * Math.cos(angle) + centerY,
+})
+
+const doScale = (scale, {width, height}) => ({x, y}) => {
+	if (!scale) return {x, y}
+	return {
+		x: (x - width / 2) / height * width + width / 2,
+		y: (y - height / 2) / width * height + height / 2,
+	}
+}
+
 const DimensionProvider = ({ children }) => {
 	const {width, height} = useWindowSizes()
+	const centerX = width / 2
+	const centerY = height / 2
+	const angle = (width < height) ? 0 : Math.PI / 2
+	const angleDeg = (width < height) ? 0 : 90
+
+	const rotate = doRotate(angle, {centerX, centerY})
+	const rotateReverse = doRotate(-angle, {centerX, centerY})
+	const scale = doScale(width > height, {width, height})
+	const scaleReverse = doScale(width > height, {height, width})
 	const getDimensions = (scope) => {
-		const transposed = false // width > height
 		const iconScale = width / 10000
-		const boardWidth = transposed ? height : width
-		const boardHeight = transposed ? width : height
 		const getScreenPointByPercentage = (scopeX, scopeY) => {
 			const boardX = scope === SCOPE_GLOBAL ? scopeX : mapPlayerBoardX(scopeX, scope)
 			const boardY = scope === SCOPE_GLOBAL ? scopeY : mapPlayerBoardY(scopeY, scope)
-
-			return {
-				x: (width / 100) * (transposed ? boardY : boardX),
-				y: (height / 100) * (transposed ? 100 - boardX : boardY),
-			}
+			return scale(rotate({
+				x: (width / 100) * boardX,
+				y: (height / 100) * boardY,
+			}))
 		}
 		const getScopePointByPercentage = (x, y) => {
+			const {x: rotX, y: rotY} = scaleReverse(rotateReverse({x, y}))
 			return {
-				x: ((transposed ? y : x) * 100) / width,
-				y: ((transposed ? 100 - x : y) * 100) / height,
+				x: (rotX * 100) / width,
+				y: (rotY * 100) / height,
 			}
 		}
 		return {
-			width: boardWidth,
-			height: boardHeight,
+			width: width,
+			height: height,
 			getPoint: getScreenPointByPercentage,
 			getPointReverse: getScopePointByPercentage,
-			rotation: (scope === SCOPE_PLAYER_1 ? (transposed ? 0.5 : 1) : transposed ? 1.5 : 0) * Math.PI,
-			rotationDeg: scope === SCOPE_PLAYER_1 ? (transposed ? 90 : 180) : transposed ? 270 : 0,
+			rotation: (scope === SCOPE_PLAYER_1 ? 1 : 0) * Math.PI + angle,
+			rotationDeg: (scope === SCOPE_PLAYER_1 ? 180 : 0) + angleDeg,
 			iconScale: { x: iconScale, y: iconScale },
 		}
 	}

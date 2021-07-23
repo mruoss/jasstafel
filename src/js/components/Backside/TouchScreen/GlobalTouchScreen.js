@@ -15,7 +15,7 @@ import UseDimensionsContext from '../../DimensionsContext/UseDimensionsContext'
 
 const GlobalTouchScreen = () => {
 	const dispatch = useDispatch()
-	const { getPoint, iconScale } = UseDimensionsContext(SCOPE_GLOBAL)
+	const { getPoint, iconScale, rotationDeg } = UseDimensionsContext(SCOPE_GLOBAL)
 
 	return (
 		<Group>
@@ -26,6 +26,7 @@ const GlobalTouchScreen = () => {
 				iconPosition={getPoint(89.5, 48.5)}
 				iconScale={iconScale}
 				onStrike={() => dispatch(flipBoard())}
+				rotation={rotationDeg}
 			/>
 			<IconButton
 				iconPath={faEraser.icon[4]}
@@ -34,6 +35,7 @@ const GlobalTouchScreen = () => {
 				iconPosition={getPoint(2, 48)}
 				iconScale={iconScale}
 				onStrike={() => dispatch(clearBackside())}
+				rotation={rotationDeg}
 			/>
 		</Group>
 	)

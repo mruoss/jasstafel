@@ -30,7 +30,7 @@ const Lines = () => {
 		setDrawer({drawing: false, points: []})
 	}
 
-	const { getPoint, iconScale, getPointReverse } = UseDimensionsContext(SCOPE_GLOBAL)
+	const { getPoint, iconScale, getPointReverse, rotationDeg } = UseDimensionsContext(SCOPE_GLOBAL)
 
 	return (
 		<Group>
@@ -39,6 +39,7 @@ const Lines = () => {
 				fill="#666"
 				data={faPencilAlt.icon[4]}
 				scale={{ x: iconScale.x * 3, y: iconScale.y * 3 }}
+				rotation={rotationDeg}
 			/>
 			{backsideLines.map((line, key) => (
 				<Line

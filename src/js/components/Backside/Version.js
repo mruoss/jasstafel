@@ -7,13 +7,14 @@ import { SCOPE_GLOBAL } from '../DimensionsContext/context'
 import UseDimensionsContext from '../DimensionsContext/UseDimensionsContext'
 
 const Version = () => {
-	const { getPoint, iconScale, getPointReverse } = UseDimensionsContext(SCOPE_GLOBAL)
+	const { getPoint, rotation } = UseDimensionsContext(SCOPE_GLOBAL)
 
 	return (
 		<Group>
 			<Shape
 				{...getPoint(98, 98)}
 				sceneFunc={ctx => {
+					ctx.rotate(rotation)
 					ctx.textAlign = 'right'
 					ctx.font = `1.5vmin ${fontText}`
 					ctx.fillStyle = '#ffffff'
