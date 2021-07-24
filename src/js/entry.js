@@ -4,7 +4,7 @@ import { Provider as ReduxProvider } from 'react-redux'
 import { render } from 'react-dom'
 import '../sass/global.sass'
 import { createStore, compose } from 'redux'
-
+import { saveState, loadState } from './localStorage'
 import Jasstafel from './components/Jasstafel'
 
 import reducer from './reducers'
@@ -24,7 +24,14 @@ window.addEventListener('load', () => {
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 const enhancer = composeEnhancers()
 
-const store = createStore(reducer, {}, enhancer)
+const store = createStore(reducer, loadState(), enhancer)
+
+store.subscribe(() => {
+  saveState({
+	  backside: store.getState().backside,
+	  score: store.getState().score,
+  });
+});
 
 const appRootElement = document.getElementById('jasstafel')
 render(

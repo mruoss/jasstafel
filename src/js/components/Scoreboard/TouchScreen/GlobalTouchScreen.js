@@ -11,7 +11,6 @@ import { resetScore } from '../../../actions/score'
 import { flipBoard } from '../../../actions/ui'
 import { selectPastScoreLength, selectFutureScoreLength } from '../../../selectors/score'
 
-import DimensionsConsumer from '../../DimensionsContext/DimensionsConsumer'
 import IconButton from './IconButton'
 import UseDimensionsContext from '../../DimensionsContext/UseDimensionsContext'
 
