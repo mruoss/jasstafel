@@ -22,6 +22,7 @@ const doScale = (scale, {width, height}) => ({x, y}) => {
 
 const DimensionProvider = ({ children }) => {
 	const {width, height} = useWindowSizes()
+	const iconScale = Math.min(width,height) / 10000
 	const centerX = width / 2
 	const centerY = height / 2
 	const angle = (width < height) ? 0 : Math.PI / 2
@@ -32,7 +33,6 @@ const DimensionProvider = ({ children }) => {
 	const scale = doScale(width > height, {width, height})
 	const scaleReverse = doScale(width > height, {height, width})
 	const getDimensions = (scope) => {
-		const iconScale = width / 10000
 		const getScreenPointByPercentage = (scopeX, scopeY) => {
 			const boardX = scope === SCOPE_GLOBAL ? scopeX : mapPlayerBoardX(scopeX, scope)
 			const boardY = scope === SCOPE_GLOBAL ? scopeY : mapPlayerBoardY(scopeY, scope)
