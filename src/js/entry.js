@@ -27,10 +27,7 @@ const enhancer = composeEnhancers()
 const store = createStore(reducer, loadState(), enhancer)
 
 store.subscribe(() => {
-  saveState({
-	  backside: store.getState().backside,
-	  score: store.getState().score,
-  });
+  saveState(store.getState());
 });
 
 const appRootElement = document.getElementById('jasstafel')
