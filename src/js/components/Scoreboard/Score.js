@@ -3,9 +3,8 @@ import PropTypes from 'prop-types'
 import { strokeWidth, fontText } from '../../constants/board'
 import { scoreShape } from '../../constants/prop-types'
 
-import { Group, Image, Line, Shape } from 'react-konva'
+import { Group, Line, Shape } from 'react-konva'
 import { getNumericScore } from '../../helpers/score'
-import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
 import UseDimensionsContext from '../DimensionsContext/UseDimensionsContext'
 
 const Score = ({ scope, score }) => {
@@ -111,7 +110,6 @@ const Score = ({ scope, score }) => {
 				ctx.fillStyle = 'white'
 				ctx.font = `6vmin ${fontText}`
 				ctx.fillText(score.one, 0, 0)
-				ctx.fill()
 			}}
 		/>
 		<Shape
@@ -123,7 +121,6 @@ const Score = ({ scope, score }) => {
 				ctx.textBaseline = 'middle'
 				ctx.font = `24vmin ${fontText}`
 				ctx.fillText(getNumericScore(score), 0, 0)
-				ctx.fill()
 			}}
 		/>
 	</Group>
