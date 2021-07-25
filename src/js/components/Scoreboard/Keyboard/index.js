@@ -30,12 +30,16 @@ const Keyboard = ({
 
 	const addDigit = (digit) => {
 		const newNumber = 10 * points + digit
-		setPoints(newNumber > 10000 ? points : newNumber)
+		setPoints(newNumber > 257 ? 257 : newNumber)
 	}
 	const removeDigit = () => setPoints(Math.floor(points / 10))
 	const resetPoints = () => setPoints(0)
 
 	const { getPoint, rotation, rotationDeg, iconScale } = UseDimensionsContext(scope)
+
+	const factorButtonWidth = 14
+	const factorButtonHeight = 13
+	const factorButtonGap = 1.5
 
 	return (
 		<Group>
@@ -186,9 +190,9 @@ const Keyboard = ({
 			/>
 			<Key
 				text="1x"
-				bottomLeft={getPoint(29, 45)}
-				topRight={getPoint(42, 59)}
-				textPosition={getPoint(35.5, 51.5)}
+				bottomLeft={getPoint(50 - 2 * factorButtonWidth, 45)}
+				topRight={getPoint(50 - 1 * factorButtonWidth - factorButtonGap, 59)}
+				textPosition={getPoint(50 - 2 * factorButtonWidth + 6.5, 51.5)}
 				rotation={rotation}
 				onStrike={() => {
 					if (points < 1) {
@@ -204,9 +208,9 @@ const Keyboard = ({
 			/>
 			<Key
 				text="2x"
-				bottomLeft={getPoint(43.5, 45)}
-				topRight={getPoint(56.5, 59)}
-				textPosition={getPoint(50, 51.5)}
+				bottomLeft={getPoint(50 - 1 * factorButtonWidth, 45)}
+				topRight={getPoint(50 - 0 * factorButtonWidth - factorButtonGap, 59)}
+				textPosition={getPoint(50 - 1 * factorButtonWidth + 6.5, 51.5)}
 				rotation={rotation}
 				onStrike={() => {
 					if (points < 1) {
@@ -222,9 +226,9 @@ const Keyboard = ({
 			/>
 			<Key
 				text="3x"
-				bottomLeft={getPoint(58, 45)}
-				topRight={getPoint(71, 59)}
-				textPosition={getPoint(64.5, 51.5)}
+				bottomLeft={getPoint(50 + 0 * factorButtonWidth, 45)}
+				topRight={getPoint(50 + 1 * factorButtonWidth - factorButtonGap, 59)}
+				textPosition={getPoint(50 + 0 * factorButtonWidth + 6.5, 51.5)}
 				rotation={rotation}
 				onStrike={() => {
 					if (points < 1) {
@@ -239,10 +243,28 @@ const Keyboard = ({
 				}}
 			/>
 			<Key
+				text="4x"
+				bottomLeft={getPoint(50 + 1 * factorButtonWidth, 45)}
+				topRight={getPoint(50 + 2 * factorButtonWidth - factorButtonGap, 59)}
+				textPosition={getPoint(50 + 1 * factorButtonWidth + 6.5, 51.5)}
+				rotation={rotation}
+				onStrike={() => {
+					if (points < 1) {
+						return
+					}
+					onConfirm(keyboardToPoints(points, 4, complementOn))
+					resetPoints()
+					closeKeyboard()
+				}}
+				bgProps={{
+					fill: keyboardTripleBgColor,
+				}}
+			/>
+			<Key
 				text="257"
-				bottomLeft={getPoint(29, 28)}
-				topRight={getPoint(42, 42)}
-				textPosition={getPoint(35.5, 34)}
+				bottomLeft={getPoint(50 - 2 * factorButtonWidth, 28)}
+				topRight={getPoint(50 - 1 * factorButtonWidth - factorButtonGap, 42)}
+				textPosition={getPoint(50 - 2 * factorButtonWidth + 6.5, 34)}
 				rotation={rotation}
 				onStrike={() => {
 					onConfirm(keyboardToPoints(257, 1, false))
@@ -255,9 +277,9 @@ const Keyboard = ({
 			/>
 			<Key
 				text="514"
-				bottomLeft={getPoint(43.5, 28)}
-				topRight={getPoint(56.5, 42)}
-				textPosition={getPoint(50, 34)}
+				bottomLeft={getPoint(50 - 1 * factorButtonWidth, 28)}
+				topRight={getPoint(50 - 0 * factorButtonWidth - factorButtonGap, 42)}
+				textPosition={getPoint(50 - 1 * factorButtonWidth + 6.5, 34)}
 				rotation={rotation}
 				onStrike={() => {
 					onConfirm(keyboardToPoints(257, 2, false))
@@ -270,12 +292,27 @@ const Keyboard = ({
 			/>
 			<Key
 				text="771"
-				bottomLeft={getPoint(58, 28)}
-				topRight={getPoint(71, 42)}
-				textPosition={getPoint(64.5, 34)}
+				bottomLeft={getPoint(50 + 0 * factorButtonWidth, 28)}
+				topRight={getPoint(50 + 1 * factorButtonWidth - factorButtonGap, 42)}
+				textPosition={getPoint(50 + 0 * factorButtonWidth + 6.5, 34)}
 				rotation={rotation}
 				onStrike={() => {
 					onConfirm(keyboardToPoints(257, 3, false))
+					resetPoints()
+					closeKeyboard()
+				}}
+				bgProps={{
+					fill: keyboardTripleBgColor,
+				}}
+			/>
+			<Key
+				text="1028"
+				bottomLeft={getPoint(50 + 1 * factorButtonWidth, 28)}
+				topRight={getPoint(50 + 2 * factorButtonWidth - factorButtonGap, 42)}
+				textPosition={getPoint(50 + 1 * factorButtonWidth + 6, 34)}
+				rotation={rotation}
+				onStrike={() => {
+					onConfirm(keyboardToPoints(257, 4, false))
 					resetPoints()
 					closeKeyboard()
 				}}
