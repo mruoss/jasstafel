@@ -31,11 +31,11 @@ const Layers = () =>
 		<Layer>
 			<Blackboard key="blackboard"/>
 
-			<Score key="score-p1" scope={SCOPE_PLAYER_1} score={score[players.PLAYER_1]} />
-			<Score key="score-p2" scope={SCOPE_PLAYER_2} score={score[players.PLAYER_2]} />
-
 			<Z key="z-p1" scope={SCOPE_PLAYER_1} />
 			<Z key="z-p2" scope={SCOPE_PLAYER_2} />
+
+			<Score key="score-p1" scope={SCOPE_PLAYER_1} score={score[players.PLAYER_1]} />
+			<Score key="score-p2" scope={SCOPE_PLAYER_2} score={score[players.PLAYER_2]} />
 
 			<PlayerName
 				key="playername-p1"
