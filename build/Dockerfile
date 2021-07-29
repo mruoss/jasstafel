@@ -13,5 +13,6 @@ WORKDIR /app
 COPY --from=build /dist/ /app/
 COPY ./src/assets/ /app/
 COPY ./build/.well-known/ /app/.well-known/
+COPY ./build/privacy-policy.md /app/privacy-policy.md
 
 COPY build/caddy/Caddyfile /etc/Caddyfile
