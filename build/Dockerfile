@@ -1,6 +1,6 @@
 # syntax = docker/dockerfile:experimental
 
-FROM node:16.5.0-slim as build
+FROM node:16.6.0-slim as build
 
 WORKDIR /app/builder
 
