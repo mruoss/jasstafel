@@ -26,7 +26,6 @@ module.exports = ({ presets }, { mode }) =>
 				assetModuleFilename: 'assets/[hash][ext][query]'
 			},
 			devServer: {
-				inline: true,
 				port: process.env.PORT,
 				host: '0.0.0.0',
 			},

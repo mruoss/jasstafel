@@ -12,8 +12,8 @@
 		"lint:js": "eslint src/js/",
 		"lint:sass": "sass-lint -c .sass-lint.yml -v -q --max-warnings 0",
 		"prettier": "prettier --write '**/*.js'",
-		"start": "webpack serve --content-base public/ --open --mode development --hot",
-		"start:sw": "webpack serve --content-base public/ --open --mode development --env presets=serviceworker",
+		"start": "webpack serve --static-public-path public/ --open --mode development --hot",
+		"start:sw": "webpack serve --static-public-path public/ --open --mode development --env presets=serviceworker",
 		"test": "mocha --require babel-register ./tests/**/*.js"
 	},
 	"dependencies": {
@@ -74,7 +74,7 @@
 		"style-loader": "^3.2.1",
 		"webpack": "^5.51.1",
 		"webpack-cli": "4.8.0",
-		"webpack-dev-server": "^3.11.2",
+		"webpack-dev-server": "^4.0.0",
 		"webpack-merge": "^5.8.0"
 	}
 }
