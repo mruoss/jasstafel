@@ -3602,10 +3602,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.16.2":
-  version: 3.16.2
-  resolution: "core-js@npm:3.16.2"
-  checksum: a6785c7b2f0170a0edc3a5ed98d6700a36d1e7ccc3e1a972419cb6bba6363f0119d884cf2e5dd496f11e2b0a45095643050b9567d328fb7e02cf9295fb4d87df
+"core-js@npm:3.17.1":
+  version: 3.17.1
+  resolution: "core-js@npm:3.17.1"
+  checksum: e71e2546126856a88d525240e2d1ca0e8d283660d46b81064a730e26c212c9a16541aca3ebd96fff8d1b1b1c7739c2c2a993fa333653404998eaf9bfdbeef7d2
   languageName: node
   linkType: hard
 
@@ -4569,18 +4569,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^3.4.1":
-  version: 3.4.1
-  resolution: "eslint-plugin-prettier@npm:3.4.1"
+"eslint-plugin-prettier@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "eslint-plugin-prettier@npm:4.0.0"
   dependencies:
     prettier-linter-helpers: ^1.0.0
   peerDependencies:
-    eslint: ">=5.0.0"
-    prettier: ">=1.13.0"
+    eslint: ">=7.28.0"
+    prettier: ">=2.0.0"
   peerDependenciesMeta:
     eslint-config-prettier:
       optional: true
-  checksum: 191173e52fafb168af6ac65a9b882f2fc1b2dc979d7c893cec26637c612c7b62dc69df22faf4e80d4e17e5320ba061fc627b59d29512e5ddb42dedcd72966613
+  checksum: 6ae81c8c43d760ffb4a63ea2e343ac119b76fdd2a92e192dc55148616a748d6a95a00dcb6c09f66b61407965cf354546f7cffa4da519c3fa6da70c86c0eb8393
   languageName: node
   linkType: hard
 
@@ -6484,7 +6484,7 @@ __metadata:
     chai-match-pattern: ^1.2.0
     clean-webpack-plugin: ^4.0.0-alpha.0
     copy-webpack-plugin: ^9.0.1
-    core-js: 3.16.2
+    core-js: 3.17.1
     css-loader: ^6.2.0
     eslint: ^7.32.0
     eslint-config-prettier: ^8.3.0
@@ -6495,7 +6495,7 @@ __metadata:
     eslint-plugin-import: ^2.24.1
     eslint-plugin-jasmine: ^4.1.2
     eslint-plugin-lodash-fp: ^2.2.0-a1
-    eslint-plugin-prettier: ^3.4.1
+    eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.24.0
     html-webpack-plugin: ^5.3.2
     konva: ^8.1.3
