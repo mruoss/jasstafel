@@ -3961,7 +3961,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["@fortawesome/fontawesome-common-types", [
         ["npm:0.2.36", {
-          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-common-types-npm-0.2.36-4ead73741a/node_modules/@fortawesome/fontawesome-common-types/",
+          "packageLocation": "./.yarn/cache/@fortawesome-fontawesome-common-types-npm-0.2.36-4ead73741a-a923cb94de.zip/node_modules/@fortawesome/fontawesome-common-types/",
           "packageDependencies": [
             ["@fortawesome/fontawesome-common-types", "npm:0.2.36"]
           ],
@@ -3970,7 +3970,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["@fortawesome/free-solid-svg-icons", [
         ["npm:5.15.4", {
-          "packageLocation": "./.yarn/unplugged/@fortawesome-free-solid-svg-icons-npm-5.15.4-6d9ac1e440/node_modules/@fortawesome/free-solid-svg-icons/",
+          "packageLocation": "./.yarn/cache/@fortawesome-free-solid-svg-icons-npm-5.15.4-6d9ac1e440-65c3d37587.zip/node_modules/@fortawesome/free-solid-svg-icons/",
           "packageDependencies": [
             ["@fortawesome/free-solid-svg-icons", "npm:5.15.4"],
             ["@fortawesome/fontawesome-common-types", "npm:0.2.36"]
@@ -6286,14 +6286,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["core-js", [
         ["npm:2.6.11", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-2.6.11-15178ded27/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-2.6.11-15178ded27-39ad00b46d.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:2.6.11"]
           ],
           "linkType": "HARD",
         }],
         ["npm:3.18.0", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-3.18.0-0e015720b9/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-3.18.0-0e015720b9-a37d8abbfd.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:3.18.0"]
           ],
@@ -6921,7 +6921,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["ejs", [
         ["npm:2.7.4", {
-          "packageLocation": "./.yarn/unplugged/ejs-npm-2.7.4-879ed38a4e/node_modules/ejs/",
+          "packageLocation": "./.yarn/cache/ejs-npm-2.7.4-879ed38a4e-f066d9a932.zip/node_modules/ejs/",
           "packageDependencies": [
             ["ejs", "npm:2.7.4"]
           ],
