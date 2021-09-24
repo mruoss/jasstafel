@@ -1,13 +1,9 @@
 {
-  "extends": [
-    "group:all",
-    ":ignoreUnstable",
-    ":semanticPrefixFixDepsChoreOthers",
-    ":updateNotScheduled",
-    ":automergeDisabled",
-    ":preserveSemverRanges",
-    "schedule:earlyMondays"
-  ],
+  "extends": ["github>renovatebot/.github"],
+  "semanticCommitScope": "deps",
   "dependencyDashboard": true,
-  "ignoreDeps": []
+  "ignoreDeps": [],
+  "dockerfile": {
+    "semanticCommitType": "build"
+  }
 }
