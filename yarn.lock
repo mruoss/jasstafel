@@ -1993,7 +1993,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/free-solid-svg-icons@npm:^5.15.4":
+"@fortawesome/free-solid-svg-icons@npm:5.15.4":
   version: 5.15.4
   resolution: "@fortawesome/free-solid-svg-icons@npm:5.15.4"
   dependencies:
@@ -6791,7 +6791,7 @@ __metadata:
     "@babel/plugin-proposal-object-rest-spread": 7.15.6
     "@babel/preset-env": 7.15.6
     "@babel/preset-react": 7.14.5
-    "@fortawesome/free-solid-svg-icons": ^5.15.4
+    "@fortawesome/free-solid-svg-icons": 5.15.4
     ansi-html: "npm:ansi-html-community@0.0.8"
     babel-eslint: 10.1.0
     babel-loader: 8.2.2
