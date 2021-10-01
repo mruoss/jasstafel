@@ -6822,7 +6822,7 @@ __metadata:
     mocha: 9.1.1
     node-sass: 6.0.1
     pnp-webpack-plugin: 1.7.0
-    postcss: 8.3.7
+    postcss: 8.3.8
     postcss-loader: 6.1.1
     prettier: 2.4.1
     prop-types: 15.7.2
@@ -7781,10 +7781,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanocolors@npm:^0.1.5":
-  version: 0.1.12
-  resolution: "nanocolors@npm:0.1.12"
-  checksum: be3529320c895fcd16b79185c830c3c997c83026ca14d1119025d817b9ddcf175ac2b04b50f7e8928edf4082b98a0a106e6723ebc5ad73ccfd7366aeb8ce66a6
+"nanocolors@npm:^0.2.2":
+  version: 0.2.12
+  resolution: "nanocolors@npm:0.2.12"
+  checksum: 6f66a8cccb3bf419aacc9ec416dc948d4cea10681f6cf19ecfebdf707b593ea53f6dd6d675128c41e0a4164e734e54497beb20ddd00dacd859c4b5cad2a8c60f
   languageName: node
   linkType: hard
 
@@ -8689,14 +8689,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.3.7":
-  version: 8.3.7
-  resolution: "postcss@npm:8.3.7"
+"postcss@npm:8.3.8":
+  version: 8.3.8
+  resolution: "postcss@npm:8.3.8"
   dependencies:
-    nanocolors: ^0.1.5
+    nanocolors: ^0.2.2
     nanoid: ^3.1.25
     source-map-js: ^0.6.2
-  checksum: cbcef5f8be9120336cb5dac6681025e9af34d664a5dbde61ab08c557c7a9030411577464b213e35d0f4d5e4a7d3e2cfee073975ac48c80e37f6384a5aa81a7b7
+  checksum: bea4f2f367c803739ca89c6773aa80ecad6480171db7e1ebb211fabe7eaf7ff68b3b4d007e41f84d561344a588d62d1b50b3e46e1f5c368712100df553fc09ca
   languageName: node
   linkType: hard
 
