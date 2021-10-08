@@ -6846,7 +6846,7 @@ __metadata:
     sass-loader: 12.1.0
     style-loader: 3.3.0
     styled-components: 5.3.1
-    webpack: 5.55.1
+    webpack: 5.56.0
     webpack-cli: 4.8.0
     webpack-dev-server: 4.3.0
     webpack-merge: 5.8.0
@@ -11096,9 +11096,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.55.1":
-  version: 5.55.1
-  resolution: "webpack@npm:5.55.1"
+"webpack@npm:5.56.0":
+  version: 5.56.0
+  resolution: "webpack@npm:5.56.0"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -11129,7 +11129,7 @@ resolve@^2.0.0-next.3:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 2f1ab7f0ea96d9f4729935192a778123b615477466f7a3c927a0f8ca1f94473fe681ef28be992f0e092c97a8104563f46647eb70ae16884ca41108e9739e42a4
+  checksum: 0c4239ee666ae2e94a8b080ffd0cc55d931564cc8eabd824a4a46b9ac86e5b6b2760a7c7a17a2d4060206fbb9196e75c0008b309bd0a35a383647b3165845da0
   languageName: node
   linkType: hard
 
