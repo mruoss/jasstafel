@@ -75,7 +75,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mocha", "npm:9.1.2"],
             ["node-sass", "npm:6.0.1"],
             ["pnp-webpack-plugin", "npm:1.7.0"],
-            ["postcss", "npm:8.3.8"],
+            ["postcss", "npm:8.3.9"],
             ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.1"],
             ["prettier", "npm:2.4.1"],
             ["prop-types", "npm:15.7.2"],
@@ -9793,7 +9793,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mocha", "npm:9.1.2"],
             ["node-sass", "npm:6.0.1"],
             ["pnp-webpack-plugin", "npm:1.7.0"],
-            ["postcss", "npm:8.3.8"],
+            ["postcss", "npm:8.3.9"],
             ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.1"],
             ["prettier", "npm:2.4.1"],
             ["prop-types", "npm:15.7.2"],
@@ -10846,15 +10846,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["nanocolors", [
-        ["npm:0.2.12", {
-          "packageLocation": "./.yarn/cache/nanocolors-npm-0.2.12-f605aa543e-6f66a8cccb.zip/node_modules/nanocolors/",
-          "packageDependencies": [
-            ["nanocolors", "npm:0.2.12"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["nanoid", [
         ["npm:3.1.23", {
           "packageLocation": "./.yarn/cache/nanoid-npm-3.1.23-5f6acb650d-e6dea1da5a.zip/node_modules/nanoid/",
@@ -10867,6 +10858,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/nanoid-npm-3.1.25-c8f62ce160-caab76af9a.zip/node_modules/nanoid/",
           "packageDependencies": [
             ["nanoid", "npm:3.1.25"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:3.1.29", {
+          "packageLocation": "./.yarn/cache/nanoid-npm-3.1.29-17cd9c0f26-7f57549427.zip/node_modules/nanoid/",
+          "packageDependencies": [
+            ["nanoid", "npm:3.1.29"]
           ],
           "linkType": "HARD",
         }]
@@ -11624,6 +11622,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["picocolors", [
+        ["npm:0.2.1", {
+          "packageLocation": "./.yarn/cache/picocolors-npm-0.2.1-fa0e648c44-84da675558.zip/node_modules/picocolors/",
+          "packageDependencies": [
+            ["picocolors", "npm:0.2.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["picomatch", [
         ["npm:2.2.2", {
           "packageLocation": "./.yarn/cache/picomatch-npm-2.2.2-1ce736a913-20fa75e0a5.zip/node_modules/picomatch/",
@@ -11753,12 +11760,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:8.3.8", {
-          "packageLocation": "./.yarn/cache/postcss-npm-8.3.8-adce56afd5-bea4f2f367.zip/node_modules/postcss/",
+        ["npm:8.3.9", {
+          "packageLocation": "./.yarn/cache/postcss-npm-8.3.9-f40ddb7d0e-f67654ab01.zip/node_modules/postcss/",
           "packageDependencies": [
-            ["postcss", "npm:8.3.8"],
-            ["nanocolors", "npm:0.2.12"],
-            ["nanoid", "npm:3.1.25"],
+            ["postcss", "npm:8.3.9"],
+            ["nanoid", "npm:3.1.29"],
+            ["picocolors", "npm:0.2.1"],
             ["source-map-js", "npm:0.6.2"]
           ],
           "linkType": "HARD",
@@ -11780,7 +11787,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webpack", null],
             ["cosmiconfig", "npm:7.0.0"],
             ["klona", "npm:2.0.4"],
-            ["postcss", "npm:8.3.8"],
+            ["postcss", "npm:8.3.9"],
             ["semver", "npm:7.3.5"],
             ["webpack", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.56.1"]
           ],

@@ -6829,7 +6829,7 @@ __metadata:
     mocha: 9.1.2
     node-sass: 6.0.1
     pnp-webpack-plugin: 1.7.0
-    postcss: 8.3.8
+    postcss: 8.3.9
     postcss-loader: 6.1.1
     prettier: 2.4.1
     prop-types: 15.7.2
@@ -7787,14 +7787,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanocolors@npm:^0.2.2":
-  version: 0.2.12
-  resolution: "nanocolors@npm:0.2.12"
-  checksum: 6f66a8cccb3bf419aacc9ec416dc948d4cea10681f6cf19ecfebdf707b593ea53f6dd6d675128c41e0a4164e734e54497beb20ddd00dacd859c4b5cad2a8c60f
-  languageName: node
-  linkType: hard
-
-"nanoid@npm:3.1.25, nanoid@npm:^3.1.25":
+"nanoid@npm:3.1.25":
   version: 3.1.25
   resolution: "nanoid@npm:3.1.25"
   bin:
@@ -7809,6 +7802,15 @@ __metadata:
   bin:
     nanoid: bin/nanoid.cjs
   checksum: e6dea1da5a593ffdc8cf2676d1d02f0626f07a54a5947a7a1f5ff1fd07901b2f53044c285e98b87eb367f016fde285fd8785d54a2dceeab9c3721f4e618f8326
+  languageName: node
+  linkType: hard
+
+"nanoid@npm:^3.1.28":
+  version: 3.1.29
+  resolution: "nanoid@npm:3.1.29"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: 7f57549427b666073d1f8bd9e22f5253ec561b8fc39203f1c827958215f5c5a74fc522956559af6add111cc6e12c2fa02943791208e12400e1903c0c8f569d6b
   languageName: node
   linkType: hard
 
@@ -8501,6 +8503,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"picocolors@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "picocolors@npm:0.2.1"
+  checksum: 84da675558ed004c61a7fa7b0bcce6338c8e3ef1eadb43b5263059d1d745f4567464aa6aa603c506a82942a5a7dfda5bb023605a5f4c9888d7adc154845d579e
+  languageName: node
+  linkType: hard
+
 "picomatch@npm:^2.0.4, picomatch@npm:^2.0.5, picomatch@npm:^2.2.1, picomatch@npm:^2.2.2":
   version: 2.2.2
   resolution: "picomatch@npm:2.2.2"
@@ -8695,14 +8704,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.3.8":
-  version: 8.3.8
-  resolution: "postcss@npm:8.3.8"
+"postcss@npm:8.3.9":
+  version: 8.3.9
+  resolution: "postcss@npm:8.3.9"
   dependencies:
-    nanocolors: ^0.2.2
-    nanoid: ^3.1.25
+    nanoid: ^3.1.28
+    picocolors: ^0.2.1
     source-map-js: ^0.6.2
-  checksum: bea4f2f367c803739ca89c6773aa80ecad6480171db7e1ebb211fabe7eaf7ff68b3b4d007e41f84d561344a588d62d1b50b3e46e1f5c368712100df553fc09ca
+  checksum: f67654ab01ec6ec9126eb5ed64b06f602dfce7e6a38aa7f4d3cdb67fe40fe97234286c5fd6769f56138206ea80e944c62f909052b00c351239064ef3b850664d
   languageName: node
   linkType: hard
 
