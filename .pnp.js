@@ -76,7 +76,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["node-sass", "npm:6.0.1"],
             ["pnp-webpack-plugin", "npm:1.7.0"],
             ["postcss", "npm:8.3.9"],
-            ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.1"],
+            ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.2.0"],
             ["prettier", "npm:2.4.1"],
             ["prop-types", "npm:15.7.2"],
             ["react", "npm:17.0.2"],
@@ -9963,7 +9963,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["node-sass", "npm:6.0.1"],
             ["pnp-webpack-plugin", "npm:1.7.0"],
             ["postcss", "npm:8.3.9"],
-            ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.1"],
+            ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.2.0"],
             ["prettier", "npm:2.4.1"],
             ["prop-types", "npm:15.7.2"],
             ["react", "npm:17.0.2"],
@@ -11920,17 +11920,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["postcss-loader", [
-        ["npm:6.1.1", {
-          "packageLocation": "./.yarn/cache/postcss-loader-npm-6.1.1-cf5e0f6586-a166ecd835.zip/node_modules/postcss-loader/",
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/postcss-loader-npm-6.2.0-8df2aeb26f-2583b1d33c.zip/node_modules/postcss-loader/",
           "packageDependencies": [
-            ["postcss-loader", "npm:6.1.1"]
+            ["postcss-loader", "npm:6.2.0"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.1", {
-          "packageLocation": "./.yarn/$$virtual/postcss-loader-virtual-b5c81c5f4a/0/cache/postcss-loader-npm-6.1.1-cf5e0f6586-a166ecd835.zip/node_modules/postcss-loader/",
+        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.2.0", {
+          "packageLocation": "./.yarn/$$virtual/postcss-loader-virtual-8246b80234/0/cache/postcss-loader-npm-6.2.0-8df2aeb26f-2583b1d33c.zip/node_modules/postcss-loader/",
           "packageDependencies": [
-            ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.1"],
+            ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.2.0"],
             ["@types/postcss", null],
             ["@types/webpack", null],
             ["cosmiconfig", "npm:7.0.0"],
