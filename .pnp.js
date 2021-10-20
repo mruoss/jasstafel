@@ -87,7 +87,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["redux", "npm:4.1.1"],
             ["redux-undo", "npm:1.0.1"],
             ["reselect", "npm:4.0.0"],
-            ["sass", "npm:1.42.1"],
+            ["sass", "npm:1.43.2"],
             ["sass-lint", "npm:1.13.1"],
             ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.2.0"],
             ["style-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.3.0"],
@@ -9974,7 +9974,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["redux", "npm:4.1.1"],
             ["redux-undo", "npm:1.0.1"],
             ["reselect", "npm:4.0.0"],
-            ["sass", "npm:1.42.1"],
+            ["sass", "npm:1.43.2"],
             ["sass-lint", "npm:1.13.1"],
             ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.2.0"],
             ["style-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.3.0"],
@@ -13001,10 +13001,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["sass", [
-        ["npm:1.42.1", {
-          "packageLocation": "./.yarn/cache/sass-npm-1.42.1-85b82c1e8b-6e05f4e0c9.zip/node_modules/sass/",
+        ["npm:1.43.2", {
+          "packageLocation": "./.yarn/cache/sass-npm-1.43.2-db520e60b2-ef5556437a.zip/node_modules/sass/",
           "packageDependencies": [
-            ["sass", "npm:1.42.1"],
+            ["sass", "npm:1.43.2"],
             ["chokidar", "npm:3.5.2"]
           ],
           "linkType": "HARD",
@@ -13066,7 +13066,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["klona", "npm:2.0.4"],
             ["neo-async", "npm:2.6.2"],
             ["node-sass", "npm:6.0.1"],
-            ["sass", "npm:1.42.1"],
+            ["sass", "npm:1.43.2"],
             ["webpack", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.58.2"]
           ],
           "packagePeers": [
