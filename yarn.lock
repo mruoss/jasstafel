@@ -7013,7 +7013,7 @@ __metadata:
     konva: 8.2.2
     lodash: 4.17.21
     mini-css-extract-plugin: 2.4.2
-    mocha: 9.1.2
+    mocha: 9.1.3
     node-sass: 6.0.1
     pnp-webpack-plugin: 1.7.0
     postcss: 8.3.9
@@ -7864,9 +7864,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mocha@npm:9.1.2":
-  version: 9.1.2
-  resolution: "mocha@npm:9.1.2"
+"mocha@npm:9.1.3":
+  version: 9.1.3
+  resolution: "mocha@npm:9.1.3"
   dependencies:
     "@ungap/promise-all-settled": 1.1.2
     ansi-colors: 4.1.1
@@ -7895,7 +7895,7 @@ __metadata:
   bin:
     _mocha: bin/_mocha
     mocha: bin/mocha
-  checksum: 7134bc30b1e254bb65b0dcaffa7a0a68518bd948ec33fa17525338eb69b34294ab26ba36fe9e38e4e6550dc61191d547533510028dfae2b9e9ad464e42e8685a
+  checksum: 73fc01d2408922bae13abf1ba1c2ed3454b6ac3073e3b86343cec10758dc91dd1e47593d63dc1d0c70068f049ec6bda4f67f1877ec6ff0ba9ba34fbc0579ebd5
   languageName: node
   linkType: hard
 
