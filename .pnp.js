@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
               "npm:0.0.8"
             ]],
             ["babel-eslint", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.1.0"],
-            ["babel-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.2"],
+            ["babel-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.3"],
             ["babel-plugin-module-resolver", "npm:4.1.0"],
             ["babel-polyfill", "npm:6.26.0"],
             ["bluebird", "npm:3.7.2"],
@@ -5273,17 +5273,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["babel-loader", [
-        ["npm:8.2.2", {
-          "packageLocation": "./.yarn/cache/babel-loader-npm-8.2.2-b4e600c2c5-362bb71573.zip/node_modules/babel-loader/",
+        ["npm:8.2.3", {
+          "packageLocation": "./.yarn/cache/babel-loader-npm-8.2.3-855681b984-4905a8e425.zip/node_modules/babel-loader/",
           "packageDependencies": [
-            ["babel-loader", "npm:8.2.2"]
+            ["babel-loader", "npm:8.2.3"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.2", {
-          "packageLocation": "./.yarn/$$virtual/babel-loader-virtual-63d6c9fed6/0/cache/babel-loader-npm-8.2.2-b4e600c2c5-362bb71573.zip/node_modules/babel-loader/",
+        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.3", {
+          "packageLocation": "./.yarn/$$virtual/babel-loader-virtual-71e3478d48/0/cache/babel-loader-npm-8.2.3-855681b984-4905a8e425.zip/node_modules/babel-loader/",
           "packageDependencies": [
-            ["babel-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.2"],
+            ["babel-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.3"],
             ["@babel/core", "npm:7.15.8"],
             ["@types/babel__core", null],
             ["@types/webpack", null],
@@ -9924,7 +9924,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
               "npm:0.0.8"
             ]],
             ["babel-eslint", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.1.0"],
-            ["babel-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.2"],
+            ["babel-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.3"],
             ["babel-plugin-module-resolver", "npm:4.1.0"],
             ["babel-polyfill", "npm:6.26.0"],
             ["bluebird", "npm:3.7.2"],
