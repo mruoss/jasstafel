@@ -7011,7 +7011,7 @@ __metadata:
     sass: 1.43.2
     sass-lint: 1.13.1
     sass-loader: 12.2.0
-    style-loader: 3.3.0
+    style-loader: 3.3.1
     styled-components: 5.3.3
     webpack: 5.59.1
     webpack-cli: 4.9.1
@@ -10454,12 +10454,12 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"style-loader@npm:3.3.0":
-  version: 3.3.0
-  resolution: "style-loader@npm:3.3.0"
+"style-loader@npm:3.3.1":
+  version: 3.3.1
+  resolution: "style-loader@npm:3.3.1"
   peerDependencies:
     webpack: ^5.0.0
-  checksum: fa9352f002231bc7ed2de56ddcc6b02e96d02706c044f885d712e093609301ea4c632244a74de232833956b051d66f9101d984ce99e6728b280e53bf052339b7
+  checksum: 98fa3139c0eebeec26f39da774a6f6c3bd69fef9331bc52a94fc792be4265771d3c041d2e26a1c1c7bd61d927ec6419600a1471a0cbb54b20d8ae9b36a93a7da
   languageName: node
   linkType: hard
 
