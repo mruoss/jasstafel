@@ -6992,7 +6992,7 @@ __metadata:
     html-webpack-plugin: 5.4.0
     konva: 8.2.2
     lodash: 4.17.21
-    mini-css-extract-plugin: 2.4.2
+    mini-css-extract-plugin: 2.4.3
     mocha: 9.1.3
     node-sass: 6.0.1
     pnp-webpack-plugin: 1.7.0
@@ -7688,14 +7688,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:2.4.2":
-  version: 2.4.2
-  resolution: "mini-css-extract-plugin@npm:2.4.2"
+"mini-css-extract-plugin@npm:2.4.3":
+  version: 2.4.3
+  resolution: "mini-css-extract-plugin@npm:2.4.3"
   dependencies:
     schema-utils: ^3.1.0
   peerDependencies:
     webpack: ^5.0.0
-  checksum: beb275a96c388e511542b6669bbc6032afca06e1c1d20b2b8b168fef1af2f1c176435fe293ae2bc141a07365428bf8224af444e4fbb2b60bc0511229a6d484da
+  checksum: fe932221ed141fae4757ab8db189eb387b071338618a0d4c460519469f0610f078ff51900a8e466c9a93e4397c00fd6952734e2e8f01b1794bbfd68b640758bd
   languageName: node
   linkType: hard
 
