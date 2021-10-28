@@ -6996,7 +6996,7 @@ __metadata:
     mocha: 9.1.3
     node-sass: 6.0.1
     pnp-webpack-plugin: 1.7.0
-    postcss: 8.3.10
+    postcss: 8.3.11
     postcss-loader: 6.2.0
     prettier: 2.4.1
     prop-types: 15.7.2
@@ -8828,14 +8828,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.3.10":
-  version: 8.3.10
-  resolution: "postcss@npm:8.3.10"
+"postcss@npm:8.3.11":
+  version: 8.3.11
+  resolution: "postcss@npm:8.3.11"
   dependencies:
     nanoid: ^3.1.30
     picocolors: ^1.0.0
     source-map-js: ^0.6.2
-  checksum: ef84c362cf05a99a972f5b0a088a7e8879e0577dfdbbc91cc85edac6264b7b7214cf78afb2860ce71f0a66a2af98233a3c65f37487caffd236edffb4131b0e6d
+  checksum: fa1530f7e1817bcaf40b34db246d0c49e42daf12719abd4a3a1b5886491cca125af6b21ccdfc24a074ea9b6b73a6677e1478906adb732b2bd5208077a64473a6
   languageName: node
   linkType: hard
 
