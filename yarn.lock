@@ -1847,12 +1847,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.13.17
   resolution: "@babel/runtime@npm:7.13.17"
   dependencies:
     regenerator-runtime: ^0.13.4
   checksum: c32e5e2833348b586bc919c0fbc8efbd2fdd79451cce56ed5962ace6ff74ea44fbb8723dcd3f08e52ce07e88e37f4c02cd5021855417d365558e41de38d277a8
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.15.4":
+  version: 7.16.0
+  resolution: "@babel/runtime@npm:7.16.0"
+  dependencies:
+    regenerator-runtime: ^0.13.4
+  checksum: 336e7f3ff6e7ecda749683c794eb5215410a2de1ec2845a39cbbd5eec870400aa68b9cc21dc44bf74d62e47682d0d0fb0600f263d218a23ba39f9cf6f1b7b54c
   languageName: node
   linkType: hard
 
@@ -2316,15 +2325,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-redux@npm:^7.1.16":
-  version: 7.1.16
-  resolution: "@types/react-redux@npm:7.1.16"
+"@types/react-redux@npm:^7.1.20":
+  version: 7.1.20
+  resolution: "@types/react-redux@npm:7.1.20"
   dependencies:
     "@types/hoist-non-react-statics": ^3.3.0
     "@types/react": "*"
     hoist-non-react-statics: ^3.3.0
     redux: ^4.0.0
-  checksum: c19c8f94dbadae42e9622c0b1b38324bbc6f5997fdc3989e71b202bf750d5869f73bb349ca4102f624188c2212c7907d3c3594449f099818abc87d1478d20996
+  checksum: 465fa8ce079a34e9a05e97192e3d9ac56bf0e4a3d31fb3ceaecd61a9fcdcbd02eb626fc1caf90ced699902c04672fbefba6df9ab77fde78217bb665b2f35b3b9
   languageName: node
   linkType: hard
 
@@ -7011,7 +7020,7 @@ __metadata:
     react-dom: 17.0.2
     react-is: 17.0.2
     react-konva: 17.0.2-5
-    react-redux: 7.2.5
+    react-redux: 7.2.6
     redux: 4.1.1
     redux-undo: 1.0.1
     reselect: 4.0.0
@@ -9062,14 +9071,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:17.0.2":
+"react-is@npm:17.0.2, react-is@npm:^17.0.2":
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 3eff23f410d40ab9bc5177f147a92c7f42c356a21ecea340e0554566956d67e5e1ba56f26cc7fa22339ac3c7151744177bd6305eaa26d3cbf15f354358c9d9b6
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.13.1, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
+"react-is@npm:^16.7.0, react-is@npm:^16.8.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 11bcf1267a314a522615f626f3ce3727a3a24cdbf61c4d452add3550a7875326669631326cfb1ba3e92b6f72244c32ffecf93ad21c0cad8455d3e169d0e3f060
@@ -9103,16 +9112,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-redux@npm:7.2.5":
-  version: 7.2.5
-  resolution: "react-redux@npm:7.2.5"
+"react-redux@npm:7.2.6":
+  version: 7.2.6
+  resolution: "react-redux@npm:7.2.6"
   dependencies:
-    "@babel/runtime": ^7.12.1
-    "@types/react-redux": ^7.1.16
+    "@babel/runtime": ^7.15.4
+    "@types/react-redux": ^7.1.20
     hoist-non-react-statics: ^3.3.2
     loose-envify: ^1.4.0
     prop-types: ^15.7.2
-    react-is: ^16.13.1
+    react-is: ^17.0.2
   peerDependencies:
     react: ^16.8.3 || ^17
   peerDependenciesMeta:
@@ -9120,7 +9129,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: cfb3fcea7015def19435ccdb700ce0a496a15d69021fd5159f0492029337911be1ae38fc1b45239772552ef87dc6ec10c9dd0d214471bd0a383cadc6d5e53e3e
+  checksum: 32952c3fa1fbc12a28e93a6a116f320319c3d82ded71af053e7d405d760e96bccbc1d939ad06848ed6f088819d490f3180a31975c53ce23248934de906f2b27c
   languageName: node
   linkType: hard
 
