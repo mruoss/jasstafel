@@ -7023,7 +7023,7 @@ __metadata:
     react-redux: 7.2.6
     redux: 4.1.1
     redux-undo: 1.0.1
-    reselect: 4.1.0
+    reselect: 4.1.1
     sass: 1.43.4
     sass-lint: 1.13.1
     sass-loader: 12.2.0
@@ -9451,10 +9451,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"reselect@npm:4.1.0":
-  version: 4.1.0
-  resolution: "reselect@npm:4.1.0"
-  checksum: 08969489f0b1a5165e44046e0fbd77e7ae71ee4bd7e953eab05dfcc9f2a2391ca6a3a41026e6c656655f1706401b645721e7bbe3d6ac9f4168b408f32a25240e
+"reselect@npm:4.1.1":
+  version: 4.1.1
+  resolution: "reselect@npm:4.1.1"
+  checksum: f8d6a69613ad3e9dccded25c98b4bb649133de5bf5b9ea4e27ded5554836cbb2df9dd849a7d3660aed58a1d9823bb1fa8499b1721e85222e28318b0322c81653
   languageName: node
   linkType: hard
 
