@@ -7026,7 +7026,7 @@ __metadata:
     reselect: 4.1.1
     sass: 1.43.4
     sass-lint: 1.13.1
-    sass-loader: 12.2.0
+    sass-loader: 12.3.0
     style-loader: 3.3.1
     styled-components: 5.3.3
     webpack: 5.60.0
@@ -9709,9 +9709,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:12.2.0":
-  version: 12.2.0
-  resolution: "sass-loader@npm:12.2.0"
+"sass-loader@npm:12.3.0":
+  version: 12.3.0
+  resolution: "sass-loader@npm:12.3.0"
   dependencies:
     klona: ^2.0.4
     neo-async: ^2.6.2
@@ -9727,7 +9727,7 @@ resolve@^2.0.0-next.3:
       optional: true
     sass:
       optional: true
-  checksum: e384e65e4ed56bed1f0897fa01ec0057d428d897604fd1509dc2ca902c42a6f2b9b6f6008b8a80680a1ac1d37691fb2838e9f0486bcaf24c504533a16bdf9e02
+  checksum: 705afa8c73e600257bf06dda9ccd178ff7a972ce38d43064d9d3a410db0b912d114efde7e3e72d667663a9c63745cd4be14ef97fc9d0f09ac8ee2d02afbffd82
   languageName: node
   linkType: hard
 
