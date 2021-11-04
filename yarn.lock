@@ -7021,7 +7021,7 @@ __metadata:
     react-is: 17.0.2
     react-konva: 17.0.2-5
     react-redux: 7.2.6
-    redux: 4.1.1
+    redux: 4.1.2
     redux-undo: 1.0.1
     reselect: 4.1.1
     sass: 1.43.4
@@ -9238,12 +9238,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redux@npm:4.1.1":
-  version: 4.1.1
-  resolution: "redux@npm:4.1.1"
+"redux@npm:4.1.2":
+  version: 4.1.2
+  resolution: "redux@npm:4.1.2"
   dependencies:
     "@babel/runtime": ^7.9.2
-  checksum: 063e1d52588d62d438bb392975e57c0091c79f9abdbb8594c44c1680a73415280f6133c3d9cb3b116fe1ceb7e1aefb44775d6136b8bb6b9eb6a2c1a23e32a840
+  checksum: 39aba0fc41c0187cb46b38e52dcb9dc039b785cae772bad9c30cd1d24c67942739285fc013bf804d286aad3c660c1d74cdab5923e1c1535839c5f996d1491365
   languageName: node
   linkType: hard
 
