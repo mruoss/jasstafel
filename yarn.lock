@@ -4452,9 +4452,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-loader@npm:6.5.0":
-  version: 6.5.0
-  resolution: "css-loader@npm:6.5.0"
+"css-loader@npm:6.5.1":
+  version: 6.5.1
+  resolution: "css-loader@npm:6.5.1"
   dependencies:
     icss-utils: ^5.1.0
     postcss: ^8.2.15
@@ -4466,7 +4466,7 @@ __metadata:
     semver: ^7.3.5
   peerDependencies:
     webpack: ^5.0.0
-  checksum: 00e83bde53e5a5933a8734006b648e751192404a1040be795693c267fecefacef08d6ea9d79bc0d800712515eaff044483084eaf2432a51c3e1246a560f0253e
+  checksum: 9dfdffde58b7dd86b9fb2f2b9aad1d057109d924e092c47e7299c5f7dcd9c956cd781b1ce9e674e26bd0d906f46c1a1cbe06ca401142f1c0e228a2b9bdbb3ebd
   languageName: node
   linkType: hard
 
@@ -7419,7 +7419,7 @@ __metadata:
     clean-webpack-plugin: 4.0.0
     copy-webpack-plugin: 9.0.1
     core-js: 3.19.1
-    css-loader: 6.5.0
+    css-loader: 6.5.1
     eslint: 8.1.0
     eslint-config-prettier: 8.3.0
     eslint-import-resolver-babel-module: 5.3.1
