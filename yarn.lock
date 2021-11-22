@@ -7410,7 +7410,7 @@ __metadata:
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-react: 7.27.0
     html-webpack-plugin: 5.5.0
-    konva: 8.2.3
+    konva: 8.2.4
     lodash: 4.17.21
     mini-css-extract-plugin: 2.4.4
     mocha: 9.1.3
@@ -7715,10 +7715,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"konva@npm:8.2.3":
-  version: 8.2.3
-  resolution: "konva@npm:8.2.3"
-  checksum: 09122ee098233e07d592b6a602447def39e06c9851d22f68ed4af399da07507b5ff2843a1c61bed415f13deabfad3eacd5a316357f681b564c892227bf41d917
+"konva@npm:8.2.4":
+  version: 8.2.4
+  resolution: "konva@npm:8.2.4"
+  checksum: de18a2bd87c71adaaf3c21d0f562e4e0900c996507b87422cd425527048ca64a92a54d8bba998db15b6c441e10c3de0043b4ceda2dd211d737455f5104f7b7cd
   languageName: node
   linkType: hard
 
