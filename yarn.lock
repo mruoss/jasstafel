@@ -5496,9 +5496,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:7.27.0":
-  version: 7.27.0
-  resolution: "eslint-plugin-react@npm:7.27.0"
+"eslint-plugin-react@npm:7.27.1":
+  version: 7.27.1
+  resolution: "eslint-plugin-react@npm:7.27.1"
   dependencies:
     array-includes: ^3.1.4
     array.prototype.flatmap: ^1.2.5
@@ -5516,7 +5516,7 @@ __metadata:
     string.prototype.matchall: ^4.0.6
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
-  checksum: bef8b313a0fd72c1317c5394ab1bd23963dcb31fb9a822cde88ab6096c7829dcd295b1e3f155290682b568a7b53bac1d45a3185cd612e9ffed4a67881b3eee4e
+  checksum: 494528ca96457a2e02bf1aab0942862613c238ff6cb928c6870ab7f648c31d80de48388c31b123280bdbdbb2a58da29ad7112b189c04725feaf06758e3b81b89
   languageName: node
   linkType: hard
 
@@ -7524,7 +7524,7 @@ __metadata:
     eslint-plugin-jasmine: 4.1.2
     eslint-plugin-lodash-fp: 2.2.0-a1
     eslint-plugin-prettier: 4.0.0
-    eslint-plugin-react: 7.27.0
+    eslint-plugin-react: 7.27.1
     html-webpack-plugin: 5.5.0
     konva: 8.3.0
     lodash: 4.17.21
