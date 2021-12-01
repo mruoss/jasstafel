@@ -75,7 +75,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mocha", "npm:9.1.3"],
             ["node-sass", "npm:6.0.1"],
             ["pnp-webpack-plugin", "npm:1.7.0"],
-            ["postcss", "npm:8.3.11"],
+            ["postcss", "npm:8.4.0"],
             ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.2.0"],
             ["prettier", "npm:2.4.1"],
             ["prop-types", "npm:15.7.2"],
@@ -10404,7 +10404,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mocha", "npm:9.1.3"],
             ["node-sass", "npm:6.0.1"],
             ["pnp-webpack-plugin", "npm:1.7.0"],
-            ["postcss", "npm:8.3.11"],
+            ["postcss", "npm:8.4.0"],
             ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.2.0"],
             ["prettier", "npm:2.4.1"],
             ["prop-types", "npm:15.7.2"],
@@ -12331,13 +12331,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:8.3.11", {
-          "packageLocation": "./.yarn/cache/postcss-npm-8.3.11-ded5d923bd-fa1530f7e1.zip/node_modules/postcss/",
+        ["npm:8.4.0", {
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.0-cd5eba50f8-5f424235a0.zip/node_modules/postcss/",
           "packageDependencies": [
-            ["postcss", "npm:8.3.11"],
+            ["postcss", "npm:8.4.0"],
             ["nanoid", "npm:3.1.30"],
             ["picocolors", "npm:1.0.0"],
-            ["source-map-js", "npm:0.6.2"]
+            ["source-map-js", "npm:1.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -12358,7 +12358,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webpack", null],
             ["cosmiconfig", "npm:7.0.0"],
             ["klona", "npm:2.0.4"],
-            ["postcss", "npm:8.3.11"],
+            ["postcss", "npm:8.4.0"],
             ["semver", "npm:7.3.5"],
             ["webpack", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.64.3"]
           ],
@@ -13912,6 +13912,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/source-map-js-npm-0.6.2-af388ea7f1-8e2f992cfb.zip/node_modules/source-map-js/",
           "packageDependencies": [
             ["source-map-js", "npm:0.6.2"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:1.0.1", {
+          "packageLocation": "./.yarn/cache/source-map-js-npm-1.0.1-c86a8e0dcb-8096794b7d.zip/node_modules/source-map-js/",
+          "packageDependencies": [
+            ["source-map-js", "npm:1.0.1"]
           ],
           "linkType": "HARD",
         }]
