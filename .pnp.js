@@ -86,7 +86,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-redux", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.2.6"],
             ["redux", "npm:4.1.2"],
             ["redux-undo", "npm:1.0.1"],
-            ["reselect", "npm:4.1.4"],
+            ["reselect", "npm:4.1.5"],
             ["sass", "npm:1.43.5"],
             ["sass-lint", "npm:1.13.1"],
             ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.3.0"],
@@ -10415,7 +10415,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-redux", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.2.6"],
             ["redux", "npm:4.1.2"],
             ["redux-undo", "npm:1.0.1"],
-            ["reselect", "npm:4.1.4"],
+            ["reselect", "npm:4.1.5"],
             ["sass", "npm:1.43.5"],
             ["sass-lint", "npm:1.13.1"],
             ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.3.0"],
@@ -13218,10 +13218,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:4.1.4", {
-          "packageLocation": "./.yarn/cache/reselect-npm-4.1.4-342dc6275f-17e4168a21.zip/node_modules/reselect/",
+        ["npm:4.1.5", {
+          "packageLocation": "./.yarn/cache/reselect-npm-4.1.5-bc046e41ae-ab3810fbba.zip/node_modules/reselect/",
           "packageDependencies": [
-            ["reselect", "npm:4.1.4"]
+            ["reselect", "npm:4.1.5"]
           ],
           "linkType": "HARD",
         }]
