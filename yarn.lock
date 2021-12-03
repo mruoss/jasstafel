@@ -7532,7 +7532,7 @@ __metadata:
     node-sass: 6.0.1
     pnp-webpack-plugin: 1.7.0
     postcss: 8.4.1
-    postcss-loader: 6.2.0
+    postcss-loader: 6.2.1
     prettier: 2.5.0
     prop-types: 15.7.2
     react: 17.0.2
@@ -7827,6 +7827,13 @@ __metadata:
   version: 2.0.4
   resolution: "klona@npm:2.0.4"
   checksum: be4a0c784135b6a75ac2c5ac9564894807aa050de041ac775a20d3ee46969ac5c3d37503d12c215c7decb592196e59e22852fd0cf28ac0cc29fe3a6df9168624
+  languageName: node
+  linkType: hard
+
+"klona@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "klona@npm:2.0.5"
+  checksum: 0fa5dada3d91fdd5959094a5f89f37e099d6f7aad95e581be22fbdaaf2a91800ca9f7f10915a6c0eba5dbd2b51697b053b169cad74a99dabc8967f990195fd48
   languageName: node
   linkType: hard
 
@@ -9260,17 +9267,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:6.2.0":
-  version: 6.2.0
-  resolution: "postcss-loader@npm:6.2.0"
+"postcss-loader@npm:6.2.1":
+  version: 6.2.1
+  resolution: "postcss-loader@npm:6.2.1"
   dependencies:
     cosmiconfig: ^7.0.0
-    klona: ^2.0.4
+    klona: ^2.0.5
     semver: ^7.3.5
   peerDependencies:
     postcss: ^7.0.0 || ^8.0.1
     webpack: ^5.0.0
-  checksum: 2583b1d33c7ec964431adc768adfed1e339f59803bf6fbf6cc76226159cf01e67d7f83773e4926f183e44c9ce38ef82e52b2a1ef9d9e4288f789622fa97b6af8
+  checksum: c0b49a1ee506409243e7483982fb025ed2334c1ad6078598c119860bcd3986a9818845d6ec97b49723b6572e159849093ffc1185705f73c47e37907a477f8c25
   languageName: node
   linkType: hard
 
