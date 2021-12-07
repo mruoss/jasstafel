@@ -6920,6 +6920,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"immutable@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "immutable@npm:4.0.0"
+  checksum: b213379f1a5e764c9c301c5aee26342ca1486e50b8e1bf7cdcb5586ddcedcab4f75cffc8cd50b7a44133e4ecce71cbd066af016b11024b86c18ee6d6cf3209d0
+  languageName: node
+  linkType: hard
+
 "import-fresh@npm:^3.0.0, import-fresh@npm:^3.2.1":
   version: 3.2.1
   resolution: "import-fresh@npm:3.2.1"
@@ -7543,7 +7550,7 @@ __metadata:
     redux: 4.1.2
     redux-undo: 1.0.1
     reselect: 4.1.5
-    sass: 1.43.5
+    sass: 1.44.0
     sass-lint: 1.13.1
     sass-loader: 12.3.0
     style-loader: 3.3.1
@@ -10241,14 +10248,15 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"sass@npm:1.43.5":
-  version: 1.43.5
-  resolution: "sass@npm:1.43.5"
+"sass@npm:1.44.0":
+  version: 1.44.0
+  resolution: "sass@npm:1.44.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
+    immutable: ^4.0.0
   bin:
     sass: sass.js
-  checksum: 274c91b6754be532f873c1ebf24bee1913ad3d21f4cfdbac318267b4ee8b635d8ad946fc0c1d3d98d4378df2fd9bdda3fbda074c24604a0f7b073f9cffff8572
+  checksum: 7638e94e7f6d39d755fdc9719d04f7522800c7e2085ddee3136780257487ea646ad6771660772cbc3896a7276834ad1e20286725bf7b3472a93ca6700ee6806c
   languageName: node
   linkType: hard
 
