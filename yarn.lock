@@ -4500,10 +4500,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.19.2":
-  version: 3.19.2
-  resolution: "core-js@npm:3.19.2"
-  checksum: adcaaf6a283842b49bed6dc28faec8509d70237598c075d615ea791c6a9aa9c1fc671fac36564b819b754934294ba9866e02f0e7b73e94cb05ffa1ac236706f1
+"core-js@npm:3.19.3":
+  version: 3.19.3
+  resolution: "core-js@npm:3.19.3"
+  checksum: 729578b743970f22cd436738cc994556c8d487630720b8c0027abf96a45fed865675d5c8443f9e70385ab11d35738bb2fd6605a1eea2054508d9afa50d107b14
   languageName: node
   linkType: hard
 
@@ -7491,7 +7491,7 @@ __metadata:
     chai-match-pattern: 1.2.0
     clean-webpack-plugin: 4.0.0
     copy-webpack-plugin: 9.1.0
-    core-js: 3.19.2
+    core-js: 3.19.3
     css-loader: 6.5.1
     eslint: 8.4.0
     eslint-config-prettier: 8.3.0
