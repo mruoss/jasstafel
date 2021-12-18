@@ -87,7 +87,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["redux", "npm:4.1.2"],
             ["redux-undo", "npm:1.0.1"],
             ["reselect", "npm:4.1.5"],
-            ["sass", "npm:1.44.0"],
+            ["sass", "npm:1.45.0"],
             ["sass-lint", "npm:1.13.1"],
             ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.4.0"],
             ["style-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.3.1"],
@@ -10356,7 +10356,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["redux", "npm:4.1.2"],
             ["redux-undo", "npm:1.0.1"],
             ["reselect", "npm:4.1.5"],
-            ["sass", "npm:1.44.0"],
+            ["sass", "npm:1.45.0"],
             ["sass-lint", "npm:1.13.1"],
             ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.4.0"],
             ["style-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.3.1"],
@@ -13349,12 +13349,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["sass", [
-        ["npm:1.44.0", {
-          "packageLocation": "./.yarn/cache/sass-npm-1.44.0-e617b09388-7638e94e7f.zip/node_modules/sass/",
+        ["npm:1.45.0", {
+          "packageLocation": "./.yarn/cache/sass-npm-1.45.0-83550ad0f7-2155f5c5e9.zip/node_modules/sass/",
           "packageDependencies": [
-            ["sass", "npm:1.44.0"],
+            ["sass", "npm:1.45.0"],
             ["chokidar", "npm:3.5.2"],
-            ["immutable", "npm:4.0.0"]
+            ["immutable", "npm:4.0.0"],
+            ["source-map-js", "npm:1.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -13415,7 +13416,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["klona", "npm:2.0.4"],
             ["neo-async", "npm:2.6.2"],
             ["node-sass", "npm:6.0.1"],
-            ["sass", "npm:1.44.0"],
+            ["sass", "npm:1.45.0"],
             ["webpack", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.65.0"]
           ],
           "packagePeers": [
