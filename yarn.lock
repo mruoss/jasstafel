@@ -7655,7 +7655,7 @@ __metadata:
     styled-components: 5.3.3
     webpack: 5.65.0
     webpack-cli: 4.9.1
-    webpack-dev-server: 4.7.0
+    webpack-dev-server: 4.7.1
     webpack-merge: 5.8.0
     workbox-precaching: 6.4.2
     workbox-webpack-plugin: 6.4.2
@@ -9603,13 +9603,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"punycode@npm:1.3.2":
-  version: 1.3.2
-  resolution: "punycode@npm:1.3.2"
-  checksum: e67fddacd83b918ca2f4a47b1fd13858108779cdc2a3f2db3233ff82a25f9305d46e1d9891f7b9ad21ed36454adfc675d4559621fcffed2cf2067abd04e121cd
-  languageName: node
-  linkType: hard
-
 "punycode@npm:^2.1.0, punycode@npm:^2.1.1":
   version: 2.1.1
   resolution: "punycode@npm:2.1.1"
@@ -9628,13 +9621,6 @@ __metadata:
   version: 6.5.2
   resolution: "qs@npm:6.5.2"
   checksum: fa0410eff2c05ce3328e11f82db4015e7819c986ee056d6b62b06ae112f4929af09ea3b879ca168ff9f0338f50972bba487ad0e46c879e42bfaf63c3c2ea7f09
-  languageName: node
-  linkType: hard
-
-"querystring@npm:0.2.0":
-  version: 0.2.0
-  resolution: "querystring@npm:0.2.0"
-  checksum: 1e76c51462f0ffb148e0b2fdeb811f61377800298605229d32efcdaaaf0a8fd4314a4b4405e1fbf130a5ca421c0e51f926fab5bb9f8b9b3b8c394f4e2d33d3d1
   languageName: node
   linkType: hard
 
@@ -11633,16 +11619,6 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"url@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "url@npm:0.11.0"
-  dependencies:
-    punycode: 1.3.2
-    querystring: 0.2.0
-  checksum: 537f785b16f873fdd2b63ccb7a61463b8e41370fdba95385b0102f3ed7b953c300d95b8755ec3b65f3e406372d47d16c3c989e196b25b70f42190da1fc36c56f
-  languageName: node
-  linkType: hard
-
 "user-home@npm:^2.0.0":
   version: 2.0.0
   resolution: "user-home@npm:2.0.0"
@@ -11800,9 +11776,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:4.7.0":
-  version: 4.7.0
-  resolution: "webpack-dev-server@npm:4.7.0"
+"webpack-dev-server@npm:4.7.1":
+  version: 4.7.1
+  resolution: "webpack-dev-server@npm:4.7.1"
   dependencies:
     "@types/bonjour": ^3.5.9
     "@types/connect-history-api-fallback": ^1.3.5
@@ -11831,7 +11807,6 @@ resolve@^2.0.0-next.3:
     sockjs: ^0.3.21
     spdy: ^4.0.2
     strip-ansi: ^7.0.0
-    url: ^0.11.0
     webpack-dev-middleware: ^5.3.0
     ws: ^8.1.0
   peerDependencies:
@@ -11841,7 +11816,7 @@ resolve@^2.0.0-next.3:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: 9d39564c25074be9bdcfeac2e2715043aabf0b8224b8a9beaad78bc7b722889fe4bdd75ae886626a5191434ab851f7b6d9d9a7228a035c84ac47a2a89cea9e29
+  checksum: ccd3614ac59f7d4c5d7500ec6ce7e4ba0a389cc6b174dbde8e84884d7917fabe39c28f1a34be2c66176f3be74151490640fb8794819cdb1084e6f2fdb04699f0
   languageName: node
   linkType: hard
 
