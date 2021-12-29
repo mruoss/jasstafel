@@ -78,7 +78,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.5"],
             ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.2.1"],
             ["prettier", "npm:2.5.1"],
-            ["prop-types", "npm:15.7.2"],
+            ["prop-types", "npm:15.8.0"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:17.0.2"],
             ["react-is", "npm:17.0.2"],
@@ -10479,7 +10479,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.5"],
             ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.2.1"],
             ["prettier", "npm:2.5.1"],
-            ["prop-types", "npm:15.7.2"],
+            ["prop-types", "npm:15.8.0"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:17.0.2"],
             ["react-is", "npm:17.0.2"],
@@ -12668,6 +12668,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prop-types-npm-15.7.2-d7a04f2274-a440dd406c.zip/node_modules/prop-types/",
           "packageDependencies": [
             ["prop-types", "npm:15.7.2"],
+            ["loose-envify", "npm:1.4.0"],
+            ["object-assign", "npm:4.1.1"],
+            ["react-is", "npm:16.13.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:15.8.0", {
+          "packageLocation": "./.yarn/cache/prop-types-npm-15.8.0-6f60fc44c7-71271eecc1.zip/node_modules/prop-types/",
+          "packageDependencies": [
+            ["prop-types", "npm:15.8.0"],
             ["loose-envify", "npm:1.4.0"],
             ["object-assign", "npm:4.1.1"],
             ["react-is", "npm:16.13.1"]
