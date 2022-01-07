@@ -87,7 +87,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["redux", "npm:4.1.2"],
             ["redux-undo", "npm:1.0.1"],
             ["reselect", "npm:4.1.5"],
-            ["sass", "npm:1.45.1"],
+            ["sass", "npm:1.45.2"],
             ["sass-lint", "npm:1.13.1"],
             ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.4.0"],
             ["style-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.3.1"],
@@ -10474,7 +10474,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["redux", "npm:4.1.2"],
             ["redux-undo", "npm:1.0.1"],
             ["reselect", "npm:4.1.5"],
-            ["sass", "npm:1.45.1"],
+            ["sass", "npm:1.45.2"],
             ["sass-lint", "npm:1.13.1"],
             ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.4.0"],
             ["style-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.3.1"],
@@ -13461,10 +13461,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["sass", [
-        ["npm:1.45.1", {
-          "packageLocation": "./.yarn/cache/sass-npm-1.45.1-106ed69ac2-2c44fd3e71.zip/node_modules/sass/",
+        ["npm:1.45.2", {
+          "packageLocation": "./.yarn/cache/sass-npm-1.45.2-77bc405d03-e5aea84b93.zip/node_modules/sass/",
           "packageDependencies": [
-            ["sass", "npm:1.45.1"],
+            ["sass", "npm:1.45.2"],
             ["chokidar", "npm:3.5.2"],
             ["immutable", "npm:4.0.0"],
             ["source-map-js", "npm:1.0.1"]
@@ -13528,7 +13528,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["klona", "npm:2.0.4"],
             ["neo-async", "npm:2.6.2"],
             ["node-sass", "npm:6.0.1"],
-            ["sass", "npm:1.45.1"],
+            ["sass", "npm:1.45.2"],
             ["webpack", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.65.0"]
           ],
           "packagePeers": [
