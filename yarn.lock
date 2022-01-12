@@ -7654,7 +7654,7 @@ __metadata:
     postcss: 8.4.5
     postcss-loader: 6.2.1
     prettier: 2.5.1
-    prop-types: 15.8.0
+    prop-types: 15.8.1
     react: 17.0.2
     react-dom: 17.0.2
     react-is: 17.0.2
@@ -9581,14 +9581,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.8.0":
-  version: 15.8.0
-  resolution: "prop-types@npm:15.8.0"
+"prop-types@npm:15.8.1":
+  version: 15.8.1
+  resolution: "prop-types@npm:15.8.1"
   dependencies:
     loose-envify: ^1.4.0
     object-assign: ^4.1.1
     react-is: ^16.13.1
-  checksum: 71271eecc1359d18f4e828508fd1f37947c922a81d780055b5e788580a3ffd9c624eab9274b4db59fe43223c938a4e02e9b9df4af70351a83b9ba5489ca95ff9
+  checksum: 4c0e99ebb880135a5f00d56364545f9ae123ec88a7d78d004218cdb4d8184f53455696cbc50c2994916748c38f12f3b535d7be06cb4f893c2ad8fd03c23245c5
   languageName: node
   linkType: hard
 
