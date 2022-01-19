@@ -6809,6 +6809,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"graceful-fs@npm:^4.2.9":
+  version: 4.2.9
+  resolution: "graceful-fs@npm:4.2.9"
+  checksum: e0382eb1aab9d04d8dbf0faed61987145cf876548138ff660553168b1ff04e6c65ee407aca102a0047bb2144845261c4a8a5f65934842f64acf12d3a8fd711ba
+  languageName: node
+  linkType: hard
+
 "growl@npm:1.10.5":
   version: 1.10.5
   resolution: "growl@npm:1.10.5"
@@ -7834,7 +7841,7 @@ __metadata:
     sass-loader: 12.4.0
     style-loader: 3.3.1
     styled-components: 5.3.3
-    webpack: 5.65.0
+    webpack: 5.66.0
     webpack-cli: 4.9.1
     webpack-dev-server: 4.7.3
     webpack-merge: 5.8.0
@@ -12078,9 +12085,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.65.0":
-  version: 5.65.0
-  resolution: "webpack@npm:5.65.0"
+"webpack@npm:5.66.0":
+  version: 5.66.0
+  resolution: "webpack@npm:5.66.0"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -12096,7 +12103,7 @@ resolve@^2.0.0-next.3:
     eslint-scope: 5.1.1
     events: ^3.2.0
     glob-to-regexp: ^0.4.1
-    graceful-fs: ^4.2.4
+    graceful-fs: ^4.2.9
     json-parse-better-errors: ^1.0.2
     loader-runner: ^4.2.0
     mime-types: ^2.1.27
@@ -12111,7 +12118,7 @@ resolve@^2.0.0-next.3:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 05ac9c09b152d78bcdb466533277bcd42968b33b6ee5059ac789cd359ded5d9c4d6344eb2fcbbc62d3cbaaf36102e74379ec1d1e47a9255a2aa99ca0ea0e6704
+  checksum: c3aa9aef470b258f8eacb6b20f1e4f3ddb7d2fe9c0bd0c95504baabad5b637f4ce1d5cb7dbcc8d4ae246b8582062001954dcd6a53c401100b39a8e0677665a89
   languageName: node
   linkType: hard
 
