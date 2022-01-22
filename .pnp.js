@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chai-match-pattern", "npm:1.2.0"],
             ["clean-webpack-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:4.0.0"],
             ["copy-webpack-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:9.1.0"],
-            ["core-js", "npm:3.20.2"],
+            ["core-js", "npm:3.20.3"],
             ["css-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.5.1"],
             ["eslint", "npm:8.6.0"],
             ["eslint-config-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.3.0"],
@@ -7077,10 +7077,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:3.20.2", {
-          "packageLocation": "./.yarn/cache/core-js-npm-3.20.2-656ea79cc8-642927e21a.zip/node_modules/core-js/",
+        ["npm:3.20.3", {
+          "packageLocation": "./.yarn/cache/core-js-npm-3.20.3-f16b5c4c27-41cc5dec49.zip/node_modules/core-js/",
           "packageDependencies": [
-            ["core-js", "npm:3.20.2"]
+            ["core-js", "npm:3.20.3"]
           ],
           "linkType": "HARD",
         }]
@@ -10654,7 +10654,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chai-match-pattern", "npm:1.2.0"],
             ["clean-webpack-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:4.0.0"],
             ["copy-webpack-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:9.1.0"],
-            ["core-js", "npm:3.20.2"],
+            ["core-js", "npm:3.20.3"],
             ["css-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.5.1"],
             ["eslint", "npm:8.6.0"],
             ["eslint-config-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.3.0"],
