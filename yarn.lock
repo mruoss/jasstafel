@@ -3284,36 +3284,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@webpack-cli/configtest@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@webpack-cli/configtest@npm:1.1.0"
+"@webpack-cli/configtest@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@webpack-cli/configtest@npm:1.1.1"
   peerDependencies:
     webpack: 4.x.x || 5.x.x
     webpack-cli: 4.x.x
-  checksum: bc8b6201457ec5bd6ef05f9839209d2922921278522b067b384d719c347fe8a7c43655e1c33733cfa20b74bbcc1d0f7faa2973bae712ed1c6d215a948b4cd353
+  checksum: 2977bcaaa23598cf4716c99da9a00f2bcf1a2b09364c4ceae384caeebd2b852be76eb07db8be347dbc209d27b0fdb19e0e0cc2f2c79c7a41a37a05f1b51611e2
   languageName: node
   linkType: hard
 
-"@webpack-cli/info@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "@webpack-cli/info@npm:1.4.0"
+"@webpack-cli/info@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@webpack-cli/info@npm:1.4.1"
   dependencies:
     envinfo: ^7.7.3
   peerDependencies:
     webpack-cli: 4.x.x
-  checksum: 845bfc634ee04a607fb0b99c355654c1a973c0b101aa5e13436a567c3a16fa50fb2f0e61a26d6d8810d19b11e1c3b1ac5c0a163b67202392d4e45890c1878f0f
+  checksum: f94a3469f5c21c08f188f5605e8c7cfc89e3b95f101c5c422a59a829968bd5c0c453dd570d59e97348407ad6a62f3757b8a47edea2f8f3daadb3c16b9f5b8588
   languageName: node
   linkType: hard
 
-"@webpack-cli/serve@npm:^1.6.0":
-  version: 1.6.0
-  resolution: "@webpack-cli/serve@npm:1.6.0"
+"@webpack-cli/serve@npm:^1.6.1":
+  version: 1.6.1
+  resolution: "@webpack-cli/serve@npm:1.6.1"
   peerDependencies:
     webpack-cli: 4.x.x
   peerDependenciesMeta:
     webpack-dev-server:
       optional: true
-  checksum: c998bf09cfaa413a5f0beaaeaec6f03f7c0d4780e4b088c99ed5d949b8cfd0570c8ff404f8ce6a922f896a4809fce3011e3d8d33849f385a5bec5e9cfc6b47a7
+  checksum: 1a2f42d9c4c31fbc5ea77a0ab6689a681e6bd47e027f45b5a82dce754199fd1b072215b88ae1bfbd65e2d852748ff1bc34f2b81dcd5f63d081d4a649d4d7bbe5
   languageName: node
   linkType: hard
 
@@ -4367,17 +4367,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chai@npm:4.3.4":
-  version: 4.3.4
-  resolution: "chai@npm:4.3.4"
+"chai@npm:4.3.6":
+  version: 4.3.6
+  resolution: "chai@npm:4.3.6"
   dependencies:
     assertion-error: ^1.1.0
     check-error: ^1.0.2
     deep-eql: ^3.0.1
     get-func-name: ^2.0.0
+    loupe: ^2.3.1
     pathval: ^1.1.1
     type-detect: ^4.0.5
-  checksum: ea3e6547b9a8d367f203e83b71632ec6a801f6380393594907968479aea15e411e4317211f46e03eda092a97f6812118b69b05bbded51b01224d193cc3f4b9b3
+  checksum: 1e7ab38e932cea2a80698c93c44f47c391ca76bc96d55e961131f24b56302eb0a710e707d864fa7a6b186d2c9bfbd8665343787c48443c12227ae01c5f4706cd
   languageName: node
   linkType: hard
 
@@ -5901,9 +5902,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.7.0":
-  version: 8.7.0
-  resolution: "eslint@npm:8.7.0"
+"eslint@npm:8.8.0":
+  version: 8.8.0
+  resolution: "eslint@npm:8.8.0"
   dependencies:
     "@eslint/eslintrc": ^1.0.5
     "@humanwhocodes/config-array": ^0.9.2
@@ -5942,7 +5943,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 84cdfde8127dce30e6059d0312aae716560b349e15f973a6658d9b554718fd5a61965690f2ce181a0098fc658f8c010b3e4452d8fc48af9d34621cffde2dcc95
+  checksum: f2c0ab26fba13d9144cfbd52fd89be1727e763cf8c83de202121ce550da073d50795ef0c0e3baaf573f6c3a19b9ed4295aff4ae9f1478934ae7a0daf202b9006
   languageName: node
   linkType: hard
 
@@ -7879,13 +7880,13 @@ __metadata:
     babel-plugin-module-resolver: 4.1.0
     babel-polyfill: 6.26.0
     bluebird: 3.7.2
-    chai: 4.3.4
+    chai: 4.3.6
     chai-match-pattern: 1.2.0
     clean-webpack-plugin: 4.0.0
     copy-webpack-plugin: 9.1.0
     core-js: 3.20.3
     css-loader: 6.5.1
-    eslint: 8.7.0
+    eslint: 8.8.0
     eslint-config-prettier: 8.3.0
     eslint-import-resolver-babel-module: 5.3.1
     eslint-plugin-babel: 5.3.1
@@ -7899,7 +7900,7 @@ __metadata:
     html-webpack-plugin: 5.5.0
     konva: 8.3.2
     lodash: 4.17.21
-    mini-css-extract-plugin: 2.5.2
+    mini-css-extract-plugin: 2.5.3
     mocha: 9.2.0
     node-sass: 7.0.1
     pnp-webpack-plugin: 1.7.0
@@ -7921,7 +7922,7 @@ __metadata:
     style-loader: 3.3.1
     styled-components: 5.3.3
     webpack: 5.67.0
-    webpack-cli: 4.9.1
+    webpack-cli: 4.9.2
     webpack-dev-server: 4.7.3
     webpack-merge: 5.8.0
     workbox-precaching: 6.4.2
@@ -8411,6 +8412,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"loupe@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "loupe@npm:2.3.1"
+  dependencies:
+    get-func-name: ^2.0.0
+  checksum: 20138fe5c72b23da6d0be92f646fad87bbe5b8f2d13b3205587823c166d55e3bcdb841aa2ec13aa842f7e4c09ef28a464e6d655940bc84d90abfd65d12af3a5e
+  languageName: node
+  linkType: hard
+
 "lower-case@npm:^2.0.2":
   version: 2.0.2
   resolution: "lower-case@npm:2.0.2"
@@ -8654,14 +8664,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:2.5.2":
-  version: 2.5.2
-  resolution: "mini-css-extract-plugin@npm:2.5.2"
+"mini-css-extract-plugin@npm:2.5.3":
+  version: 2.5.3
+  resolution: "mini-css-extract-plugin@npm:2.5.3"
   dependencies:
     schema-utils: ^4.0.0
   peerDependencies:
     webpack: ^5.0.0
-  checksum: 1b630501c87f6f7a2d87d5fb1274c09db80b5c25fc8c2b5b9320548fc20e19d5dbfda3640637fcdc13df110e6d54772fc374a1574e318614ca7694a6369d77e2
+  checksum: 1a2452ef777cddf9cc449b124c4f23e67dd51eda4c0fa337c1f2cf09449bbb3797ac715609c12c3620cf5516120e537fa02ea6f885e07d23d3727d94c7bfdb2c
   languageName: node
   linkType: hard
 
@@ -12038,14 +12048,14 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"webpack-cli@npm:4.9.1":
-  version: 4.9.1
-  resolution: "webpack-cli@npm:4.9.1"
+"webpack-cli@npm:4.9.2":
+  version: 4.9.2
+  resolution: "webpack-cli@npm:4.9.2"
   dependencies:
     "@discoveryjs/json-ext": ^0.5.0
-    "@webpack-cli/configtest": ^1.1.0
-    "@webpack-cli/info": ^1.4.0
-    "@webpack-cli/serve": ^1.6.0
+    "@webpack-cli/configtest": ^1.1.1
+    "@webpack-cli/info": ^1.4.1
+    "@webpack-cli/serve": ^1.6.1
     colorette: ^2.0.14
     commander: ^7.0.0
     execa: ^5.0.0
@@ -12067,7 +12077,7 @@ resolve@^2.0.0-next.3:
       optional: true
   bin:
     webpack-cli: bin/cli.js
-  checksum: ea0e539879ad2db3fe25dd2abebd54d2ae8ee6eace6499bec87f4a174c37124e54d19b419b46603bc5fe4679d6feef331b647b903d4ca8857a4c18a9d3c2b964
+  checksum: efcb9aab27f0b5ed836e240a5ba56eaf87bd7d5092070845b286177110a6a2c28aa404dd877f5a876a3ae888aeb9d38c199c2a90d725dc96a2727334bf979da5
   languageName: node
   linkType: hard
 

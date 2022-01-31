@@ -2,4 +2,4 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 BASE_DIR="${DIR}/.."
 
-DOCKER_BUILDKIT=1 docker build -t gitlab.ufirstgroup.com:4567/michael_ruoss/wedding/jasstafel:latest -f "${DIR}/Dockerfile" "$BASE_DIR"
+DOCKER_BUILDKIT=1 docker build -t registry.gitlab.com/mruoss/wedding/jasstafel:latest -f "${DIR}/Dockerfile" "$BASE_DIR"
