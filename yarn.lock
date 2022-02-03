@@ -6141,7 +6141,7 @@ fsevents@~2.3.2:
     mocha: 9.2.0
     node-sass: 7.0.1
     pnp-webpack-plugin: 1.7.0
-    postcss: 8.4.5
+    postcss: 8.4.6
     postcss-loader: 6.2.1
     prettier: 2.5.1
     prop-types: 15.8.1
@@ -7053,7 +7053,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"nanoid@npm:3.2.0, nanoid@npm:^3.1.30":
+"nanoid@npm:3.2.0, nanoid@npm:^3.1.30, nanoid@npm:^3.2.0":
   version: 3.2.0
   resolution: "nanoid@npm:3.2.0"
   bin:
@@ -7829,7 +7829,18 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.5, postcss@npm:^8.2.15":
+"postcss@npm:8.4.6":
+  version: 8.4.6
+  resolution: "postcss@npm:8.4.6"
+  dependencies:
+    nanoid: ^3.2.0
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 31a040159e48075efddb2a770ae2a3443b1d35e37b267421052b96b960ee2a65b095ee79f70df8c03c9fb7a5a9846793cfef8e655d6fde42a971ed11593f9703
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.2.15":
   version: 8.4.5
   resolution: "postcss@npm:8.4.5"
   dependencies:
@@ -8996,7 +9007,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"source-map-js@npm:>=0.6.2 <2.0.0, source-map-js@npm:^1.0.1":
+"source-map-js@npm:>=0.6.2 <2.0.0, source-map-js@npm:^1.0.1, source-map-js@npm:^1.0.2":
   version: 1.0.2
   resolution: "source-map-js@npm:1.0.2"
   checksum: 3bb232796ad9b71bad151cb30c7fc1a2afdaf5bcfd4aa7806f56a2d4ff4824e1481e960436c5e9ec26e8c1ae129aee8107df0859c15b1ccada31a9a7ef254abc
