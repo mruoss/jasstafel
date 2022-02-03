@@ -5,5 +5,9 @@
   "rebaseWhen": "behind-base-branch",
   "dockerfile": {
     "semanticCommitType": "build"
-  }
+  },
+  "lockFileMaintenance": {
+	"enabled": true,
+	"automerge": true
+ }
 }
