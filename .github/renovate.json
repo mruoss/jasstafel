@@ -1,8 +1,8 @@
 {
-  "extends": ["github>renovatebot/.github"],
-  "semanticCommitScope": "deps",
+  "extends": ["config:base"],
   "dependencyDashboard": true,
   "ignoreDeps": [],
+  "rebaseWhen": "behind-base-branch",
   "dockerfile": {
     "semanticCommitType": "build"
   }
