@@ -1,6 +1,6 @@
 # syntax = docker/dockerfile:experimental
 
-FROM node:17.4.0-slim@sha256:127e7abf453152266a11ccbed1510dff5241b671855e32611d19fb348a8f4a41 as build
+FROM node:17.5.0-slim@sha256:156ebe6075af64b8626eb392cea7f2c82bae67803a92e15353e7176f39f4332b as build
 
 WORKDIR /app/builder
 
