@@ -5669,7 +5669,7 @@ fsevents@~2.3.2:
     redux-undo: 1.0.1
     reselect: 4.1.5
     sass: 1.49.7
-    sass-loader: 12.4.0
+    sass-loader: 12.5.0
     style-loader: 3.3.1
     styled-components: 5.3.3
     webpack: 5.68.0
@@ -7928,9 +7928,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:12.4.0":
-  version: 12.4.0
-  resolution: "sass-loader@npm:12.4.0"
+"sass-loader@npm:12.5.0":
+  version: 12.5.0
+  resolution: "sass-loader@npm:12.5.0"
   dependencies:
     klona: ^2.0.4
     neo-async: ^2.6.2
@@ -7938,6 +7938,7 @@ resolve@^2.0.0-next.3:
     fibers: ">= 3.1.0"
     node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
     sass: ^1.3.0
+    sass-embedded: "*"
     webpack: ^5.0.0
   peerDependenciesMeta:
     fibers:
@@ -7946,7 +7947,9 @@ resolve@^2.0.0-next.3:
       optional: true
     sass:
       optional: true
-  checksum: 73707df1cae690b3ba4778f7e6475f86d205fa1b3c1dafc4b01b6b7cd4b382b9c9947aef663a21aec1a260d7bb0f5c1f8c0b293291df3ecdeba9880ed8f2e2ee
+    sass-embedded:
+      optional: true
+  checksum: 77eb556e903ab2159f04676a4b65ff4af90a985852f2bec1c426dc6e2284609697c926f2f2625e3a49f7bf3046a6ca44beaf08b8b9ea80e18f54a065772c1f3c
   languageName: node
   linkType: hard
 

@@ -88,7 +88,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["redux-undo", "npm:1.0.1"],
             ["reselect", "npm:4.1.5"],
             ["sass", "npm:1.49.7"],
-            ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.4.0"],
+            ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.5.0"],
             ["style-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.3.1"],
             ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.3.3"],
             ["webpack", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.68.0"],
@@ -7696,7 +7696,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["redux-undo", "npm:1.0.1"],
             ["reselect", "npm:4.1.5"],
             ["sass", "npm:1.49.7"],
-            ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.4.0"],
+            ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.5.0"],
             ["style-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.3.1"],
             ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.3.3"],
             ["webpack", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.68.0"],
@@ -10311,35 +10311,39 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["sass-loader", [
-        ["npm:12.4.0", {
-          "packageLocation": "./.yarn/cache/sass-loader-npm-12.4.0-3d3847fd35-73707df1ca.zip/node_modules/sass-loader/",
+        ["npm:12.5.0", {
+          "packageLocation": "./.yarn/cache/sass-loader-npm-12.5.0-7b665b40a5-77eb556e90.zip/node_modules/sass-loader/",
           "packageDependencies": [
-            ["sass-loader", "npm:12.4.0"]
+            ["sass-loader", "npm:12.5.0"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.4.0", {
-          "packageLocation": "./.yarn/$$virtual/sass-loader-virtual-2f35e3b960/0/cache/sass-loader-npm-12.4.0-3d3847fd35-73707df1ca.zip/node_modules/sass-loader/",
+        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.5.0", {
+          "packageLocation": "./.yarn/$$virtual/sass-loader-virtual-01769e72fd/0/cache/sass-loader-npm-12.5.0-7b665b40a5-77eb556e90.zip/node_modules/sass-loader/",
           "packageDependencies": [
-            ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.4.0"],
+            ["sass-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:12.5.0"],
             ["@types/fibers", null],
             ["@types/node-sass", null],
             ["@types/sass", null],
+            ["@types/sass-embedded", null],
             ["@types/webpack", null],
             ["fibers", null],
             ["klona", "npm:2.0.5"],
             ["neo-async", "npm:2.6.2"],
             ["node-sass", "npm:7.0.1"],
             ["sass", "npm:1.49.7"],
+            ["sass-embedded", null],
             ["webpack", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.68.0"]
           ],
           "packagePeers": [
             "@types/fibers",
             "@types/node-sass",
+            "@types/sass-embedded",
             "@types/sass",
             "@types/webpack",
             "fibers",
             "node-sass",
+            "sass-embedded",
             "sass",
             "webpack"
           ],
