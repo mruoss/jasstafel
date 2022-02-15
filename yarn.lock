@@ -5,7 +5,7 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"@ampproject/remapping@npm:^2.0.0":
+"@ampproject/remapping@npm:^2.0.0, @ampproject/remapping@npm:^2.1.0":
   version: 2.1.1
   resolution: "@ampproject/remapping@npm:2.1.1"
   dependencies:
@@ -36,7 +36,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/compat-data@npm:^7.13.11, @babel/compat-data@npm:^7.16.4, @babel/compat-data@npm:^7.16.8":
+"@babel/compat-data@npm:^7.13.11, @babel/compat-data@npm:^7.16.4, @babel/compat-data@npm:^7.16.8, @babel/compat-data@npm:^7.17.0":
   version: 7.17.0
   resolution: "@babel/compat-data@npm:7.17.0"
   checksum: c4095f7d0ecc440d8b40dc3ca39bf8248449def929ad92ae2331882cf78cff70f0a452931a64182db8f6579b3398b06ea6e77c5e3a53ac91c8161af19085d2a3
@@ -66,6 +66,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/core@npm:7.17.3":
+  version: 7.17.3
+  resolution: "@babel/core@npm:7.17.3"
+  dependencies:
+    "@ampproject/remapping": ^2.1.0
+    "@babel/code-frame": ^7.16.7
+    "@babel/generator": ^7.17.3
+    "@babel/helper-compilation-targets": ^7.16.7
+    "@babel/helper-module-transforms": ^7.16.7
+    "@babel/helpers": ^7.17.2
+    "@babel/parser": ^7.17.3
+    "@babel/template": ^7.16.7
+    "@babel/traverse": ^7.17.3
+    "@babel/types": ^7.17.0
+    convert-source-map: ^1.7.0
+    debug: ^4.1.0
+    gensync: ^1.0.0-beta.2
+    json5: ^2.1.2
+    semver: ^6.3.0
+  checksum: 5939db99dd3537ddd0565b30425b2b5db6025431db3c6909ce28e87d903b74461c8f404bc7031a91949caab871f7ebd153e58a08de2b5b66dc003f382854e924
+  languageName: node
+  linkType: hard
+
 "@babel/generator@npm:^7.17.0":
   version: 7.17.0
   resolution: "@babel/generator@npm:7.17.0"
@@ -74,6 +97,17 @@ __metadata:
     jsesc: ^2.5.1
     source-map: ^0.5.0
   checksum: 8f7bd35a6d379cce7a4fbf5c311ae680bb77c8d6d1bd21ff394b8975ed42cb30f58ab5cebec43ac59197ff26d7ee4da98a43225c5fe7cd35bcd571b16991d95a
+  languageName: node
+  linkType: hard
+
+"@babel/generator@npm:^7.17.3":
+  version: 7.17.3
+  resolution: "@babel/generator@npm:7.17.3"
+  dependencies:
+    "@babel/types": ^7.17.0
+    jsesc: ^2.5.1
+    source-map: ^0.5.0
+  checksum: 88ea5d0b1d289fbe1f4b1a0c6457370a969b2a78711b157415bddddd860723f0c8078ae2b3a67f99dafa439e53e42b16b21767da7df8d96b55c7a7472f4010f8
   languageName: node
   linkType: hard
 
@@ -362,6 +396,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/parser@npm:^7.17.3":
+  version: 7.17.3
+  resolution: "@babel/parser@npm:7.17.3"
+  bin:
+    parser: ./bin/babel-parser.js
+  checksum: 7a601f86e628b5e701e9b954a838a4bc5506b050c697ebb8862a3dc68fbe93576a644326827b523180ba06ad58b3d978c43dc77509d93dc0573daa0b1aff5aed
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@npm:7.16.7"
@@ -496,7 +539,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-proposal-object-rest-spread@npm:7.16.7, @babel/plugin-proposal-object-rest-spread@npm:^7.16.7":
+"@babel/plugin-proposal-object-rest-spread@npm:7.17.3":
+  version: 7.17.3
+  resolution: "@babel/plugin-proposal-object-rest-spread@npm:7.17.3"
+  dependencies:
+    "@babel/compat-data": ^7.17.0
+    "@babel/helper-compilation-targets": ^7.16.7
+    "@babel/helper-plugin-utils": ^7.16.7
+    "@babel/plugin-syntax-object-rest-spread": ^7.8.3
+    "@babel/plugin-transform-parameters": ^7.16.7
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: f9887a83992ba020e41643ca6977571766e1a2af2cd731157aefa6f9682b7475d9e2b0e615a2654cc243ecf7e1da33aa26441d885129874668b85612dd4d8e70
+  languageName: node
+  linkType: hard
+
+"@babel/plugin-proposal-object-rest-spread@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/plugin-proposal-object-rest-spread@npm:7.16.7"
   dependencies:
@@ -1316,6 +1374,24 @@ __metadata:
     debug: ^4.1.0
     globals: ^11.1.0
   checksum: 6049a4c8fc31ccfd05b251d4c594350a7820d6301ac63acb18f4387e8f08d8892046db3bb211da415d79c9988cd0acb9724ffc2933a06eec3d4953d77f39a89f
+  languageName: node
+  linkType: hard
+
+"@babel/traverse@npm:^7.17.3":
+  version: 7.17.3
+  resolution: "@babel/traverse@npm:7.17.3"
+  dependencies:
+    "@babel/code-frame": ^7.16.7
+    "@babel/generator": ^7.17.3
+    "@babel/helper-environment-visitor": ^7.16.7
+    "@babel/helper-function-name": ^7.16.7
+    "@babel/helper-hoist-variables": ^7.16.7
+    "@babel/helper-split-export-declaration": ^7.16.7
+    "@babel/parser": ^7.17.3
+    "@babel/types": ^7.17.0
+    debug: ^4.1.0
+    globals: ^11.1.0
+  checksum: c183563c0d277acfc5094ae319f820a320742d1278842b613970efd9987af577636f5b1c5bb55a7b1959b947b7edca40269e7ac272e0fd0876d5b46aff2de611
   languageName: node
   linkType: hard
 
@@ -5614,8 +5690,8 @@ fsevents@~2.3.2:
   version: 0.0.0-use.local
   resolution: "jasstafel@workspace:."
   dependencies:
-    "@babel/core": 7.17.2
-    "@babel/plugin-proposal-object-rest-spread": 7.16.7
+    "@babel/core": 7.17.3
+    "@babel/plugin-proposal-object-rest-spread": 7.17.3
     "@babel/preset-env": 7.16.11
     "@babel/preset-react": 7.16.7
     "@fortawesome/free-solid-svg-icons": 6.0.0
