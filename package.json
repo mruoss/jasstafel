@@ -31,8 +31,8 @@
 		"workbox-webpack-plugin": "6.4.2"
 	},
 	"devDependencies": {
-		"@babel/core": "7.17.2",
-		"@babel/plugin-proposal-object-rest-spread": "7.16.7",
+		"@babel/core": "7.17.3",
+		"@babel/plugin-proposal-object-rest-spread": "7.17.3",
 		"@babel/preset-env": "7.16.11",
 		"@babel/preset-react": "7.16.7",
 		"ansi-html": "npm:ansi-html-community@0.0.8",
