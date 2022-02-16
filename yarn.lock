@@ -3263,10 +3263,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.21.0":
-  version: 3.21.0
-  resolution: "core-js@npm:3.21.0"
-  checksum: 1de78ba9f10bf68f5811f6e1e150df0324bc865a5ca69fb020b0a0db2c8e957f457e45a08b9c962a483b2f75e83f1846a84e60c99297e1b6af56ac9847873bc7
+"core-js@npm:3.21.1":
+  version: 3.21.1
+  resolution: "core-js@npm:3.21.1"
+  checksum: 570507f158d022b11b688e6c4a2ec17226181016bf15962b95576182ba69fd8a47d8bc378ab5d83934302f28c2cc7efbb78f404619f3560b55cc2978bdd78ddd
   languageName: node
   linkType: hard
 
@@ -5705,7 +5705,7 @@ fsevents@~2.3.2:
     chai-match-pattern: 1.2.0
     clean-webpack-plugin: 4.0.0
     copy-webpack-plugin: 9.1.0
-    core-js: 3.21.0
+    core-js: 3.21.1
     css-loader: 6.6.0
     eslint: 8.9.0
     eslint-config-prettier: 8.3.0
