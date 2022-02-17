@@ -52,7 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-polyfill", "npm:6.26.0"],
             ["bluebird", "npm:3.7.2"],
             ["chai", "npm:4.3.6"],
-            ["chai-match-pattern", "npm:1.2.0"],
+            ["chai-match-pattern", "npm:1.3.0"],
             ["clean-webpack-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:4.0.0"],
             ["copy-webpack-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:9.1.0"],
             ["core-js", "npm:3.21.1"],
@@ -5556,11 +5556,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["chai-match-pattern", [
-        ["npm:1.2.0", {
-          "packageLocation": "./.yarn/cache/chai-match-pattern-npm-1.2.0-b6bf69fddb-99ef182edc.zip/node_modules/chai-match-pattern/",
+        ["npm:1.3.0", {
+          "packageLocation": "./.yarn/cache/chai-match-pattern-npm-1.3.0-9ae9e6ca80-46e1350e26.zip/node_modules/chai-match-pattern/",
           "packageDependencies": [
-            ["chai-match-pattern", "npm:1.2.0"],
-            ["lodash-match-pattern", "npm:2.2.3"]
+            ["chai-match-pattern", "npm:1.3.0"],
+            ["lodash-match-pattern", "npm:2.3.1"]
           ],
           "linkType": "HARD",
         }]
@@ -8891,7 +8891,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-polyfill", "npm:6.26.0"],
             ["bluebird", "npm:3.7.2"],
             ["chai", "npm:4.3.6"],
-            ["chai-match-pattern", "npm:1.2.0"],
+            ["chai-match-pattern", "npm:1.3.0"],
             ["clean-webpack-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:4.0.0"],
             ["copy-webpack-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:9.1.0"],
             ["core-js", "npm:3.21.1"],
@@ -9268,10 +9268,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lodash-checkit", [
-        ["npm:2.3.3", {
-          "packageLocation": "./.yarn/cache/lodash-checkit-npm-2.3.3-e8503b4b4d-5cddf596e9.zip/node_modules/lodash-checkit/",
+        ["npm:2.4.1", {
+          "packageLocation": "./.yarn/cache/lodash-checkit-npm-2.4.1-edd0545490-c8f792da3d.zip/node_modules/lodash-checkit/",
           "packageDependencies": [
-            ["lodash-checkit", "npm:2.3.3"],
+            ["lodash-checkit", "npm:2.4.1"],
             ["checkit", "npm:0.7.0"],
             ["lodash", "npm:4.17.21"]
           ],
@@ -9279,13 +9279,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lodash-match-pattern", [
-        ["npm:2.2.3", {
-          "packageLocation": "./.yarn/cache/lodash-match-pattern-npm-2.2.3-590af34cbd-40e7cfaa7e.zip/node_modules/lodash-match-pattern/",
+        ["npm:2.3.1", {
+          "packageLocation": "./.yarn/cache/lodash-match-pattern-npm-2.3.1-8f006ad0d0-e0719bdfa4.zip/node_modules/lodash-match-pattern/",
           "packageDependencies": [
-            ["lodash-match-pattern", "npm:2.2.3"],
+            ["lodash-match-pattern", "npm:2.3.1"],
             ["chalk", "npm:4.1.2"],
             ["he", "npm:1.2.0"],
-            ["lodash-checkit", "npm:2.3.3"]
+            ["lodash-checkit", "npm:2.4.1"]
           ],
           "linkType": "HARD",
         }]
