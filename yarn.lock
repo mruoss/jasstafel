@@ -3785,7 +3785,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.9.0":
+"enhanced-resolve@npm:^5.8.3":
   version: 5.9.0
   resolution: "enhanced-resolve@npm:5.9.0"
   dependencies:
@@ -5741,7 +5741,7 @@ fsevents@~2.3.2:
     sass-loader: 12.6.0
     style-loader: 3.3.1
     styled-components: 5.3.3
-    webpack: 5.69.0
+    webpack: 5.69.1
     webpack-cli: 4.9.2
     webpack-dev-server: 4.7.4
     webpack-merge: 5.8.0
@@ -9275,9 +9275,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.69.0":
-  version: 5.69.0
-  resolution: "webpack@npm:5.69.0"
+"webpack@npm:5.69.1":
+  version: 5.69.1
+  resolution: "webpack@npm:5.69.1"
   dependencies:
     "@types/eslint-scope": ^3.7.3
     "@types/estree": ^0.0.51
@@ -9288,7 +9288,7 @@ resolve@^2.0.0-next.3:
     acorn-import-assertions: ^1.7.6
     browserslist: ^4.14.5
     chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^5.9.0
+    enhanced-resolve: ^5.8.3
     es-module-lexer: ^0.9.0
     eslint-scope: 5.1.1
     events: ^3.2.0
@@ -9308,7 +9308,7 @@ resolve@^2.0.0-next.3:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: e5030b32955c53c1ee5f9a5317844572d042fc5f08f33667c3d62c638e97b684c2cf53c368463fa1e3ba04a71a9415c02b6e0be47bca150c3bc50069bfda389b
+  checksum: 401e080a2cde6f831037f0653a2a28e1c25bd73bb50c1391d1ee2d0b62f63642020a8a340c9675d8b0f6459ba2d93fcaca9147cd37769f7afbeaee6a3e505601
   languageName: node
   linkType: hard
 
