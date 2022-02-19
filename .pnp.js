@@ -72,7 +72,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["konva", "npm:8.3.2"],
             ["lodash", "npm:4.17.21"],
             ["mini-css-extract-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:2.5.3"],
-            ["mocha", "npm:9.2.0"],
+            ["mocha", "npm:9.2.1"],
             ["node-sass", "npm:7.0.1"],
             ["pnp-webpack-plugin", "npm:1.7.0"],
             ["postcss", "npm:8.4.6"],
@@ -6150,24 +6150,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:2ad756de169bf72aafda43d1e2327e0cf7bcb204e0a9798d149f3f82af2946c06104e76120b9f2fefe79c9a7f4dc97edc7d3dde4b1a890339a9f2f672bc5b209#npm:4.3.3", {
-          "packageLocation": "./.yarn/$$virtual/debug-virtual-b69803574e/0/cache/debug-npm-4.3.3-710fd4cc7f-1bceffaa69.zip/node_modules/debug/",
+        ["virtual:29636e12a0a7ec2e9a924b61df8922c1d41a1cb7c34a656e351bfd63d5a19aa4c9054ee77cd2e4af264a763655d4d5c5fdade56f9db4eda9d8869952016b14b1#npm:4.3.3", {
+          "packageLocation": "./.yarn/$$virtual/debug-virtual-c8108de7e6/0/cache/debug-npm-4.3.3-710fd4cc7f-1bceffaa69.zip/node_modules/debug/",
           "packageDependencies": [
-            ["debug", "virtual:2ad756de169bf72aafda43d1e2327e0cf7bcb204e0a9798d149f3f82af2946c06104e76120b9f2fefe79c9a7f4dc97edc7d3dde4b1a890339a9f2f672bc5b209#npm:4.3.3"],
+            ["debug", "virtual:29636e12a0a7ec2e9a924b61df8922c1d41a1cb7c34a656e351bfd63d5a19aa4c9054ee77cd2e4af264a763655d4d5c5fdade56f9db4eda9d8869952016b14b1#npm:4.3.3"],
             ["ms", "npm:2.1.2"],
-            ["supports-color", null]
+            ["supports-color", "npm:8.1.1"]
           ],
           "packagePeers": [
             "supports-color"
           ],
           "linkType": "HARD",
         }],
-        ["virtual:4bf488a12f30cd173e8533a259e1f60e96de7dd329cdc407a6372b2f6da571c866aa770a2d7789a2b186aa2b72720a862c63549628f178573604692dc61d7c98#npm:4.3.3", {
-          "packageLocation": "./.yarn/$$virtual/debug-virtual-d0240b1fa4/0/cache/debug-npm-4.3.3-710fd4cc7f-1bceffaa69.zip/node_modules/debug/",
+        ["virtual:2ad756de169bf72aafda43d1e2327e0cf7bcb204e0a9798d149f3f82af2946c06104e76120b9f2fefe79c9a7f4dc97edc7d3dde4b1a890339a9f2f672bc5b209#npm:4.3.3", {
+          "packageLocation": "./.yarn/$$virtual/debug-virtual-b69803574e/0/cache/debug-npm-4.3.3-710fd4cc7f-1bceffaa69.zip/node_modules/debug/",
           "packageDependencies": [
-            ["debug", "virtual:4bf488a12f30cd173e8533a259e1f60e96de7dd329cdc407a6372b2f6da571c866aa770a2d7789a2b186aa2b72720a862c63549628f178573604692dc61d7c98#npm:4.3.3"],
+            ["debug", "virtual:2ad756de169bf72aafda43d1e2327e0cf7bcb204e0a9798d149f3f82af2946c06104e76120b9f2fefe79c9a7f4dc97edc7d3dde4b1a890339a9f2f672bc5b209#npm:4.3.3"],
             ["ms", "npm:2.1.2"],
-            ["supports-color", "npm:8.1.1"]
+            ["supports-color", null]
           ],
           "packagePeers": [
             "supports-color"
@@ -8911,7 +8911,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["konva", "npm:8.3.2"],
             ["lodash", "npm:4.17.21"],
             ["mini-css-extract-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:2.5.3"],
-            ["mocha", "npm:9.2.0"],
+            ["mocha", "npm:9.2.1"],
             ["node-sass", "npm:7.0.1"],
             ["pnp-webpack-plugin", "npm:1.7.0"],
             ["postcss", "npm:8.4.6"],
@@ -9751,15 +9751,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["mocha", [
-        ["npm:9.2.0", {
-          "packageLocation": "./.yarn/cache/mocha-npm-9.2.0-4bf488a12f-bc449b5db8.zip/node_modules/mocha/",
+        ["npm:9.2.1", {
+          "packageLocation": "./.yarn/cache/mocha-npm-9.2.1-29636e12a0-8194da9f8f.zip/node_modules/mocha/",
           "packageDependencies": [
-            ["mocha", "npm:9.2.0"],
+            ["mocha", "npm:9.2.1"],
             ["@ungap/promise-all-settled", "npm:1.1.2"],
             ["ansi-colors", "npm:4.1.1"],
             ["browser-stdout", "npm:1.3.1"],
             ["chokidar", "npm:3.5.3"],
-            ["debug", "virtual:4bf488a12f30cd173e8533a259e1f60e96de7dd329cdc407a6372b2f6da571c866aa770a2d7789a2b186aa2b72720a862c63549628f178573604692dc61d7c98#npm:4.3.3"],
+            ["debug", "virtual:29636e12a0a7ec2e9a924b61df8922c1d41a1cb7c34a656e351bfd63d5a19aa4c9054ee77cd2e4af264a763655d4d5c5fdade56f9db4eda9d8869952016b14b1#npm:4.3.3"],
             ["diff", "npm:5.0.0"],
             ["escape-string-regexp", "npm:4.0.0"],
             ["find-up", "npm:5.0.0"],
