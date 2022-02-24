@@ -5644,7 +5644,7 @@ fsevents@~2.3.2:
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-react: 7.28.0
     html-webpack-plugin: 5.5.0
-    konva: 8.3.2
+    konva: 8.3.3
     lodash: 4.17.21
     mini-css-extract-plugin: 2.5.3
     mocha: 9.2.1
@@ -5883,10 +5883,10 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"konva@npm:8.3.2":
-  version: 8.3.2
-  resolution: "konva@npm:8.3.2"
-  checksum: e0c835630ccb14d99080f8e4f96009e289f4961d9fc0e3f5ffc65e7f90bbd5c867aa4aedf1b0105761366050917ae83a26bbeb93768242b61820d2e71005e232
+"konva@npm:8.3.3":
+  version: 8.3.3
+  resolution: "konva@npm:8.3.3"
+  checksum: f68a7cd9ca65ecf61328822f41ed60f24a2bc9be3960f3d786c9b5ab0fe9891542efed5b1882b6cba94bc5d51d101e95c58a6a99cb3ba21fc2255879ce3e7f69
   languageName: node
   linkType: hard
 
