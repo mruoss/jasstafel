@@ -75,7 +75,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mocha", "npm:9.2.1"],
             ["node-sass", "npm:7.0.1"],
             ["pnp-webpack-plugin", "npm:1.7.0"],
-            ["postcss", "npm:8.4.6"],
+            ["postcss", "npm:8.4.7"],
             ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.2.1"],
             ["prettier", "npm:2.5.1"],
             ["prop-types", "npm:15.8.1"],
@@ -7677,7 +7677,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mocha", "npm:9.2.1"],
             ["node-sass", "npm:7.0.1"],
             ["pnp-webpack-plugin", "npm:1.7.0"],
-            ["postcss", "npm:8.4.6"],
+            ["postcss", "npm:8.4.7"],
             ["postcss-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.2.1"],
             ["prettier", "npm:2.5.1"],
             ["prop-types", "npm:15.8.1"],
@@ -9334,6 +9334,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["source-map-js", "npm:1.0.2"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:8.4.7", {
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.7-12e4add2ee-e653110e25.zip/node_modules/postcss/",
+          "packageDependencies": [
+            ["postcss", "npm:8.4.7"],
+            ["nanoid", "npm:3.3.1"],
+            ["picocolors", "npm:1.0.0"],
+            ["source-map-js", "npm:1.0.2"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["postcss-loader", [
@@ -9352,7 +9362,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webpack", null],
             ["cosmiconfig", "npm:7.0.1"],
             ["klona", "npm:2.0.5"],
-            ["postcss", "npm:8.4.6"],
+            ["postcss", "npm:8.4.7"],
             ["semver", "npm:7.3.5"],
             ["webpack", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.69.1"]
           ],

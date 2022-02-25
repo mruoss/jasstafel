@@ -5650,7 +5650,7 @@ fsevents@~2.3.2:
     mocha: 9.2.1
     node-sass: 7.0.1
     pnp-webpack-plugin: 1.7.0
-    postcss: 8.4.6
+    postcss: 8.4.7
     postcss-loader: 6.2.1
     prettier: 2.5.1
     prop-types: 15.8.1
@@ -6496,7 +6496,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.2.0":
+"nanoid@npm:^3.2.0, nanoid@npm:^3.3.1":
   version: 3.3.1
   resolution: "nanoid@npm:3.3.1"
   bin:
@@ -7216,7 +7216,18 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.6, postcss@npm:^8.4.5":
+"postcss@npm:8.4.7":
+  version: 8.4.7
+  resolution: "postcss@npm:8.4.7"
+  dependencies:
+    nanoid: ^3.3.1
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: e653110e2540d591abb029ae557ceb2ce8301354a876311dc9c82ac2288cf1ee0575665e7741b415792d435b938afe53efc9eb01ffbc2965c20cb9254f657148
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.4.5":
   version: 8.4.6
   resolution: "postcss@npm:8.4.6"
   dependencies:
