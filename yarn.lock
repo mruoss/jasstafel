@@ -5662,7 +5662,7 @@ fsevents@~2.3.2:
     redux: 4.1.2
     redux-undo: 1.0.1
     reselect: 4.1.5
-    sass: 1.49.8
+    sass: 1.49.9
     sass-loader: 12.6.0
     style-loader: 3.3.1
     styled-components: 5.3.3
@@ -7956,16 +7956,16 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"sass@npm:1.49.8":
-  version: 1.49.8
-  resolution: "sass@npm:1.49.8"
+"sass@npm:1.49.9":
+  version: 1.49.9
+  resolution: "sass@npm:1.49.9"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 58379f157a8cebf6e18d56da2adb428b2a07ffefa66f5df497742fed12c0bd5a65afc0a248027354401ee7fc5b3e43b7bd60751d0160380dd50c84b838028152
+  checksum: fef504ee6132d01a49c70b5addf337407bc44c916fdbe620a77722622573b0ae3332b4911cd8b2628bbf851ac2872b997938a64d5744cd806e44e935c8d9a7a6
   languageName: node
   linkType: hard
 
