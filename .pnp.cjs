@@ -12346,7 +12346,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["require-directory", "npm:2.1.1"],\
             ["string-width", "npm:4.2.3"],\
             ["y18n", "npm:5.0.8"],\
-            ["yargs-parser", "npm:21.0.0"]\
+            ["yargs-parser", "npm:21.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -12366,10 +12366,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:21.0.0", {\
-          "packageLocation": "./.yarn/cache/yargs-parser-npm-21.0.0-d564c0a5d4-1e205fca1c.zip/node_modules/yargs-parser/",\
+        ["npm:21.0.1", {\
+          "packageLocation": "./.yarn/cache/yargs-parser-npm-21.0.1-b778fd3462-c3ea2ed12c.zip/node_modules/yargs-parser/",\
           "packageDependencies": [\
-            ["yargs-parser", "npm:21.0.0"]\
+            ["yargs-parser", "npm:21.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
