@@ -57,7 +57,7 @@
 		"eslint-plugin-prettier": "4.0.0",
 		"eslint-plugin-react": "7.29.2",
 		"html-webpack-plugin": "5.5.0",
-		"mini-css-extract-plugin": "2.5.3",
+		"mini-css-extract-plugin": "2.6.0",
 		"mocha": "9.2.1",
 		"node-sass": "7.0.1",
 		"pnp-webpack-plugin": "1.7.0",
