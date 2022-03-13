@@ -17,7 +17,7 @@
 		"@fortawesome/free-solid-svg-icons": "6.0.0",
 		"bluebird": "3.7.2",
 		"core-js": "3.21.1",
-		"konva": "8.3.3",
+		"konva": "8.3.4",
 		"lodash": "4.17.21",
 		"react": "17.0.2",
 		"react-dom": "17.0.2",
