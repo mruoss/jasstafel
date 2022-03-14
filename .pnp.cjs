@@ -8212,10 +8212,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:7.4.4", {\
-          "packageLocation": "./.yarn/cache/lru-cache-npm-7.4.4-f967817c3f-c042ac73b4.zip/node_modules/lru-cache/",\
+        ["npm:7.5.0", {\
+          "packageLocation": "./.yarn/cache/lru-cache-npm-7.5.0-d805ce4f5f-6d12de6cfc.zip/node_modules/lru-cache/",\
           "packageDependencies": [\
-            ["lru-cache", "npm:7.4.4"]\
+            ["lru-cache", "npm:7.5.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8251,7 +8251,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["http-proxy-agent", "npm:5.0.0"],\
             ["https-proxy-agent", "npm:5.0.0"],\
             ["is-lambda", "npm:1.0.1"],\
-            ["lru-cache", "npm:7.4.4"],\
+            ["lru-cache", "npm:7.5.0"],\
             ["minipass", "npm:3.1.6"],\
             ["minipass-collect", "npm:1.0.2"],\
             ["minipass-fetch", "npm:2.0.3"],\
