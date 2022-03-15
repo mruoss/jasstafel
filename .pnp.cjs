@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-proposal-object-rest-spread", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.17.3"],\
             ["@babel/preset-env", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.16.11"],\
             ["@babel/preset-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.16.7"],\
-            ["@fortawesome/free-solid-svg-icons", "npm:6.0.0"],\
+            ["@fortawesome/free-solid-svg-icons", "npm:6.1.0"],\
             ["ansi-html", [\
               "ansi-html-community",\
               "npm:0.0.8"\
@@ -3649,20 +3649,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@fortawesome/fontawesome-common-types", [\
-        ["npm:0.3.0", {\
-          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-common-types-npm-0.3.0-6e529e8bc7/node_modules/@fortawesome/fontawesome-common-types/",\
+        ["npm:6.1.0", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-common-types-npm-6.1.0-51f0b14031/node_modules/@fortawesome/fontawesome-common-types/",\
           "packageDependencies": [\
-            ["@fortawesome/fontawesome-common-types", "npm:0.3.0"]\
+            ["@fortawesome/fontawesome-common-types", "npm:6.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@fortawesome/free-solid-svg-icons", [\
-        ["npm:6.0.0", {\
-          "packageLocation": "./.yarn/unplugged/@fortawesome-free-solid-svg-icons-npm-6.0.0-f35c13f80a/node_modules/@fortawesome/free-solid-svg-icons/",\
+        ["npm:6.1.0", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-free-solid-svg-icons-npm-6.1.0-e95af8cbd3/node_modules/@fortawesome/free-solid-svg-icons/",\
           "packageDependencies": [\
-            ["@fortawesome/free-solid-svg-icons", "npm:6.0.0"],\
-            ["@fortawesome/fontawesome-common-types", "npm:0.3.0"]\
+            ["@fortawesome/free-solid-svg-icons", "npm:6.1.0"],\
+            ["@fortawesome/fontawesome-common-types", "npm:6.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8967,7 +8967,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-proposal-object-rest-spread", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.17.3"],\
             ["@babel/preset-env", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.16.11"],\
             ["@babel/preset-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.16.7"],\
-            ["@fortawesome/free-solid-svg-icons", "npm:6.0.0"],\
+            ["@fortawesome/free-solid-svg-icons", "npm:6.1.0"],\
             ["ansi-html", [\
               "ansi-html-community",\
               "npm:0.0.8"\
