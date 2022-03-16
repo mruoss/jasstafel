@@ -63,7 +63,7 @@
 		"pnp-webpack-plugin": "1.7.0",
 		"postcss": "8.4.11",
 		"postcss-loader": "6.2.1",
-		"prettier": "2.5.1",
+		"prettier": "2.6.0",
 		"prop-types": "15.8.1",
 		"react-is": "17.0.2",
 		"sass": "1.49.9",
