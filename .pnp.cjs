@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
               "npm:0.0.8"\
             ]],\
             ["babel-eslint", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.1.0"],\
-            ["babel-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.3"],\
+            ["babel-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.4"],\
             ["babel-plugin-module-resolver", "npm:4.1.0"],\
             ["babel-polyfill", "npm:6.26.0"],\
             ["bluebird", "npm:3.7.2"],\
@@ -3830,22 +3830,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["babel-loader", [\
-        ["npm:8.2.3", {\
-          "packageLocation": "./.yarn/cache/babel-loader-npm-8.2.3-855681b984-78e1e1a919.zip/node_modules/babel-loader/",\
+        ["npm:8.2.4", {\
+          "packageLocation": "./.yarn/cache/babel-loader-npm-8.2.4-e2dfcd123f-4968251fc4.zip/node_modules/babel-loader/",\
           "packageDependencies": [\
-            ["babel-loader", "npm:8.2.3"]\
+            ["babel-loader", "npm:8.2.4"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.3", {\
-          "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-71e3478d48/0/cache/babel-loader-npm-8.2.3-855681b984-78e1e1a919.zip/node_modules/babel-loader/",\
+        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.4", {\
+          "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-76b3347776/0/cache/babel-loader-npm-8.2.4-e2dfcd123f-4968251fc4.zip/node_modules/babel-loader/",\
           "packageDependencies": [\
-            ["babel-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.3"],\
+            ["babel-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.4"],\
             ["@babel/core", "npm:7.17.8"],\
             ["@types/babel__core", null],\
             ["@types/webpack", null],\
             ["find-cache-dir", "npm:3.3.2"],\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:2.0.2"],\
             ["make-dir", "npm:3.1.0"],\
             ["schema-utils", "npm:2.7.1"],\
             ["webpack", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.70.0"]\
@@ -7745,7 +7745,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
               "npm:0.0.8"\
             ]],\
             ["babel-eslint", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.1.0"],\
-            ["babel-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.3"],\
+            ["babel-loader", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.2.4"],\
             ["babel-plugin-module-resolver", "npm:4.1.0"],\
             ["babel-polyfill", "npm:6.26.0"],\
             ["bluebird", "npm:3.7.2"],\
@@ -8069,13 +8069,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["loader-utils", [\
-        ["npm:1.4.0", {\
-          "packageLocation": "./.yarn/cache/loader-utils-npm-1.4.0-a56254a277-d150b15e7a.zip/node_modules/loader-utils/",\
+        ["npm:2.0.2", {\
+          "packageLocation": "./.yarn/cache/loader-utils-npm-2.0.2-c693411911-9078d1ed47.zip/node_modules/loader-utils/",\
           "packageDependencies": [\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:2.0.2"],\
             ["big.js", "npm:5.2.2"],\
             ["emojis-list", "npm:3.0.0"],\
-            ["json5", "npm:1.0.1"]\
+            ["json5", "npm:2.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
