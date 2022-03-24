@@ -1787,6 +1787,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-reconciler@npm:~0.26.2":
+  version: 0.26.4
+  resolution: "@types/react-reconciler@npm:0.26.4"
+  dependencies:
+    "@types/react": "*"
+  checksum: 5ebb72f8aa70824b69030ae7f4c21828c0fb5c1cc5873a606eb7f7ac50cf5dd52502edcd32bf1eead2f149d076ee1798c86f1ffaebfa8b31d523343368d351e0
+  languageName: node
+  linkType: hard
+
 "@types/react-redux@npm:^7.1.20":
   version: 7.1.23
   resolution: "@types/react-redux@npm:7.1.23"
@@ -5727,7 +5736,7 @@ __metadata:
     react: 17.0.2
     react-dom: 17.0.2
     react-is: 17.0.2
-    react-konva: 17.0.2-5
+    react-konva: 17.0.2-6
     react-redux: 7.2.6
     redux: 4.1.2
     redux-undo: 1.0.1
@@ -7536,17 +7545,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-konva@npm:17.0.2-5":
-  version: 17.0.2-5
-  resolution: "react-konva@npm:17.0.2-5"
+"react-konva@npm:17.0.2-6":
+  version: 17.0.2-6
+  resolution: "react-konva@npm:17.0.2-6"
   dependencies:
+    "@types/react-reconciler": ~0.26.2
     react-reconciler: ~0.26.2
     scheduler: ^0.20.2
   peerDependencies:
     konva: ^8.0.1 || ^7.2.5
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 614522753fe95322fc022569cd95443eacfc1b9d2d84c0bb4ea40ce6cdce9b7c5843268e67ebef7cdb6d50ab08b8a5038ec760c3977a105e233bcceb8408de56
+  checksum: 5e868f6941090243c998f2817fbc9f031f60c83e236dc3f6328c904114582cfe281a08df9b5146b3339f6e1ccf30f3707d03de85fd534fb42fbe0ee6c6531b0c
   languageName: node
   linkType: hard
 
