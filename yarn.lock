@@ -2201,7 +2201,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-html@npm:^0.0.9":
+"ansi-html@npm:0.0.9":
   version: 0.0.9
   resolution: "ansi-html@npm:0.0.9"
   bin:
@@ -5237,7 +5237,7 @@ __metadata:
     "@babel/preset-env": 7.16.11
     "@babel/preset-react": 7.16.7
     "@fortawesome/free-solid-svg-icons": 6.1.1
-    ansi-html: ^0.0.9
+    ansi-html: 0.0.9
     babel-eslint: 10.1.0
     babel-loader: 8.2.4
     babel-plugin-module-resolver: 4.1.0
@@ -5278,7 +5278,7 @@ __metadata:
     redux: 4.2.0
     redux-undo: 1.0.1
     reselect: 4.1.5
-    sass: ^1.50.1
+    sass: 1.50.1
     sass-loader: 12.6.0
     style-loader: 3.3.1
     styled-components: 5.3.5
@@ -7292,7 +7292,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.50.1":
+"sass@npm:1.50.1":
   version: 1.50.1
   resolution: "sass@npm:1.50.1"
   dependencies:
