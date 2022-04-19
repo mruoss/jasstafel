@@ -80,7 +80,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-is", "npm:18.0.0"],\
             ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:17.0.2-6"],\
             ["react-redux", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.0.0"],\
-            ["redux", "npm:4.1.2"],\
+            ["redux", "npm:4.2.0"],\
             ["redux-undo", "npm:1.0.1"],\
             ["reselect", "npm:4.1.5"],\
             ["sass", "npm:1.50.1"],\
@@ -7740,7 +7740,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-is", "npm:18.0.0"],\
             ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:17.0.2-6"],\
             ["react-redux", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.0.0"],\
-            ["redux", "npm:4.1.2"],\
+            ["redux", "npm:4.2.0"],\
             ["redux-undo", "npm:1.0.1"],\
             ["reselect", "npm:4.1.5"],\
             ["sass", "npm:1.50.1"],\
@@ -9898,7 +9898,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.0.0"],\
             ["react-is", "npm:18.0.0"],\
             ["react-native", null],\
-            ["redux", "npm:4.1.2"],\
+            ["redux", "npm:4.2.0"],\
             ["use-sync-external-store", "virtual:fe6cfae3a285390611d7fa2d0eedf445ebb08388471617b5e9049151facf028548d380bfeff73e7f085efda253ab0d69b33b97012141b772b4280ee6d6637968#npm:1.0.0"]\
           ],\
           "packagePeers": [\
@@ -9997,10 +9997,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["redux", [\
-        ["npm:4.1.2", {\
-          "packageLocation": "./.yarn/cache/redux-npm-4.1.2-04cdbe7a08-6a839cee5b.zip/node_modules/redux/",\
+        ["npm:4.2.0", {\
+          "packageLocation": "./.yarn/cache/redux-npm-4.2.0-4688cc8d65-75f3955c89.zip/node_modules/redux/",\
           "packageDependencies": [\
-            ["redux", "npm:4.1.2"],\
+            ["redux", "npm:4.2.0"],\
             ["@babel/runtime", "npm:7.17.9"]\
           ],\
           "linkType": "HARD"\
