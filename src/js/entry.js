@@ -2,7 +2,6 @@
 import React from 'react'
 import { Provider as ReduxProvider } from 'react-redux'
 import { render } from 'react-dom'
-import '../sass/global.sass'
 import { createStore, compose } from 'redux'
 import { saveState, loadState } from './localStorage'
 import Jasstafel from './components/Jasstafel'
