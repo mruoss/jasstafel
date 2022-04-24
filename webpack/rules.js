@@ -1,35 +1,4 @@
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path')
-
-const cssLoaders = (mode, with_modules) => [
-	{
-		loader: require.resolve('css-loader'),
-		options: {
-			sourceMap: true,
-			importLoaders: 1, // postcss-loader does not count
-			...(with_modules ? { modules: true, localIdentName: '[path]___[name]__[local]___[hash:base64:5]' } : {}),
-		},
-	},
-	{
-		loader: require.resolve('postcss-loader'),
-		options: {
-			sourceMap: true,
-		},
-	},
-	{
-		loader: require.resolve('sass-loader'),
-		options: {
-			sourceMap: true,
-		},
-	},
-]
-
-const cssUseEntry = ({ mode, with_modules }) =>
-	mode === 'development'
-		? // dev server
-		  [{ loader: require.resolve('style-loader') }, ...cssLoaders(mode, with_modules)]
-		: // build client && server
-		  [MiniCssExtractPlugin.loader, ...cssLoaders(mode, with_modules)]
 
 // =============================================================================
 
@@ -66,18 +35,6 @@ module.exports = ({ mode }) => [
 				],
 			},
 		},
-	},
-	{
-		// only for src/js/**/.*.sass
-		test: /\.(scss|sass)$/,
-		include: [path.resolve('../src/js')],
-		use: cssUseEntry({ mode, with_modules: true }),
-	},
-	{
-		// for src/sass/**/.*.sass
-		test: /\.(scss|sass)$/,
-		exclude: [path.resolve('../src/js')],
-		use: cssUseEntry({ mode, with_modules: false }),
 	},
 	{
 		// only 3rd party fonts
