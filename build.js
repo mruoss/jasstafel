@@ -93,7 +93,7 @@ fs.rm(destDirectory, { recursive: true, force: true })
 			outfile: path.join(destDirectory, 'sw.js'),
 			bundle: true,
 			plugins: [pnpPlugin()],
-			minify: false,
+			minify: true,
 			define: {
 				'process.env.NODE_ENV': '"production"',
 			},
