@@ -19,8 +19,7 @@ import GlobalTouchScreen from './TouchScreen/GlobalTouchScreen'
 import PlayerName from './PlayerName'
 import Z from './Z'
 
-const Layers = () =>
-{
+const Layers = () => {
 	const dispatch = useDispatch()
 
 	const score = useSelector(selectScore)
@@ -29,7 +28,7 @@ const Layers = () =>
 
 	return (
 		<Layer>
-			<Blackboard key="blackboard"/>
+			<Blackboard key="blackboard" />
 
 			<Z key="z-p1" scope={SCOPE_PLAYER_1} />
 			<Z key="z-p2" scope={SCOPE_PLAYER_2} />
@@ -50,57 +49,51 @@ const Layers = () =>
 				setPlayerName={(scope, name) => dispatch(setPlayerName(scope, name))}
 			/>
 
-			{
-				keyboardOpenFor ? null : (
-					<Group>
-						<PlayerTouchScreen
-							key="ts-p1"
-							scope={SCOPE_PLAYER_1}
-							onClickHundred={() => dispatch(addHundred(players.PLAYER_1, 1))}
-							onClickFifty={() => dispatch(addFifty(players.PLAYER_1, 1))}
-							onClickTwenty={() => dispatch(addTwenty(players.PLAYER_1, 1))}
-							onClickOne={() => dispatch(openKeyboardForPlayer(players.PLAYER_1))}
-						/>
-						<PlayerTouchScreen
-							key="ts-p2"
-							scope={SCOPE_PLAYER_2}
-							onClickHundred={() => dispatch(addHundred(players.PLAYER_2, 1))}
-							onClickFifty={() => dispatch(addFifty(players.PLAYER_2, 1))}
-							onClickTwenty={() => dispatch(addTwenty(players.PLAYER_2, 1))}
-							onClickOne={() => dispatch(openKeyboardForPlayer(players.PLAYER_2))}
-						/>
-						<GlobalTouchScreen key="ts-g" />
-					</Group>
-				)
-			}
-			{
-				keyboardOpenFor === players.PLAYER_1 ? (
-					<Keyboard
-						key="kb-p1"
+			{keyboardOpenFor ? null : (
+				<Group>
+					<PlayerTouchScreen
+						key="ts-p1"
 						scope={SCOPE_PLAYER_1}
-						onConfirm={({me, you}) => {
-							const timestamp = Date.now()
-							dispatch(addPoints(players.PLAYER_1, me, timestamp))
-							you > 0 && dispatch(addPoints(players.PLAYER_2, you, timestamp))
-						}}
-						closeKeyboard={() => dispatch(closeKeyboard())}
+						onClickHundred={() => dispatch(addHundred(players.PLAYER_1, 1))}
+						onClickFifty={() => dispatch(addFifty(players.PLAYER_1, 1))}
+						onClickTwenty={() => dispatch(addTwenty(players.PLAYER_1, 1))}
+						onClickOne={() => dispatch(openKeyboardForPlayer(players.PLAYER_1))}
 					/>
-				) : null
-			}
-			{
-				keyboardOpenFor === players.PLAYER_2 ? (
-					<Keyboard
-						key="kb-p2"
+					<PlayerTouchScreen
+						key="ts-p2"
 						scope={SCOPE_PLAYER_2}
-						onConfirm={({ me, you }) => {
-							const timestamp = Date.now()
-							dispatch(addPoints(players.PLAYER_2, me, timestamp))
-							you > 0 && dispatch(addPoints(players.PLAYER_1, you, timestamp))
-						}}
-						closeKeyboard={() =>dispatch(closeKeyboard())}
+						onClickHundred={() => dispatch(addHundred(players.PLAYER_2, 1))}
+						onClickFifty={() => dispatch(addFifty(players.PLAYER_2, 1))}
+						onClickTwenty={() => dispatch(addTwenty(players.PLAYER_2, 1))}
+						onClickOne={() => dispatch(openKeyboardForPlayer(players.PLAYER_2))}
 					/>
-				) : null
-			}
+					<GlobalTouchScreen key="ts-g" />
+				</Group>
+			)}
+			{keyboardOpenFor === players.PLAYER_1 ? (
+				<Keyboard
+					key="kb-p1"
+					scope={SCOPE_PLAYER_1}
+					onConfirm={({ me, you }) => {
+						const timestamp = Date.now()
+						dispatch(addPoints(players.PLAYER_1, me, timestamp))
+						you > 0 && dispatch(addPoints(players.PLAYER_2, you, timestamp))
+					}}
+					closeKeyboard={() => dispatch(closeKeyboard())}
+				/>
+			) : null}
+			{keyboardOpenFor === players.PLAYER_2 ? (
+				<Keyboard
+					key="kb-p2"
+					scope={SCOPE_PLAYER_2}
+					onConfirm={({ me, you }) => {
+						const timestamp = Date.now()
+						dispatch(addPoints(players.PLAYER_2, me, timestamp))
+						you > 0 && dispatch(addPoints(players.PLAYER_1, you, timestamp))
+					}}
+					closeKeyboard={() => dispatch(closeKeyboard())}
+				/>
+			) : null}
 		</Layer>
 	)
 }

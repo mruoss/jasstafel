@@ -1,7 +1,7 @@
 /* eslint-env browser */
 import React from 'react'
 import { Provider as ReduxProvider } from 'react-redux'
-import { createRoot } from 'react-dom/client';
+import { createRoot } from 'react-dom/client'
 import { createStore, compose } from 'redux'
 import { saveState, loadState } from './localStorage'
 import Jasstafel from './components/Jasstafel'
@@ -26,11 +26,11 @@ const enhancer = composeEnhancers()
 const store = createStore(reducer, loadState(), enhancer)
 
 store.subscribe(() => {
-  saveState(store.getState());
-});
+	saveState(store.getState())
+})
 
 const appRootElement = document.getElementById('jasstafel')
-const root = createRoot(appRootElement);
+const root = createRoot(appRootElement)
 root.render(
 	<ReduxProvider store={store}>
 		<Jasstafel store={store} />

@@ -21,11 +21,7 @@ import DimensionsConsumer from '../../DimensionsContext/DimensionsConsumer'
 import Key from './Key'
 import UseDimensionsContext from '../../DimensionsContext/UseDimensionsContext'
 
-const Keyboard = ({
-	scope,
-	onConfirm,
-	closeKeyboard,
-}) => {
+const Keyboard = ({ scope, onConfirm, closeKeyboard }) => {
 	const [points, setPoints] = useState(0)
 	const [complementOn, setComplementOn] = useState(true)
 

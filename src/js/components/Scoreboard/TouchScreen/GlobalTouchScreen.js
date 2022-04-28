@@ -17,8 +17,8 @@ import UseDimensionsContext from '../../DimensionsContext/UseDimensionsContext'
 const { undo, redo } = UndoActionCreators
 
 const GlobalTouchScreen = () => {
-	const isUndoEnabled = useSelector(state => selectPastScoreLength(state) > 0)
-	const isRedoEnabled = useSelector(state => selectFutureScoreLength(state) > 0)
+	const isUndoEnabled = useSelector((state) => selectPastScoreLength(state) > 0)
+	const isRedoEnabled = useSelector((state) => selectFutureScoreLength(state) > 0)
 	const { getPoint, iconScale, rotationDeg } = UseDimensionsContext(SCOPE_GLOBAL)
 	const dispatch = useDispatch()
 

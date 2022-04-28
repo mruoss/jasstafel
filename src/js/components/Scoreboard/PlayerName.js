@@ -17,27 +17,29 @@ const askForName = (scope, oldName, setPlayerName) => {
 
 const PlayerName = ({ scope, name, setPlayerName }) => {
 	const { getPoint, rotation } = UseDimensionsContext(scope)
-	return <Group>
-		<Line
-			points={[
-				...Object.values(getPoint(12, 76)),
-				...Object.values(getPoint(12, 82)),
-				...Object.values(getPoint(40, 82)),
-				...Object.values(getPoint(40, 76)),
-			]}
-			closed
-			{...onClick(() => askForName(scope, name, setPlayerName))}
-		/>
-		<Shape
-			{...getPoint(12, 77)}
-			sceneFunc={ctx => {
-				ctx.rotate(rotation)
-				ctx.font = `3vmin ${fontText}`
-				ctx.fillStyle = '#ffffff'
-				ctx.fillText(name, 0, 0)
-			}}
-		/>
-	</Group>
+	return (
+		<Group>
+			<Line
+				points={[
+					...Object.values(getPoint(12, 76)),
+					...Object.values(getPoint(12, 82)),
+					...Object.values(getPoint(40, 82)),
+					...Object.values(getPoint(40, 76)),
+				]}
+				closed
+				{...onClick(() => askForName(scope, name, setPlayerName))}
+			/>
+			<Shape
+				{...getPoint(12, 77)}
+				sceneFunc={(ctx) => {
+					ctx.rotate(rotation)
+					ctx.font = `3vmin ${fontText}`
+					ctx.fillStyle = '#ffffff'
+					ctx.fillText(name, 0, 0)
+				}}
+			/>
+		</Group>
+	)
 }
 
 PlayerName.propTypes = {

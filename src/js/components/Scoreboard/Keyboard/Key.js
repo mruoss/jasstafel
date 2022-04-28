@@ -25,7 +25,7 @@ const Key = ({ bottomLeft, topRight, textPosition, text, rotation, onStrike, bgP
 	<Shape
 		key="fg"
 		{...textPosition}
-		sceneFunc={ctx => {
+		sceneFunc={(ctx) => {
 			ctx.rotate(rotation)
 			ctx.fillStyle = keyboardStrokeColor
 			ctx.textAlign = 'center'

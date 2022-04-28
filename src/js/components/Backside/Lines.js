@@ -15,22 +15,23 @@ import { SCOPE_GLOBAL } from '../DimensionsContext/context'
 import { strokeWidth } from '../../constants/board'
 
 const Lines = () => {
-	const backsideLines = useSelector(state => selectBacksideLines(state))
+	const backsideLines = useSelector((state) => selectBacksideLines(state))
 	const dispatch = useDispatch()
-	const [{ drawing, points }, setDrawer] = useState({drawing: false, points: []});
+	const [{ drawing, points }, setDrawer] = useState({ drawing: false, points: [] })
 
 	const startDrawing = (event, getPointReverse) => {
 		if (drawing) {
 			dispatch(addLineOnBackside(points))
 		}
-		setDrawer({drawing: true, points: [getPointReverse(event.clientX, event.clientY)]})
+		setDrawer({ drawing: true, points: [getPointReverse(event.clientX, event.clientY)] })
 	}
-	const draw = (event, getPointReverse) => setDrawer({drawing, points: drawing ? [...points, getPointReverse(event.clientX, event.clientY)] : points})
+	const draw = (event, getPointReverse) =>
+		setDrawer({ drawing, points: drawing ? [...points, getPointReverse(event.clientX, event.clientY)] : points })
 	const stopDrawing = () => {
 		if (drawing) {
 			dispatch(addLineOnBackside(points))
 		}
-		setDrawer({drawing: false, points: []})
+		setDrawer({ drawing: false, points: [] })
 	}
 
 	const { getPoint, iconScale, getPointReverse, rotationDeg } = UseDimensionsContext(SCOPE_GLOBAL)
@@ -67,10 +68,10 @@ const Lines = () => {
 					...Object.values(getPoint(100, 0)),
 				]}
 				closed
-				onMouseDown={e => startDrawing(e.evt, getPointReverse)}
-				onTouchstart={e => startDrawing(e.evt.touches[0], getPointReverse)}
-				onMousemove={e => draw(e.evt, getPointReverse)}
-				onTouchmove={e => draw(e.evt.touches[0], getPointReverse)}
+				onMouseDown={(e) => startDrawing(e.evt, getPointReverse)}
+				onTouchstart={(e) => startDrawing(e.evt.touches[0], getPointReverse)}
+				onMousemove={(e) => draw(e.evt, getPointReverse)}
+				onTouchmove={(e) => draw(e.evt.touches[0], getPointReverse)}
 				onMouseout={() => stopDrawing()}
 				onMouseup={() => stopDrawing()}
 				onTouchend={() => stopDrawing()}
@@ -78,6 +79,5 @@ const Lines = () => {
 		</Group>
 	)
 }
-
 
 export default Lines

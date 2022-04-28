@@ -5,7 +5,7 @@ import { DimensionsContext } from './context'
 
 const DimensionsConsumer = ({ scope, children }) => (
 	<DimensionsContext.Consumer>
-		{dimensions => {
+		{(dimensions) => {
 			return children(dimensions[scope])
 		}}
 	</DimensionsContext.Consumer>

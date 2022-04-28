@@ -13,7 +13,7 @@ const Version = () => {
 		<Group>
 			<Shape
 				{...getPoint(98, 98)}
-				sceneFunc={ctx => {
+				sceneFunc={(ctx) => {
 					ctx.rotate(rotation)
 					ctx.textAlign = 'right'
 					ctx.font = `1.5vmin ${fontText}`

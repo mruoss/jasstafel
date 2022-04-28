@@ -1,6 +1,6 @@
 import * as actionTypes from '../constants/redux-store/action-types'
 
-export const addLineOnBackside = line => ({
+export const addLineOnBackside = (line) => ({
 	type: actionTypes.BACKSIDE_ADD_LINE,
 	line,
 })

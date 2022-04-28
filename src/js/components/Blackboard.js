@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react'
 
 import { Layer, Image } from 'react-konva/lib/ReactKonvaCore'
 import 'konva/lib/shapes/Image'
@@ -9,7 +9,7 @@ export const getSchiefer = () => {
 	if (window.schieferImage) {
 		return window.schieferImage
 	}
-	window.schieferImage = new Promise(resolve => {
+	window.schieferImage = new Promise((resolve) => {
 		const image = window.schieferImage || new window.Image()
 		image.src = 'assets/schiefer.jpg'
 		image.onload = () => {
@@ -23,15 +23,15 @@ export const getSchiefer = () => {
 
 const Blackboard = () => {
 	const { width, height } = useWindowSizes()
-	const [schiefer, setSchiefer] = useState(null);
+	const [schiefer, setSchiefer] = useState(null)
 
 	useEffect(() => {
-		getSchiefer().then(image => {
+		getSchiefer().then((image) => {
 			image.width = width
 			image.height = height
 			setSchiefer(image)
 		})
-	});
+	})
 
 	return schiefer && <Image hitStrokeWidth={0} image={schiefer} />
 }
