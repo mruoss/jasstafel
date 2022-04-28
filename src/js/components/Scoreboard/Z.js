@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Line } from 'react-konva'
+import { Line } from 'react-konva/lib/ReactKonvaCore'
+import 'konva/lib/shapes/Line'
 import { zColor, strokeWidth } from '../../constants/board'
 import UseDimensionsContext from '../DimensionsContext/UseDimensionsContext'
 

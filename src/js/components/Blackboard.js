@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import { Layer, Image } from 'react-konva'
-import { Promise } from 'bluebird'
+import { Layer, Image } from 'react-konva/lib/ReactKonvaCore'
+import 'konva/lib/shapes/Image'
 
 import useWindowSizes from '../hooks/UseWindowSizes'
 

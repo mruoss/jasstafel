@@ -7,7 +7,7 @@ WORKDIR /app/builder
 ENV NODE_OPTIONS=--openssl-legacy-provider
 ENV NODE_ENV=production
 
-RUN --mount=type=bind,source=.,target=/app/builder,rw touch /tmp/asdf && yarn install --immutable --immutable-cache && yarn build --output-path=/dist/
+RUN --mount=type=bind,source=.,target=/app/builder,rw touch /tmp/asdf && yarn install --immutable && yarn build:ci
 
 FROM abiosoft/caddy@sha256:6f90597617b16108805ca30e4a7a1daaacf0a763110514560b9ca2dc3c3f4ca0
 

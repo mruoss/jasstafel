@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Provider as ReduxProvider } from 'react-redux'
 
-import { Stage, Layer } from 'react-konva'
+import { Stage, Layer } from 'react-konva/lib/ReactKonvaCore'
 
 import useWindowSizes from '../../hooks/UseWindowSizes'
 import DimensionsProvider from '../DimensionsContext/DimensionsProvider'

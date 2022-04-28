@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Group, Line } from 'react-konva'
+import { Group, Line } from 'react-konva/lib/ReactKonvaCore'
+import 'konva/lib/shapes/Line'
 
 import DimensionsConsumer from '../../DimensionsContext/DimensionsConsumer'
 import UseDimensionsContext from '../../DimensionsContext/UseDimensionsContext'

@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import { pointShape } from '../../../constants/prop-types'
 import { onClick } from '../../../helpers/ui'
 
-import { Line, Shape } from 'react-konva'
+import { Line, Shape } from 'react-konva/lib/ReactKonvaCore'
+import 'konva/lib/shapes/Line'
 import { keyboardStrokeColor, keyboardFillColor } from '../../../constants/board'
 
 const Key = ({ bottomLeft, topRight, textPosition, text, rotation, onStrike, bgProps, fgProps }) => [

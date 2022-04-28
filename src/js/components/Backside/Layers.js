@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Layer } from 'react-konva'
+import { Layer } from 'react-konva/lib/ReactKonvaCore'
 
 import Blackboard from '../Blackboard'
 import GlobalTouchScreen from './TouchScreen/GlobalTouchScreen'

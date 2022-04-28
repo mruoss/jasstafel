@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { useDispatch, useSelector } from 'react-redux'
-import { Layer, Group } from 'react-konva'
+import { Layer, Group } from 'react-konva/lib/ReactKonvaCore'
 
 import { scoreShape } from '../../constants/prop-types'
 import { selectScore } from '../../selectors/score'
