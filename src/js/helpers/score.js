@@ -1,4 +1,4 @@
-const numberToScore = number => {
+const numberToScore = (number) => {
 	const thousand = Math.floor(number / 1000)
 	const thousandRemainder = number % 1000
 	const fivehundred = Math.floor(thousandRemainder / 500)
@@ -19,7 +19,7 @@ const numberToScore = number => {
 	}
 }
 
-export const sanitizeScore = score => {
+export const sanitizeScore = (score) => {
 	const one = score.one % 20
 	const twentyTmp = score.twenty + Math.floor(score.one / 20)
 	const twenty = twentyTmp > 40 ? 20 + (twentyTmp % 5) : twentyTmp
@@ -39,7 +39,7 @@ export const sanitizeScore = score => {
 	}
 }
 
-export const getNumericScore = score =>
+export const getNumericScore = (score) =>
 	1000 * score.thousand +
 	500 * score.fivehundred +
 	100 * score.hundred +

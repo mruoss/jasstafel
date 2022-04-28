@@ -42,7 +42,7 @@ module.exports = ({ mode }) => [
 		exclude: [path.resolve('../src/js')],
 		type: mode === 'production' ? 'asset/resource' : 'asset/inline',
 		generator: {
-			filename: 'static/[hash][ext][query]'
-		}
-	}
+			filename: 'static/[hash][ext][query]',
+		},
+	},
 ]

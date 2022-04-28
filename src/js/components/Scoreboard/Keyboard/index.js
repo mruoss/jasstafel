@@ -4,7 +4,8 @@ import { keyboardToPoints } from '../../../helpers/score'
 import IconButton from '../TouchScreen/IconButton'
 import { faBackspace, faToggleOn, faToggleOff } from '@fortawesome/free-solid-svg-icons'
 
-import { Group, Line } from 'react-konva'
+import { Group, Line } from 'react-konva/lib/ReactKonvaCore'
+import 'konva/lib/shapes/Line'
 import {
 	keyboardMaskColor,
 	keyboardSingleBgColor,
@@ -20,11 +21,7 @@ import DimensionsConsumer from '../../DimensionsContext/DimensionsConsumer'
 import Key from './Key'
 import UseDimensionsContext from '../../DimensionsContext/UseDimensionsContext'
 
-const Keyboard = ({
-	scope,
-	onConfirm,
-	closeKeyboard,
-}) => {
+const Keyboard = ({ scope, onConfirm, closeKeyboard }) => {
 	const [points, setPoints] = useState(0)
 	const [complementOn, setComplementOn] = useState(true)
 

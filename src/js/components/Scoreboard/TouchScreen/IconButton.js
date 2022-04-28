@@ -5,7 +5,9 @@ import { onClick } from '../../../helpers/ui'
 
 import { keyboardStrokeColor, keyboardStrokeColorDisabled } from '../../../constants/board'
 
-import { Line, Path } from 'react-konva'
+import { Line, Path } from 'react-konva/lib/ReactKonvaCore'
+import 'konva/lib/shapes/Line'
+import 'konva/lib/shapes/Path'
 
 const IconButton = ({
 	bottomLeft,

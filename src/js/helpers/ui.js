@@ -1,4 +1,4 @@
-export const onClick = onStrike => ({
+export const onClick = (onStrike) => ({
 	onTouchstart: onStrike,
 	onClick: onStrike,
 	onMouseEnter: () => {

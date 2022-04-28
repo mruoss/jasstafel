@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Group, Shape } from 'react-konva'
+import { Group, Shape } from 'react-konva/lib/ReactKonvaCore'
 import { fontText } from '../../constants/board'
 import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
 import { SCOPE_GLOBAL } from '../DimensionsContext/context'
@@ -13,7 +13,7 @@ const Version = () => {
 		<Group>
 			<Shape
 				{...getPoint(98, 98)}
-				sceneFunc={ctx => {
+				sceneFunc={(ctx) => {
 					ctx.rotate(rotation)
 					ctx.textAlign = 'right'
 					ctx.font = `1.5vmin ${fontText}`

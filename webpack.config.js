@@ -6,12 +6,12 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 const path = require('path')
 const { merge } = require('webpack-merge')
-const PnpWebpackPlugin = require(`pnp-webpack-plugin`);
+const PnpWebpackPlugin = require(`pnp-webpack-plugin`)
 
 const rules = require('./webpack/rules')
 const loadPresets = require('./webpack/loadPresets')
 
-const modeConfig = env => require(`./webpack/webpack.${env.mode}.js`)(env)
+const modeConfig = (env) => require(`./webpack/webpack.${env.mode}.js`)(env)
 
 module.exports = ({ presets }, { mode }) =>
 	merge(
@@ -23,21 +23,17 @@ module.exports = ({ presets }, { mode }) =>
 			output: {
 				path: path.resolve('dist'),
 				filename: 'index.js',
-				assetModuleFilename: 'assets/[hash][ext][query]'
+				assetModuleFilename: 'assets/[hash][ext][query]',
 			},
 			devServer: {
 				port: process.env.PORT,
 				host: '0.0.0.0',
 			},
 			resolve: {
-				plugins: [
-					PnpWebpackPlugin,
-				],
+				plugins: [PnpWebpackPlugin],
 			},
 			resolveLoader: {
-				plugins: [
-					PnpWebpackPlugin.moduleLoader(module),
-				],
+				plugins: [PnpWebpackPlugin.moduleLoader(module)],
 			},
 			plugins: [
 				new webpack.DefinePlugin({
@@ -50,7 +46,10 @@ module.exports = ({ presets }, { mode }) =>
 					filename: 'index.html',
 				}),
 				new CopyWebpackPlugin({
-					patterns: [{ from: 'src/assets', to: 'assets/', globOptions: {ignore: ['.DS_Store']} }, 'src/manifest.webmanifest'],
+					patterns: [
+						{ from: 'src/assets', to: 'assets/', globOptions: { ignore: ['.DS_Store'] } },
+						'src/manifest.webmanifest',
+					],
 				}),
 			],
 		},

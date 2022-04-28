@@ -11,7 +11,7 @@ import { selectisBoardFlipped } from '../selectors/ui'
 const Jasstafel = ({ store }) => {
 	const isBoardFlipped = useSelector(selectisBoardFlipped)
 
-	return(
+	return (
 		<Flipper
 			width="100vw"
 			height="100vh"

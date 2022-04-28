@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { useDispatch, useSelector } from 'react-redux'
 import { faUndo, faRedo, faEraser, faCode } from '@fortawesome/free-solid-svg-icons'
 
-import { Group } from 'react-konva'
+import { Group } from 'react-konva/lib/ReactKonvaCore'
 import { SCOPE_GLOBAL } from '../../DimensionsContext/context'
 
 import { ActionCreators as UndoActionCreators } from 'redux-undo'
@@ -17,8 +17,8 @@ import UseDimensionsContext from '../../DimensionsContext/UseDimensionsContext'
 const { undo, redo } = UndoActionCreators
 
 const GlobalTouchScreen = () => {
-	const isUndoEnabled = useSelector(state => selectPastScoreLength(state) > 0)
-	const isRedoEnabled = useSelector(state => selectFutureScoreLength(state) > 0)
+	const isUndoEnabled = useSelector((state) => selectPastScoreLength(state) > 0)
+	const isRedoEnabled = useSelector((state) => selectFutureScoreLength(state) > 0)
 	const { getPoint, iconScale, rotationDeg } = UseDimensionsContext(SCOPE_GLOBAL)
 	const dispatch = useDispatch()
 
