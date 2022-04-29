@@ -59,8 +59,8 @@ fs.rm(destDirectory, { recursive: true, force: true })
 				'.js': 'jsx',
 			},
 			define: {
-				APP_VERSION: `"${process.env.npm_package_version}"`,
-				'process.env.NODE_ENV': "'production'",
+				APP_VERSION: JSON.stringify(process.env.npm_package_version),
+				'process.env.NODE_ENV': JSON.stringify('production'),
 			},
 		}
 
@@ -74,8 +74,8 @@ fs.rm(destDirectory, { recursive: true, force: true })
 						entryNames: '[dir]/[name]',
 						minify: false,
 						define: {
-							APP_VERSION: '"<dev>"',
-							'process.env.NODE_ENV': '"development"',
+							APP_VERSION: JSON.stringify('<dev>'),
+							'process.env.NODE_ENV': JSON.stringify('development'),
 						},
 					},
 				)
