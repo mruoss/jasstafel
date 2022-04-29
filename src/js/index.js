@@ -8,6 +8,10 @@ import Jasstafel from './components/Jasstafel'
 
 import reducer from './reducers'
 
+import 'konva/lib/shapes/Line'
+import 'konva/lib/shapes/Image'
+import 'konva/lib/shapes/Path'
+
 function registerSW() {
 	if ('serviceWorker' in navigator) {
 		navigator.serviceWorker

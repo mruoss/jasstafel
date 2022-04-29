@@ -5,13 +5,12 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "./build.js",
-		"build:ci": "./build.js --outdir /dist",
 		"lint": "yarn run lint:js",
 		"lint:js": "eslint src/js/",
 		"prettier": "prettier --write '**/*.js'",
 		"start": "./build.js -s --outdir www",
 		"start:sw": "webpack serve --static-public-path public/ --open --mode development --env presets=serviceworker",
-		"test": "mocha --require babel-register ./tests/**/*.js",
+		"test": "mocha-esbuild ./tests/**/*.js",
 		"wb": "workbox injectManifest"
 	},
 	"dependencies": {

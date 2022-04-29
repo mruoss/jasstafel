@@ -60,6 +60,7 @@ fs.rm(destDirectory, { recursive: true, force: true })
 			},
 			define: {
 				APP_VERSION: `"${process.env.npm_package_version}"`,
+				'process.env.NODE_ENV': "'production'",
 			},
 		}
 
@@ -72,6 +73,10 @@ fs.rm(destDirectory, { recursive: true, force: true })
 						...buildConfig,
 						entryNames: '[dir]/[name]',
 						minify: false,
+						define: {
+							APP_VERSION: '"<dev>"',
+							'process.env.NODE_ENV': '"development"',
+						},
 					},
 				)
 				.then((server) => {

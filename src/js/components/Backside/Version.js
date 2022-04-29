@@ -18,7 +18,7 @@ const Version = () => {
 					ctx.textAlign = 'right'
 					ctx.font = `1.5vmin ${fontText}`
 					ctx.fillStyle = '#ffffff'
-					ctx.fillText(`Version ${APP_VERSION}`, 0, 0)
+					ctx.fillText(`Version: ${APP_VERSION}`, 0, 0)
 				}}
 			/>
 		</Group>
