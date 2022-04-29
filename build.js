@@ -1,13 +1,19 @@
 #!/usr/bin/env node
 
-const pnpPlugin = require('@yarnpkg/esbuild-plugin-pnp').pnpPlugin
-const fs = require('fs/promises')
-const path = require('path')
-const esbuild = require('esbuild')
-const yargs = require('yargs')
-const opn = require('opn')
-const { injectManifest } = require('workbox-build')
-const Mustache = require('mustache')
+import { pnpPlugin } from '@yarnpkg/esbuild-plugin-pnp'
+import fs from 'fs/promises'
+import { fileURLToPath } from 'url';
+import path from 'path'
+
+import esbuild from 'esbuild'
+import yargs from 'yargs'
+import opn from 'opn'
+
+import { injectManifest } from 'workbox-build'
+import Mustache from 'mustache'
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // CLI Options
 const argv = yargs(process.argv.slice(2))

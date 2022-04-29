@@ -3,6 +3,7 @@
 	"version": "2.3.1",
 	"description": "Jasstafel zum Schreiben von Jasspartien",
 	"license": "MIT",
+	"type": "module",
 	"scripts": {
 		"build": "./build.js",
 		"lint": "yarn run lint:js",
@@ -27,10 +28,13 @@
 		"workbox-precaching": "6.5.3"
 	},
 	"devDependencies": {
+		"@oclif/errors": "^1.3.5",
+		"@rtvision/mocha-esbuild": "^0.1.8",
 		"@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.3",
 		"ansi-html": "0.0.9",
 		"chai": "4.3.6",
 		"chai-match-pattern": "1.3.0",
+		"chalk": "4.1.2",
 		"eslint": "8.14.0",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-import-resolver-babel-module": "5.3.1",
