@@ -37,6 +37,8 @@ const Keyboard = ({ scope, onConfirm, closeKeyboard }) => {
 	const factorButtonHeight = 13
 	const factorButtonGap = 1.5
 
+	console.log(points)
+
 	return (
 		<Group>
 			<Line
@@ -58,7 +60,7 @@ const Keyboard = ({ scope, onConfirm, closeKeyboard }) => {
 				closed
 			/>
 			<Key
-				text={points.toString()}
+				text={points == 0 ? '' : points.toString()}
 				bottomLeft={getPoint(29, 129)}
 				topRight={getPoint(71, 143)}
 				textPosition={getPoint(50, 135.5)}
