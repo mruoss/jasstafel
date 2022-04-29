@@ -3743,7 +3743,6 @@ __metadata:
     styled-components: ^5.3.5
     workbox-build: ^6.5.3
     workbox-precaching: 6.5.3
-    workbox-webpack-plugin: 6.5.3
     yargs: ^17.4.1
   languageName: unknown
   linkType: soft
@@ -4615,7 +4614,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-bytes@npm:^5.3.0, pretty-bytes@npm:^5.4.1":
+"pretty-bytes@npm:^5.3.0":
   version: 5.6.0
   resolution: "pretty-bytes@npm:5.6.0"
   checksum: 9c082500d1e93434b5b291bd651662936b8bd6204ec9fa17d563116a192d6d86b98f6d328526b4e8d783c07d5499e2614a807520249692da9ec81564b2f439cd
@@ -5180,13 +5179,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-list-map@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "source-list-map@npm:2.0.1"
-  checksum: 806efc6f75e7cd31e4815e7a3aaf75a45c704871ea4075cb2eb49882c6fca28998f44fc5ac91adb6de03b2882ee6fb02f951fdc85e6a22b338c32bfe19557938
-  languageName: node
-  linkType: hard
-
 "source-map-support@npm:~0.5.20":
   version: 0.5.21
   resolution: "source-map-support@npm:0.5.21"
@@ -5204,7 +5196,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.6.0, source-map@npm:~0.6.1":
+"source-map@npm:^0.6.0":
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
   checksum: 59ce8640cf3f3124f64ac289012c2b8bd377c238e316fb323ea22fbfe83da07d81e000071d7242cad7a23cd91c7de98e4df8830ec3f133cb6133a5f6e9f67bc2
@@ -5647,16 +5639,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-sources@npm:^1.4.3":
-  version: 1.4.3
-  resolution: "webpack-sources@npm:1.4.3"
-  dependencies:
-    source-list-map: ^2.0.0
-    source-map: ~0.6.1
-  checksum: 37463dad8d08114930f4bc4882a9602941f07c9f0efa9b6bc78738cd936275b990a596d801ef450d022bb005b109b9f451dd087db2f3c9baf53e8e22cf388f79
-  languageName: node
-  linkType: hard
-
 "whatwg-url@npm:^7.0.0":
   version: 7.1.0
   resolution: "whatwg-url@npm:7.1.0"
@@ -5727,7 +5709,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-build@npm:6.5.3, workbox-build@npm:^6.5.3":
+"workbox-build@npm:^6.5.3":
   version: 6.5.3
   resolution: "workbox-build@npm:6.5.3"
   dependencies:
@@ -5885,21 +5867,6 @@ __metadata:
   version: 6.5.3
   resolution: "workbox-sw@npm:6.5.3"
   checksum: d143e7fd849be207a4a75cb9b1cbefd71920334643fb89edfe3930df669418140bf57ebd91d4db616edbe832e84a6e14f90d9c121682f7f4ba5febd639c596cd
-  languageName: node
-  linkType: hard
-
-"workbox-webpack-plugin@npm:6.5.3":
-  version: 6.5.3
-  resolution: "workbox-webpack-plugin@npm:6.5.3"
-  dependencies:
-    fast-json-stable-stringify: ^2.1.0
-    pretty-bytes: ^5.4.1
-    upath: ^1.2.0
-    webpack-sources: ^1.4.3
-    workbox-build: 6.5.3
-  peerDependencies:
-    webpack: ^4.4.0 || ^5.9.0
-  checksum: c5a14666ab6ae8e14d4167ec86e74e6f9f564e88f6e99ea512c52a761b08269cb6021984ba242750dee5e91bee1cf1d48ce80d9fb026e701d8db9bb1f963ca21
   languageName: node
   linkType: hard
 

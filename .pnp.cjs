@@ -68,7 +68,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.3.5"],\
             ["workbox-build", "npm:6.5.3"],\
             ["workbox-precaching", "npm:6.5.3"],\
-            ["workbox-webpack-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.5.3"],\
             ["yargs", "npm:17.4.1"]\
           ],\
           "linkType": "SOFT"\
@@ -5270,7 +5269,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.3.5"],\
             ["workbox-build", "npm:6.5.3"],\
             ["workbox-precaching", "npm:6.5.3"],\
-            ["workbox-webpack-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.5.3"],\
             ["yargs", "npm:17.4.1"]\
           ],\
           "linkType": "SOFT"\
@@ -6883,15 +6881,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["source-list-map", [\
-        ["npm:2.0.1", {\
-          "packageLocation": "./.yarn/cache/source-list-map-npm-2.0.1-625c551052-806efc6f75.zip/node_modules/source-list-map/",\
-          "packageDependencies": [\
-            ["source-list-map", "npm:2.0.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["source-map", [\
         ["npm:0.5.7", {\
           "packageLocation": "./.yarn/cache/source-map-npm-0.5.7-7c3f035429-5dc2043b93.zip/node_modules/source-map/",\
@@ -7441,17 +7430,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["webpack-sources", [\
-        ["npm:1.4.3", {\
-          "packageLocation": "./.yarn/cache/webpack-sources-npm-1.4.3-2b3a9b1de0-37463dad8d.zip/node_modules/webpack-sources/",\
-          "packageDependencies": [\
-            ["webpack-sources", "npm:1.4.3"],\
-            ["source-list-map", "npm:2.0.1"],\
-            ["source-map", "npm:0.6.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["whatwg-url", [\
         ["npm:7.1.0", {\
           "packageLocation": "./.yarn/cache/whatwg-url-npm-7.1.0-d6cae01571-fecb07c872.zip/node_modules/whatwg-url/",\
@@ -7700,33 +7678,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/workbox-sw-npm-6.5.3-c109b73e7a-d143e7fd84.zip/node_modules/workbox-sw/",\
           "packageDependencies": [\
             ["workbox-sw", "npm:6.5.3"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["workbox-webpack-plugin", [\
-        ["npm:6.5.3", {\
-          "packageLocation": "./.yarn/cache/workbox-webpack-plugin-npm-6.5.3-8db5586094-c5a14666ab.zip/node_modules/workbox-webpack-plugin/",\
-          "packageDependencies": [\
-            ["workbox-webpack-plugin", "npm:6.5.3"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.5.3", {\
-          "packageLocation": "./.yarn/__virtual__/workbox-webpack-plugin-virtual-c66d78ecbc/0/cache/workbox-webpack-plugin-npm-6.5.3-8db5586094-c5a14666ab.zip/node_modules/workbox-webpack-plugin/",\
-          "packageDependencies": [\
-            ["workbox-webpack-plugin", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.5.3"],\
-            ["@types/webpack", null],\
-            ["fast-json-stable-stringify", "npm:2.1.0"],\
-            ["pretty-bytes", "npm:5.6.0"],\
-            ["upath", "npm:1.2.0"],\
-            ["webpack", null],\
-            ["webpack-sources", "npm:1.4.3"],\
-            ["workbox-build", "npm:6.5.3"]\
-          ],\
-          "packagePeers": [\
-            "@types/webpack",\
-            "webpack"\
           ],\
           "linkType": "HARD"\
         }]\

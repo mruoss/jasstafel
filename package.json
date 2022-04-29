@@ -9,9 +9,7 @@
 		"lint:js": "eslint src/js/",
 		"prettier": "prettier --write '**/*.js'",
 		"start": "./build.js -s --outdir www",
-		"start:sw": "webpack serve --static-public-path public/ --open --mode development --env presets=serviceworker",
-		"test": "mocha-esbuild ./tests/**/*.js",
-		"wb": "workbox injectManifest"
+		"test": "mocha-esbuild ./tests/**/*.js"
 	},
 	"dependencies": {
 		"@fortawesome/free-solid-svg-icons": "6.1.1",
@@ -26,8 +24,7 @@
 		"redux": "4.2.0",
 		"redux-undo": "1.0.1",
 		"reselect": "4.1.5",
-		"workbox-precaching": "6.5.3",
-		"workbox-webpack-plugin": "6.5.3"
+		"workbox-precaching": "6.5.3"
 	},
 	"devDependencies": {
 		"@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.3",
