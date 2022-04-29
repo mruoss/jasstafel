@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Group, Shape } from 'react-konva/lib/ReactKonvaCore'
+import { Group, Shape } from 'react-konva'
 import { fontText } from '../../constants/board'
 import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
 import { SCOPE_GLOBAL } from '../DimensionsContext/context'

@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import PropTypes from 'prop-types'
 import { faCode, faEraser } from '@fortawesome/free-solid-svg-icons'
 
-import { Group } from 'react-konva/lib/ReactKonvaCore'
+import { Group } from 'react-konva'
 import { SCOPE_GLOBAL } from '../../DimensionsContext/context'
 
 import { flipBoard } from '../../../actions/ui'

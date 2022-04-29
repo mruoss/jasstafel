@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { useDispatch, useSelector } from 'react-redux'
 import { faUndo, faRedo, faEraser, faCode } from '@fortawesome/free-solid-svg-icons'
 
-import { Group } from 'react-konva/lib/ReactKonvaCore'
+import { Group } from 'react-konva'
 import { SCOPE_GLOBAL } from '../../DimensionsContext/context'
 
 import { ActionCreators as UndoActionCreators } from 'redux-undo'

@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Provider as ReduxProvider } from 'react-redux'
 
-import { Stage } from 'react-konva/lib/ReactKonvaCore'
+import { Stage } from 'react-konva'
 
 import DimensionsProvider from '../DimensionsContext/DimensionsProvider'
 import Layers from './Layers'

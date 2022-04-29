@@ -3,8 +3,7 @@ import PropTypes from 'prop-types'
 import { strokeWidth, fontText } from '../../constants/board'
 import { scoreShape } from '../../constants/prop-types'
 
-import { Group, Line, Shape } from 'react-konva/lib/ReactKonvaCore'
-import 'konva/lib/shapes/Line'
+import { Group, Line, Shape } from 'react-konva'
 import { getNumericScore } from '../../helpers/score'
 import UseDimensionsContext from '../DimensionsContext/UseDimensionsContext'
 

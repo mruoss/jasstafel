@@ -4,8 +4,7 @@ import { keyboardToPoints } from '../../../helpers/score'
 import IconButton from '../TouchScreen/IconButton'
 import { faBackspace, faToggleOn, faToggleOff } from '@fortawesome/free-solid-svg-icons'
 
-import { Group, Line } from 'react-konva/lib/ReactKonvaCore'
-import 'konva/lib/shapes/Line'
+import { Group, Line } from 'react-konva'
 import {
 	keyboardMaskColor,
 	keyboardSingleBgColor,
