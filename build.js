@@ -2,7 +2,7 @@
 
 import { pnpPlugin } from '@yarnpkg/esbuild-plugin-pnp'
 import fs from 'fs/promises'
-import { fileURLToPath } from 'url';
+import { fileURLToPath } from 'url'
 import path from 'path'
 
 import esbuild from 'esbuild'
@@ -12,8 +12,8 @@ import opn from 'opn'
 import { injectManifest } from 'workbox-build'
 import Mustache from 'mustache'
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 // CLI Options
 const argv = yargs(process.argv.slice(2))

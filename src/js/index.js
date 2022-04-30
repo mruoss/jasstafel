@@ -38,5 +38,5 @@ const root = createRoot(appRootElement)
 root.render(
 	<ReduxProvider store={store}>
 		<Jasstafel store={store} />
-	</ReduxProvider>
+	</ReduxProvider>,
 )

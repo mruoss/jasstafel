@@ -53,10 +53,7 @@ const Score = ({ scope, score }) => {
 					key={`hundred-${i}`}
 					points={
 						(i + 1) % 5 === 0
-							? [
-									...Object.values(getPoint(12 + (i - 5) * 1.5, 96)),
-									...Object.values(getPoint(12 + i * 1.5, 84)),
-							  ]
+							? [...Object.values(getPoint(12 + (i - 5) * 1.5, 96)), ...Object.values(getPoint(12 + i * 1.5, 84))]
 							: [...Object.values(getPoint(12 + i * 1.5, 96)), ...Object.values(getPoint(12 + i * 1.5, 84))]
 					}
 					thousand
