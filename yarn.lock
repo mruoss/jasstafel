@@ -3734,7 +3734,7 @@ __metadata:
     react: 18.1.0
     react-dom: 18.1.0
     react-is: 18.1.0
-    react-konva: 18.0.0-0
+    react-konva: 18.1.0
     react-redux: 8.0.1
     redux: 4.2.0
     redux-undo: 1.0.1
@@ -4644,29 +4644,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-konva@npm:18.0.0-0":
-  version: 18.0.0-0
-  resolution: "react-konva@npm:18.0.0-0"
+"react-konva@npm:18.1.0":
+  version: 18.1.0
+  resolution: "react-konva@npm:18.1.0"
   dependencies:
-    react-reconciler: ~0.27.0
-    scheduler: ^0.21.0
+    react-reconciler: ~0.28.0
+    scheduler: ^0.22.0
   peerDependencies:
     konva: ^8.0.1 || ^7.2.5
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
-  checksum: c82fa05f0a051adb4a00f92e55cfbb716449392eedbaa45fd8803b51eeae2c18771f34662308fc3ad5c4761ee9ffa5de99c75b52a69e874d57923798d6b12474
+  checksum: dddf4181313a87e71ed7d4b61416279b6eb26625dfa67fa4f69dd1cd85fcea47a2931d8b143d07c96d17f6bfbc09363444fa67cd54ec88e018b6649349b5ddc5
   languageName: node
   linkType: hard
 
-"react-reconciler@npm:~0.27.0":
-  version: 0.27.0
-  resolution: "react-reconciler@npm:0.27.0"
+"react-reconciler@npm:~0.28.0":
+  version: 0.28.0
+  resolution: "react-reconciler@npm:0.28.0"
   dependencies:
     loose-envify: ^1.1.0
-    scheduler: ^0.21.0
+    scheduler: ^0.22.0
   peerDependencies:
-    react: ^18.0.0
-  checksum: c2ae111f150c2a46970182df12ea8254719fdfec5e26574711b1838fc37863c63671460a351570fd359c088d891e7bb0ff89023c2f7c1582393b57dd517b92c2
+    react: ^18.1.0
+  checksum: 6421f9500827219556ead3d86cbdf0553c47d633ecda2144720bf235d404f5e4e1e585336c4dfa80e26a04f1a6117c455a60964917d5600c73a91d8374f0232f
   languageName: node
   linkType: hard
 
@@ -4981,15 +4981,6 @@ __metadata:
   version: 2.1.2
   resolution: "safer-buffer@npm:2.1.2"
   checksum: cab8f25ae6f1434abee8d80023d7e72b598cf1327164ddab31003c51215526801e40b66c5e65d658a0af1e9d6478cadcb4c745f4bd6751f97d8644786c0978b0
-  languageName: node
-  linkType: hard
-
-"scheduler@npm:^0.21.0":
-  version: 0.21.0
-  resolution: "scheduler@npm:0.21.0"
-  dependencies:
-    loose-envify: ^1.1.0
-  checksum: 4f8285076041ed2c81acdd1faa987f1655fdbd30554bc667c1ea64743fc74fb3a04ca7d27454b3d678735df5a230137a3b84756061b43dc5796e80701b66d124
   languageName: node
   linkType: hard
 
