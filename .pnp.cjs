@@ -59,7 +59,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.0"],\
             ["react-is", "npm:18.1.0"],\
-            ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.0"],\
+            ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.1"],\
             ["react-redux", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.0.2"],\
             ["redux", "npm:4.2.0"],\
             ["redux-undo", "npm:1.0.1"],\
@@ -5312,7 +5312,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.0"],\
             ["react-is", "npm:18.1.0"],\
-            ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.0"],\
+            ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.1"],\
             ["react-redux", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.0.2"],\
             ["redux", "npm:4.2.0"],\
             ["redux-undo", "npm:1.0.1"],\
@@ -6357,24 +6357,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["react-konva", [\
-        ["npm:18.1.0", {\
-          "packageLocation": "./.yarn/cache/react-konva-npm-18.1.0-430fbdc9cd-dddf418131.zip/node_modules/react-konva/",\
+        ["npm:18.1.1", {\
+          "packageLocation": "./.yarn/cache/react-konva-npm-18.1.1-3d69f18ec9-da64988043.zip/node_modules/react-konva/",\
           "packageDependencies": [\
-            ["react-konva", "npm:18.1.0"]\
+            ["react-konva", "npm:18.1.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/react-konva-virtual-5c531882f0/0/cache/react-konva-npm-18.1.0-430fbdc9cd-dddf418131.zip/node_modules/react-konva/",\
+        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-konva-virtual-ecaefedda1/0/cache/react-konva-npm-18.1.1-3d69f18ec9-da64988043.zip/node_modules/react-konva/",\
           "packageDependencies": [\
-            ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.0"],\
+            ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.1"],\
             ["@types/konva", null],\
             ["@types/react", null],\
             ["@types/react-dom", null],\
             ["konva", "npm:8.3.8"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.0"],\
-            ["react-reconciler", "virtual:5c531882f0bca6e5656db9ca2122b725a5df17a25ececf10f5314138f7e9570d51553f9b1a0c8e8cc4db7b1b182fc770232b8f5760aaf6833ea6ec99f7ac4de0#npm:0.28.0"],\
+            ["react-reconciler", "virtual:ecaefedda107a620f08d489f6caa3a1bde467aa4e3b30dc5394caa8cb31f628d5bd7800ac30bcd3fb49a9e671d2e7e72cc6f4764d0abb871dd06c880c166bf23#npm:0.28.0"],\
             ["scheduler", "npm:0.22.0"]\
           ],\
           "packagePeers": [\
@@ -6396,10 +6396,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5c531882f0bca6e5656db9ca2122b725a5df17a25ececf10f5314138f7e9570d51553f9b1a0c8e8cc4db7b1b182fc770232b8f5760aaf6833ea6ec99f7ac4de0#npm:0.28.0", {\
-          "packageLocation": "./.yarn/__virtual__/react-reconciler-virtual-eed5615750/0/cache/react-reconciler-npm-0.28.0-77b8f7dd3d-6421f95008.zip/node_modules/react-reconciler/",\
+        ["virtual:ecaefedda107a620f08d489f6caa3a1bde467aa4e3b30dc5394caa8cb31f628d5bd7800ac30bcd3fb49a9e671d2e7e72cc6f4764d0abb871dd06c880c166bf23#npm:0.28.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-reconciler-virtual-55375aa013/0/cache/react-reconciler-npm-0.28.0-77b8f7dd3d-6421f95008.zip/node_modules/react-reconciler/",\
           "packageDependencies": [\
-            ["react-reconciler", "virtual:5c531882f0bca6e5656db9ca2122b725a5df17a25ececf10f5314138f7e9570d51553f9b1a0c8e8cc4db7b1b182fc770232b8f5760aaf6833ea6ec99f7ac4de0#npm:0.28.0"],\
+            ["react-reconciler", "virtual:ecaefedda107a620f08d489f6caa3a1bde467aa4e3b30dc5394caa8cb31f628d5bd7800ac30bcd3fb49a9e671d2e7e72cc6f4764d0abb871dd06c880c166bf23#npm:0.28.0"],\
             ["@types/react", null],\
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.1.0"],\
