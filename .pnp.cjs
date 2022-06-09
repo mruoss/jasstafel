@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@fortawesome/free-solid-svg-icons", "npm:6.1.1"],\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.0.0-rc.7"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.0.0-rc.8"],\
             ["ansi-html", "npm:0.0.9"],\
             ["chai", "npm:4.3.6"],\
             ["chai-match-pattern", "npm:1.3.0"],\
@@ -2640,17 +2640,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/esbuild-plugin-pnp", [\
-        ["npm:3.0.0-rc.7", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.7-652fef503a-1f08e2fa19.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
+        ["npm:3.0.0-rc.8", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.8-c22ff00778-3ee1cde9c5.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
           "packageDependencies": [\
-            ["@yarnpkg/esbuild-plugin-pnp", "npm:3.0.0-rc.7"]\
+            ["@yarnpkg/esbuild-plugin-pnp", "npm:3.0.0-rc.8"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.0.0-rc.7", {\
-          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-6f88f5a623/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.7-652fef503a-1f08e2fa19.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
+        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.0.0-rc.8", {\
+          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-c3714bb997/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.8-c22ff00778-3ee1cde9c5.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
           "packageDependencies": [\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.0.0-rc.7"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.0.0-rc.8"],\
             ["@types/esbuild", null],\
             ["esbuild", "npm:0.14.43"],\
             ["tslib", "npm:1.14.1"]\
@@ -5298,7 +5298,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["jasstafel", "workspace:."],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.1.1"],\
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.0.0-rc.7"],\
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.0.0-rc.8"],\
             ["ansi-html", "npm:0.0.9"],\
             ["chai", "npm:4.3.6"],\
             ["chai-match-pattern", "npm:1.3.0"],\
