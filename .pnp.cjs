@@ -59,7 +59,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.2.0"],\
             ["react-is", "npm:18.2.0"],\
-            ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.1"],\
+            ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.2.1"],\
             ["react-redux", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.0.2"],\
             ["redux", "npm:4.2.0"],\
             ["redux-undo", "npm:1.0.1"],\
@@ -5323,7 +5323,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.2.0"],\
             ["react-is", "npm:18.2.0"],\
-            ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.1"],\
+            ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.2.1"],\
             ["react-redux", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.0.2"],\
             ["redux", "npm:4.2.0"],\
             ["redux-undo", "npm:1.0.1"],\
@@ -6368,25 +6368,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["react-konva", [\
-        ["npm:18.1.1", {\
-          "packageLocation": "./.yarn/cache/react-konva-npm-18.1.1-3d69f18ec9-da64988043.zip/node_modules/react-konva/",\
+        ["npm:18.2.1", {\
+          "packageLocation": "./.yarn/cache/react-konva-npm-18.2.1-cdbc3cf60a-5cf1892627.zip/node_modules/react-konva/",\
           "packageDependencies": [\
-            ["react-konva", "npm:18.1.1"]\
+            ["react-konva", "npm:18.2.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.1", {\
-          "packageLocation": "./.yarn/__virtual__/react-konva-virtual-ecaefedda1/0/cache/react-konva-npm-18.1.1-3d69f18ec9-da64988043.zip/node_modules/react-konva/",\
+        ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-konva-virtual-dcf6301755/0/cache/react-konva-npm-18.2.1-cdbc3cf60a-5cf1892627.zip/node_modules/react-konva/",\
           "packageDependencies": [\
-            ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.1.1"],\
+            ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.2.1"],\
             ["@types/konva", null],\
             ["@types/react", null],\
             ["@types/react-dom", null],\
             ["konva", "npm:8.3.10"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.2.0"],\
-            ["react-reconciler", "virtual:ecaefedda107a620f08d489f6caa3a1bde467aa4e3b30dc5394caa8cb31f628d5bd7800ac30bcd3fb49a9e671d2e7e72cc6f4764d0abb871dd06c880c166bf23#npm:0.28.0"],\
-            ["scheduler", "npm:0.22.0"]\
+            ["react-reconciler", "virtual:dcf6301755b82ac06a4e0146ee4118b1aca6d3a6367e165b4b31005dd11d2e32e45dae7622a98cf24a4fd30d1ca08a622f80360666e9868935ff390d8a39d3b9#npm:0.29.0"],\
+            ["scheduler", "npm:0.23.0"]\
           ],\
           "packagePeers": [\
             "@types/konva",\
@@ -6400,21 +6400,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["react-reconciler", [\
-        ["npm:0.28.0", {\
-          "packageLocation": "./.yarn/cache/react-reconciler-npm-0.28.0-77b8f7dd3d-6421f95008.zip/node_modules/react-reconciler/",\
+        ["npm:0.29.0", {\
+          "packageLocation": "./.yarn/cache/react-reconciler-npm-0.29.0-57f1460fdd-730db9cf45.zip/node_modules/react-reconciler/",\
           "packageDependencies": [\
-            ["react-reconciler", "npm:0.28.0"]\
+            ["react-reconciler", "npm:0.29.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:ecaefedda107a620f08d489f6caa3a1bde467aa4e3b30dc5394caa8cb31f628d5bd7800ac30bcd3fb49a9e671d2e7e72cc6f4764d0abb871dd06c880c166bf23#npm:0.28.0", {\
-          "packageLocation": "./.yarn/__virtual__/react-reconciler-virtual-55375aa013/0/cache/react-reconciler-npm-0.28.0-77b8f7dd3d-6421f95008.zip/node_modules/react-reconciler/",\
+        ["virtual:dcf6301755b82ac06a4e0146ee4118b1aca6d3a6367e165b4b31005dd11d2e32e45dae7622a98cf24a4fd30d1ca08a622f80360666e9868935ff390d8a39d3b9#npm:0.29.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-reconciler-virtual-60e387eb55/0/cache/react-reconciler-npm-0.29.0-57f1460fdd-730db9cf45.zip/node_modules/react-reconciler/",\
           "packageDependencies": [\
-            ["react-reconciler", "virtual:ecaefedda107a620f08d489f6caa3a1bde467aa4e3b30dc5394caa8cb31f628d5bd7800ac30bcd3fb49a9e671d2e7e72cc6f4764d0abb871dd06c880c166bf23#npm:0.28.0"],\
+            ["react-reconciler", "virtual:dcf6301755b82ac06a4e0146ee4118b1aca6d3a6367e165b4b31005dd11d2e32e45dae7622a98cf24a4fd30d1ca08a622f80360666e9868935ff390d8a39d3b9#npm:0.29.0"],\
             ["@types/react", null],\
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\
-            ["scheduler", "npm:0.22.0"]\
+            ["scheduler", "npm:0.23.0"]\
           ],\
           "packagePeers": [\
             "@types/react",\
@@ -6752,14 +6752,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["scheduler", [\
-        ["npm:0.22.0", {\
-          "packageLocation": "./.yarn/cache/scheduler-npm-0.22.0-63c9337981-a8ef5cab76.zip/node_modules/scheduler/",\
-          "packageDependencies": [\
-            ["scheduler", "npm:0.22.0"],\
-            ["loose-envify", "npm:1.4.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:0.23.0", {\
           "packageLocation": "./.yarn/cache/scheduler-npm-0.23.0-a379a6bc3b-d79192eeaa.zip/node_modules/scheduler/",\
           "packageDependencies": [\
