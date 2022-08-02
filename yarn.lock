@@ -1591,14 +1591,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/esbuild-plugin-pnp@npm:3.0.0-rc.12":
-  version: 3.0.0-rc.12
-  resolution: "@yarnpkg/esbuild-plugin-pnp@npm:3.0.0-rc.12"
+"@yarnpkg/esbuild-plugin-pnp@npm:3.0.0-rc.14":
+  version: 3.0.0-rc.14
+  resolution: "@yarnpkg/esbuild-plugin-pnp@npm:3.0.0-rc.14"
   dependencies:
     tslib: ^1.13.0
   peerDependencies:
     esbuild: ">=0.10.0"
-  checksum: cc3a5349d66ee405eb930e130356c01cda8f6785b49c58ebee539d02995f17aae798f67851f0922881bf3d46dc2e0d87441f3eac0233c8c3194a959eb73c5474
+  checksum: 7213b06d807b20dfb51a631779b8279abcad822be0c0ef14312401fde30fcb4a6a997a195f7971d5f4df0099d9bd5dc00b8a18004af920c21c0c72eec160dcff
   languageName: node
   linkType: hard
 
@@ -3771,7 +3771,7 @@ __metadata:
   resolution: "jasstafel@workspace:."
   dependencies:
     "@fortawesome/free-solid-svg-icons": 6.1.2
-    "@yarnpkg/esbuild-plugin-pnp": 3.0.0-rc.12
+    "@yarnpkg/esbuild-plugin-pnp": 3.0.0-rc.14
     ansi-html: 0.0.9
     chai: 4.3.6
     chai-match-pattern: 1.3.0
