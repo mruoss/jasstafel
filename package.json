@@ -14,7 +14,7 @@
 	},
 	"dependencies": {
 		"@fortawesome/free-solid-svg-icons": "6.1.2",
-		"core-js": "3.23.4",
+		"core-js": "3.24.1",
 		"esbuild": "0.14.51",
 		"konva": "8.3.10",
 		"lodash": "4.17.21",
