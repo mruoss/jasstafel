@@ -16,7 +16,7 @@
 		"@fortawesome/free-solid-svg-icons": "6.1.2",
 		"core-js": "3.24.1",
 		"esbuild": "0.14.53",
-		"konva": "8.3.10",
+		"konva": "8.3.11",
 		"lodash": "4.17.21",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
