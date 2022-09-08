@@ -2912,9 +2912,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:4.2.0":
-  version: 4.2.0
-  resolution: "eslint-plugin-prettier@npm:4.2.0"
+"eslint-plugin-prettier@npm:4.2.1":
+  version: 4.2.1
+  resolution: "eslint-plugin-prettier@npm:4.2.1"
   dependencies:
     prettier-linter-helpers: ^1.0.0
   peerDependencies:
@@ -2923,7 +2923,7 @@ __metadata:
   peerDependenciesMeta:
     eslint-config-prettier:
       optional: true
-  checksum: 2b07fae72e534cd1478fbda4839352aa0e5bbd79d2f75be96b9def6133e9be14693b6d514e79ea47c88de0f97df862717125fd36908c1fa4847351466f0a7220
+  checksum: b9e839d2334ad8ec7a5589c5cb0f219bded260839a857d7a486997f9870e95106aa59b8756ff3f37202085ebab658de382b0267cae44c3a7f0eb0bcc03a4f6d6
   languageName: node
   linkType: hard
 
@@ -3899,7 +3899,7 @@ __metadata:
     eslint-plugin-import: 2.26.0
     eslint-plugin-jasmine: 4.1.3
     eslint-plugin-lodash-fp: 2.2.0-a1
-    eslint-plugin-prettier: 4.2.0
+    eslint-plugin-prettier: 4.2.1
     eslint-plugin-react: 7.31.7
     konva: 8.3.12
     lodash: 4.17.21
