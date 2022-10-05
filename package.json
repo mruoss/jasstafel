@@ -51,5 +51,5 @@
 		"workbox-build": "6.5.4",
 		"yargs": "17.6.0"
 	},
-	"packageManager": "yarn@3.2.3"
+	"packageManager": "yarn@3.2.4"
 }
