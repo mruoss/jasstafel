@@ -58,7 +58,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-redux", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.0.4"],\
             ["redux", "npm:4.2.0"],\
             ["redux-undo", "npm:1.0.1"],\
-            ["reselect", "npm:4.1.6"],\
+            ["reselect", "npm:4.1.7"],\
             ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.3.6"],\
             ["workbox-build", "npm:6.5.4"],\
             ["workbox-precaching", "npm:6.5.4"],\
@@ -5443,7 +5443,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-redux", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.0.4"],\
             ["redux", "npm:4.2.0"],\
             ["redux-undo", "npm:1.0.1"],\
-            ["reselect", "npm:4.1.6"],\
+            ["reselect", "npm:4.1.7"],\
             ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.3.6"],\
             ["workbox-build", "npm:6.5.4"],\
             ["workbox-precaching", "npm:6.5.4"],\
@@ -6725,10 +6725,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["reselect", [\
-        ["npm:4.1.6", {\
-          "packageLocation": "./.yarn/cache/reselect-npm-4.1.6-869f318cc3-3ea1058422.zip/node_modules/reselect/",\
+        ["npm:4.1.7", {\
+          "packageLocation": "./.yarn/cache/reselect-npm-4.1.7-c37108c640-738d8e2b8f.zip/node_modules/reselect/",\
           "packageDependencies": [\
-            ["reselect", "npm:4.1.6"]\
+            ["reselect", "npm:4.1.7"]\
           ],\
           "linkType": "HARD"\
         }]\

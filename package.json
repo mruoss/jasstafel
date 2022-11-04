@@ -24,7 +24,7 @@
 		"react-redux": "8.0.4",
 		"redux": "4.2.0",
 		"redux-undo": "1.0.1",
-		"reselect": "4.1.6",
+		"reselect": "4.1.7",
 		"workbox-precaching": "6.5.4"
 	},
 	"devDependencies": {
