@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/free-solid-svg-icons", "npm:6.2.0"],\
             ["@yarnpkg/esbuild-plugin-pnp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.0.0-rc.15"],\
             ["ansi-html", "npm:0.0.9"],\
-            ["chai", "npm:4.3.6"],\
+            ["chai", "npm:4.3.7"],\
             ["chai-match-pattern", "npm:1.3.0"],\
             ["core-js", "npm:3.26.0"],\
             ["esbuild", "npm:0.15.13"],\
@@ -3256,13 +3256,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["chai", [\
-        ["npm:4.3.6", {\
-          "packageLocation": "./.yarn/cache/chai-npm-4.3.6-dba90e4b0b-acff93fd53.zip/node_modules/chai/",\
+        ["npm:4.3.7", {\
+          "packageLocation": "./.yarn/cache/chai-npm-4.3.7-48fdcf2584-0bba7d2678.zip/node_modules/chai/",\
           "packageDependencies": [\
-            ["chai", "npm:4.3.6"],\
+            ["chai", "npm:4.3.7"],\
             ["assertion-error", "npm:1.1.0"],\
             ["check-error", "npm:1.0.2"],\
-            ["deep-eql", "npm:3.0.1"],\
+            ["deep-eql", "npm:4.1.2"],\
             ["get-func-name", "npm:2.0.0"],\
             ["loupe", "npm:2.3.5"],\
             ["pathval", "npm:1.1.1"],\
@@ -3636,10 +3636,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["deep-eql", [\
-        ["npm:3.0.1", {\
-          "packageLocation": "./.yarn/cache/deep-eql-npm-3.0.1-9a66c09c65-4f4c9fb79e.zip/node_modules/deep-eql/",\
+        ["npm:4.1.2", {\
+          "packageLocation": "./.yarn/cache/deep-eql-npm-4.1.2-7017c4a2dc-1832456c5f.zip/node_modules/deep-eql/",\
           "packageDependencies": [\
-            ["deep-eql", "npm:3.0.1"],\
+            ["deep-eql", "npm:4.1.2"],\
             ["type-detect", "npm:4.0.8"]\
           ],\
           "linkType": "HARD"\
@@ -5416,7 +5416,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/free-solid-svg-icons", "npm:6.2.0"],\
             ["@yarnpkg/esbuild-plugin-pnp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.0.0-rc.15"],\
             ["ansi-html", "npm:0.0.9"],\
-            ["chai", "npm:4.3.6"],\
+            ["chai", "npm:4.3.7"],\
             ["chai-match-pattern", "npm:1.3.0"],\
             ["core-js", "npm:3.26.0"],\
             ["esbuild", "npm:0.15.13"],\
