@@ -3969,7 +3969,7 @@ __metadata:
     eslint-plugin-lodash-fp: 2.2.0-a1
     eslint-plugin-prettier: 4.2.1
     eslint-plugin-react: 7.32.1
-    konva: 8.4.0
+    konva: 8.4.1
     lodash: 4.17.21
     mocha: 10.2.0
     mustache: 4.2.0
@@ -4123,10 +4123,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"konva@npm:8.4.0":
-  version: 8.4.0
-  resolution: "konva@npm:8.4.0"
-  checksum: 87f8f25b23cb92119ddd19506f0c9485cf7914200bbf2b0879bea6c2844fb508b2d91909ecdda40045712a55550beb175343d14d6e9245881172c5651e090701
+"konva@npm:8.4.1":
+  version: 8.4.1
+  resolution: "konva@npm:8.4.1"
+  checksum: 60b3b0e575f11883818285b5e7ca810eabd16e23820f695f6c933f16ae5ca4a54031a43f6d40a814ca3023d743ab94f34df47fe9927bb273847b23de7c56a6de
   languageName: node
   linkType: hard
 
