@@ -3979,7 +3979,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     react-is: 18.2.0
-    react-konva: 18.2.3
+    react-konva: 18.2.4
     react-redux: 8.0.5
     redux: 4.2.1
     redux-undo: 1.0.1
@@ -4880,9 +4880,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-konva@npm:18.2.3":
-  version: 18.2.3
-  resolution: "react-konva@npm:18.2.3"
+"react-konva@npm:18.2.4":
+  version: 18.2.4
+  resolution: "react-konva@npm:18.2.4"
   dependencies:
     its-fine: ^1.0.6
     react-reconciler: ~0.29.0
@@ -4891,7 +4891,7 @@ __metadata:
     konva: ^8.0.1 || ^7.2.5
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
-  checksum: b18868527e795f2f84536eebde92e5065fb5b8960a581c41aaed3ee91c9c304dab2530ceb15d85753793d50d32d97a5a27f3f055509e06793e80a01a0d4e04e4
+  checksum: b741a877dda23934a8c98c76f6ede03e7e1f48167b43c561740517ee0daf06adb62ff4f5462a977090ff25f2da902a18adeec4ee6a3e742239c0dc57dcf26056
   languageName: node
   linkType: hard
 
