@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@fortawesome/free-solid-svg-icons", "npm:6.2.1"],\
+            ["@fortawesome/free-solid-svg-icons", "npm:6.3.0"],\
             ["@yarnpkg/esbuild-plugin-pnp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.0.0-rc.15"],\
             ["ansi-html", "npm:0.0.9"],\
             ["chai", "npm:4.3.7"],\
@@ -2485,20 +2485,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@fortawesome/fontawesome-common-types", [\
-        ["npm:6.2.1", {\
-          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-common-types-npm-6.2.1-0d35c18eaf/node_modules/@fortawesome/fontawesome-common-types/",\
+        ["npm:6.3.0", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-common-types-npm-6.3.0-eacaac4a37/node_modules/@fortawesome/fontawesome-common-types/",\
           "packageDependencies": [\
-            ["@fortawesome/fontawesome-common-types", "npm:6.2.1"]\
+            ["@fortawesome/fontawesome-common-types", "npm:6.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@fortawesome/free-solid-svg-icons", [\
-        ["npm:6.2.1", {\
-          "packageLocation": "./.yarn/unplugged/@fortawesome-free-solid-svg-icons-npm-6.2.1-ea5991f75e/node_modules/@fortawesome/free-solid-svg-icons/",\
+        ["npm:6.3.0", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-free-solid-svg-icons-npm-6.3.0-b7a91b016c/node_modules/@fortawesome/free-solid-svg-icons/",\
           "packageDependencies": [\
-            ["@fortawesome/free-solid-svg-icons", "npm:6.2.1"],\
-            ["@fortawesome/fontawesome-common-types", "npm:6.2.1"]\
+            ["@fortawesome/free-solid-svg-icons", "npm:6.3.0"],\
+            ["@fortawesome/fontawesome-common-types", "npm:6.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5509,7 +5509,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["jasstafel", "workspace:."],\
-            ["@fortawesome/free-solid-svg-icons", "npm:6.2.1"],\
+            ["@fortawesome/free-solid-svg-icons", "npm:6.3.0"],\
             ["@yarnpkg/esbuild-plugin-pnp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:3.0.0-rc.15"],\
             ["ansi-html", "npm:0.0.9"],\
             ["chai", "npm:4.3.7"],\
