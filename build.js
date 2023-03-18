@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import { pnpPlugin } from '@yarnpkg/esbuild-plugin-pnp'
 import fs from 'fs/promises'
 import { fileURLToPath } from 'url'
 import path from 'path'
@@ -57,9 +56,9 @@ fs.rm(destDirectory, { recursive: true, force: true })
 			entryPoints: [path.join(srcDirectory, 'js/index.js')],
 			entryNames: '[dir]/[name]-[hash]',
 			bundle: true,
+			external: ['canvas', 'stream'],
 			outdir: destDirectoryJS,
 			metafile: true,
-			plugins: [pnpPlugin()],
 			minify: true,
 			loader: {
 				'.js': 'jsx',
@@ -71,20 +70,18 @@ fs.rm(destDirectory, { recursive: true, force: true })
 		}
 
 		if (argv.serve) {
-			// Build, watch and serve application
 			return esbuild
-				.serve(
-					{ servedir: argv.outdir },
-					{
-						...buildConfig,
-						entryNames: '[dir]/[name]',
-						minify: false,
-						define: {
-							APP_VERSION: JSON.stringify('<dev>'),
-							'process.env.NODE_ENV': JSON.stringify('development'),
-						},
+				.context({
+					...buildConfig,
+					entryNames: '[dir]/[name]',
+					minify: false,
+					define: {
+						APP_VERSION: JSON.stringify('<dev>'),
+						'process.env.NODE_ENV': JSON.stringify('development'),
 					},
-				)
+					sourcemap: 'inline',
+				})
+				.then((ctx) => ctx.serve({ servedir: argv.outdir }))
 				.then((server) => {
 					console.log(`Server started on http://localhost:${server.port}`)
 					opn('http://localhost:${server.port}')
@@ -111,7 +108,6 @@ fs.rm(destDirectory, { recursive: true, force: true })
 			entryPoints: [path.join(srcDirectory, 'sw.js')],
 			outfile: path.join(destDirectory, 'sw.js'),
 			bundle: true,
-			plugins: [pnpPlugin()],
 			minify: true,
 			define: {
 				'process.env.NODE_ENV': '"production"',
