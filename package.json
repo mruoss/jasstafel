@@ -1,6 +1,6 @@
 {
 	"name": "jasstafel",
-	"version": "2.3.1",
+	"version": "2.3.2",
 	"description": "Jasstafel zum Schreiben von Jasspartien",
 	"license": "MIT",
 	"type": "module",

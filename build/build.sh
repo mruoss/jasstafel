@@ -4,4 +4,4 @@ BASE_DIR="${DIR}/.."
 
 cd $BASE_DIR
 yarn build
-DOCKER_BUILDKIT=1 docker build --progress=plain -t registry.gitlab.com/mruoss/wedding/jasstafel:latest -f "build/Dockerfile" "."
+docker buildx build --progress=plain -t registry.gitlab.com/mruoss/wedding/jasstafel:latest -f "build/Dockerfile" "." --push

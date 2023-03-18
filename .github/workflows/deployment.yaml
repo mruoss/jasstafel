@@ -1,0 +1,55 @@
+name: Deployment
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Build and Deploy
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: 'yarn'
+
+      - name: Install deps
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install --immutable
+
+      - name: Build App
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: build
+
+      - id: 'auth'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          workload_identity_provider: 'projects/839825511425/locations/global/workloadIdentityPools/github/providers/github'
+          service_account: 'gh-actions-jasstafel@wedding-165516.iam.gserviceaccount.com'
+
+      - id: 'upload-dist-folder'
+        uses: 'google-github-actions/upload-cloud-storage@v1'
+        with:
+          path: 'dist'
+          destination: 'jasstafel.michaelruoss.ch'
+
+      - id: 'upload-well-known-folder'
+        uses: 'google-github-actions/upload-cloud-storage@v1'
+        with:
+          path: 'build/.well-known'
+          destination: 'jasstafel.michaelruoss.ch'
+
+      - id: 'upload-privacy-policy'
+        uses: 'google-github-actions/upload-cloud-storage@v1'
+        with:
+          path: 'build/privacy-policy.md'
+          destination: 'jasstafel.michaelruoss.ch/privacy-policy.md'
