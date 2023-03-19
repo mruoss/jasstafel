@@ -53,4 +53,4 @@ jobs:
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
           path: 'build/privacy-policy.md'
-          destination: 'jasstafel.michaelruoss.ch/privacy-policy.md'
+          destination: 'jasstafel.michaelruoss.ch'
