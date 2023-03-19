@@ -20,6 +20,7 @@ export const FrontSide = styled(FlipperSide)`
 `
 
 export const BackSide = styled(FlipperSide)`
+	z-index: 2;
 	transform: rotateY(180deg);
 `
 

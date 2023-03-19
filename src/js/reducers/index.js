@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import undoable, { includeAction } from 'redux-undo'
+import ReduxUndo from 'redux-undo'
 import get from 'lodash/fp/get'
 import * as actionTypes from '../constants/redux-store/action-types'
 
@@ -10,7 +10,7 @@ import backside from './backside'
 const undoableConfig = {
 	limit: 200,
 	groupBy: get('timestamp'),
-	filter: includeAction([
+	filter: ReduxUndo.includeAction([
 		actionTypes.ADD_HUNDRED,
 		actionTypes.ADD_FIFITY,
 		actionTypes.ADD_TWENTY,
@@ -20,4 +20,4 @@ const undoableConfig = {
 	debug: true,
 }
 
-export default combineReducers({ score: undoable(score, undoableConfig), ui, backside })
+export default combineReducers({ score: ReduxUndo.default(score, undoableConfig), ui, backside })

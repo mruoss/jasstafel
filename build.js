@@ -56,7 +56,7 @@ fs.rm(destDirectory, { recursive: true, force: true })
 			entryPoints: [path.join(srcDirectory, 'js/index.js')],
 			entryNames: '[dir]/[name]-[hash]',
 			bundle: true,
-			external: ['canvas', 'stream'],
+			external: ['stream'],
 			outdir: destDirectoryJS,
 			metafile: true,
 			minify: true,
