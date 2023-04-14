@@ -7,12 +7,14 @@ import path from 'path'
 import esbuild from 'esbuild'
 import yargs from 'yargs'
 import opn from 'opn'
+import date from 'date-and-time'
 
 import { injectManifest } from 'workbox-build'
 import Mustache from 'mustache'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+const current_verison = date.format(new Date(), 'YYYY.MM.DD.HHmm');
 
 // CLI Options
 const argv = yargs(process.argv.slice(2))
@@ -64,7 +66,7 @@ fs.rm(destDirectory, { recursive: true, force: true })
 				'.js': 'jsx',
 			},
 			define: {
-				APP_VERSION: JSON.stringify(process.env.npm_package_version),
+				APP_VERSION: JSON.stringify(current_verison),
 				'process.env.NODE_ENV': JSON.stringify('production'),
 			},
 		}
@@ -76,7 +78,7 @@ fs.rm(destDirectory, { recursive: true, force: true })
 					entryNames: '[dir]/[name]',
 					minify: false,
 					define: {
-						APP_VERSION: JSON.stringify('<dev>'),
+						APP_VERSION: JSON.stringify(current_verison),
 						'process.env.NODE_ENV': JSON.stringify('development'),
 					},
 					sourcemap: 'inline',
