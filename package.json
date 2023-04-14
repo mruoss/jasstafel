@@ -25,7 +25,8 @@
 		"redux": "4.2.1",
 		"redux-undo": "1.0.1",
 		"reselect": "4.1.7",
-		"workbox-precaching": "6.5.4"
+		"workbox-precaching": "6.5.4",
+		"workbox-routing": "^6.5.4"
 	},
 	"devDependencies": {
 		"ansi-html": "0.0.9",
@@ -49,6 +50,7 @@
 		"react-is": "18.2.0",
 		"styled-components": "5.3.9",
 		"workbox-build": "6.5.4",
+		"workbox-strategies": "^6.5.4",
 		"yargs": "17.7.1"
 	},
 	"packageManager": "yarn@3.5.0"

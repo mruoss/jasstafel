@@ -4007,6 +4007,8 @@ __metadata:
     styled-components: 5.3.9
     workbox-build: 6.5.4
     workbox-precaching: 6.5.4
+    workbox-routing: ^6.5.4
+    workbox-strategies: ^6.5.4
     yargs: 17.7.1
   languageName: unknown
   linkType: soft
@@ -6055,7 +6057,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-routing@npm:6.5.4":
+"workbox-routing@npm:6.5.4, workbox-routing@npm:^6.5.4":
   version: 6.5.4
   resolution: "workbox-routing@npm:6.5.4"
   dependencies:
@@ -6064,7 +6066,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-strategies@npm:6.5.4":
+"workbox-strategies@npm:6.5.4, workbox-strategies@npm:^6.5.4":
   version: 6.5.4
   resolution: "workbox-strategies@npm:6.5.4"
   dependencies:

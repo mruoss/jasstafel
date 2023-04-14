@@ -62,6 +62,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.3.9"],\
             ["workbox-build", "npm:6.5.4"],\
             ["workbox-precaching", "npm:6.5.4"],\
+            ["workbox-routing", "npm:6.5.4"],\
+            ["workbox-strategies", "npm:6.5.4"],\
             ["yargs", "npm:17.7.1"]\
           ],\
           "linkType": "SOFT"\
@@ -5561,6 +5563,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.3.9"],\
             ["workbox-build", "npm:6.5.4"],\
             ["workbox-precaching", "npm:6.5.4"],\
+            ["workbox-routing", "npm:6.5.4"],\
+            ["workbox-strategies", "npm:6.5.4"],\
             ["yargs", "npm:17.7.1"]\
           ],\
           "linkType": "SOFT"\
