@@ -2523,10 +2523,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-and-time@npm:^2.4.3":
-  version: 2.4.3
-  resolution: "date-and-time@npm:2.4.3"
-  checksum: 9d1ab4628f7283ba611569d17f3ebecb43a363c7c68ec3212589bc4651a6cac254b1504722a2185ac8d36e439cb29893833afbb6b1b70949a9f4dc8d4c7a9e42
+"date-and-time@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "date-and-time@npm:3.0.0"
+  checksum: 40449fa2eb786b02c889df5033b698dea3d5173ef02d31156407d43b2677f7d5f22a2496c6cd38fb77d2da91662ad2ece2bd060db4ed3518d7ea7d5337ade0da
   languageName: node
   linkType: hard
 
@@ -3978,7 +3978,7 @@ __metadata:
     chai: 4.3.7
     chai-match-pattern: 1.3.0
     core-js: 3.30.1
-    date-and-time: ^2.4.3
+    date-and-time: ^3.0.0
     esbuild: 0.17.18
     eslint: 8.39.0
     eslint-config-prettier: 8.8.0
