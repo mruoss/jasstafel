@@ -64,7 +64,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["workbox-precaching", "npm:6.5.4"],\
             ["workbox-routing", "npm:6.5.4"],\
             ["workbox-strategies", "npm:6.5.4"],\
-            ["yargs", "npm:17.7.1"]\
+            ["yargs", "npm:17.7.2"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -5580,7 +5580,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["workbox-precaching", "npm:6.5.4"],\
             ["workbox-routing", "npm:6.5.4"],\
             ["workbox-strategies", "npm:6.5.4"],\
-            ["yargs", "npm:17.7.1"]\
+            ["yargs", "npm:17.7.2"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -8042,10 +8042,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:17.7.1", {\
-          "packageLocation": "./.yarn/cache/yargs-npm-17.7.1-0758ec0e50-3d8a43c336.zip/node_modules/yargs/",\
+        ["npm:17.7.2", {\
+          "packageLocation": "./.yarn/cache/yargs-npm-17.7.2-80b62638e1-73b572e863.zip/node_modules/yargs/",\
           "packageDependencies": [\
-            ["yargs", "npm:17.7.1"],\
+            ["yargs", "npm:17.7.2"],\
             ["cliui", "npm:8.0.1"],\
             ["escalade", "npm:3.1.1"],\
             ["get-caller-file", "npm:2.0.5"],\
