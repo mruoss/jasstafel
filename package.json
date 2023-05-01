@@ -53,5 +53,5 @@
 		"workbox-strategies": "^6.5.4",
 		"yargs": "17.7.2"
 	},
-	"packageManager": "yarn@3.5.0"
+	"packageManager": "yarn@3.5.1"
 }
