@@ -32,7 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ansi-html", "npm:0.0.9"],\
             ["chai", "npm:4.3.7"],\
             ["chai-match-pattern", "npm:1.3.0"],\
-            ["core-js", "npm:3.30.1"],\
+            ["core-js", "npm:3.30.2"],\
             ["date-and-time", "npm:3.0.0"],\
             ["esbuild", "npm:0.17.18"],\
             ["eslint", "npm:8.40.0"],\
@@ -3729,10 +3729,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["core-js", [\
-        ["npm:3.30.1", {\
-          "packageLocation": "./.yarn/unplugged/core-js-npm-3.30.1-86e4b0022a/node_modules/core-js/",\
+        ["npm:3.30.2", {\
+          "packageLocation": "./.yarn/unplugged/core-js-npm-3.30.2-3cb5d20b64/node_modules/core-js/",\
           "packageDependencies": [\
-            ["core-js", "npm:3.30.1"]\
+            ["core-js", "npm:3.30.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5555,7 +5555,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ansi-html", "npm:0.0.9"],\
             ["chai", "npm:4.3.7"],\
             ["chai-match-pattern", "npm:1.3.0"],\
-            ["core-js", "npm:3.30.1"],\
+            ["core-js", "npm:3.30.2"],\
             ["date-and-time", "npm:3.0.0"],\
             ["esbuild", "npm:0.17.18"],\
             ["eslint", "npm:8.40.0"],\
