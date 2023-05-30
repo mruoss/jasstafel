@@ -6047,13 +6047,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-core@npm:6.6.0":
-  version: 6.6.0
-  resolution: "workbox-core@npm:6.6.0"
-  checksum: 7d773a866b73a733780c52b895f9cf7bec926c9187395c307174deefba9a0a2fcd1edce0d1ca12b8a6c95ca9cf7755ccc1885b03bc82ebcfc4843e015bd84d7b
-  languageName: node
-  linkType: hard
-
 "workbox-core@npm:6.6.1":
   version: 6.6.1
   resolution: "workbox-core@npm:6.6.1"
@@ -6126,21 +6119,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-routing@npm:6.6.1":
+"workbox-routing@npm:6.6.1, workbox-routing@npm:^6.5.4":
   version: 6.6.1
   resolution: "workbox-routing@npm:6.6.1"
   dependencies:
     workbox-core: 6.6.1
   checksum: fc9763ebddadf1b4edaa8ae327c382b98f356d5212315cd7c902e2b863f7fa28b439bcfa56d9cdfaf573a357b0852adfb4821c11635bf68cdd34795104d5c60e
-  languageName: node
-  linkType: hard
-
-"workbox-routing@npm:^6.5.4":
-  version: 6.6.0
-  resolution: "workbox-routing@npm:6.6.0"
-  dependencies:
-    workbox-core: 6.6.0
-  checksum: 7a70b836196eb67332d33a94c0b57859781fe869e81a9c95452d3f4f368d3199f8c3da632dbc10425fde902a1930cf8cfd83f6434ad2b586904ce68cd9f35c6d
   languageName: node
   linkType: hard
 

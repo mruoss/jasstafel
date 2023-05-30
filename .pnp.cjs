@@ -62,7 +62,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.3.11"],\
             ["workbox-build", "npm:6.6.1"],\
             ["workbox-precaching", "npm:6.6.1"],\
-            ["workbox-routing", "npm:6.6.0"],\
+            ["workbox-routing", "npm:6.6.1"],\
             ["workbox-strategies", "npm:6.6.1"],\
             ["yargs", "npm:17.7.2"]\
           ],\
@@ -5703,7 +5703,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.3.11"],\
             ["workbox-build", "npm:6.6.1"],\
             ["workbox-precaching", "npm:6.6.1"],\
-            ["workbox-routing", "npm:6.6.0"],\
+            ["workbox-routing", "npm:6.6.1"],\
             ["workbox-strategies", "npm:6.6.1"],\
             ["yargs", "npm:17.7.2"]\
           ],\
@@ -7958,13 +7958,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["workbox-core", [\
-        ["npm:6.6.0", {\
-          "packageLocation": "./.yarn/cache/workbox-core-npm-6.6.0-498740a171-7d773a866b.zip/node_modules/workbox-core/",\
-          "packageDependencies": [\
-            ["workbox-core", "npm:6.6.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:6.6.1", {\
           "packageLocation": "./.yarn/cache/workbox-core-npm-6.6.1-a68aa82e6e-b11f390860.zip/node_modules/workbox-core/",\
           "packageDependencies": [\
@@ -8045,14 +8038,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["workbox-routing", [\
-        ["npm:6.6.0", {\
-          "packageLocation": "./.yarn/cache/workbox-routing-npm-6.6.0-4f121cf6d1-7a70b83619.zip/node_modules/workbox-routing/",\
-          "packageDependencies": [\
-            ["workbox-routing", "npm:6.6.0"],\
-            ["workbox-core", "npm:6.6.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:6.6.1", {\
           "packageLocation": "./.yarn/cache/workbox-routing-npm-6.6.1-77dd6e5a89-fc9763ebdd.zip/node_modules/workbox-routing/",\
           "packageDependencies": [\
