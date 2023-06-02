@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-lodash-fp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:2.2.0-a1"],\
             ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:4.2.1"],\
             ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.32.2"],\
-            ["konva", "npm:9.0.2"],\
+            ["konva", "npm:9.1.0"],\
             ["lodash", "npm:4.17.21"],\
             ["mocha", "npm:10.2.0"],\
             ["mustache", "npm:4.2.0"],\
@@ -5685,7 +5685,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-lodash-fp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:2.2.0-a1"],\
             ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:4.2.1"],\
             ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.32.2"],\
-            ["konva", "npm:9.0.2"],\
+            ["konva", "npm:9.1.0"],\
             ["lodash", "npm:4.17.21"],\
             ["mocha", "npm:10.2.0"],\
             ["mustache", "npm:4.2.0"],\
@@ -5840,10 +5840,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["konva", [\
-        ["npm:9.0.2", {\
-          "packageLocation": "./.yarn/cache/konva-npm-9.0.2-db19a344da-c6fbe8337d.zip/node_modules/konva/",\
+        ["npm:9.1.0", {\
+          "packageLocation": "./.yarn/cache/konva-npm-9.1.0-f04635b845-eb665e0435.zip/node_modules/konva/",\
           "packageDependencies": [\
-            ["konva", "npm:9.0.2"]\
+            ["konva", "npm:9.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6733,7 +6733,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", null],\
             ["@types/react-reconciler", "npm:0.28.2"],\
             ["its-fine", "virtual:49fa568265ff3fbf65d9c998f9e61f477d48c281005dbcf484c513e0daf90bd0e1bcfd7d0848750ba80977090f510051f03ae6d54d2c75f16cca6e9674f56630#npm:1.1.1"],\
-            ["konva", "npm:9.0.2"],\
+            ["konva", "npm:9.1.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.2.0"],\
             ["react-reconciler", "virtual:49fa568265ff3fbf65d9c998f9e61f477d48c281005dbcf484c513e0daf90bd0e1bcfd7d0848750ba80977090f510051f03ae6d54d2c75f16cca6e9674f56630#npm:0.29.0"],\
