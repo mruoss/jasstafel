@@ -4013,7 +4013,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"its-fine@npm:^1.0.6":
+"its-fine@npm:^1.1.1":
   version: 1.1.1
   resolution: "its-fine@npm:1.1.1"
   dependencies:
@@ -4068,7 +4068,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     react-is: 18.2.0
-    react-konva: 18.2.8
+    react-konva: 18.2.9
     react-redux: 8.0.7
     redux: 4.2.1
     redux-undo: 1.0.1
@@ -4962,19 +4962,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-konva@npm:18.2.8":
-  version: 18.2.8
-  resolution: "react-konva@npm:18.2.8"
+"react-konva@npm:18.2.9":
+  version: 18.2.9
+  resolution: "react-konva@npm:18.2.9"
   dependencies:
     "@types/react-reconciler": ^0.28.2
-    its-fine: ^1.0.6
+    its-fine: ^1.1.1
     react-reconciler: ~0.29.0
     scheduler: ^0.23.0
   peerDependencies:
     konva: ^8.0.1 || ^7.2.5 || ^9.0.0
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
-  checksum: 7106c8bda0613ab2066d2d9da2e566e04b67877aa2c0531cc48528010e58d04defdae786b1d9db1e9a5b95b60f238b303b0602f066d43d0032bd8c91736b1aaf
+  checksum: e2b24ce3ce216fd2d5a654b9766fef019b29a4f6a48fb67db8527ce53c8c64b2edc1756418014811f3547505385f354ffc94de8e45edc18c8f4dd70bdb5f7ea1
   languageName: node
   linkType: hard
 
