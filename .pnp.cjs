@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chai", "npm:4.3.7"],\
             ["chai-match-pattern", "npm:1.3.0"],\
             ["core-js", "npm:3.30.2"],\
-            ["date-and-time", "npm:3.0.0"],\
+            ["date-and-time", "npm:3.0.1"],\
             ["esbuild", "npm:0.17.19"],\
             ["eslint", "npm:8.42.0"],\
             ["eslint-config-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.8.0"],\
@@ -3934,10 +3934,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["date-and-time", [\
-        ["npm:3.0.0", {\
-          "packageLocation": "./.yarn/cache/date-and-time-npm-3.0.0-25f887cecf-40449fa2eb.zip/node_modules/date-and-time/",\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/date-and-time-npm-3.0.1-6dabf46833-14c522175b.zip/node_modules/date-and-time/",\
           "packageDependencies": [\
-            ["date-and-time", "npm:3.0.0"]\
+            ["date-and-time", "npm:3.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5674,7 +5674,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chai", "npm:4.3.7"],\
             ["chai-match-pattern", "npm:1.3.0"],\
             ["core-js", "npm:3.30.2"],\
-            ["date-and-time", "npm:3.0.0"],\
+            ["date-and-time", "npm:3.0.1"],\
             ["esbuild", "npm:0.17.19"],\
             ["eslint", "npm:8.42.0"],\
             ["eslint-config-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:8.8.0"],\
