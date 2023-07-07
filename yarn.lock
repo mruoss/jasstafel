@@ -4311,7 +4311,7 @@ __metadata:
     redux: 4.2.1
     redux-undo: 1.0.1
     reselect: 4.1.8
-    styled-components: 6.0.2
+    styled-components: 6.0.3
     workbox-build: 7.0.0
     workbox-precaching: 7.0.0
     workbox-routing: ^7.0.0
@@ -5944,9 +5944,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:6.0.2":
-  version: 6.0.2
-  resolution: "styled-components@npm:6.0.2"
+"styled-components@npm:6.0.3":
+  version: 6.0.3
+  resolution: "styled-components@npm:6.0.3"
   dependencies:
     "@babel/cli": ^7.21.0
     "@babel/core": ^7.21.0
@@ -5974,7 +5974,7 @@ __metadata:
   peerDependenciesMeta:
     babel-plugin-styled-components:
       optional: true
-  checksum: 3fedf429fb0c1e2973b5e86acd27b26e8f5a3fb2576ea1ecd00d554f3f2544c6257d0f738fc705210df76ab680ab1430f55e6c1f7cb3995fd7635f04a6f96e5e
+  checksum: e02e6a38a7d484ed8ce1fa1f36b7934c1c1f57195d9c173853adc8cb89a209c23c79cf9f979ffff22829de5e817fb95aab04038c1270110956dfef168c480b13
   languageName: node
   linkType: hard
 
