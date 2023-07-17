@@ -4525,7 +4525,7 @@ __metadata:
     react-konva: 18.2.10
     react-redux: 8.1.1
     redux: 4.2.1
-    redux-undo: 1.0.1
+    redux-undo: 1.1.0
     reselect: 4.1.8
     styled-components: 6.0.4
     workbox-build: 7.0.0
@@ -5656,10 +5656,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redux-undo@npm:1.0.1":
-  version: 1.0.1
-  resolution: "redux-undo@npm:1.0.1"
-  checksum: 046b5fb49fafa1202a17899f65f150f3c61ac61dc84cd779afc9b09d05ce7ae049a899592c1e9b0d8b32d135b3b199b5cc2c7445b27d6660ed8bfb32f95cf96c
+"redux-undo@npm:1.1.0":
+  version: 1.1.0
+  resolution: "redux-undo@npm:1.1.0"
+  checksum: 42b7950dfec50f12583b7713bea0bafa8bbb29c2eb32ce41965262c4847e8e648546f599702a0efbf981e49929ee0bee23cbdd095f0e26ea5a62aeb2c3878450
   languageName: node
   linkType: hard
 
