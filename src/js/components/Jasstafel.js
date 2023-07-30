@@ -15,7 +15,7 @@ const Jasstafel = ({ store }) => {
 		<Flipper
 			width="100vw"
 			height="100vh"
-			flipped={isBoardFlipped}
+			flipped={isBoardFlipped ? 1 : 0}
 			renderFrontside={() => <Scoreboard store={store} />}
 			renderBackside={() => <Backside store={store} />}
 		/>

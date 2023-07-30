@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import ReduxUndo from 'redux-undo'
+import * as ReduxUndo from 'redux-undo'
 import get from 'lodash/fp/get'
 import * as actionTypes from '../constants/redux-store/action-types'
 

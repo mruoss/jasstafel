@@ -15,7 +15,7 @@ const Flipper = ({ width, height, flipped, renderFrontside, renderBackside }) =>
 Flipper.propTypes = {
 	width: PropTypes.string.isRequired,
 	height: PropTypes.string.isRequired,
-	flipped: PropTypes.bool.isRequired,
+	flipped: PropTypes.number.isRequired,
 	renderFrontside: PropTypes.func.isRequired,
 	renderBackside: PropTypes.func.isRequired,
 }
