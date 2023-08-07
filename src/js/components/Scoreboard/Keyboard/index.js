@@ -37,8 +37,6 @@ const Keyboard = ({ scope, onConfirm, closeKeyboard }) => {
 	const factorButtonHeight = 13
 	const factorButtonGap = 1.5
 
-	console.log(points)
-
 	return (
 		<Group>
 			<Line
