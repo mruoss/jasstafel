@@ -6,12 +6,13 @@ import { onClick } from '../../helpers/ui'
 import { fontText } from '../../constants/board'
 
 import { Group, Shape, Line } from 'react-konva'
-import DimensionsConsumer from '../DimensionsContext/DimensionsConsumer'
 import UseDimensionsContext from '../DimensionsContext/UseDimensionsContext'
 
 const askForName = (scope, oldName, setPlayerName) => {
 	const newName = window.prompt('Spielername:', oldName)
-	setPlayerName(scope, newName.substring(0, 30))
+	if (newName) {
+		setPlayerName(scope, newName.substring(0, 30))
+	}
 }
 
 const PlayerName = ({ scope, name, setPlayerName }) => {
