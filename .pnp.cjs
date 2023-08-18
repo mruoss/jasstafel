@@ -32,7 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ansi-html", "npm:0.0.9"],\
             ["chai", "npm:4.3.7"],\
             ["chai-match-pattern", "npm:1.3.0"],\
-            ["core-js", "npm:3.32.0"],\
+            ["core-js", "npm:3.32.1"],\
             ["date-and-time", "npm:3.0.2"],\
             ["esbuild", "npm:0.19.2"],\
             ["eslint", "npm:8.47.0"],\
@@ -3296,7 +3296,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["@surma/rollup-plugin-off-main-thread", [\
         ["npm:2.2.3", {\
-          "packageLocation": "./.yarn/cache/@surma-rollup-plugin-off-main-thread-npm-2.2.3-1f57d3eded-2c02134944.zip/node_modules/@surma/rollup-plugin-off-main-thread/",\
+          "packageLocation": "./.yarn/unplugged/@surma-rollup-plugin-off-main-thread-npm-2.2.3-1f57d3eded/node_modules/@surma/rollup-plugin-off-main-thread/",\
           "packageDependencies": [\
             ["@surma/rollup-plugin-off-main-thread", "npm:2.2.3"],\
             ["ejs", "npm:3.1.9"],\
@@ -4241,10 +4241,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["core-js", [\
-        ["npm:3.32.0", {\
-          "packageLocation": "./.yarn/unplugged/core-js-npm-3.32.0-ccedf4fd04/node_modules/core-js/",\
+        ["npm:3.32.1", {\
+          "packageLocation": "./.yarn/unplugged/core-js-npm-3.32.1-9e1b747caa/node_modules/core-js/",\
           "packageDependencies": [\
-            ["core-js", "npm:3.32.0"]\
+            ["core-js", "npm:3.32.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6367,7 +6367,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ansi-html", "npm:0.0.9"],\
             ["chai", "npm:4.3.7"],\
             ["chai-match-pattern", "npm:1.3.0"],\
-            ["core-js", "npm:3.32.0"],\
+            ["core-js", "npm:3.32.1"],\
             ["date-and-time", "npm:3.0.2"],\
             ["esbuild", "npm:0.19.2"],\
             ["eslint", "npm:8.47.0"],\
