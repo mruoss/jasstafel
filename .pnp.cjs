@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.2"],\
             ["ansi-html", "npm:0.0.9"],\
-            ["chai", "npm:4.3.7"],\
+            ["chai", "npm:4.3.8"],\
             ["chai-match-pattern", "npm:1.3.0"],\
             ["core-js", "npm:3.32.1"],\
             ["date-and-time", "npm:3.0.2"],\
@@ -4022,10 +4022,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["chai", [\
-        ["npm:4.3.7", {\
-          "packageLocation": "./.yarn/cache/chai-npm-4.3.7-48fdcf2584-0bba7d2678.zip/node_modules/chai/",\
+        ["npm:4.3.8", {\
+          "packageLocation": "./.yarn/cache/chai-npm-4.3.8-d7c5b7ef2d-29e0984ed1.zip/node_modules/chai/",\
           "packageDependencies": [\
-            ["chai", "npm:4.3.7"],\
+            ["chai", "npm:4.3.8"],\
             ["assertion-error", "npm:1.1.0"],\
             ["check-error", "npm:1.0.2"],\
             ["deep-eql", "npm:4.1.3"],\
@@ -6368,7 +6368,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jasstafel", "workspace:."],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.2"],\
             ["ansi-html", "npm:0.0.9"],\
-            ["chai", "npm:4.3.7"],\
+            ["chai", "npm:4.3.8"],\
             ["chai-match-pattern", "npm:1.3.0"],\
             ["core-js", "npm:3.32.1"],\
             ["date-and-time", "npm:3.0.2"],\
