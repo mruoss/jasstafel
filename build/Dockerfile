@@ -1,4 +1,4 @@
-FROM abiosoft/caddy@sha256:6f90597617b16108805ca30e4a7a1daaacf0a763110514560b9ca2dc3c3f4ca0
+FROM caddy:2.7.4-alpine
 
 WORKDIR /app
 
