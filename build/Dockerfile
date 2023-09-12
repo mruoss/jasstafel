@@ -1,4 +1,4 @@
-FROM abiosoft/caddy:2.7.4-alpine
+FROM caddy:2.7.4-alpine
 
 WORKDIR /app
 
