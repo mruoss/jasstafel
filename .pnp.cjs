@@ -3918,7 +3918,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/browserslist-npm-4.21.10-e2170a875b-1e27c0f111.zip/node_modules/browserslist/",\
           "packageDependencies": [\
             ["browserslist", "npm:4.21.10"],\
-            ["caniuse-lite", "npm:1.0.30001534"],\
+            ["caniuse-lite", "npm:1.0.30001535"],\
             ["electron-to-chromium", "npm:1.4.523"],\
             ["node-releases", "npm:2.0.13"],\
             ["update-browserslist-db", "virtual:e2170a875bba2f8fa9e93e47c65f2f250097e101a59d95ea6fd852f32965e8cd6cef3b5662aa7295279d5bc60c9a612ddb8515c7dd1b7e8fb9984dee1823e7d6#npm:1.0.11"]\
@@ -4014,10 +4014,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["caniuse-lite", [\
-        ["npm:1.0.30001534", {\
-          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001534-bababd8437-8e8b63c1ce.zip/node_modules/caniuse-lite/",\
+        ["npm:1.0.30001535", {\
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001535-2d91d0ec01-d66f71a3b9.zip/node_modules/caniuse-lite/",\
           "packageDependencies": [\
-            ["caniuse-lite", "npm:1.0.30001534"]\
+            ["caniuse-lite", "npm:1.0.30001535"]\
           ],\
           "linkType": "HARD"\
         }]\
