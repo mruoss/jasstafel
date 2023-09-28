@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.2"],\
             ["ansi-html", "npm:0.0.9"],\
-            ["chai", "npm:4.3.8"],\
+            ["chai", "npm:4.3.9"],\
             ["chai-match-pattern", "npm:1.3.0"],\
             ["core-js", "npm:3.32.2"],\
             ["date-and-time", "npm:3.0.3"],\
@@ -4023,12 +4023,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["chai", [\
-        ["npm:4.3.8", {\
-          "packageLocation": "./.yarn/cache/chai-npm-4.3.8-d7c5b7ef2d-29e0984ed1.zip/node_modules/chai/",\
+        ["npm:4.3.9", {\
+          "packageLocation": "./.yarn/cache/chai-npm-4.3.9-f6d7b8659a-0bcc79b882.zip/node_modules/chai/",\
           "packageDependencies": [\
-            ["chai", "npm:4.3.8"],\
+            ["chai", "npm:4.3.9"],\
             ["assertion-error", "npm:1.1.0"],\
-            ["check-error", "npm:1.0.2"],\
+            ["check-error", "npm:1.0.3"],\
             ["deep-eql", "npm:4.1.3"],\
             ["get-func-name", "npm:2.0.2"],\
             ["loupe", "npm:2.3.6"],\
@@ -4070,10 +4070,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["check-error", [\
-        ["npm:1.0.2", {\
-          "packageLocation": "./.yarn/cache/check-error-npm-1.0.2-00c540c6e9-d9d1065044.zip/node_modules/check-error/",\
+        ["npm:1.0.3", {\
+          "packageLocation": "./.yarn/cache/check-error-npm-1.0.3-137994eabc-e2131025cf.zip/node_modules/check-error/",\
           "packageDependencies": [\
-            ["check-error", "npm:1.0.2"]\
+            ["check-error", "npm:1.0.3"],\
+            ["get-func-name", "npm:2.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6383,7 +6384,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jasstafel", "workspace:."],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.4.2"],\
             ["ansi-html", "npm:0.0.9"],\
-            ["chai", "npm:4.3.8"],\
+            ["chai", "npm:4.3.9"],\
             ["chai-match-pattern", "npm:1.3.0"],\
             ["core-js", "npm:3.32.2"],\
             ["date-and-time", "npm:3.0.3"],\
