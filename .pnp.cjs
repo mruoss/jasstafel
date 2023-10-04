@@ -7447,10 +7447,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["postcss", [\
-        ["npm:8.4.30", {\
-          "packageLocation": "./.yarn/cache/postcss-npm-8.4.30-b2330f9182-6c810c10c9.zip/node_modules/postcss/",\
+        ["npm:8.4.31", {\
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.31-385051a82b-1d8611341b.zip/node_modules/postcss/",\
           "packageDependencies": [\
-            ["postcss", "npm:8.4.30"],\
+            ["postcss", "npm:8.4.31"],\
             ["nanoid", "npm:3.3.6"],\
             ["picocolors", "npm:1.0.0"],\
             ["source-map-js", "npm:1.0.2"]\
@@ -8451,7 +8451,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-styled-components", null],\
             ["css-to-react-native", "npm:3.2.0"],\
             ["csstype", "npm:3.1.2"],\
-            ["postcss", "npm:8.4.30"],\
+            ["postcss", "npm:8.4.31"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.2.0"],\
             ["shallowequal", "npm:1.1.0"],\
