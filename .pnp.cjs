@@ -47,7 +47,7 @@ const RAW_RUNTIME_STATE =
           ["mocha", "npm:10.2.0"],\
           ["mustache", "npm:4.2.0"],\
           ["opn", "npm:6.0.0"],\
-          ["prettier", "npm:3.0.3"],\
+          ["prettier", "npm:3.1.0"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.2.0"],\
@@ -4674,7 +4674,7 @@ const RAW_RUNTIME_STATE =
           ["@types/prettier", null],\
           ["eslint", "npm:8.53.0"],\
           ["eslint-config-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:9.0.0"],\
-          ["prettier", "npm:3.0.3"],\
+          ["prettier", "npm:3.1.0"],\
           ["prettier-linter-helpers", "npm:1.0.0"],\
           ["synckit", "npm:0.8.5"]\
         ],\
@@ -6001,7 +6001,7 @@ const RAW_RUNTIME_STATE =
           ["mocha", "npm:10.2.0"],\
           ["mustache", "npm:4.2.0"],\
           ["opn", "npm:6.0.0"],\
-          ["prettier", "npm:3.0.3"],\
+          ["prettier", "npm:3.1.0"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:18.2.0"],\
@@ -7031,10 +7031,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["prettier", [\
-      ["npm:3.0.3", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.0.3-fced695dae/node_modules/prettier/",\
+      ["npm:3.1.0", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.1.0-708d6027b1/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.0.3"]\
+          ["prettier", "npm:3.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
