@@ -26,7 +26,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@fortawesome/free-solid-svg-icons", "npm:6.5.0"],\
+          ["@fortawesome/free-solid-svg-icons", "npm:6.5.1"],\
           ["ansi-html", "npm:0.0.9"],\
           ["chai", "npm:4.3.10"],\
           ["chai-match-pattern", "npm:1.3.0"],\
@@ -2675,20 +2675,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@fortawesome/fontawesome-common-types", [\
-      ["npm:6.5.0", {\
-        "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-common-types-npm-6.5.0-238e79745a/node_modules/@fortawesome/fontawesome-common-types/",\
+      ["npm:6.5.1", {\
+        "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-common-types-npm-6.5.1-1efaf0654d/node_modules/@fortawesome/fontawesome-common-types/",\
         "packageDependencies": [\
-          ["@fortawesome/fontawesome-common-types", "npm:6.5.0"]\
+          ["@fortawesome/fontawesome-common-types", "npm:6.5.1"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@fortawesome/free-solid-svg-icons", [\
-      ["npm:6.5.0", {\
-        "packageLocation": "./.yarn/unplugged/@fortawesome-free-solid-svg-icons-npm-6.5.0-76bc675d47/node_modules/@fortawesome/free-solid-svg-icons/",\
+      ["npm:6.5.1", {\
+        "packageLocation": "./.yarn/unplugged/@fortawesome-free-solid-svg-icons-npm-6.5.1-f35995a54f/node_modules/@fortawesome/free-solid-svg-icons/",\
         "packageDependencies": [\
-          ["@fortawesome/free-solid-svg-icons", "npm:6.5.0"],\
-          ["@fortawesome/fontawesome-common-types", "npm:6.5.0"]\
+          ["@fortawesome/free-solid-svg-icons", "npm:6.5.1"],\
+          ["@fortawesome/fontawesome-common-types", "npm:6.5.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5980,7 +5980,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["jasstafel", "workspace:."],\
-          ["@fortawesome/free-solid-svg-icons", "npm:6.5.0"],\
+          ["@fortawesome/free-solid-svg-icons", "npm:6.5.1"],\
           ["ansi-html", "npm:0.0.9"],\
           ["chai", "npm:4.3.10"],\
           ["chai-match-pattern", "npm:1.3.0"],\
