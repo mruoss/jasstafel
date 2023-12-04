@@ -4346,7 +4346,7 @@ __metadata:
     react-dom: "npm:18.2.0"
     react-is: "npm:18.2.0"
     react-konva: "npm:18.2.10"
-    react-redux: "npm:9.0.0"
+    react-redux: "npm:9.0.1"
     redux: "npm:5.0.0"
     redux-undo: "npm:1.1.0"
     reselect: "npm:5.0.1"
@@ -5412,9 +5412,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-redux@npm:9.0.0":
-  version: 9.0.0
-  resolution: "react-redux@npm:9.0.0"
+"react-redux@npm:9.0.1":
+  version: 9.0.1
+  resolution: "react-redux@npm:9.0.1"
   dependencies:
     "@types/use-sync-external-store": "npm:^0.0.3"
     use-sync-external-store: "npm:^1.0.0"
@@ -5424,7 +5424,7 @@ __metadata:
     react: ^18.0
     react-dom: ^18.0
     react-native: ">=0.71"
-    redux: ^5.0.0-rc
+    redux: ^5.0.0
   peerDependenciesMeta:
     "@types/react":
       optional: true
@@ -5436,7 +5436,7 @@ __metadata:
       optional: true
     redux:
       optional: true
-  checksum: bdece49da1bac54629530bf510d852a173a9c2eaa379fafbc007a2c53526fd8c9496e9cfafb08a8d763d79fd3854c77fe6db8a6f63169d1c37353c6602963647
+  checksum: 0e9d18398746883e1aa85766bb0b41339d51fc9d066876dd6170a3e9c559d91a85dffeb510e20f495a0a939ce33c4d73808f6c145915c041ea00dbfea211ee10
   languageName: node
   linkType: hard
 
