@@ -4349,7 +4349,7 @@ __metadata:
     react-redux: "npm:9.0.0"
     redux: "npm:4.2.1"
     redux-undo: "npm:1.1.0"
-    reselect: "npm:4.1.8"
+    reselect: "npm:5.0.1"
     styled-components: "npm:6.1.1"
     workbox-build: "npm:7.0.0"
     workbox-precaching: "npm:7.0.0"
@@ -5584,10 +5584,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"reselect@npm:4.1.8":
-  version: 4.1.8
-  resolution: "reselect@npm:4.1.8"
-  checksum: 06a305a504affcbb67dd0561ddc8306b35796199c7e15b38934c80606938a021eadcf68cfd58e7bb5e17786601c37602a3362a4665c7bf0a96c1041ceee9d0b7
+"reselect@npm:5.0.1":
+  version: 5.0.1
+  resolution: "reselect@npm:5.0.1"
+  checksum: 0724b4555cd6411849de334a75177780f127af849eb71c4b709966d07ade8090d125c0c926dc6cf936866d23ebadda6aad1da93cd8340525323b889f25d56d51
   languageName: node
   linkType: hard
 
