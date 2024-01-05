@@ -24,7 +24,7 @@
 		"react-redux": "9.0.4",
 		"redux": "5.0.1",
 		"redux-undo": "1.1.0",
-		"reselect": "5.0.1",
+		"reselect": "5.1.0",
 		"workbox-precaching": "7.0.0",
 		"workbox-routing": "^7.0.0"
 	},
