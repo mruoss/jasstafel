@@ -3028,10 +3028,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:20.10.6", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@types-node-npm-20.10.6-59a7d708ba-10c0.zip/node_modules/@types/node/",\
+      ["npm:20.10.7", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@types-node-npm-20.10.7-2d1f5de3e9-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.10.6"],\
+          ["@types/node", "npm:20.10.7"],\
           ["undici-types", "npm:5.26.5"]\
         ],\
         "linkType": "HARD"\
@@ -3047,10 +3047,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/react", [\
-      ["npm:18.2.46", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@types-react-npm-18.2.46-9c5f157b4c-10c0.zip/node_modules/@types/react/",\
+      ["npm:18.2.47", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@types-react-npm-18.2.47-174a303ec9-10c0.zip/node_modules/@types/react/",\
         "packageDependencies": [\
-          ["@types/react", "npm:18.2.46"],\
+          ["@types/react", "npm:18.2.47"],\
           ["@types/prop-types", "npm:15.7.11"],\
           ["@types/scheduler", "npm:0.16.8"],\
           ["csstype", "npm:3.1.3"]\
@@ -3063,7 +3063,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/@types-react-reconciler-npm-0.28.8-6627bc4c20-10c0.zip/node_modules/@types/react-reconciler/",\
         "packageDependencies": [\
           ["@types/react-reconciler", "npm:0.28.8"],\
-          ["@types/react", "npm:18.2.46"]\
+          ["@types/react", "npm:18.2.47"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3073,7 +3073,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/@types-resolve-npm-1.17.1-9a8396bef2-10c0.zip/node_modules/@types/resolve/",\
         "packageDependencies": [\
           ["@types/resolve", "npm:1.17.1"],\
-          ["@types/node", "npm:20.10.6"]\
+          ["@types/node", "npm:20.10.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3561,8 +3561,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/browserslist-npm-4.22.2-87e70d8021-10c0.zip/node_modules/browserslist/",\
         "packageDependencies": [\
           ["browserslist", "npm:4.22.2"],\
-          ["caniuse-lite", "npm:1.0.30001572"],\
-          ["electron-to-chromium", "npm:1.4.616"],\
+          ["caniuse-lite", "npm:1.0.30001576"],\
+          ["electron-to-chromium", "npm:1.4.623"],\
           ["node-releases", "npm:2.0.14"],\
           ["update-browserslist-db", "virtual:87e70d802146e5a0e8f2a12b5ab64004040c6640441dba54229a7db766cb1b88edabd3d3c814ce33d6ba839c4e517b12e9b0a7febfca22ac2a64177042bf3ee6#npm:1.0.13"]\
         ],\
@@ -3588,10 +3588,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cacache", [\
-      ["npm:18.0.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/cacache-npm-18.0.1-11c6564db0-10c0.zip/node_modules/cacache/",\
+      ["npm:18.0.2", {\
+        "packageLocation": "../../../../cache/others/berry/cache/cacache-npm-18.0.2-d6329a1b9d-10c0.zip/node_modules/cacache/",\
         "packageDependencies": [\
-          ["cacache", "npm:18.0.1"],\
+          ["cacache", "npm:18.0.2"],\
           ["@npmcli/fs", "npm:3.1.0"],\
           ["fs-minipass", "npm:3.0.3"],\
           ["glob", "npm:10.3.10"],\
@@ -3648,10 +3648,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001572", {\
-        "packageLocation": "../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001572-a35218739b-10c0.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001576", {\
+        "packageLocation": "../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001576-3d0983cdce-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001572"]\
+          ["caniuse-lite", "npm:1.0.30001576"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4109,10 +4109,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.4.616", {\
-        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.4.616-5e02ddb4c8-10c0.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.4.623", {\
+        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.4.623-950fa7fa1c-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.4.616"]\
+          ["electron-to-chromium", "npm:1.4.623"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5837,7 +5837,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/jest-worker-npm-26.6.2-46cbcd449f-10c0.zip/node_modules/jest-worker/",\
         "packageDependencies": [\
           ["jest-worker", "npm:26.6.2"],\
-          ["@types/node", "npm:20.10.6"],\
+          ["@types/node", "npm:20.10.7"],\
           ["merge-stream", "npm:2.0.0"],\
           ["supports-color", "npm:7.2.0"]\
         ],\
@@ -6170,7 +6170,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["make-fetch-happen", "npm:13.0.0"],\
           ["@npmcli/agent", "npm:2.2.0"],\
-          ["cacache", "npm:18.0.1"],\
+          ["cacache", "npm:18.0.2"],\
           ["http-cache-semantics", "npm:4.1.1"],\
           ["is-lambda", "npm:1.0.1"],\
           ["minipass", "npm:7.0.4"],\
