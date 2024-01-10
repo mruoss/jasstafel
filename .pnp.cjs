@@ -57,7 +57,7 @@ const RAW_RUNTIME_STATE =
           ["redux", "npm:5.0.1"],\
           ["redux-undo", "npm:1.1.0"],\
           ["reselect", "npm:5.1.0"],\
-          ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.7"],\
+          ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.8"],\
           ["workbox-build", "npm:7.0.0"],\
           ["workbox-precaching", "npm:7.0.0"],\
           ["workbox-routing", "npm:7.0.0"],\
@@ -5822,7 +5822,7 @@ const RAW_RUNTIME_STATE =
           ["redux", "npm:5.0.1"],\
           ["redux-undo", "npm:1.1.0"],\
           ["reselect", "npm:5.1.0"],\
-          ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.7"],\
+          ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.8"],\
           ["workbox-build", "npm:7.0.0"],\
           ["workbox-precaching", "npm:7.0.0"],\
           ["workbox-routing", "npm:7.0.0"],\
@@ -7626,29 +7626,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["styled-components", [\
-      ["npm:6.1.7", {\
-        "packageLocation": "../../../../cache/others/berry/cache/styled-components-npm-6.1.7-036b2231df-10c0.zip/node_modules/styled-components/",\
+      ["npm:6.1.8", {\
+        "packageLocation": "../../../../cache/others/berry/cache/styled-components-npm-6.1.8-ae8d84c2da-10c0.zip/node_modules/styled-components/",\
         "packageDependencies": [\
-          ["styled-components", "npm:6.1.7"]\
+          ["styled-components", "npm:6.1.8"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.7", {\
-        "packageLocation": "./.yarn/__virtual__/styled-components-virtual-11d4e6f6e4/5/cache/others/berry/cache/styled-components-npm-6.1.7-036b2231df-10c0.zip/node_modules/styled-components/",\
+      ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.8", {\
+        "packageLocation": "./.yarn/__virtual__/styled-components-virtual-d1e0c0e6d6/5/cache/others/berry/cache/styled-components-npm-6.1.8-ae8d84c2da-10c0.zip/node_modules/styled-components/",\
         "packageDependencies": [\
-          ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.7"],\
+          ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.8"],\
           ["@emotion/is-prop-valid", "npm:1.2.1"],\
           ["@emotion/unitless", "npm:0.8.0"],\
-          ["@types/css-to-react-native", null],\
-          ["@types/csstype", null],\
-          ["@types/emotion__is-prop-valid", null],\
-          ["@types/emotion__unitless", null],\
-          ["@types/postcss", null],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
-          ["@types/shallowequal", null],\
           ["@types/stylis", "npm:4.2.0"],\
-          ["@types/tslib", null],\
           ["css-to-react-native", "npm:3.2.0"],\
           ["csstype", "npm:3.1.2"],\
           ["postcss", "npm:8.4.31"],\
@@ -7659,15 +7652,8 @@ const RAW_RUNTIME_STATE =
           ["tslib", "npm:2.5.0"]\
         ],\
         "packagePeers": [\
-          "@types/css-to-react-native",\
-          "@types/csstype",\
-          "@types/emotion__is-prop-valid",\
-          "@types/emotion__unitless",\
-          "@types/postcss",\
           "@types/react-dom",\
           "@types/react",\
-          "@types/shallowequal",\
-          "@types/tslib",\
           "react-dom",\
           "react"\
         ],\
