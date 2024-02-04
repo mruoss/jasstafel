@@ -21,12 +21,12 @@ jobs:
           cache: 'yarn'
 
       - name: Install deps
-        uses: borales/actions-yarn@v4
+        uses: borales/actions-yarn@v5
         with:
           cmd: install --immutable
 
       - name: Build App
-        uses: borales/actions-yarn@v4
+        uses: borales/actions-yarn@v5
         with:
           cmd: build
 
