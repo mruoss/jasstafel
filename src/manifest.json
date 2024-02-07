@@ -8,6 +8,11 @@
 	"background_color": "#383136",
 	"theme_color": "#383136",
 	"description": "Eine Jasstafel für das schweizer Kartenspiel Schieber und andere Spielarten.",
+	"iarc_rating_id": "301cbfe1-ced6-4115-b3db-9dfc27802840",
+	"dir": "ltr",
+	"launch_handler": {
+		"client_mode": "focus-existing"
+  },
 	"icons": [
 		{
 			"src": "assets/icons/windows11/SmallTile.scale-100.png",
