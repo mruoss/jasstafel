@@ -61,6 +61,15 @@ jobs:
           headers: |-
             cache-control: no-store
 
+      - id: 'upload-maifest-json'
+        uses: 'google-github-actions/upload-cloud-storage@v2'
+        with:
+          path: 'dist/manifest.json'
+          destination: 'jasstafel.michaelruoss.ch'
+          parent: false
+          headers: |-
+            cache-control: no-store
+
       - id: 'upload-well-known-folder'
         uses: 'google-github-actions/upload-cloud-storage@v2'
         with:
