@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 
 import fs from 'fs/promises'
-import { fileURLToPath } from 'url'
 import path from 'path'
+import { fileURLToPath } from 'url'
 
-import esbuild from 'esbuild'
-import yargs from 'yargs'
-import opn from 'opn'
 import date from 'date-and-time'
+import esbuild from 'esbuild'
+import opn from 'opn'
+import yargs from 'yargs'
 
-import { injectManifest } from 'workbox-build'
 import Mustache from 'mustache'
+import { injectManifest } from 'workbox-build'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -50,7 +50,7 @@ fs.rm(destDirectory, { recursive: true, force: true })
 		// Copy assets to destination folder
 		return Promise.all([
 			fs.cp(srcDirectoryAssets, destDirectoryAssets, { recursive: true }),
-			fs.copyFile(path.join(srcDirectory, 'manifest.webmanifest'), path.join(destDirectory, 'manifest.webmanifest')),
+			fs.copyFile(path.join(srcDirectory, 'manifest.json'), path.join(destDirectory, 'manifest.json')),
 		])
 	})
 	.then(() => {
@@ -120,10 +120,10 @@ fs.rm(destDirectory, { recursive: true, force: true })
 		// Inject manifest into service worker
 		return injectManifest({
 			globDirectory: destDirectory,
-			globPatterns: ['**/*.{css,eot,html,ico,jpg,js,json,png,svg,ttf,txt,webmanifest,woff,woff2,webm,xml}'],
+			globPatterns: ['**/*.{css,eot,html,ico,jpg,js,json,png,svg,ttf,txt,json,woff,woff2,webm,xml}'],
 			globFollow: true,
 			globStrict: true,
-			globIgnores: ['**/*-es5.*.js', '3rdpartylicenses.txt', 'assets/images/icons/icon-*.png'],
+			globIgnores: ['**/*-es5.*.js', '3rdpartylicenses.txt', 'assets/images/icons/icon-*.png', 'assets/images/screenshots/*'],
 			dontCacheBustURLsMatching: new RegExp('.+.[a-f0-9]{20}..+'),
 			swSrc: path.join(destDirectory, '/sw.js'),
 			swDest: path.join(destDirectory, '/sw.js'),
