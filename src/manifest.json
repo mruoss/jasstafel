@@ -2,7 +2,7 @@
 	"name": "Jasstafel",
 	"short_name": "Jasstafel",
 	"lang": "de-CH",
-	"orientation": "landscape",
+	"orientation": "portrait",
 	"start_url": "https://jasstafel.michaelruoss.ch",
 	"scope": "https://jasstafel.michaelruoss.ch",
 	"scope_extensions": [],
