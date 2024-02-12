@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@fortawesome/free-solid-svg-icons", "npm:6.5.1"],\
           ["ansi-html", "npm:0.0.9"],\
-          ["chai", "npm:5.0.3"],\
+          ["chai", "npm:5.1.0"],\
           ["chai-match-pattern", "npm:1.3.0"],\
           ["core-js", "npm:3.35.1"],\
           ["date-and-time", "npm:3.1.1"],\
@@ -3672,10 +3672,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["chai", [\
-      ["npm:5.0.3", {\
-        "packageLocation": "../../../../cache/others/berry/cache/chai-npm-5.0.3-ebc6bf8176-10c0.zip/node_modules/chai/",\
+      ["npm:5.1.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/chai-npm-5.1.0-c091882139-10c0.zip/node_modules/chai/",\
         "packageDependencies": [\
-          ["chai", "npm:5.0.3"],\
+          ["chai", "npm:5.1.0"],\
           ["assertion-error", "npm:2.0.1"],\
           ["check-error", "npm:2.0.0"],\
           ["deep-eql", "npm:5.0.1"],\
@@ -5830,7 +5830,7 @@ const RAW_RUNTIME_STATE =
           ["jasstafel", "workspace:."],\
           ["@fortawesome/free-solid-svg-icons", "npm:6.5.1"],\
           ["ansi-html", "npm:0.0.9"],\
-          ["chai", "npm:5.0.3"],\
+          ["chai", "npm:5.1.0"],\
           ["chai-match-pattern", "npm:1.3.0"],\
           ["core-js", "npm:3.35.1"],\
           ["date-and-time", "npm:3.1.1"],\
