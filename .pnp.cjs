@@ -2317,7 +2317,7 @@ const RAW_RUNTIME_STATE =
           ["babel-plugin-polyfill-corejs2", "virtual:fc6593aacfddcb0429bbdd87418af593aa80e470b1837f943fe00a0ff92b3179f4f480dad4e34fb138b188e3857c03cfa0e99dfa6a8087569f3224d8d6e51088#npm:0.4.10"],\
           ["babel-plugin-polyfill-corejs3", "virtual:fc6593aacfddcb0429bbdd87418af593aa80e470b1837f943fe00a0ff92b3179f4f480dad4e34fb138b188e3857c03cfa0e99dfa6a8087569f3224d8d6e51088#npm:0.10.4"],\
           ["babel-plugin-polyfill-regenerator", "virtual:fc6593aacfddcb0429bbdd87418af593aa80e470b1837f943fe00a0ff92b3179f4f480dad4e34fb138b188e3857c03cfa0e99dfa6a8087569f3224d8d6e51088#npm:0.6.1"],\
-          ["core-js-compat", "npm:3.36.1"],\
+          ["core-js-compat", "npm:3.37.0"],\
           ["semver", "npm:6.3.1"]\
         ],\
         "packagePeers": [\
@@ -3080,10 +3080,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/react", [\
-      ["npm:18.2.78", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@types-react-npm-18.2.78-5875a63d7c-10c0.zip/node_modules/@types/react/",\
+      ["npm:18.2.79", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@types-react-npm-18.2.79-89aa23fe00-10c0.zip/node_modules/@types/react/",\
         "packageDependencies": [\
-          ["@types/react", "npm:18.2.78"],\
+          ["@types/react", "npm:18.2.79"],\
           ["@types/prop-types", "npm:15.7.12"],\
           ["csstype", "npm:3.1.3"]\
         ],\
@@ -3095,7 +3095,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/@types-react-reconciler-npm-0.28.8-6627bc4c20-10c0.zip/node_modules/@types/react-reconciler/",\
         "packageDependencies": [\
           ["@types/react-reconciler", "npm:0.28.8"],\
-          ["@types/react", "npm:18.2.78"]\
+          ["@types/react", "npm:18.2.79"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3504,7 +3504,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/core", "npm:7.24.4"],\
           ["@babel/helper-define-polyfill-provider", "virtual:c1ea2ac691cade58079b74baccdd0829ad906e7969d7ffcab8e85fbf8df6744ae68bbd27ca0cf33b0cd4bd625c1acf5fa5fbec62ea08e8c3d6a646f0bfa76ce7#npm:0.6.1"],\
           ["@types/babel__core", null],\
-          ["core-js-compat", "npm:3.36.1"]\
+          ["core-js-compat", "npm:3.37.0"]\
         ],\
         "packagePeers": [\
           "@babel/core",\
@@ -3597,8 +3597,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/browserslist-npm-4.23.0-8126a959d4-10c0.zip/node_modules/browserslist/",\
         "packageDependencies": [\
           ["browserslist", "npm:4.23.0"],\
-          ["caniuse-lite", "npm:1.0.30001610"],\
-          ["electron-to-chromium", "npm:1.4.736"],\
+          ["caniuse-lite", "npm:1.0.30001612"],\
+          ["electron-to-chromium", "npm:1.4.745"],\
           ["node-releases", "npm:2.0.14"],\
           ["update-browserslist-db", "virtual:8126a959d46e6def6d7f2497c47970a23a94adac85f5be1df9be290c674503b9bcbe0dc057e2741ee222cc2a8a3b9f584b20c3a9eb5ce085704d99fc5d94514c#npm:1.0.13"]\
         ],\
@@ -3686,10 +3686,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001610", {\
-        "packageLocation": "../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001610-1c6e94779d-10c0.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001612", {\
+        "packageLocation": "../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001612-9104acffee-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001610"]\
+          ["caniuse-lite", "npm:1.0.30001612"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3896,10 +3896,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["core-js-compat", [\
-      ["npm:3.36.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/core-js-compat-npm-3.36.1-b72b6c5d83-10c0.zip/node_modules/core-js-compat/",\
+      ["npm:3.37.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/core-js-compat-npm-3.37.0-9323d119db-10c0.zip/node_modules/core-js-compat/",\
         "packageDependencies": [\
-          ["core-js-compat", "npm:3.36.1"],\
+          ["core-js-compat", "npm:3.37.0"],\
           ["browserslist", "npm:4.23.0"]\
         ],\
         "linkType": "HARD"\
@@ -4175,10 +4175,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.4.736", {\
-        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.4.736-04507d20de-10c0.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.4.745", {\
+        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.4.745-d86128b538-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.4.736"]\
+          ["electron-to-chromium", "npm:1.4.745"]\
         ],\
         "linkType": "HARD"\
       }]\
