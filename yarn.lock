@@ -2673,9 +2673,9 @@ __metadata:
   linkType: hard
 
 "date-and-time@npm:^3.0.0":
-  version: 3.1.1
-  resolution: "date-and-time@npm:3.1.1"
-  checksum: 10c0/0ee5beba3ea378f0393dd52eac7117ced7310b885116a43953191ff99636e488fe7dd0170537002e4e4a3e70916e8cee4eb5e474e632ec3e7fd3aa160b58b188
+  version: 3.2.0
+  resolution: "date-and-time@npm:3.2.0"
+  checksum: 10c0/21aa7901939b0b76f45971a015e62f6864a80603b03b2755c48fcbbf095e9c6e59dcda8aab7beacc03c8b7f3c498e0bbc949eb2ccf4d8a0cccde9902e88270b0
   languageName: node
   linkType: hard
 
