@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@fortawesome/free-solid-svg-icons", "npm:6.5.2"],\
           ["ansi-html", "npm:0.0.9"],\
-          ["chai", "npm:5.1.0"],\
+          ["chai", "npm:5.1.1"],\
           ["chai-match-pattern", "npm:1.3.0"],\
           ["core-js", "npm:3.37.0"],\
           ["date-and-time", "npm:3.2.0"],\
@@ -3731,12 +3731,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["chai", [\
-      ["npm:5.1.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/chai-npm-5.1.0-c091882139-10c0.zip/node_modules/chai/",\
+      ["npm:5.1.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/chai-npm-5.1.1-2e09e40819-10c0.zip/node_modules/chai/",\
         "packageDependencies": [\
-          ["chai", "npm:5.1.0"],\
+          ["chai", "npm:5.1.1"],\
           ["assertion-error", "npm:2.0.1"],\
-          ["check-error", "npm:2.0.0"],\
+          ["check-error", "npm:2.1.1"],\
           ["deep-eql", "npm:5.0.1"],\
           ["loupe", "npm:3.1.0"],\
           ["pathval", "npm:2.0.0"]\
@@ -3776,10 +3776,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["check-error", [\
-      ["npm:2.0.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/check-error-npm-2.0.0-f3bb82e0c7-10c0.zip/node_modules/check-error/",\
+      ["npm:2.1.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/check-error-npm-2.1.1-34e4ef357e-10c0.zip/node_modules/check-error/",\
         "packageDependencies": [\
-          ["check-error", "npm:2.0.0"]\
+          ["check-error", "npm:2.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5948,7 +5948,7 @@ const RAW_RUNTIME_STATE =
           ["jasstafel", "workspace:."],\
           ["@fortawesome/free-solid-svg-icons", "npm:6.5.2"],\
           ["ansi-html", "npm:0.0.9"],\
-          ["chai", "npm:5.1.0"],\
+          ["chai", "npm:5.1.1"],\
           ["chai-match-pattern", "npm:1.3.0"],\
           ["core-js", "npm:3.37.0"],\
           ["date-and-time", "npm:3.2.0"],\
@@ -9979,6 +9979,12 @@ class ProxiedFS extends FakeFS {
   rmdirSync(p, opts) {
     return this.baseFs.rmdirSync(this.mapToBase(p), opts);
   }
+  async rmPromise(p, opts) {
+    return this.baseFs.rmPromise(this.mapToBase(p), opts);
+  }
+  rmSync(p, opts) {
+    return this.baseFs.rmSync(this.mapToBase(p), opts);
+  }
   async linkPromise(existingP, newP) {
     return this.baseFs.linkPromise(this.mapToBase(existingP), this.mapToBase(newP));
   }
@@ -10359,6 +10365,18 @@ class NodeFS extends BasePortableFakeFS {
   }
   rmdirSync(p, opts) {
     return this.realFs.rmdirSync(npath.fromPortablePath(p), opts);
+  }
+  async rmPromise(p, opts) {
+    return await new Promise((resolve, reject) => {
+      if (opts) {
+        this.realFs.rm(npath.fromPortablePath(p), opts, this.makeCallback(resolve, reject));
+      } else {
+        this.realFs.rm(npath.fromPortablePath(p), this.makeCallback(resolve, reject));
+      }
+    });
+  }
+  rmSync(p, opts) {
+    return this.realFs.rmSync(npath.fromPortablePath(p), opts);
   }
   async linkPromise(existingP, newP) {
     return await new Promise((resolve, reject) => {
@@ -11015,6 +11033,20 @@ class MountFS extends BasePortableFakeFS {
       return mountFs.rmdirSync(subPath, opts);
     });
   }
+  async rmPromise(p, opts) {
+    return await this.makeCallPromise(p, async () => {
+      return await this.baseFs.rmPromise(p, opts);
+    }, async (mountFs, { subPath }) => {
+      return await mountFs.rmPromise(subPath, opts);
+    });
+  }
+  rmSync(p, opts) {
+    return this.makeCallSync(p, () => {
+      return this.baseFs.rmSync(p, opts);
+    }, (mountFs, { subPath }) => {
+      return mountFs.rmSync(subPath, opts);
+    });
+  }
   async linkPromise(existingP, newP) {
     return await this.makeCallPromise(newP, async () => {
       return await this.baseFs.linkPromise(existingP, newP);
@@ -11653,6 +11685,7 @@ const SYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `realpathSync`,
   `renameSync`,
   `rmdirSync`,
+  `rmSync`,
   `statSync`,
   `symlinkSync`,
   `truncateSync`,
@@ -11688,6 +11721,7 @@ const ASYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `readlinkPromise`,
   `renamePromise`,
   `rmdirPromise`,
+  `rmPromise`,
   `statPromise`,
   `symlinkPromise`,
   `truncatePromise`,
@@ -13711,6 +13745,27 @@ class ZipFS extends BasePortableFakeFS {
     const index = this.entries.get(resolvedP);
     if (typeof index === `undefined`)
       throw EINVAL(`rmdir '${p}'`);
+    this.deleteEntry(p, index);
+  }
+  async rmPromise(p, opts) {
+    return this.rmSync(p, opts);
+  }
+  rmSync(p, { recursive = false } = {}) {
+    if (this.readOnly)
+      throw EROFS(`rm '${p}'`);
+    if (recursive) {
+      this.removeSync(p);
+      return;
+    }
+    const resolvedP = this.resolveFilename(`rm '${p}'`, p);
+    const directoryListing = this.listings.get(resolvedP);
+    if (!directoryListing)
+      throw ENOTDIR(`rm '${p}'`);
+    if (directoryListing.size > 0)
+      throw ENOTEMPTY(`rm '${p}'`);
+    const index = this.entries.get(resolvedP);
+    if (typeof index === `undefined`)
+      throw EINVAL(`rm '${p}'`);
     this.deleteEntry(p, index);
   }
   hydrateDirectory(resolvedP) {
