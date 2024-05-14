@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["ansi-html", "npm:0.0.9"],\
           ["chai", "npm:5.1.1"],\
           ["chai-match-pattern", "npm:1.3.0"],\
-          ["core-js", "npm:3.37.0"],\
+          ["core-js", "npm:3.37.1"],\
           ["date-and-time", "npm:3.2.0"],\
           ["esbuild", "npm:0.21.2"],\
           ["eslint", "npm:9.2.0"],\
@@ -3923,10 +3923,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["core-js", [\
-      ["npm:3.37.0", {\
-        "packageLocation": "./.yarn/unplugged/core-js-npm-3.37.0-98818d5691/node_modules/core-js/",\
+      ["npm:3.37.1", {\
+        "packageLocation": "./.yarn/unplugged/core-js-npm-3.37.1-b1db5e7c23/node_modules/core-js/",\
         "packageDependencies": [\
-          ["core-js", "npm:3.37.0"]\
+          ["core-js", "npm:3.37.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5950,7 +5950,7 @@ const RAW_RUNTIME_STATE =
           ["ansi-html", "npm:0.0.9"],\
           ["chai", "npm:5.1.1"],\
           ["chai-match-pattern", "npm:1.3.0"],\
-          ["core-js", "npm:3.37.0"],\
+          ["core-js", "npm:3.37.1"],\
           ["date-and-time", "npm:3.2.0"],\
           ["esbuild", "npm:0.21.2"],\
           ["eslint", "npm:9.2.0"],\
