@@ -57,7 +57,7 @@ const RAW_RUNTIME_STATE =
           ["react-redux", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:9.1.2"],\
           ["redux", "npm:5.0.1"],\
           ["redux-undo", "npm:1.1.0"],\
-          ["reselect", "npm:5.1.0"],\
+          ["reselect", "npm:5.1.1"],\
           ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.11"],\
           ["workbox-build", "npm:7.1.1"],\
           ["workbox-precaching", "npm:7.1.0"],\
@@ -5975,7 +5975,7 @@ const RAW_RUNTIME_STATE =
           ["react-redux", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:9.1.2"],\
           ["redux", "npm:5.0.1"],\
           ["redux-undo", "npm:1.1.0"],\
-          ["reselect", "npm:5.1.0"],\
+          ["reselect", "npm:5.1.1"],\
           ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.1.11"],\
           ["workbox-build", "npm:7.1.1"],\
           ["workbox-precaching", "npm:7.1.0"],\
@@ -7271,10 +7271,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["reselect", [\
-      ["npm:5.1.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/reselect-npm-5.1.0-15f2703966-10c0.zip/node_modules/reselect/",\
+      ["npm:5.1.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/reselect-npm-5.1.1-667568f51c-10c0.zip/node_modules/reselect/",\
         "packageDependencies": [\
-          ["reselect", "npm:5.1.0"]\
+          ["reselect", "npm:5.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
