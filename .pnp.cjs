@@ -3189,10 +3189,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["acorn", [\
-      ["npm:8.11.3", {\
-        "packageLocation": "../../../../cache/others/berry/cache/acorn-npm-8.11.3-0d7ab48b38-10c0.zip/node_modules/acorn/",\
+      ["npm:8.12.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/acorn-npm-8.12.0-10680c055b-10c0.zip/node_modules/acorn/",\
         "packageDependencies": [\
-          ["acorn", "npm:8.11.3"]\
+          ["acorn", "npm:8.12.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3210,7 +3210,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["acorn-jsx", "virtual:1d04a36678c496acf3d389e17ed9bd4f584d68b3ba562e3fbf3ac14301605004ad9734e13c87ed5ad435a404951381b0d69ee55b4d70e92f6b9a42c24ce39262#npm:5.3.2"],\
           ["@types/acorn", null],\
-          ["acorn", "npm:8.11.3"]\
+          ["acorn", "npm:8.12.0"]\
         ],\
         "packagePeers": [\
           "@types/acorn",\
@@ -3639,8 +3639,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/browserslist-npm-4.23.1-5d546adfd4-10c0.zip/node_modules/browserslist/",\
         "packageDependencies": [\
           ["browserslist", "npm:4.23.1"],\
-          ["caniuse-lite", "npm:1.0.30001629"],\
-          ["electron-to-chromium", "npm:1.4.796"],\
+          ["caniuse-lite", "npm:1.0.30001636"],\
+          ["electron-to-chromium", "npm:1.4.803"],\
           ["node-releases", "npm:2.0.14"],\
           ["update-browserslist-db", "virtual:5d546adfd40497567a2beaa05ac4b4ad48276a2420121d97df67ea4556d0bdf92c4336a43dcb6a63e246890704267e5510f16f5288829796be62a2f7fd8b1ff5#npm:1.0.16"]\
         ],\
@@ -3728,10 +3728,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001629", {\
-        "packageLocation": "../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001629-167713d247-10c0.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001636", {\
+        "packageLocation": "../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001636-29fc49025a-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001629"]\
+          ["caniuse-lite", "npm:1.0.30001636"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4217,10 +4217,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.4.796", {\
-        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.4.796-f75cc49719-10c0.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.4.803", {\
+        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.4.803-8d9fa16501-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.4.796"]\
+          ["electron-to-chromium", "npm:1.4.803"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4845,7 +4845,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/espree-npm-10.0.1-1d04a36678-10c0.zip/node_modules/espree/",\
         "packageDependencies": [\
           ["espree", "npm:10.0.1"],\
-          ["acorn", "npm:8.11.3"],\
+          ["acorn", "npm:8.12.0"],\
           ["acorn-jsx", "virtual:1d04a36678c496acf3d389e17ed9bd4f584d68b3ba562e3fbf3ac14301605004ad9734e13c87ed5ad435a404951381b0d69ee55b4d70e92f6b9a42c24ce39262#npm:5.3.2"],\
           ["eslint-visitor-keys", "npm:4.0.0"]\
         ],\
@@ -5042,10 +5042,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["foreground-child", [\
-      ["npm:3.1.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/foreground-child-npm-3.1.1-77e78ed774-10c0.zip/node_modules/foreground-child/",\
+      ["npm:3.2.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/foreground-child-npm-3.2.1-788dc2267e-10c0.zip/node_modules/foreground-child/",\
         "packageDependencies": [\
-          ["foreground-child", "npm:3.1.1"],\
+          ["foreground-child", "npm:3.2.1"],\
           ["cross-spawn", "npm:7.0.3"],\
           ["signal-exit", "npm:4.1.0"]\
         ],\
@@ -5200,7 +5200,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/glob-npm-10.4.1-a0d030e0a9-10c0.zip/node_modules/glob/",\
         "packageDependencies": [\
           ["glob", "npm:10.4.1"],\
-          ["foreground-child", "npm:3.1.1"],\
+          ["foreground-child", "npm:3.2.1"],\
           ["jackspeak", "npm:3.4.0"],\
           ["minimatch", "npm:9.0.4"],\
           ["minipass", "npm:7.1.2"],\
@@ -7903,7 +7903,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["terser", "npm:5.31.1"],\
           ["@jridgewell/source-map", "npm:0.3.6"],\
-          ["acorn", "npm:8.11.3"],\
+          ["acorn", "npm:8.12.0"],\
           ["commander", "npm:2.20.3"],\
           ["source-map-support", "npm:0.5.21"]\
         ],\
