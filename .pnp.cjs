@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@fortawesome/free-solid-svg-icons", "npm:6.5.2"],\
+          ["@fortawesome/free-solid-svg-icons", "npm:6.6.0"],\
           ["ansi-html", "npm:0.0.9"],\
           ["chai", "npm:5.1.1"],\
           ["chai-match-pattern", "npm:1.3.0"],\
@@ -2737,20 +2737,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@fortawesome/fontawesome-common-types", [\
-      ["npm:6.5.2", {\
-        "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-common-types-npm-6.5.2-3062ecb730/node_modules/@fortawesome/fontawesome-common-types/",\
+      ["npm:6.6.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@fortawesome-fontawesome-common-types-npm-6.6.0-3591635037-10c0.zip/node_modules/@fortawesome/fontawesome-common-types/",\
         "packageDependencies": [\
-          ["@fortawesome/fontawesome-common-types", "npm:6.5.2"]\
+          ["@fortawesome/fontawesome-common-types", "npm:6.6.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@fortawesome/free-solid-svg-icons", [\
-      ["npm:6.5.2", {\
-        "packageLocation": "./.yarn/unplugged/@fortawesome-free-solid-svg-icons-npm-6.5.2-24587ff7e2/node_modules/@fortawesome/free-solid-svg-icons/",\
+      ["npm:6.6.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@fortawesome-free-solid-svg-icons-npm-6.6.0-e36bbcdb92-10c0.zip/node_modules/@fortawesome/free-solid-svg-icons/",\
         "packageDependencies": [\
-          ["@fortawesome/free-solid-svg-icons", "npm:6.5.2"],\
-          ["@fortawesome/fontawesome-common-types", "npm:6.5.2"]\
+          ["@fortawesome/free-solid-svg-icons", "npm:6.6.0"],\
+          ["@fortawesome/fontawesome-common-types", "npm:6.6.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5973,7 +5973,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["jasstafel", "workspace:."],\
-          ["@fortawesome/free-solid-svg-icons", "npm:6.5.2"],\
+          ["@fortawesome/free-solid-svg-icons", "npm:6.6.0"],\
           ["ansi-html", "npm:0.0.9"],\
           ["chai", "npm:5.1.1"],\
           ["chai-match-pattern", "npm:1.3.0"],\
