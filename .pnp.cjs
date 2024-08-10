@@ -45,7 +45,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.35.0"],\
           ["konva", "npm:9.3.14"],\
           ["lodash", "npm:4.17.21"],\
-          ["mocha", "npm:10.7.0"],\
+          ["mocha", "npm:10.7.3"],\
           ["mustache", "npm:4.2.0"],\
           ["opn", "npm:6.0.0"],\
           ["prettier", "npm:3.3.3"],\
@@ -4063,10 +4063,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:0f49af336e44602db36727dffb176780d260eaf2c278aa70ee8b3b62cfea627536f091230e8cd1fbb11af888cc5ad290cc6e25c1d5b22b3cb30b7ff5dd6eb95e#npm:4.3.6", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-15726eebcb/5/cache/others/berry/cache/debug-npm-4.3.6-ecb233d831-10c0.zip/node_modules/debug/",\
+      ["virtual:245750f15c7a67617f34421f66e3ed44fd56cf1525bfb8ff08c5fe937c01fb60677e769626c4a3d77742f81c7255c3af4da81de7d2bb3d349242cd92efc96986#npm:4.3.6", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-5cb5273e9b/5/cache/others/berry/cache/debug-npm-4.3.6-ecb233d831-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
-          ["debug", "virtual:0f49af336e44602db36727dffb176780d260eaf2c278aa70ee8b3b62cfea627536f091230e8cd1fbb11af888cc5ad290cc6e25c1d5b22b3cb30b7ff5dd6eb95e#npm:4.3.6"],\
+          ["debug", "virtual:245750f15c7a67617f34421f66e3ed44fd56cf1525bfb8ff08c5fe937c01fb60677e769626c4a3d77742f81c7255c3af4da81de7d2bb3d349242cd92efc96986#npm:4.3.6"],\
           ["@types/supports-color", null],\
           ["ms", "npm:2.1.2"],\
           ["supports-color", "npm:8.1.1"]\
@@ -5989,7 +5989,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.35.0"],\
           ["konva", "npm:9.3.14"],\
           ["lodash", "npm:4.17.21"],\
-          ["mocha", "npm:10.7.0"],\
+          ["mocha", "npm:10.7.3"],\
           ["mustache", "npm:4.2.0"],\
           ["opn", "npm:6.0.0"],\
           ["prettier", "npm:3.3.3"],\
@@ -6487,14 +6487,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["mocha", [\
-      ["npm:10.7.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/mocha-npm-10.7.0-0f49af336e-10c0.zip/node_modules/mocha/",\
+      ["npm:10.7.3", {\
+        "packageLocation": "../../../../cache/others/berry/cache/mocha-npm-10.7.3-245750f15c-10c0.zip/node_modules/mocha/",\
         "packageDependencies": [\
-          ["mocha", "npm:10.7.0"],\
+          ["mocha", "npm:10.7.3"],\
           ["ansi-colors", "npm:4.1.3"],\
           ["browser-stdout", "npm:1.3.1"],\
           ["chokidar", "npm:3.6.0"],\
-          ["debug", "virtual:0f49af336e44602db36727dffb176780d260eaf2c278aa70ee8b3b62cfea627536f091230e8cd1fbb11af888cc5ad290cc6e25c1d5b22b3cb30b7ff5dd6eb95e#npm:4.3.6"],\
+          ["debug", "virtual:245750f15c7a67617f34421f66e3ed44fd56cf1525bfb8ff08c5fe937c01fb60677e769626c4a3d77742f81c7255c3af4da81de7d2bb3d349242cd92efc96986#npm:4.3.6"],\
           ["diff", "npm:5.2.0"],\
           ["escape-string-regexp", "npm:4.0.0"],\
           ["find-up", "npm:5.0.0"],\
