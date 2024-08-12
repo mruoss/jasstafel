@@ -3026,7 +3026,7 @@ const RAW_RUNTIME_STATE =
           ["rollup", "npm:2.79.1"],\
           ["serialize-javascript", "npm:6.0.2"],\
           ["smob", "npm:1.5.0"],\
-          ["terser", "npm:5.31.3"]\
+          ["terser", "npm:5.31.5"]\
         ],\
         "packagePeers": [\
           "@types/rollup",\
@@ -3634,8 +3634,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/browserslist-npm-4.23.3-4e727c7b5b-10c0.zip/node_modules/browserslist/",\
         "packageDependencies": [\
           ["browserslist", "npm:4.23.3"],\
-          ["caniuse-lite", "npm:1.0.30001647"],\
-          ["electron-to-chromium", "npm:1.5.4"],\
+          ["caniuse-lite", "npm:1.0.30001651"],\
+          ["electron-to-chromium", "npm:1.5.6"],\
           ["node-releases", "npm:2.0.18"],\
           ["update-browserslist-db", "virtual:4e727c7b5b033f8d5ac7299f9860cb61f5802656f7b4fea2accd32d68dc1a767387a6d23f0724065d3c65e61cb31b9eec2438ae937ce36e7602b4586ede55af6#npm:1.1.0"]\
         ],\
@@ -3723,10 +3723,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001647", {\
-        "packageLocation": "../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001647-ad375193cb-10c0.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001651", {\
+        "packageLocation": "../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001651-976e4d30de-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001647"]\
+          ["caniuse-lite", "npm:1.0.30001651"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4205,10 +4205,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.4", {\
-        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.5.4-58d50ae1f7-10c0.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.6", {\
+        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.5.6-25f7bf1a3c-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.4"]\
+          ["electron-to-chromium", "npm:1.5.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5053,10 +5053,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["foreground-child", [\
-      ["npm:3.2.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/foreground-child-npm-3.2.1-788dc2267e-10c0.zip/node_modules/foreground-child/",\
+      ["npm:3.3.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/foreground-child-npm-3.3.0-b8be745271-10c0.zip/node_modules/foreground-child/",\
         "packageDependencies": [\
-          ["foreground-child", "npm:3.2.1"],\
+          ["foreground-child", "npm:3.3.0"],\
           ["cross-spawn", "npm:7.0.3"],\
           ["signal-exit", "npm:4.1.0"]\
         ],\
@@ -5211,7 +5211,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/glob-npm-10.4.5-8c63175f05-10c0.zip/node_modules/glob/",\
         "packageDependencies": [\
           ["glob", "npm:10.4.5"],\
-          ["foreground-child", "npm:3.2.1"],\
+          ["foreground-child", "npm:3.3.0"],\
           ["jackspeak", "npm:3.4.3"],\
           ["minimatch", "npm:9.0.5"],\
           ["minipass", "npm:7.1.2"],\
@@ -7895,10 +7895,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["terser", [\
-      ["npm:5.31.3", {\
-        "packageLocation": "../../../../cache/others/berry/cache/terser-npm-5.31.3-0d82b5f3a6-10c0.zip/node_modules/terser/",\
+      ["npm:5.31.5", {\
+        "packageLocation": "../../../../cache/others/berry/cache/terser-npm-5.31.5-9a86d04fe7-10c0.zip/node_modules/terser/",\
         "packageDependencies": [\
-          ["terser", "npm:5.31.3"],\
+          ["terser", "npm:5.31.5"],\
           ["@jridgewell/source-map", "npm:0.3.6"],\
           ["acorn", "npm:8.12.1"],\
           ["commander", "npm:2.20.3"],\
