@@ -2708,7 +2708,7 @@ const RAW_RUNTIME_STATE =
           ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.6"],\
           ["espree", "npm:10.1.0"],\
           ["globals", "npm:14.0.0"],\
-          ["ignore", "npm:5.3.1"],\
+          ["ignore", "npm:5.3.2"],\
           ["import-fresh", "npm:3.3.0"],\
           ["js-yaml", "npm:4.1.0"],\
           ["minimatch", "npm:3.1.2"],\
@@ -3026,7 +3026,7 @@ const RAW_RUNTIME_STATE =
           ["rollup", "npm:2.79.1"],\
           ["serialize-javascript", "npm:6.0.2"],\
           ["smob", "npm:1.5.0"],\
-          ["terser", "npm:5.31.5"]\
+          ["terser", "npm:5.31.6"]\
         ],\
         "packagePeers": [\
           "@types/rollup",\
@@ -3635,7 +3635,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["browserslist", "npm:4.23.3"],\
           ["caniuse-lite", "npm:1.0.30001651"],\
-          ["electron-to-chromium", "npm:1.5.6"],\
+          ["electron-to-chromium", "npm:1.5.11"],\
           ["node-releases", "npm:2.0.18"],\
           ["update-browserslist-db", "virtual:4e727c7b5b033f8d5ac7299f9860cb61f5802656f7b4fea2accd32d68dc1a767387a6d23f0724065d3c65e61cb31b9eec2438ae937ce36e7602b4586ede55af6#npm:1.1.0"]\
         ],\
@@ -4205,10 +4205,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.6", {\
-        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.5.6-25f7bf1a3c-10c0.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.11", {\
+        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.5.11-f524c11a12-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.6"]\
+          ["electron-to-chromium", "npm:1.5.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4501,7 +4501,7 @@ const RAW_RUNTIME_STATE =
           ["file-entry-cache", "npm:8.0.0"],\
           ["find-up", "npm:5.0.0"],\
           ["glob-parent", "npm:6.0.2"],\
-          ["ignore", "npm:5.3.1"],\
+          ["ignore", "npm:5.3.2"],\
           ["imurmurhash", "npm:0.1.4"],\
           ["is-glob", "npm:4.0.3"],\
           ["is-path-inside", "npm:3.0.3"],\
@@ -5443,10 +5443,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ignore", [\
-      ["npm:5.3.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/ignore-npm-5.3.1-f6947c5df7-10c0.zip/node_modules/ignore/",\
+      ["npm:5.3.2", {\
+        "packageLocation": "../../../../cache/others/berry/cache/ignore-npm-5.3.2-346d3ba017-10c0.zip/node_modules/ignore/",\
         "packageDependencies": [\
-          ["ignore", "npm:5.3.1"]\
+          ["ignore", "npm:5.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7895,10 +7895,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["terser", [\
-      ["npm:5.31.5", {\
-        "packageLocation": "../../../../cache/others/berry/cache/terser-npm-5.31.5-9a86d04fe7-10c0.zip/node_modules/terser/",\
+      ["npm:5.31.6", {\
+        "packageLocation": "../../../../cache/others/berry/cache/terser-npm-5.31.6-535b99d333-10c0.zip/node_modules/terser/",\
         "packageDependencies": [\
-          ["terser", "npm:5.31.5"],\
+          ["terser", "npm:5.31.6"],\
           ["@jridgewell/source-map", "npm:0.3.6"],\
           ["acorn", "npm:8.12.1"],\
           ["commander", "npm:2.20.3"],\
