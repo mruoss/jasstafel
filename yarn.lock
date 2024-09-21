@@ -3162,10 +3162,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jasmine@npm:4.2.1":
-  version: 4.2.1
-  resolution: "eslint-plugin-jasmine@npm:4.2.1"
-  checksum: 10c0/65560cb73017a73df4c59fd4adb30c871a46588fb990590fe0bec624b8af0abe7af406c73603f7ee44308e60be902b8bdf12b99361bcafed7b6c85adcb02c23e
+"eslint-plugin-jasmine@npm:4.2.2":
+  version: 4.2.2
+  resolution: "eslint-plugin-jasmine@npm:4.2.2"
+  checksum: 10c0/dccc3b54f3312b4917b4e9c816c9d128a264a36fa127ea65a72587cb47c7d094dc92f1bcbb40ae6770d68c5f5bbbb02b263bd6e4d6d8b7b35427c46bca1f20e6
   languageName: node
   linkType: hard
 
@@ -4311,7 +4311,7 @@ __metadata:
     eslint-plugin-babel: "npm:5.3.1"
     eslint-plugin-fp: "npm:2.3.0"
     eslint-plugin-import: "npm:2.30.0"
-    eslint-plugin-jasmine: "npm:4.2.1"
+    eslint-plugin-jasmine: "npm:4.2.2"
     eslint-plugin-lodash-fp: "npm:2.2.0-a1"
     eslint-plugin-prettier: "npm:5.2.1"
     eslint-plugin-react: "npm:7.36.1"
