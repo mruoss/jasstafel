@@ -45,7 +45,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.2"],\
           ["konva", "npm:9.3.16"],\
           ["lodash", "npm:4.17.21"],\
-          ["mocha", "npm:10.7.3"],\
+          ["mocha", "npm:10.8.1"],\
           ["mustache", "npm:4.2.0"],\
           ["opn", "npm:6.0.0"],\
           ["prettier", "npm:3.3.3"],\
@@ -3677,20 +3677,6 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:245750f15c7a67617f34421f66e3ed44fd56cf1525bfb8ff08c5fe937c01fb60677e769626c4a3d77742f81c7255c3af4da81de7d2bb3d349242cd92efc96986#npm:4.3.7", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-c77178c76a/5/cache/others/berry/cache/debug-npm-4.3.7-385645adf9-10c0.zip/node_modules/debug/",\
-        "packageDependencies": [\
-          ["debug", "virtual:245750f15c7a67617f34421f66e3ed44fd56cf1525bfb8ff08c5fe937c01fb60677e769626c4a3d77742f81c7255c3af4da81de7d2bb3d349242cd92efc96986#npm:4.3.7"],\
-          ["@types/supports-color", null],\
-          ["ms", "npm:2.1.3"],\
-          ["supports-color", "npm:8.1.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/supports-color",\
-          "supports-color"\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["virtual:2a426afc4b2eef43db12a540d29c2b5476640459bfcd5c24f86bb401cf8cce97e63bd81794d206a5643057e7f662643afd5ce3dfc4d4bfd8e706006c6309c5fa#npm:3.2.7", {\
         "packageLocation": "./.yarn/__virtual__/debug-virtual-d2345003b7/5/cache/others/berry/cache/debug-npm-3.2.7-754e818c7a-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
@@ -3698,6 +3684,20 @@ const RAW_RUNTIME_STATE =
           ["@types/supports-color", null],\
           ["ms", "npm:2.1.3"],\
           ["supports-color", null]\
+        ],\
+        "packagePeers": [\
+          "@types/supports-color",\
+          "supports-color"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:379396c939aaee90e204c14345626ac31007009d21b06da7d47be829cd013c79033b15e74b47c7075d81ecba314dec275a4b9d430c21081b10b270921160e5f6#npm:4.3.7", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-7ea97ec24b/5/cache/others/berry/cache/debug-npm-4.3.7-385645adf9-10c0.zip/node_modules/debug/",\
+        "packageDependencies": [\
+          ["debug", "virtual:379396c939aaee90e204c14345626ac31007009d21b06da7d47be829cd013c79033b15e74b47c7075d81ecba314dec275a4b9d430c21081b10b270921160e5f6#npm:4.3.7"],\
+          ["@types/supports-color", null],\
+          ["ms", "npm:2.1.3"],\
+          ["supports-color", "npm:8.1.1"]\
         ],\
         "packagePeers": [\
           "@types/supports-color",\
@@ -5554,7 +5554,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.2"],\
           ["konva", "npm:9.3.16"],\
           ["lodash", "npm:4.17.21"],\
-          ["mocha", "npm:10.7.3"],\
+          ["mocha", "npm:10.8.1"],\
           ["mustache", "npm:4.2.0"],\
           ["opn", "npm:6.0.0"],\
           ["prettier", "npm:3.3.3"],\
@@ -6044,14 +6044,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["mocha", [\
-      ["npm:10.7.3", {\
-        "packageLocation": "../../../../cache/others/berry/cache/mocha-npm-10.7.3-245750f15c-10c0.zip/node_modules/mocha/",\
+      ["npm:10.8.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/mocha-npm-10.8.1-379396c939-10c0.zip/node_modules/mocha/",\
         "packageDependencies": [\
-          ["mocha", "npm:10.7.3"],\
+          ["mocha", "npm:10.8.1"],\
           ["ansi-colors", "npm:4.1.3"],\
           ["browser-stdout", "npm:1.3.1"],\
           ["chokidar", "npm:3.6.0"],\
-          ["debug", "virtual:245750f15c7a67617f34421f66e3ed44fd56cf1525bfb8ff08c5fe937c01fb60677e769626c4a3d77742f81c7255c3af4da81de7d2bb3d349242cd92efc96986#npm:4.3.7"],\
+          ["debug", "virtual:379396c939aaee90e204c14345626ac31007009d21b06da7d47be829cd013c79033b15e74b47c7075d81ecba314dec275a4b9d430c21081b10b270921160e5f6#npm:4.3.7"],\
           ["diff", "npm:5.2.0"],\
           ["escape-string-regexp", "npm:4.0.0"],\
           ["find-up", "npm:5.0.0"],\
