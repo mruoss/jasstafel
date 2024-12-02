@@ -5300,10 +5300,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["is-number-object", [\
-      ["npm:1.0.7", {\
-        "packageLocation": "../../../../cache/others/berry/cache/is-number-object-npm-1.0.7-539d0e274d-10c0.zip/node_modules/is-number-object/",\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/is-number-object-npm-1.1.0-f150269459-10c0.zip/node_modules/is-number-object/",\
         "packageDependencies": [\
-          ["is-number-object", "npm:1.0.7"],\
+          ["is-number-object", "npm:1.1.0"],\
+          ["call-bind", "npm:1.0.7"],\
           ["has-tostringtag", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
@@ -7773,7 +7774,7 @@ const RAW_RUNTIME_STATE =
           ["which-boxed-primitive", "npm:1.0.2"],\
           ["is-bigint", "npm:1.0.4"],\
           ["is-boolean-object", "npm:1.1.2"],\
-          ["is-number-object", "npm:1.0.7"],\
+          ["is-number-object", "npm:1.1.0"],\
           ["is-string", "npm:1.0.7"],\
           ["is-symbol", "npm:1.0.4"]\
         ],\
