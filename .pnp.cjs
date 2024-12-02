@@ -3290,7 +3290,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["browserslist", "npm:4.24.2"],\
           ["caniuse-lite", "npm:1.0.30001684"],\
-          ["electron-to-chromium", "npm:1.5.64"],\
+          ["electron-to-chromium", "npm:1.5.67"],\
           ["node-releases", "npm:2.0.18"],\
           ["update-browserslist-db", "virtual:0bc5f13e3b070c660ccf3396ff30b6fc44ede2343c6543d593ce4624807ab1bafdbcd764ac20b4d55e6854e63e2568f1c6d09371eb639766b95e2d401b5b05cb#npm:1.1.1"]\
         ],\
@@ -3770,7 +3770,7 @@ const RAW_RUNTIME_STATE =
           ["define-data-property", "npm:1.1.4"],\
           ["es-define-property", "npm:1.0.0"],\
           ["es-errors", "npm:1.3.0"],\
-          ["gopd", "npm:1.0.1"]\
+          ["gopd", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3826,10 +3826,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.64", {\
-        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.5.64-da12e239c8-10c0.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.67", {\
+        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.5.67-1838619444-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.64"]\
+          ["electron-to-chromium", "npm:1.5.67"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3904,14 +3904,14 @@ const RAW_RUNTIME_STATE =
           ["es-errors", "npm:1.3.0"],\
           ["es-object-atoms", "npm:1.0.0"],\
           ["es-set-tostringtag", "npm:2.0.3"],\
-          ["es-to-primitive", "npm:1.2.1"],\
+          ["es-to-primitive", "npm:1.3.0"],\
           ["function.prototype.name", "npm:1.1.6"],\
           ["get-intrinsic", "npm:1.2.4"],\
           ["get-symbol-description", "npm:1.0.2"],\
           ["globalthis", "npm:1.0.4"],\
-          ["gopd", "npm:1.0.1"],\
+          ["gopd", "npm:1.1.0"],\
           ["has-property-descriptors", "npm:1.0.2"],\
-          ["has-proto", "npm:1.0.3"],\
+          ["has-proto", "npm:1.1.0"],\
           ["has-symbols", "npm:1.0.3"],\
           ["hasown", "npm:2.0.2"],\
           ["internal-slot", "npm:1.0.7"],\
@@ -3919,7 +3919,7 @@ const RAW_RUNTIME_STATE =
           ["is-callable", "npm:1.2.7"],\
           ["is-data-view", "npm:1.0.1"],\
           ["is-negative-zero", "npm:2.0.3"],\
-          ["is-regex", "npm:1.1.4"],\
+          ["is-regex", "npm:1.2.0"],\
           ["is-shared-array-buffer", "npm:1.0.3"],\
           ["is-string", "npm:1.0.7"],\
           ["is-typed-array", "npm:1.1.13"],\
@@ -3938,7 +3938,7 @@ const RAW_RUNTIME_STATE =
           ["typed-array-byte-offset", "npm:1.0.3"],\
           ["typed-array-length", "npm:1.0.7"],\
           ["unbox-primitive", "npm:1.0.2"],\
-          ["which-typed-array", "npm:1.1.15"]\
+          ["which-typed-array", "npm:1.1.16"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3975,9 +3975,9 @@ const RAW_RUNTIME_STATE =
           ["function-bind", "npm:1.1.2"],\
           ["get-intrinsic", "npm:1.2.4"],\
           ["globalthis", "npm:1.0.4"],\
-          ["gopd", "npm:1.0.1"],\
+          ["gopd", "npm:1.1.0"],\
           ["has-property-descriptors", "npm:1.0.2"],\
-          ["has-proto", "npm:1.0.3"],\
+          ["has-proto", "npm:1.1.0"],\
           ["has-symbols", "npm:1.0.3"],\
           ["internal-slot", "npm:1.0.7"],\
           ["iterator.prototype", "npm:1.1.3"],\
@@ -4019,10 +4019,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["es-to-primitive", [\
-      ["npm:1.2.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/es-to-primitive-npm-1.2.1-b7a7eac6c5-10c0.zip/node_modules/es-to-primitive/",\
+      ["npm:1.3.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/es-to-primitive-npm-1.3.0-470b6d51b6-10c0.zip/node_modules/es-to-primitive/",\
         "packageDependencies": [\
-          ["es-to-primitive", "npm:1.2.1"],\
+          ["es-to-primitive", "npm:1.3.0"],\
           ["is-callable", "npm:1.2.7"],\
           ["is-date-object", "npm:1.0.5"],\
           ["is-symbol", "npm:1.0.4"]\
@@ -4776,7 +4776,7 @@ const RAW_RUNTIME_STATE =
           ["get-intrinsic", "npm:1.2.4"],\
           ["es-errors", "npm:1.3.0"],\
           ["function-bind", "npm:1.1.2"],\
-          ["has-proto", "npm:1.0.3"],\
+          ["has-proto", "npm:1.1.0"],\
           ["has-symbols", "npm:1.0.3"],\
           ["hasown", "npm:2.0.2"]\
         ],\
@@ -4884,16 +4884,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["globalthis", "npm:1.0.4"],\
           ["define-properties", "npm:1.2.1"],\
-          ["gopd", "npm:1.0.1"]\
+          ["gopd", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["gopd", [\
-      ["npm:1.0.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/gopd-npm-1.0.1-10c1d0b534-10c0.zip/node_modules/gopd/",\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/gopd-npm-1.1.0-8f54f55643-10c0.zip/node_modules/gopd/",\
         "packageDependencies": [\
-          ["gopd", "npm:1.0.1"],\
+          ["gopd", "npm:1.1.0"],\
           ["get-intrinsic", "npm:1.2.4"]\
         ],\
         "linkType": "HARD"\
@@ -4937,10 +4937,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["has-proto", [\
-      ["npm:1.0.3", {\
-        "packageLocation": "../../../../cache/others/berry/cache/has-proto-npm-1.0.3-b598da2961-10c0.zip/node_modules/has-proto/",\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/has-proto-npm-1.1.0-47c332d0e3-10c0.zip/node_modules/has-proto/",\
         "packageDependencies": [\
-          ["has-proto", "npm:1.0.3"]\
+          ["has-proto", "npm:1.1.0"],\
+          ["call-bind", "npm:1.0.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5327,12 +5328,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["is-regex", [\
-      ["npm:1.1.4", {\
-        "packageLocation": "../../../../cache/others/berry/cache/is-regex-npm-1.1.4-cca193ef11-10c0.zip/node_modules/is-regex/",\
+      ["npm:1.2.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/is-regex-npm-1.2.0-c845883cfc-10c0.zip/node_modules/is-regex/",\
         "packageDependencies": [\
-          ["is-regex", "npm:1.1.4"],\
+          ["is-regex", "npm:1.2.0"],\
           ["call-bind", "npm:1.0.7"],\
-          ["has-tostringtag", "npm:1.0.2"]\
+          ["gopd", "npm:1.1.0"],\
+          ["has-tostringtag", "npm:1.0.2"],\
+          ["hasown", "npm:2.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5399,7 +5402,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/is-typed-array-npm-1.1.13-0dce6ee7c2-10c0.zip/node_modules/is-typed-array/",\
         "packageDependencies": [\
           ["is-typed-array", "npm:1.1.13"],\
-          ["which-typed-array", "npm:1.1.15"]\
+          ["which-typed-array", "npm:1.1.16"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6098,10 +6101,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["nanoid", [\
-      ["npm:3.3.7", {\
-        "packageLocation": "../../../../cache/others/berry/cache/nanoid-npm-3.3.7-98824ba130-10c0.zip/node_modules/nanoid/",\
+      ["npm:3.3.8", {\
+        "packageLocation": "../../../../cache/others/berry/cache/nanoid-npm-3.3.8-d22226208b-10c0.zip/node_modules/nanoid/",\
         "packageDependencies": [\
-          ["nanoid", "npm:3.3.7"]\
+          ["nanoid", "npm:3.3.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6439,7 +6442,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/postcss-npm-8.4.38-495621b279-10c0.zip/node_modules/postcss/",\
         "packageDependencies": [\
           ["postcss", "npm:8.4.38"],\
-          ["nanoid", "npm:3.3.7"],\
+          ["nanoid", "npm:3.3.8"],\
           ["picocolors", "npm:1.1.1"],\
           ["source-map-js", "npm:1.2.1"]\
         ],\
@@ -6717,7 +6720,7 @@ const RAW_RUNTIME_STATE =
           ["es-abstract", "npm:1.23.5"],\
           ["es-errors", "npm:1.3.0"],\
           ["get-intrinsic", "npm:1.2.4"],\
-          ["gopd", "npm:1.0.1"],\
+          ["gopd", "npm:1.1.0"],\
           ["which-builtin-type", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
@@ -6930,7 +6933,7 @@ const RAW_RUNTIME_STATE =
           ["safe-regex-test", "npm:1.0.3"],\
           ["call-bind", "npm:1.0.7"],\
           ["es-errors", "npm:1.3.0"],\
-          ["is-regex", "npm:1.1.4"]\
+          ["is-regex", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6989,7 +6992,7 @@ const RAW_RUNTIME_STATE =
           ["es-errors", "npm:1.3.0"],\
           ["function-bind", "npm:1.1.2"],\
           ["get-intrinsic", "npm:1.2.4"],\
-          ["gopd", "npm:1.0.1"],\
+          ["gopd", "npm:1.1.0"],\
           ["has-property-descriptors", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
@@ -7197,7 +7200,7 @@ const RAW_RUNTIME_STATE =
           ["es-errors", "npm:1.3.0"],\
           ["es-object-atoms", "npm:1.0.0"],\
           ["get-intrinsic", "npm:1.2.4"],\
-          ["gopd", "npm:1.0.1"],\
+          ["gopd", "npm:1.1.0"],\
           ["has-symbols", "npm:1.0.3"],\
           ["internal-slot", "npm:1.0.7"],\
           ["regexp.prototype.flags", "npm:1.5.3"],\
@@ -7531,8 +7534,8 @@ const RAW_RUNTIME_STATE =
           ["typed-array-byte-length", "npm:1.0.1"],\
           ["call-bind", "npm:1.0.7"],\
           ["for-each", "npm:0.3.3"],\
-          ["gopd", "npm:1.0.1"],\
-          ["has-proto", "npm:1.0.3"],\
+          ["gopd", "npm:1.1.0"],\
+          ["has-proto", "npm:1.1.0"],\
           ["is-typed-array", "npm:1.1.13"]\
         ],\
         "linkType": "HARD"\
@@ -7546,8 +7549,8 @@ const RAW_RUNTIME_STATE =
           ["available-typed-arrays", "npm:1.0.7"],\
           ["call-bind", "npm:1.0.7"],\
           ["for-each", "npm:0.3.3"],\
-          ["gopd", "npm:1.0.1"],\
-          ["has-proto", "npm:1.0.3"],\
+          ["gopd", "npm:1.1.0"],\
+          ["has-proto", "npm:1.1.0"],\
           ["is-typed-array", "npm:1.1.13"],\
           ["reflect.getprototypeof", "npm:1.0.7"]\
         ],\
@@ -7561,7 +7564,7 @@ const RAW_RUNTIME_STATE =
           ["typed-array-length", "npm:1.0.7"],\
           ["call-bind", "npm:1.0.7"],\
           ["for-each", "npm:0.3.3"],\
-          ["gopd", "npm:1.0.1"],\
+          ["gopd", "npm:1.1.0"],\
           ["is-typed-array", "npm:1.1.13"],\
           ["possible-typed-array-names", "npm:1.0.0"],\
           ["reflect.getprototypeof", "npm:1.0.7"]\
@@ -7789,12 +7792,12 @@ const RAW_RUNTIME_STATE =
           ["is-date-object", "npm:1.0.5"],\
           ["is-finalizationregistry", "npm:1.1.0"],\
           ["is-generator-function", "npm:1.0.10"],\
-          ["is-regex", "npm:1.1.4"],\
+          ["is-regex", "npm:1.2.0"],\
           ["is-weakref", "npm:1.0.2"],\
           ["isarray", "npm:2.0.5"],\
           ["which-boxed-primitive", "npm:1.0.2"],\
           ["which-collection", "npm:1.0.2"],\
-          ["which-typed-array", "npm:1.1.15"]\
+          ["which-typed-array", "npm:1.1.16"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7813,14 +7816,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["which-typed-array", [\
-      ["npm:1.1.15", {\
-        "packageLocation": "../../../../cache/others/berry/cache/which-typed-array-npm-1.1.15-91410874a2-10c0.zip/node_modules/which-typed-array/",\
+      ["npm:1.1.16", {\
+        "packageLocation": "../../../../cache/others/berry/cache/which-typed-array-npm-1.1.16-88e900c4ff-10c0.zip/node_modules/which-typed-array/",\
         "packageDependencies": [\
-          ["which-typed-array", "npm:1.1.15"],\
+          ["which-typed-array", "npm:1.1.16"],\
           ["available-typed-arrays", "npm:1.0.7"],\
           ["call-bind", "npm:1.0.7"],\
           ["for-each", "npm:0.3.3"],\
-          ["gopd", "npm:1.0.1"],\
+          ["gopd", "npm:1.1.0"],\
           ["has-tostringtag", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
@@ -10785,7 +10788,7 @@ class MountFS extends BasePortableFakeFS {
         if (this.notMount.has(filePath))
           continue;
         try {
-          if (this.typeCheck !== null && (this.baseFs.lstatSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
+          if (this.typeCheck !== null && (this.baseFs.statSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
             this.notMount.add(filePath);
             continue;
           }
