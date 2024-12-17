@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@fortawesome/free-solid-svg-icons", "npm:6.7.1"],\
+          ["@fortawesome/free-solid-svg-icons", "npm:6.7.2"],\
           ["ansi-html", "npm:0.0.9"],\
           ["chai", "npm:5.1.2"],\
           ["chai-match-pattern", "npm:1.3.0"],\
@@ -2363,20 +2363,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@fortawesome/fontawesome-common-types", [\
-      ["npm:6.7.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@fortawesome-fontawesome-common-types-npm-6.7.1-14715e1b44-10c0.zip/node_modules/@fortawesome/fontawesome-common-types/",\
+      ["npm:6.7.2", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@fortawesome-fontawesome-common-types-npm-6.7.2-07bf35c518-10c0.zip/node_modules/@fortawesome/fontawesome-common-types/",\
         "packageDependencies": [\
-          ["@fortawesome/fontawesome-common-types", "npm:6.7.1"]\
+          ["@fortawesome/fontawesome-common-types", "npm:6.7.2"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@fortawesome/free-solid-svg-icons", [\
-      ["npm:6.7.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@fortawesome-free-solid-svg-icons-npm-6.7.1-ab1574fa1c-10c0.zip/node_modules/@fortawesome/free-solid-svg-icons/",\
+      ["npm:6.7.2", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@fortawesome-free-solid-svg-icons-npm-6.7.2-35f32a3213-10c0.zip/node_modules/@fortawesome/free-solid-svg-icons/",\
         "packageDependencies": [\
-          ["@fortawesome/free-solid-svg-icons", "npm:6.7.1"],\
-          ["@fortawesome/fontawesome-common-types", "npm:6.7.1"]\
+          ["@fortawesome/free-solid-svg-icons", "npm:6.7.2"],\
+          ["@fortawesome/fontawesome-common-types", "npm:6.7.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5508,7 +5508,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["jasstafel", "workspace:."],\
-          ["@fortawesome/free-solid-svg-icons", "npm:6.7.1"],\
+          ["@fortawesome/free-solid-svg-icons", "npm:6.7.2"],\
           ["ansi-html", "npm:0.0.9"],\
           ["chai", "npm:5.1.2"],\
           ["chai-match-pattern", "npm:1.3.0"],\
