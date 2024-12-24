@@ -41,7 +41,7 @@
 		"eslint-plugin-jasmine": "4.2.2",
 		"eslint-plugin-lodash-fp": "2.2.0-a1",
 		"eslint-plugin-prettier": "5.2.1",
-		"eslint-plugin-react": "7.37.2",
+		"eslint-plugin-react": "7.37.3",
 		"mocha": "11.0.1",
 		"mustache": "4.2.0",
 		"opn": "6.0.0",
