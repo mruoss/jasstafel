@@ -2998,7 +2998,7 @@ const RAW_RUNTIME_STATE =
           ["array-includes", "npm:3.1.8"],\
           ["call-bind", "npm:1.0.8"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["es-object-atoms", "npm:1.0.0"],\
           ["get-intrinsic", "npm:1.2.6"],\
           ["is-string", "npm:1.1.1"]\
@@ -3013,7 +3013,7 @@ const RAW_RUNTIME_STATE =
           ["array.prototype.findlast", "npm:1.2.5"],\
           ["call-bind", "npm:1.0.8"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["es-errors", "npm:1.3.0"],\
           ["es-object-atoms", "npm:1.0.0"],\
           ["es-shim-unscopables", "npm:1.0.2"]\
@@ -3028,7 +3028,7 @@ const RAW_RUNTIME_STATE =
           ["array.prototype.findlastindex", "npm:1.2.5"],\
           ["call-bind", "npm:1.0.8"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["es-errors", "npm:1.3.0"],\
           ["es-object-atoms", "npm:1.0.0"],\
           ["es-shim-unscopables", "npm:1.0.2"]\
@@ -3043,7 +3043,7 @@ const RAW_RUNTIME_STATE =
           ["array.prototype.flat", "npm:1.3.3"],\
           ["call-bind", "npm:1.0.8"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["es-shim-unscopables", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
@@ -3056,7 +3056,7 @@ const RAW_RUNTIME_STATE =
           ["array.prototype.flatmap", "npm:1.3.3"],\
           ["call-bind", "npm:1.0.8"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["es-shim-unscopables", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
@@ -3069,7 +3069,7 @@ const RAW_RUNTIME_STATE =
           ["array.prototype.tosorted", "npm:1.1.4"],\
           ["call-bind", "npm:1.0.8"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["es-errors", "npm:1.3.0"],\
           ["es-shim-unscopables", "npm:1.0.2"]\
         ],\
@@ -3084,7 +3084,7 @@ const RAW_RUNTIME_STATE =
           ["array-buffer-byte-length", "npm:1.0.2"],\
           ["call-bind", "npm:1.0.8"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["es-errors", "npm:1.3.0"],\
           ["get-intrinsic", "npm:1.2.6"],\
           ["is-array-buffer", "npm:3.0.5"]\
@@ -3263,7 +3263,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["browserslist", "npm:4.24.3"],\
           ["caniuse-lite", "npm:1.0.30001690"],\
-          ["electron-to-chromium", "npm:1.5.75"],\
+          ["electron-to-chromium", "npm:1.5.76"],\
           ["node-releases", "npm:2.0.19"],\
           ["update-browserslist-db", "virtual:1f4e7bedfbc1da62b08a4dff0b1939e165c1ac8621825a199f80044f745d21b1197aa9e3f40b945971ed6970a3219a5c2658011edc0375ed6177bae1c352c57a#npm:1.1.1"]\
         ],\
@@ -3823,10 +3823,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.75", {\
-        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.5.75-45443b6ed0-10c0.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.76", {\
+        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.5.76-4183712803-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.75"]\
+          ["electron-to-chromium", "npm:1.5.76"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3886,10 +3886,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["es-abstract", [\
-      ["npm:1.23.7", {\
-        "packageLocation": "../../../../cache/others/berry/cache/es-abstract-npm-1.23.7-f1c1fb6596-10c0.zip/node_modules/es-abstract/",\
+      ["npm:1.23.8", {\
+        "packageLocation": "../../../../cache/others/berry/cache/es-abstract-npm-1.23.8-842e572321-10c0.zip/node_modules/es-abstract/",\
         "packageDependencies": [\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["array-buffer-byte-length", "npm:1.0.2"],\
           ["arraybuffer.prototype.slice", "npm:1.0.4"],\
           ["available-typed-arrays", "npm:1.0.7"],\
@@ -3925,8 +3925,10 @@ const RAW_RUNTIME_STATE =
           ["object-inspect", "npm:1.13.3"],\
           ["object-keys", "npm:1.1.1"],\
           ["object.assign", "npm:4.1.7"],\
+          ["own-keys", "npm:1.0.1"],\
           ["regexp.prototype.flags", "npm:1.5.3"],\
           ["safe-array-concat", "npm:1.1.3"],\
+          ["safe-push-apply", "npm:1.0.0"],\
           ["safe-regex-test", "npm:1.1.0"],\
           ["string.prototype.trim", "npm:1.2.10"],\
           ["string.prototype.trimend", "npm:1.0.9"],\
@@ -3967,7 +3969,7 @@ const RAW_RUNTIME_STATE =
           ["call-bind", "npm:1.0.8"],\
           ["call-bound", "npm:1.0.3"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["es-errors", "npm:1.3.0"],\
           ["es-set-tostringtag", "npm:2.0.3"],\
           ["function-bind", "npm:1.1.2"],\
@@ -6210,7 +6212,7 @@ const RAW_RUNTIME_STATE =
           ["object.fromentries", "npm:2.0.8"],\
           ["call-bind", "npm:1.0.8"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["es-object-atoms", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -6223,7 +6225,7 @@ const RAW_RUNTIME_STATE =
           ["object.groupby", "npm:1.0.3"],\
           ["call-bind", "npm:1.0.8"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"]\
+          ["es-abstract", "npm:1.23.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6272,6 +6274,18 @@ const RAW_RUNTIME_STATE =
           ["prelude-ls", "npm:1.2.1"],\
           ["type-check", "npm:0.4.0"],\
           ["word-wrap", "npm:1.2.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["own-keys", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/own-keys-npm-1.0.1-1253f9b344-10c0.zip/node_modules/own-keys/",\
+        "packageDependencies": [\
+          ["own-keys", "npm:1.0.1"],\
+          ["get-intrinsic", "npm:1.2.6"],\
+          ["object-keys", "npm:1.1.1"],\
+          ["safe-push-apply", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6692,7 +6706,7 @@ const RAW_RUNTIME_STATE =
           ["call-bind", "npm:1.0.8"],\
           ["define-properties", "npm:1.2.1"],\
           ["dunder-proto", "npm:1.0.1"],\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["es-errors", "npm:1.3.0"],\
           ["get-intrinsic", "npm:1.2.6"],\
           ["gopd", "npm:1.2.0"],\
@@ -6908,6 +6922,17 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/safe-buffer-npm-5.2.1-3481c8aa9b-10c0.zip/node_modules/safe-buffer/",\
         "packageDependencies": [\
           ["safe-buffer", "npm:5.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["safe-push-apply", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/safe-push-apply-npm-1.0.0-51a0a42944-10c0.zip/node_modules/safe-push-apply/",\
+        "packageDependencies": [\
+          ["safe-push-apply", "npm:1.0.0"],\
+          ["es-errors", "npm:1.3.0"],\
+          ["isarray", "npm:2.0.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7221,7 +7246,7 @@ const RAW_RUNTIME_STATE =
           ["call-bind", "npm:1.0.8"],\
           ["call-bound", "npm:1.0.3"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["es-errors", "npm:1.3.0"],\
           ["es-object-atoms", "npm:1.0.0"],\
           ["get-intrinsic", "npm:1.2.6"],\
@@ -7241,7 +7266,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["string.prototype.repeat", "npm:1.0.0"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"]\
+          ["es-abstract", "npm:1.23.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7255,7 +7280,7 @@ const RAW_RUNTIME_STATE =
           ["call-bound", "npm:1.0.3"],\
           ["define-data-property", "npm:1.1.4"],\
           ["define-properties", "npm:1.2.1"],\
-          ["es-abstract", "npm:1.23.7"],\
+          ["es-abstract", "npm:1.23.8"],\
           ["es-object-atoms", "npm:1.0.0"],\
           ["has-property-descriptors", "npm:1.0.2"]\
         ],\
@@ -13838,18 +13863,20 @@ Require stack:
     }
     return false;
   };
-  const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
-  require$$0.Module._extensions[`.js`] = function(module, filename) {
-    if (filename.endsWith(`.js`)) {
-      const pkg = readPackageScope(filename);
-      if (pkg && pkg.data?.type === `module`) {
-        const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
-        Error.captureStackTrace(err);
-        throw err;
+  if (!process.features.require_module) {
+    const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
+    require$$0.Module._extensions[`.js`] = function(module, filename) {
+      if (filename.endsWith(`.js`)) {
+        const pkg = readPackageScope(filename);
+        if (pkg && pkg.data?.type === `module`) {
+          const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
+          Error.captureStackTrace(err);
+          throw err;
+        }
       }
-    }
-    originalExtensionJSFunction.call(this, module, filename);
-  };
+      originalExtensionJSFunction.call(this, module, filename);
+    };
+  }
   const originalDlopen = process.dlopen;
   process.dlopen = function(...args) {
     const [module, filename, ...rest] = args;
