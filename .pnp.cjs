@@ -42,7 +42,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-jasmine", "npm:4.2.2"],\
           ["eslint-plugin-lodash-fp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:2.2.0-a1"],\
           ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.2.1"],\
-          ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.3"],\
+          ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.4"],\
           ["konva", "npm:9.3.18"],\
           ["lodash", "npm:4.17.21"],\
           ["mocha", "npm:11.0.1"],\
@@ -4389,17 +4389,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["eslint-plugin-react", [\
-      ["npm:7.37.3", {\
-        "packageLocation": "../../../../cache/others/berry/cache/eslint-plugin-react-npm-7.37.3-e15efa9117-10c0.zip/node_modules/eslint-plugin-react/",\
+      ["npm:7.37.4", {\
+        "packageLocation": "../../../../cache/others/berry/cache/eslint-plugin-react-npm-7.37.4-97f9151950-10c0.zip/node_modules/eslint-plugin-react/",\
         "packageDependencies": [\
-          ["eslint-plugin-react", "npm:7.37.3"]\
+          ["eslint-plugin-react", "npm:7.37.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.3", {\
-        "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-virtual-f791ecf995/5/cache/others/berry/cache/eslint-plugin-react-npm-7.37.3-e15efa9117-10c0.zip/node_modules/eslint-plugin-react/",\
+      ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.4", {\
+        "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-virtual-f7b1b77f68/5/cache/others/berry/cache/eslint-plugin-react-npm-7.37.4-97f9151950-10c0.zip/node_modules/eslint-plugin-react/",\
         "packageDependencies": [\
-          ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.3"],\
+          ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.4"],\
           ["@types/eslint", null],\
           ["array-includes", "npm:3.1.8"],\
           ["array.prototype.findlast", "npm:1.2.5"],\
@@ -5551,7 +5551,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-jasmine", "npm:4.2.2"],\
           ["eslint-plugin-lodash-fp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:2.2.0-a1"],\
           ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.2.1"],\
-          ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.3"],\
+          ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.4"],\
           ["konva", "npm:9.3.18"],\
           ["lodash", "npm:4.17.21"],\
           ["mocha", "npm:11.0.1"],\
