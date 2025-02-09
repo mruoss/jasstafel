@@ -48,7 +48,7 @@ const RAW_RUNTIME_STATE =
           ["mocha", "npm:11.1.0"],\
           ["mustache", "npm:4.2.0"],\
           ["opn", "npm:6.0.0"],\
-          ["prettier", "npm:3.4.2"],\
+          ["prettier", "npm:3.5.0"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:19.0.0"],\
@@ -4380,7 +4380,7 @@ const RAW_RUNTIME_STATE =
           ["@types/prettier", null],\
           ["eslint", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:9.20.0"],\
           ["eslint-config-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.0.1"],\
-          ["prettier", "npm:3.4.2"],\
+          ["prettier", "npm:3.5.0"],\
           ["prettier-linter-helpers", "npm:1.0.0"],\
           ["synckit", "npm:0.9.2"]\
         ],\
@@ -5565,7 +5565,7 @@ const RAW_RUNTIME_STATE =
           ["mocha", "npm:11.1.0"],\
           ["mustache", "npm:4.2.0"],\
           ["opn", "npm:6.0.0"],\
-          ["prettier", "npm:3.4.2"],\
+          ["prettier", "npm:3.5.0"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:19.0.0"],\
@@ -6488,10 +6488,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["prettier", [\
-      ["npm:3.4.2", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.4.2-fae349e44a/node_modules/prettier/",\
+      ["npm:3.5.0", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.5.0-597a8f3ced/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.4.2"]\
+          ["prettier", "npm:3.5.0"]\
         ],\
         "linkType": "HARD"\
       }]\
