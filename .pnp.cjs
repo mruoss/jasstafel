@@ -41,7 +41,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-import", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:2.31.0"],\
           ["eslint-plugin-jasmine", "npm:4.2.2"],\
           ["eslint-plugin-lodash-fp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:2.2.0-a1"],\
-          ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.2.5"],\
+          ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.2.6"],\
           ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.4"],\
           ["jasstafel", "workspace:."],\
           ["konva", "npm:9.3.20"],\
@@ -4368,25 +4368,25 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["eslint-plugin-prettier", [\
-      ["npm:5.2.5", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/eslint-plugin-prettier-npm-5.2.5-46e500cb73-10c0.zip/node_modules/eslint-plugin-prettier/",\
+      ["npm:5.2.6", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/eslint-plugin-prettier-npm-5.2.6-bf19bff84b-10c0.zip/node_modules/eslint-plugin-prettier/",\
         "packageDependencies": [\
-          ["eslint-plugin-prettier", "npm:5.2.5"]\
+          ["eslint-plugin-prettier", "npm:5.2.6"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.2.5", {\
-        "packageLocation": "./.yarn/__virtual__/eslint-plugin-prettier-virtual-1c797eea8d/7/runner/cache/others/berry/cache/eslint-plugin-prettier-npm-5.2.5-46e500cb73-10c0.zip/node_modules/eslint-plugin-prettier/",\
+      ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.2.6", {\
+        "packageLocation": "./.yarn/__virtual__/eslint-plugin-prettier-virtual-4c34998d6f/7/runner/cache/others/berry/cache/eslint-plugin-prettier-npm-5.2.6-bf19bff84b-10c0.zip/node_modules/eslint-plugin-prettier/",\
         "packageDependencies": [\
           ["@types/eslint", null],\
           ["@types/eslint-config-prettier", null],\
           ["@types/prettier", null],\
           ["eslint", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:9.23.0"],\
           ["eslint-config-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.1.1"],\
-          ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.2.5"],\
+          ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.2.6"],\
           ["prettier", "npm:3.5.3"],\
           ["prettier-linter-helpers", "npm:1.0.0"],\
-          ["synckit", "npm:0.10.3"]\
+          ["synckit", "npm:0.11.1"]\
         ],\
         "packagePeers": [\
           "@types/eslint-config-prettier",\
@@ -5561,7 +5561,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-import", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:2.31.0"],\
           ["eslint-plugin-jasmine", "npm:4.2.2"],\
           ["eslint-plugin-lodash-fp", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:2.2.0-a1"],\
-          ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.2.5"],\
+          ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.2.6"],\
           ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.4"],\
           ["jasstafel", "workspace:."],\
           ["konva", "npm:9.3.20"],\
@@ -7496,11 +7496,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["synckit", [\
-      ["npm:0.10.3", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/synckit-npm-0.10.3-bec8762524-10c0.zip/node_modules/synckit/",\
+      ["npm:0.11.1", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/synckit-npm-0.11.1-8216b0dfe0-10c0.zip/node_modules/synckit/",\
         "packageDependencies": [\
           ["@pkgr/core", "npm:0.2.0"],\
-          ["synckit", "npm:0.10.3"],\
+          ["synckit", "npm:0.11.1"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\

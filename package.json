@@ -40,7 +40,7 @@
 		"eslint-plugin-import": "2.31.0",
 		"eslint-plugin-jasmine": "4.2.2",
 		"eslint-plugin-lodash-fp": "2.2.0-a1",
-		"eslint-plugin-prettier": "5.2.5",
+		"eslint-plugin-prettier": "5.2.6",
 		"eslint-plugin-react": "7.37.4",
 		"mocha": "11.1.0",
 		"mustache": "4.2.0",
