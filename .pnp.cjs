@@ -3285,7 +3285,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["browserslist", "npm:4.24.4"],\
           ["caniuse-lite", "npm:1.0.30001715"],\
-          ["electron-to-chromium", "npm:1.5.139"],\
+          ["electron-to-chromium", "npm:1.5.143"],\
           ["node-releases", "npm:2.0.19"],\
           ["update-browserslist-db", "virtual:2fdeb5face9914bb5fd94c70f084d153c80d2f09e5aabee010e4220b248dc23fca8f73c7beed0195e45ae6e2b1cb25388f709d7bfc4f00e473d573887faf4e5c#npm:1.1.3"]\
         ],\
@@ -3835,10 +3835,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.139", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/electron-to-chromium-npm-1.5.139-b2c0669700-10c0.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.143", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/electron-to-chromium-npm-1.5.143-f0119be1b2-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.139"]\
+          ["electron-to-chromium", "npm:1.5.143"]\
         ],\
         "linkType": "HARD"\
       }]\
