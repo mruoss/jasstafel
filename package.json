@@ -42,7 +42,7 @@
 		"eslint-plugin-lodash-fp": "2.2.0-a1",
 		"eslint-plugin-prettier": "5.2.6",
 		"eslint-plugin-react": "7.37.5",
-		"mocha": "11.1.0",
+		"mocha": "11.2.2",
 		"mustache": "4.2.0",
 		"opn": "6.0.0",
 		"prettier": "3.5.3",
