@@ -47,7 +47,7 @@ const RAW_RUNTIME_STATE =
           ["jasstafel", "workspace:."],\
           ["konva", "npm:9.3.20"],\
           ["lodash", "npm:4.17.21"],\
-          ["mocha", "npm:11.4.0"],\
+          ["mocha", "npm:11.5.0"],\
           ["mustache", "npm:4.2.0"],\
           ["opn", "npm:6.0.0"],\
           ["prettier", "npm:3.5.3"],\
@@ -3666,13 +3666,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:cdef168378c8f637e1a6826f3d20d2d269f4d55bb13633c52c16404abf2070f78cc8bcf2dbac627be1f954af9c0e91292f0bfe489299a3eb08d103fe49bab493#npm:4.4.1", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-098a2845dd/7/runner/cache/others/berry/cache/debug-npm-4.4.1-6eab84b9f7-10c0.zip/node_modules/debug/",\
+      ["virtual:c1e4da05452fd226512cac317e89e109ce16ae6607233d0b25cb64ce2498305d16fcc9c1349eb7bf1b58d046e89d4a8c99df2d758f8a922b7b412df1b3bacbe5#npm:4.4.1", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-85847abd73/7/runner/cache/others/berry/cache/debug-npm-4.4.1-6eab84b9f7-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
           ["@types/supports-color", null],\
-          ["debug", "virtual:cdef168378c8f637e1a6826f3d20d2d269f4d55bb13633c52c16404abf2070f78cc8bcf2dbac627be1f954af9c0e91292f0bfe489299a3eb08d103fe49bab493#npm:4.4.1"],\
+          ["debug", "virtual:c1e4da05452fd226512cac317e89e109ce16ae6607233d0b25cb64ce2498305d16fcc9c1349eb7bf1b58d046e89d4a8c99df2d758f8a922b7b412df1b3bacbe5#npm:4.4.1"],\
           ["ms", "npm:2.1.3"],\
-          ["supports-color", null]\
+          ["supports-color", "npm:8.1.1"]\
         ],\
         "packagePeers": [\
           "@types/supports-color",\
@@ -3680,13 +3680,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:ff227ef2e59f4d941b7245094615b115795675635bc5a80683aa83c76efb82d53e10f0095f57df399648da7d358b4446a5ba5793f5dfe54c7fe812aad2745a28#npm:4.4.1", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-35cbd41f91/7/runner/cache/others/berry/cache/debug-npm-4.4.1-6eab84b9f7-10c0.zip/node_modules/debug/",\
+      ["virtual:cdef168378c8f637e1a6826f3d20d2d269f4d55bb13633c52c16404abf2070f78cc8bcf2dbac627be1f954af9c0e91292f0bfe489299a3eb08d103fe49bab493#npm:4.4.1", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-098a2845dd/7/runner/cache/others/berry/cache/debug-npm-4.4.1-6eab84b9f7-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
           ["@types/supports-color", null],\
-          ["debug", "virtual:ff227ef2e59f4d941b7245094615b115795675635bc5a80683aa83c76efb82d53e10f0095f57df399648da7d358b4446a5ba5793f5dfe54c7fe812aad2745a28#npm:4.4.1"],\
+          ["debug", "virtual:cdef168378c8f637e1a6826f3d20d2d269f4d55bb13633c52c16404abf2070f78cc8bcf2dbac627be1f954af9c0e91292f0bfe489299a3eb08d103fe49bab493#npm:4.4.1"],\
           ["ms", "npm:2.1.3"],\
-          ["supports-color", "npm:8.1.1"]\
+          ["supports-color", null]\
         ],\
         "packagePeers": [\
           "@types/supports-color",\
@@ -5523,7 +5523,7 @@ const RAW_RUNTIME_STATE =
           ["jasstafel", "workspace:."],\
           ["konva", "npm:9.3.20"],\
           ["lodash", "npm:4.17.21"],\
-          ["mocha", "npm:11.4.0"],\
+          ["mocha", "npm:11.5.0"],\
           ["mustache", "npm:4.2.0"],\
           ["opn", "npm:6.0.0"],\
           ["prettier", "npm:3.5.3"],\
@@ -6020,12 +6020,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["mocha", [\
-      ["npm:11.4.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/mocha-npm-11.4.0-ff227ef2e5-10c0.zip/node_modules/mocha/",\
+      ["npm:11.5.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/mocha-npm-11.5.0-c1e4da0545-10c0.zip/node_modules/mocha/",\
         "packageDependencies": [\
           ["browser-stdout", "npm:1.3.1"],\
           ["chokidar", "npm:4.0.3"],\
-          ["debug", "virtual:ff227ef2e59f4d941b7245094615b115795675635bc5a80683aa83c76efb82d53e10f0095f57df399648da7d358b4446a5ba5793f5dfe54c7fe812aad2745a28#npm:4.4.1"],\
+          ["debug", "virtual:c1e4da05452fd226512cac317e89e109ce16ae6607233d0b25cb64ce2498305d16fcc9c1349eb7bf1b58d046e89d4a8c99df2d758f8a922b7b412df1b3bacbe5#npm:4.4.1"],\
           ["diff", "npm:7.0.0"],\
           ["escape-string-regexp", "npm:4.0.0"],\
           ["find-up", "npm:5.0.0"],\
@@ -6033,8 +6033,8 @@ const RAW_RUNTIME_STATE =
           ["he", "npm:1.2.0"],\
           ["js-yaml", "npm:4.1.0"],\
           ["log-symbols", "npm:4.1.0"],\
-          ["minimatch", "npm:5.1.6"],\
-          ["mocha", "npm:11.4.0"],\
+          ["minimatch", "npm:9.0.5"],\
+          ["mocha", "npm:11.5.0"],\
           ["ms", "npm:2.1.3"],\
           ["picocolors", "npm:1.1.1"],\
           ["serialize-javascript", "npm:6.0.2"],\
