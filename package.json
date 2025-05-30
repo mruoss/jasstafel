@@ -51,7 +51,7 @@
 		"styled-components": "6.1.18",
 		"workbox-build": "7.3.0",
 		"workbox-strategies": "^7.0.0",
-		"yargs": "17.7.2"
+		"yargs": "18.0.0"
 	},
 	"packageManager": "yarn@4.9.1"
 }
