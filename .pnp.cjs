@@ -47,7 +47,7 @@ const RAW_RUNTIME_STATE =
           ["jasstafel", "workspace:."],\
           ["konva", "npm:9.3.20"],\
           ["lodash", "npm:4.17.21"],\
-          ["mocha", "npm:11.5.0"],\
+          ["mocha", "npm:11.6.0"],\
           ["mustache", "npm:4.2.0"],\
           ["opn", "npm:6.0.0"],\
           ["prettier", "npm:3.5.3"],\
@@ -3678,11 +3678,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:c1e4da05452fd226512cac317e89e109ce16ae6607233d0b25cb64ce2498305d16fcc9c1349eb7bf1b58d046e89d4a8c99df2d758f8a922b7b412df1b3bacbe5#npm:4.4.1", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-85847abd73/7/runner/cache/others/berry/cache/debug-npm-4.4.1-6eab84b9f7-10c0.zip/node_modules/debug/",\
+      ["virtual:6b8c5f310b4d77722122e622b2d9d52f4c6ba2a8f3d94dea9fc7a591f482633b184bf6f51ecab17bb5c1b3430a8122253591667e4f75c5d41ece5f2fa92c52ad#npm:4.4.1", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-548f130301/7/runner/cache/others/berry/cache/debug-npm-4.4.1-6eab84b9f7-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
           ["@types/supports-color", null],\
-          ["debug", "virtual:c1e4da05452fd226512cac317e89e109ce16ae6607233d0b25cb64ce2498305d16fcc9c1349eb7bf1b58d046e89d4a8c99df2d758f8a922b7b412df1b3bacbe5#npm:4.4.1"],\
+          ["debug", "virtual:6b8c5f310b4d77722122e622b2d9d52f4c6ba2a8f3d94dea9fc7a591f482633b184bf6f51ecab17bb5c1b3430a8122253591667e4f75c5d41ece5f2fa92c52ad#npm:4.4.1"],\
           ["ms", "npm:2.1.3"],\
           ["supports-color", "npm:8.1.1"]\
         ],\
@@ -5563,7 +5563,7 @@ const RAW_RUNTIME_STATE =
           ["jasstafel", "workspace:."],\
           ["konva", "npm:9.3.20"],\
           ["lodash", "npm:4.17.21"],\
-          ["mocha", "npm:11.5.0"],\
+          ["mocha", "npm:11.6.0"],\
           ["mustache", "npm:4.2.0"],\
           ["opn", "npm:6.0.0"],\
           ["prettier", "npm:3.5.3"],\
@@ -6060,12 +6060,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["mocha", [\
-      ["npm:11.5.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/mocha-npm-11.5.0-c1e4da0545-10c0.zip/node_modules/mocha/",\
+      ["npm:11.6.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/mocha-npm-11.6.0-6b8c5f310b-10c0.zip/node_modules/mocha/",\
         "packageDependencies": [\
           ["browser-stdout", "npm:1.3.1"],\
           ["chokidar", "npm:4.0.3"],\
-          ["debug", "virtual:c1e4da05452fd226512cac317e89e109ce16ae6607233d0b25cb64ce2498305d16fcc9c1349eb7bf1b58d046e89d4a8c99df2d758f8a922b7b412df1b3bacbe5#npm:4.4.1"],\
+          ["debug", "virtual:6b8c5f310b4d77722122e622b2d9d52f4c6ba2a8f3d94dea9fc7a591f482633b184bf6f51ecab17bb5c1b3430a8122253591667e4f75c5d41ece5f2fa92c52ad#npm:4.4.1"],\
           ["diff", "npm:7.0.0"],\
           ["escape-string-regexp", "npm:4.0.0"],\
           ["find-up", "npm:5.0.0"],\
@@ -6074,13 +6074,13 @@ const RAW_RUNTIME_STATE =
           ["js-yaml", "npm:4.1.0"],\
           ["log-symbols", "npm:4.1.0"],\
           ["minimatch", "npm:9.0.5"],\
-          ["mocha", "npm:11.5.0"],\
+          ["mocha", "npm:11.6.0"],\
           ["ms", "npm:2.1.3"],\
           ["picocolors", "npm:1.1.1"],\
           ["serialize-javascript", "npm:6.0.2"],\
           ["strip-json-comments", "npm:3.1.1"],\
           ["supports-color", "npm:8.1.1"],\
-          ["workerpool", "npm:6.5.1"],\
+          ["workerpool", "npm:9.3.2"],\
           ["yargs", "npm:17.7.2"],\
           ["yargs-parser", "npm:21.1.1"],\
           ["yargs-unparser", "npm:2.0.0"]\
@@ -8122,10 +8122,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["workerpool", [\
-      ["npm:6.5.1", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/workerpool-npm-6.5.1-7e0dd85ca7-10c0.zip/node_modules/workerpool/",\
+      ["npm:9.3.2", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/workerpool-npm-9.3.2-264c284a0a-10c0.zip/node_modules/workerpool/",\
         "packageDependencies": [\
-          ["workerpool", "npm:6.5.1"]\
+          ["workerpool", "npm:9.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
