@@ -4027,7 +4027,7 @@ __metadata:
     react: "npm:19.1.0"
     react-dom: "npm:19.1.0"
     react-is: "npm:19.1.0"
-    react-konva: "npm:19.0.6"
+    react-konva: "npm:19.0.7"
     react-redux: "npm:9.2.0"
     redux: "npm:5.0.1"
     redux-undo: "npm:1.1.0"
@@ -4940,9 +4940,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-konva@npm:19.0.6":
-  version: 19.0.6
-  resolution: "react-konva@npm:19.0.6"
+"react-konva@npm:19.0.7":
+  version: 19.0.7
+  resolution: "react-konva@npm:19.0.7"
   dependencies:
     "@types/react-reconciler": "npm:^0.32.0"
     its-fine: "npm:^2.0.0"
@@ -4952,7 +4952,7 @@ __metadata:
     konva: ^8.0.1 || ^7.2.5 || ^9.0.0
     react: ^18.3.1 || ^19.0.0
     react-dom: ^18.3.1 || ^19.0.0
-  checksum: 10c0/21357ed4b45f660af9a9016a1fd4da501c3414137436b1cdc977b72e0c52a6ea013567eac99b37ac8e2026a218bee10ea0a78c786b4453d57b3e9d31704bbb31
+  checksum: 10c0/035e127be48518a6fd3a9d1fc83f10df229323ae2d71fd1dd74b3e0b10f067e8bcd80bafa4af40390d7404f5defe62db50a33d20867fd86f42c691be8a130c60
   languageName: node
   linkType: hard
 
