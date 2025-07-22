@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@fortawesome/free-solid-svg-icons", "npm:6.7.2"],\
+          ["@fortawesome/free-solid-svg-icons", "npm:7.0.0"],\
           ["ansi-html", "npm:0.0.9"],\
           ["chai", "npm:5.2.1"],\
           ["chai-match-pattern", "npm:1.3.0"],\
@@ -2428,20 +2428,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@fortawesome/fontawesome-common-types", [\
-      ["npm:6.7.2", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@fortawesome-fontawesome-common-types-npm-6.7.2-07bf35c518-10c0.zip/node_modules/@fortawesome/fontawesome-common-types/",\
+      ["npm:7.0.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@fortawesome-fontawesome-common-types-npm-7.0.0-c19c0ad7e2-10c0.zip/node_modules/@fortawesome/fontawesome-common-types/",\
         "packageDependencies": [\
-          ["@fortawesome/fontawesome-common-types", "npm:6.7.2"]\
+          ["@fortawesome/fontawesome-common-types", "npm:7.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@fortawesome/free-solid-svg-icons", [\
-      ["npm:6.7.2", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@fortawesome-free-solid-svg-icons-npm-6.7.2-35f32a3213-10c0.zip/node_modules/@fortawesome/free-solid-svg-icons/",\
+      ["npm:7.0.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@fortawesome-free-solid-svg-icons-npm-7.0.0-eebae52aed-10c0.zip/node_modules/@fortawesome/free-solid-svg-icons/",\
         "packageDependencies": [\
-          ["@fortawesome/fontawesome-common-types", "npm:6.7.2"],\
-          ["@fortawesome/free-solid-svg-icons", "npm:6.7.2"]\
+          ["@fortawesome/fontawesome-common-types", "npm:7.0.0"],\
+          ["@fortawesome/free-solid-svg-icons", "npm:7.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5573,7 +5573,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@fortawesome/free-solid-svg-icons", "npm:6.7.2"],\
+          ["@fortawesome/free-solid-svg-icons", "npm:7.0.0"],\
           ["ansi-html", "npm:0.0.9"],\
           ["chai", "npm:5.2.1"],\
           ["chai-match-pattern", "npm:1.3.0"],\
