@@ -2414,10 +2414,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-and-time@npm:^3.0.0":
-  version: 3.6.0
-  resolution: "date-and-time@npm:3.6.0"
-  checksum: 10c0/f2691740fdcf5ab893e3798fa98a3838e58f287c10b5ea0265f23ce136c65ad9c2591c5682ee5c736db3b0c447d1ab4ec105717cd0e9a13790fa83a287da9f5e
+"date-and-time@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "date-and-time@npm:4.0.1"
+  checksum: 10c0/59b28d583d26a65ac5bfc3404fe59fff62f52a8ad8697d9f0f3f1802fb1b9cc7be74e636edc4f5f2692c4da81087efbd80c5ee3b39850d722f669aa2d8ecd2b3
   languageName: node
   linkType: hard
 
@@ -4020,7 +4020,7 @@ __metadata:
     chai: "npm:5.2.1"
     chai-match-pattern: "npm:1.3.0"
     core-js: "npm:3.44.0"
-    date-and-time: "npm:^3.0.0"
+    date-and-time: "npm:^4.0.0"
     esbuild: "npm:0.25.8"
     eslint: "npm:9.32.0"
     eslint-config-prettier: "npm:10.1.8"
