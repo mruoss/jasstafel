@@ -44,7 +44,7 @@
 		"eslint-plugin-react": "7.37.5",
 		"mocha": "11.7.1",
 		"mustache": "4.2.0",
-		"opn": "6.0.0",
+		"open": "^10.2.0",
 		"prettier": "3.6.2",
 		"prop-types": "15.8.1",
 		"react-is": "19.1.1",

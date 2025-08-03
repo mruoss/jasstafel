@@ -49,7 +49,7 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.17.21"],\
           ["mocha", "npm:11.7.1"],\
           ["mustache", "npm:4.2.0"],\
-          ["opn", "npm:6.0.0"],\
+          ["open", "npm:10.2.0"],\
           ["prettier", "npm:3.6.2"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:19.1.1"],\
@@ -3316,6 +3316,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["bundle-name", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/bundle-name-npm-4.1.0-4688335533-10c0.zip/node_modules/bundle-name/",\
+        "packageDependencies": [\
+          ["bundle-name", "npm:4.1.0"],\
+          ["run-applescript", "npm:7.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["cacache", [\
       ["npm:19.0.1", {\
         "packageLocation": "../../../.yarn/berry/cache/cacache-npm-19.0.1-395cba1936-10c0.zip/node_modules/cacache/",\
@@ -3778,6 +3788,26 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["default-browser", [\
+      ["npm:5.2.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/default-browser-npm-5.2.1-e2f8bca718-10c0.zip/node_modules/default-browser/",\
+        "packageDependencies": [\
+          ["bundle-name", "npm:4.1.0"],\
+          ["default-browser", "npm:5.2.1"],\
+          ["default-browser-id", "npm:5.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["default-browser-id", [\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/default-browser-id-npm-5.0.0-41fa64d5bb-10c0.zip/node_modules/default-browser-id/",\
+        "packageDependencies": [\
+          ["default-browser-id", "npm:5.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["define-data-property", [\
       ["npm:1.1.4", {\
         "packageLocation": "../../../.yarn/berry/cache/define-data-property-npm-1.1.4-4cbd8efc51-10c0.zip/node_modules/define-data-property/",\
@@ -3786,6 +3816,15 @@ const RAW_RUNTIME_STATE =
           ["es-define-property", "npm:1.0.1"],\
           ["es-errors", "npm:1.3.0"],\
           ["gopd", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["define-lazy-prop", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/define-lazy-prop-npm-3.0.0-6bb0fc1510-10c0.zip/node_modules/define-lazy-prop/",\
+        "packageDependencies": [\
+          ["define-lazy-prop", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5244,6 +5283,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["is-docker", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/is-docker-npm-3.0.0-1570e32177-10c0.zip/node_modules/is-docker/",\
+        "packageDependencies": [\
+          ["is-docker", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["is-extglob", [\
       ["npm:2.1.1", {\
         "packageLocation": "../../../.yarn/berry/cache/is-extglob-npm-2.1.1-0870ea68b5-10c0.zip/node_modules/is-extglob/",\
@@ -5291,6 +5339,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["is-extglob", "npm:2.1.1"],\
           ["is-glob", "npm:4.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["is-inside-container", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/is-inside-container-npm-1.0.0-f2c9e9bb96-10c0.zip/node_modules/is-inside-container/",\
+        "packageDependencies": [\
+          ["is-docker", "npm:3.0.0"],\
+          ["is-inside-container", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5474,10 +5532,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["is-wsl", [\
-      ["npm:1.1.0", {\
-        "packageLocation": "../../../.yarn/berry/cache/is-wsl-npm-1.1.0-136e2b7c74-10c0.zip/node_modules/is-wsl/",\
+      ["npm:3.1.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/is-wsl-npm-3.1.0-311c6d2265-10c0.zip/node_modules/is-wsl/",\
         "packageDependencies": [\
-          ["is-wsl", "npm:1.1.0"]\
+          ["is-inside-container", "npm:1.0.0"],\
+          ["is-wsl", "npm:3.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5594,7 +5653,7 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.17.21"],\
           ["mocha", "npm:11.7.1"],\
           ["mustache", "npm:4.2.0"],\
-          ["opn", "npm:6.0.0"],\
+          ["open", "npm:10.2.0"],\
           ["prettier", "npm:3.6.2"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:19.1.1"],\
@@ -6303,12 +6362,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["opn", [\
-      ["npm:6.0.0", {\
-        "packageLocation": "./.yarn/unplugged/opn-npm-6.0.0-a58aa7de49/node_modules/opn/",\
+    ["open", [\
+      ["npm:10.2.0", {\
+        "packageLocation": "./.yarn/unplugged/open-npm-10.2.0-e150b4e118/node_modules/open/",\
         "packageDependencies": [\
-          ["is-wsl", "npm:1.1.0"],\
-          ["opn", "npm:6.0.0"]\
+          ["default-browser", "npm:5.2.1"],\
+          ["define-lazy-prop", "npm:3.0.0"],\
+          ["is-inside-container", "npm:1.0.0"],\
+          ["open", "npm:10.2.0"],\
+          ["wsl-utils", "npm:0.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6921,6 +6983,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
           ["rollup", "npm:2.79.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["run-applescript", [\
+      ["npm:7.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/run-applescript-npm-7.0.0-b061c2c4fa-10c0.zip/node_modules/run-applescript/",\
+        "packageDependencies": [\
+          ["run-applescript", "npm:7.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8196,6 +8267,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/wrappy-npm-1.0.2-916de4d4b3-10c0.zip/node_modules/wrappy/",\
         "packageDependencies": [\
           ["wrappy", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["wsl-utils", [\
+      ["npm:0.1.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/wsl-utils-npm-0.1.0-c5611c2140-10c0.zip/node_modules/wsl-utils/",\
+        "packageDependencies": [\
+          ["is-wsl", "npm:3.1.0"],\
+          ["wsl-utils", "npm:0.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
