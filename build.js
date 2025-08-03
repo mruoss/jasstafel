@@ -4,7 +4,7 @@ import fs from 'fs/promises'
 import path from 'path'
 import { fileURLToPath } from 'url'
 
-import date from 'date-and-time'
+import { format } from 'date-and-time'
 import esbuild from 'esbuild'
 import opn from 'opn'
 import yargs from 'yargs'
@@ -14,7 +14,7 @@ import { injectManifest } from 'workbox-build'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const current_verison = date.format(new Date(), 'YYYY.MM.DD.HHmm');
+const current_verison = format(new Date(), 'YYYY.MM.DD.HHmm')
 
 // CLI Options
 const argv = yargs(process.argv.slice(2))
@@ -123,7 +123,12 @@ fs.rm(destDirectory, { recursive: true, force: true })
 			globPatterns: ['**/*.{css,eot,html,ico,jpg,js,json,png,svg,ttf,txt,json,woff,woff2,webm,xml}'],
 			globFollow: true,
 			globStrict: true,
-			globIgnores: ['**/*-es5.*.js', '3rdpartylicenses.txt', 'assets/images/icons/icon-*.png', 'assets/images/screenshots/*'],
+			globIgnores: [
+				'**/*-es5.*.js',
+				'3rdpartylicenses.txt',
+				'assets/images/icons/icon-*.png',
+				'assets/images/screenshots/*',
+			],
 			dontCacheBustURLsMatching: new RegExp('.+.[a-f0-9]{20}..+'),
 			swSrc: path.join(destDirectory, '/sw.js'),
 			swDest: path.join(destDirectory, '/sw.js'),
