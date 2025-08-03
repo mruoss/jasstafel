@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url'
 
 import { format } from 'date-and-time'
 import esbuild from 'esbuild'
-import opn from 'opn'
+import open from 'open'
 import yargs from 'yargs'
 
 import Mustache from 'mustache'
@@ -86,7 +86,7 @@ fs.rm(destDirectory, { recursive: true, force: true })
 				.then((ctx) => ctx.serve({ servedir: argv.outdir }))
 				.then((server) => {
 					console.log(`Server started on http://localhost:${server.port}`)
-					opn('http://localhost:${server.port}')
+					open('http://localhost:${server.port}')
 					return ['js/index.js']
 				})
 		}
