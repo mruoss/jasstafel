@@ -1,0 +1,14 @@
+{
+  extends: ["config:recommended"],
+  dependencyDashboard: true,
+  ignoreDeps: [],
+  rebaseWhen: "behind-base-branch",
+  branchConcurrentLimit: 10,
+  dockerfile: {
+    semanticCommitType: "build"
+  },
+  lockFileMaintenance: {
+    enabled: true,
+    automerge: true
+  }
+}
