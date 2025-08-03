@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base"],
+  "extends": ["config:recommended"],
   "dependencyDashboard": true,
   "ignoreDeps": [],
   "rebaseWhen": "behind-base-branch",
@@ -8,7 +8,7 @@
     "semanticCommitType": "build"
   },
   "lockFileMaintenance": {
-	"enabled": true,
-	"automerge": true
- }
+    "enabled": true,
+    "automerge": true
+  }
 }
