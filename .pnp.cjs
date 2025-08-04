@@ -3886,7 +3886,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/ejs-npm-3.1.10-4e8cf4bdc1-10c0.zip/node_modules/ejs/",\
         "packageDependencies": [\
           ["ejs", "npm:3.1.10"],\
-          ["jake", "npm:10.9.2"]\
+          ["jake", "npm:10.9.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5616,14 +5616,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["jake", [\
-      ["npm:10.9.2", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/jake-npm-10.9.2-3bf2173aed-10c0.zip/node_modules/jake/",\
+      ["npm:10.9.4", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/jake-npm-10.9.4-970487a1c4-10c0.zip/node_modules/jake/",\
         "packageDependencies": [\
           ["async", "npm:3.2.6"],\
-          ["chalk", "npm:4.1.2"],\
           ["filelist", "npm:1.0.4"],\
-          ["jake", "npm:10.9.2"],\
-          ["minimatch", "npm:3.1.2"]\
+          ["jake", "npm:10.9.4"],\
+          ["picocolors", "npm:1.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
