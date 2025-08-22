@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@fortawesome/free-solid-svg-icons", "npm:7.0.0"],\
           ["ansi-html", "npm:0.0.9"],\
-          ["chai", "npm:5.3.2"],\
+          ["chai", "npm:6.0.0"],\
           ["chai-match-pattern", "npm:1.3.0"],\
           ["core-js", "npm:3.45.1"],\
           ["date-and-time", "npm:4.0.2"],\
@@ -3139,15 +3139,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["assertion-error", [\
-      ["npm:2.0.1", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/assertion-error-npm-2.0.1-8169d136f2-10c0.zip/node_modules/assertion-error/",\
-        "packageDependencies": [\
-          ["assertion-error", "npm:2.0.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["async", [\
       ["npm:3.2.6", {\
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/async-npm-3.2.6-aa4f5aa081-10c0.zip/node_modules/async/",\
@@ -3419,15 +3410,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["chai", [\
-      ["npm:5.3.2", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/chai-npm-5.3.2-1e8c541dcd-10c0.zip/node_modules/chai/",\
+      ["npm:6.0.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/chai-npm-6.0.0-aab079a95b-10c0.zip/node_modules/chai/",\
         "packageDependencies": [\
-          ["assertion-error", "npm:2.0.1"],\
-          ["chai", "npm:5.3.2"],\
-          ["check-error", "npm:2.1.1"],\
-          ["deep-eql", "npm:5.0.2"],\
-          ["loupe", "npm:3.2.0"],\
-          ["pathval", "npm:2.0.1"]\
+          ["chai", "npm:6.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3449,15 +3435,6 @@ const RAW_RUNTIME_STATE =
           ["ansi-styles", "npm:4.3.0"],\
           ["chalk", "npm:4.1.2"],\
           ["supports-color", "npm:7.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["check-error", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/check-error-npm-2.1.1-34e4ef357e-10c0.zip/node_modules/check-error/",\
-        "packageDependencies": [\
-          ["check-error", "npm:2.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3757,15 +3734,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/decamelize-npm-4.0.0-12410e3409-10c0.zip/node_modules/decamelize/",\
         "packageDependencies": [\
           ["decamelize", "npm:4.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["deep-eql", [\
-      ["npm:5.0.2", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/deep-eql-npm-5.0.2-3bce58289f-10c0.zip/node_modules/deep-eql/",\
-        "packageDependencies": [\
-          ["deep-eql", "npm:5.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5631,7 +5599,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@fortawesome/free-solid-svg-icons", "npm:7.0.0"],\
           ["ansi-html", "npm:0.0.9"],\
-          ["chai", "npm:5.3.2"],\
+          ["chai", "npm:6.0.0"],\
           ["chai-match-pattern", "npm:1.3.0"],\
           ["core-js", "npm:3.45.1"],\
           ["date-and-time", "npm:4.0.2"],\
@@ -5942,15 +5910,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["js-tokens", "npm:4.0.0"],\
           ["loose-envify", "npm:1.4.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["loupe", [\
-      ["npm:3.2.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/loupe-npm-3.2.0-6593ad3abb-10c0.zip/node_modules/loupe/",\
-        "packageDependencies": [\
-          ["loupe", "npm:3.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6481,15 +6440,6 @@ const RAW_RUNTIME_STATE =
           ["lru-cache", "npm:10.4.3"],\
           ["minipass", "npm:7.1.2"],\
           ["path-scurry", "npm:1.11.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["pathval", [\
-      ["npm:2.0.1", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/pathval-npm-2.0.1-7fb9ae82ba-10c0.zip/node_modules/pathval/",\
-        "packageDependencies": [\
-          ["pathval", "npm:2.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
