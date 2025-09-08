@@ -47,7 +47,7 @@ const RAW_RUNTIME_STATE =
           ["jasstafel", "workspace:."],\
           ["konva", "npm:9.3.22"],\
           ["lodash", "npm:4.17.21"],\
-          ["mocha", "npm:11.7.1"],\
+          ["mocha", "npm:11.7.2"],\
           ["mustache", "npm:4.2.0"],\
           ["open", "npm:10.2.0"],\
           ["prettier", "npm:3.6.2"],\
@@ -3686,20 +3686,6 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:00a39ca12b998e4f9c9d1505747bc7517fbd357d90df8f6c52f56dbfb8d7c7c894bdbd5247633f8f63bd27f35ac63092969d4e16c08f6edd7c74de2ba41b905c#npm:4.4.1", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-8ce2bc0550/7/runner/cache/others/berry/cache/debug-npm-4.4.1-6eab84b9f7-10c0.zip/node_modules/debug/",\
-        "packageDependencies": [\
-          ["@types/supports-color", null],\
-          ["debug", "virtual:00a39ca12b998e4f9c9d1505747bc7517fbd357d90df8f6c52f56dbfb8d7c7c894bdbd5247633f8f63bd27f35ac63092969d4e16c08f6edd7c74de2ba41b905c#npm:4.4.1"],\
-          ["ms", "npm:2.1.3"],\
-          ["supports-color", "npm:8.1.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/supports-color",\
-          "supports-color"\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["virtual:2a426afc4b2eef43db12a540d29c2b5476640459bfcd5c24f86bb401cf8cce97e63bd81794d206a5643057e7f662643afd5ce3dfc4d4bfd8e706006c6309c5fa#npm:3.2.7", {\
         "packageLocation": "./.yarn/__virtual__/debug-virtual-d2345003b7/7/runner/cache/others/berry/cache/debug-npm-3.2.7-754e818c7a-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
@@ -3707,6 +3693,20 @@ const RAW_RUNTIME_STATE =
           ["debug", "virtual:2a426afc4b2eef43db12a540d29c2b5476640459bfcd5c24f86bb401cf8cce97e63bd81794d206a5643057e7f662643afd5ce3dfc4d4bfd8e706006c6309c5fa#npm:3.2.7"],\
           ["ms", "npm:2.1.3"],\
           ["supports-color", null]\
+        ],\
+        "packagePeers": [\
+          "@types/supports-color",\
+          "supports-color"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:488175d82091d4ca3a3bc6ffe48c48f684a1375da06eeaae9c1710766b61aa655712e77980f3337389da5a19e21912b4a57ffab0bd92cf7769b084c4efa68695#npm:4.4.1", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-63d0a54330/7/runner/cache/others/berry/cache/debug-npm-4.4.1-6eab84b9f7-10c0.zip/node_modules/debug/",\
+        "packageDependencies": [\
+          ["@types/supports-color", null],\
+          ["debug", "virtual:488175d82091d4ca3a3bc6ffe48c48f684a1375da06eeaae9c1710766b61aa655712e77980f3337389da5a19e21912b4a57ffab0bd92cf7769b084c4efa68695#npm:4.4.1"],\
+          ["ms", "npm:2.1.3"],\
+          ["supports-color", "npm:8.1.1"]\
         ],\
         "packagePeers": [\
           "@types/supports-color",\
@@ -5616,7 +5616,7 @@ const RAW_RUNTIME_STATE =
           ["jasstafel", "workspace:."],\
           ["konva", "npm:9.3.22"],\
           ["lodash", "npm:4.17.21"],\
-          ["mocha", "npm:11.7.1"],\
+          ["mocha", "npm:11.7.2"],\
           ["mustache", "npm:4.2.0"],\
           ["open", "npm:10.2.0"],\
           ["prettier", "npm:3.6.2"],\
@@ -6095,12 +6095,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["mocha", [\
-      ["npm:11.7.1", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/mocha-npm-11.7.1-00a39ca12b-10c0.zip/node_modules/mocha/",\
+      ["npm:11.7.2", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/mocha-npm-11.7.2-488175d820-10c0.zip/node_modules/mocha/",\
         "packageDependencies": [\
           ["browser-stdout", "npm:1.3.1"],\
           ["chokidar", "npm:4.0.3"],\
-          ["debug", "virtual:00a39ca12b998e4f9c9d1505747bc7517fbd357d90df8f6c52f56dbfb8d7c7c894bdbd5247633f8f63bd27f35ac63092969d4e16c08f6edd7c74de2ba41b905c#npm:4.4.1"],\
+          ["debug", "virtual:488175d82091d4ca3a3bc6ffe48c48f684a1375da06eeaae9c1710766b61aa655712e77980f3337389da5a19e21912b4a57ffab0bd92cf7769b084c4efa68695#npm:4.4.1"],\
           ["diff", "npm:7.0.0"],\
           ["escape-string-regexp", "npm:4.0.0"],\
           ["find-up", "npm:5.0.0"],\
@@ -6109,7 +6109,7 @@ const RAW_RUNTIME_STATE =
           ["js-yaml", "npm:4.1.0"],\
           ["log-symbols", "npm:4.1.0"],\
           ["minimatch", "npm:9.0.5"],\
-          ["mocha", "npm:11.7.1"],\
+          ["mocha", "npm:11.7.2"],\
           ["ms", "npm:2.1.3"],\
           ["picocolors", "npm:1.1.1"],\
           ["serialize-javascript", "npm:6.0.2"],\
