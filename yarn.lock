@@ -2196,10 +2196,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chai@npm:6.1.0":
-  version: 6.1.0
-  resolution: "chai@npm:6.1.0"
-  checksum: 10c0/3305714a23e76cbd6de4681b31a8c74fe6e9036fd91badcc708f4cb7883bbdfb53e1eec44a1eab2e63083503b92fb17118f408f467c363ffba9d52db45422df4
+"chai@npm:6.2.0":
+  version: 6.2.0
+  resolution: "chai@npm:6.2.0"
+  checksum: 10c0/a4b7d7f5907187e09f1847afa838d6d1608adc7d822031b7900813c4ed5d9702911ac2468bf290676f22fddb3d727b1be90b57c1d0a69b902534ee29cdc6ff8a
   languageName: node
   linkType: hard
 
@@ -4044,7 +4044,7 @@ __metadata:
   dependencies:
     "@fortawesome/free-solid-svg-icons": "npm:7.0.1"
     ansi-html: "npm:0.0.9"
-    chai: "npm:6.1.0"
+    chai: "npm:6.2.0"
     chai-match-pattern: "npm:1.3.0"
     core-js: "npm:3.45.1"
     date-and-time: "npm:^4.0.0"
