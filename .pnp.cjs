@@ -47,7 +47,7 @@ const RAW_RUNTIME_STATE =
           ["jasstafel", "workspace:."],\
           ["konva", "npm:10.0.2"],\
           ["lodash", "npm:4.17.21"],\
-          ["mocha", "npm:11.7.3"],\
+          ["mocha", "npm:11.7.4"],\
           ["mustache", "npm:4.2.0"],\
           ["open", "npm:10.2.0"],\
           ["prettier", "npm:3.6.2"],\
@@ -3703,11 +3703,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:e6272f0c29aa2fd7ccb7a86211c6c728b8ce84307bcd646c5a3df9d71160d5c42dc8a7e0f4187ebe8fd5053a1e3d2ce2b78e55a27a441b9cdadba71256fc96a9#npm:4.4.3", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-72476aadaf/7/runner/cache/others/berry/cache/debug-npm-4.4.3-0105c6123a-10c0.zip/node_modules/debug/",\
+      ["virtual:6a97a6824753d71f5f25530ed2d26b0fcf55eddb4c8d5a0a7c91adeb17f95cb92bd3c87afa725b83d4649cf8992cc0d219407d72b42263508992ee08762d71f3#npm:4.4.3", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-9bcc208d32/7/runner/cache/others/berry/cache/debug-npm-4.4.3-0105c6123a-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
           ["@types/supports-color", null],\
-          ["debug", "virtual:e6272f0c29aa2fd7ccb7a86211c6c728b8ce84307bcd646c5a3df9d71160d5c42dc8a7e0f4187ebe8fd5053a1e3d2ce2b78e55a27a441b9cdadba71256fc96a9#npm:4.4.3"],\
+          ["debug", "virtual:6a97a6824753d71f5f25530ed2d26b0fcf55eddb4c8d5a0a7c91adeb17f95cb92bd3c87afa725b83d4649cf8992cc0d219407d72b42263508992ee08762d71f3#npm:4.4.3"],\
           ["ms", "npm:2.1.3"],\
           ["supports-color", "npm:8.1.1"]\
         ],\
@@ -5369,6 +5369,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["is-path-inside", [\
+      ["npm:3.0.3", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/is-path-inside-npm-3.0.3-2ea0ef44fd-10c0.zip/node_modules/is-path-inside/",\
+        "packageDependencies": [\
+          ["is-path-inside", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["is-plain-obj", [\
       ["npm:2.1.0", {\
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/is-plain-obj-npm-2.1.0-8dffd7ae9c-10c0.zip/node_modules/is-plain-obj/",\
@@ -5619,7 +5628,7 @@ const RAW_RUNTIME_STATE =
           ["jasstafel", "workspace:."],\
           ["konva", "npm:10.0.2"],\
           ["lodash", "npm:4.17.21"],\
-          ["mocha", "npm:11.7.3"],\
+          ["mocha", "npm:11.7.4"],\
           ["mustache", "npm:4.2.0"],\
           ["open", "npm:10.2.0"],\
           ["prettier", "npm:3.6.2"],\
@@ -6082,21 +6091,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["mocha", [\
-      ["npm:11.7.3", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/mocha-npm-11.7.3-e6272f0c29-10c0.zip/node_modules/mocha/",\
+      ["npm:11.7.4", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/mocha-npm-11.7.4-6a97a68247-10c0.zip/node_modules/mocha/",\
         "packageDependencies": [\
           ["browser-stdout", "npm:1.3.1"],\
           ["chokidar", "npm:4.0.3"],\
-          ["debug", "virtual:e6272f0c29aa2fd7ccb7a86211c6c728b8ce84307bcd646c5a3df9d71160d5c42dc8a7e0f4187ebe8fd5053a1e3d2ce2b78e55a27a441b9cdadba71256fc96a9#npm:4.4.3"],\
+          ["debug", "virtual:6a97a6824753d71f5f25530ed2d26b0fcf55eddb4c8d5a0a7c91adeb17f95cb92bd3c87afa725b83d4649cf8992cc0d219407d72b42263508992ee08762d71f3#npm:4.4.3"],\
           ["diff", "npm:7.0.0"],\
           ["escape-string-regexp", "npm:4.0.0"],\
           ["find-up", "npm:5.0.0"],\
           ["glob", "npm:10.4.5"],\
           ["he", "npm:1.2.0"],\
+          ["is-path-inside", "npm:3.0.3"],\
           ["js-yaml", "npm:4.1.0"],\
           ["log-symbols", "npm:4.1.0"],\
           ["minimatch", "npm:9.0.5"],\
-          ["mocha", "npm:11.7.3"],\
+          ["mocha", "npm:11.7.4"],\
           ["ms", "npm:2.1.3"],\
           ["picocolors", "npm:1.1.1"],\
           ["serialize-javascript", "npm:6.0.2"],\
