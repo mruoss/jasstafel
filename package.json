@@ -13,7 +13,7 @@
 		"test": "mocha-esbuild ./tests/**/*.js"
 	},
 	"dependencies": {
-		"@fortawesome/free-solid-svg-icons": "7.0.1",
+		"@fortawesome/free-solid-svg-icons": "7.1.0",
 		"core-js": "3.45.1",
 		"esbuild": "0.25.10",
 		"konva": "10.0.2",
