@@ -2707,7 +2707,7 @@ const RAW_RUNTIME_STATE =
           ["rollup", "npm:2.79.2"],\
           ["serialize-javascript", "npm:6.0.2"],\
           ["smob", "npm:1.5.0"],\
-          ["terser", "npm:5.44.0"]\
+          ["terser", "npm:5.44.1"]\
         ],\
         "packagePeers": [\
           "@types/rollup",\
@@ -2828,10 +2828,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["npm:0.32.2", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-react-reconciler-npm-0.32.2-750aeadefd-10c0.zip/node_modules/@types/react-reconciler/",\
+      ["npm:0.32.3", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-react-reconciler-npm-0.32.3-f18a38831d-10c0.zip/node_modules/@types/react-reconciler/",\
         "packageDependencies": [\
-          ["@types/react-reconciler", "npm:0.32.2"]\
+          ["@types/react-reconciler", "npm:0.32.3"]\
         ],\
         "linkType": "SOFT"\
       }],\
@@ -2846,11 +2846,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:80053dc75eeed39c47e3798ec64532d3d8871d55d51c9dfa3f712576d9bd5991105e86344daeff5ddae180bdb2fe64d7353136fd144797bf0c832baace5524d7#npm:0.32.2", {\
-        "packageLocation": "./.yarn/__virtual__/@types-react-reconciler-virtual-d4855f0da6/7/runner/cache/others/berry/cache/@types-react-reconciler-npm-0.32.2-750aeadefd-10c0.zip/node_modules/@types/react-reconciler/",\
+      ["virtual:80053dc75eeed39c47e3798ec64532d3d8871d55d51c9dfa3f712576d9bd5991105e86344daeff5ddae180bdb2fe64d7353136fd144797bf0c832baace5524d7#npm:0.32.3", {\
+        "packageLocation": "./.yarn/__virtual__/@types-react-reconciler-virtual-0c263534c4/7/runner/cache/others/berry/cache/@types-react-reconciler-npm-0.32.3-f18a38831d-10c0.zip/node_modules/@types/react-reconciler/",\
         "packageDependencies": [\
           ["@types/react", null],\
-          ["@types/react-reconciler", "virtual:80053dc75eeed39c47e3798ec64532d3d8871d55d51c9dfa3f712576d9bd5991105e86344daeff5ddae180bdb2fe64d7353136fd144797bf0c832baace5524d7#npm:0.32.2"]\
+          ["@types/react-reconciler", "virtual:80053dc75eeed39c47e3798ec64532d3d8871d55d51c9dfa3f712576d9bd5991105e86344daeff5ddae180bdb2fe64d7353136fd144797bf0c832baace5524d7#npm:0.32.3"]\
         ],\
         "packagePeers": [\
           "@types/react"\
@@ -3261,10 +3261,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["baseline-browser-mapping", [\
-      ["npm:2.8.23", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/baseline-browser-mapping-npm-2.8.23-113a02bae4-10c0.zip/node_modules/baseline-browser-mapping/",\
+      ["npm:2.8.25", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/baseline-browser-mapping-npm-2.8.25-73550d88bf-10c0.zip/node_modules/baseline-browser-mapping/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.8.23"]\
+          ["baseline-browser-mapping", "npm:2.8.25"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3301,10 +3301,10 @@ const RAW_RUNTIME_STATE =
       ["npm:4.27.0", {\
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/browserslist-npm-4.27.0-7b54f5398a-10c0.zip/node_modules/browserslist/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.8.23"],\
+          ["baseline-browser-mapping", "npm:2.8.25"],\
           ["browserslist", "npm:4.27.0"],\
-          ["caniuse-lite", "npm:1.0.30001753"],\
-          ["electron-to-chromium", "npm:1.5.244"],\
+          ["caniuse-lite", "npm:1.0.30001754"],\
+          ["electron-to-chromium", "npm:1.5.249"],\
           ["node-releases", "npm:2.0.27"],\
           ["update-browserslist-db", "virtual:7b54f5398ae1ea153cefe5462cbbf591458c9f631af18763a07384131da5459dfb5bad1a6998dcb1a46db17cdc34577efc192d33a98829631bc9b5d955755fe2#npm:1.1.4"]\
         ],\
@@ -3414,10 +3414,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001753", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/caniuse-lite-npm-1.0.30001753-4588e1a19e-10c0.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001754", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/caniuse-lite-npm-1.0.30001754-112f366158-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001753"]\
+          ["caniuse-lite", "npm:1.0.30001754"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3873,10 +3873,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.244", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/electron-to-chromium-npm-1.5.244-ed1b43767e-10c0.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.249", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/electron-to-chromium-npm-1.5.249-2268e7bbbd-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.244"]\
+          ["electron-to-chromium", "npm:1.5.249"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5176,10 +5176,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ip-address", [\
-      ["npm:10.0.1", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/ip-address-npm-10.0.1-862be6199a-10c0.zip/node_modules/ip-address/",\
+      ["npm:10.1.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/ip-address-npm-10.1.0-d5d5693401-10c0.zip/node_modules/ip-address/",\
         "packageDependencies": [\
-          ["ip-address", "npm:10.0.1"]\
+          ["ip-address", "npm:10.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6668,7 +6668,7 @@ const RAW_RUNTIME_STATE =
           ["@types/konva", null],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
-          ["@types/react-reconciler", "virtual:80053dc75eeed39c47e3798ec64532d3d8871d55d51c9dfa3f712576d9bd5991105e86344daeff5ddae180bdb2fe64d7353136fd144797bf0c832baace5524d7#npm:0.32.2"],\
+          ["@types/react-reconciler", "virtual:80053dc75eeed39c47e3798ec64532d3d8871d55d51c9dfa3f712576d9bd5991105e86344daeff5ddae180bdb2fe64d7353136fd144797bf0c832baace5524d7#npm:0.32.3"],\
           ["its-fine", "virtual:80053dc75eeed39c47e3798ec64532d3d8871d55d51c9dfa3f712576d9bd5991105e86344daeff5ddae180bdb2fe64d7353136fd144797bf0c832baace5524d7#npm:2.0.0"],\
           ["konva", "npm:10.0.8"],\
           ["react", "npm:19.2.0"],\
@@ -7194,7 +7194,7 @@ const RAW_RUNTIME_STATE =
       ["npm:2.8.7", {\
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/socks-npm-2.8.7-d1d20aae19-10c0.zip/node_modules/socks/",\
         "packageDependencies": [\
-          ["ip-address", "npm:10.0.1"],\
+          ["ip-address", "npm:10.1.0"],\
           ["smart-buffer", "npm:4.2.0"],\
           ["socks", "npm:2.8.7"]\
         ],\
@@ -7561,14 +7561,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["terser", [\
-      ["npm:5.44.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/terser-npm-5.44.0-3f9e1b5542-10c0.zip/node_modules/terser/",\
+      ["npm:5.44.1", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/terser-npm-5.44.1-48464a937a-10c0.zip/node_modules/terser/",\
         "packageDependencies": [\
           ["@jridgewell/source-map", "npm:0.3.11"],\
           ["acorn", "npm:8.15.0"],\
           ["commander", "npm:2.20.3"],\
           ["source-map-support", "npm:0.5.21"],\
-          ["terser", "npm:5.44.0"]\
+          ["terser", "npm:5.44.1"]\
         ],\
         "linkType": "HARD"\
       }]\
