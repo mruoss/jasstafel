@@ -49,7 +49,7 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.17.21"],\
           ["mocha", "npm:11.7.5"],\
           ["mustache", "npm:4.2.0"],\
-          ["open", "npm:10.2.0"],\
+          ["open", "npm:11.0.0"],\
           ["prettier", "npm:3.6.2"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:19.2.0"],\
@@ -3770,11 +3770,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["default-browser", [\
-      ["npm:5.2.1", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/default-browser-npm-5.2.1-e2f8bca718-10c0.zip/node_modules/default-browser/",\
+      ["npm:5.4.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/default-browser-npm-5.4.0-c08bfe52e8-10c0.zip/node_modules/default-browser/",\
         "packageDependencies": [\
           ["bundle-name", "npm:4.1.0"],\
-          ["default-browser", "npm:5.2.1"],\
+          ["default-browser", "npm:5.4.0"],\
           ["default-browser-id", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -5334,6 +5334,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["is-in-ssh", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/is-in-ssh-npm-1.0.0-d72be5b7c8-10c0.zip/node_modules/is-in-ssh/",\
+        "packageDependencies": [\
+          ["is-in-ssh", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["is-inside-container", [\
       ["npm:1.0.0", {\
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/is-inside-container-npm-1.0.0-f2c9e9bb96-10c0.zip/node_modules/is-inside-container/",\
@@ -5652,7 +5661,7 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.17.21"],\
           ["mocha", "npm:11.7.5"],\
           ["mustache", "npm:4.2.0"],\
-          ["open", "npm:10.2.0"],\
+          ["open", "npm:11.0.0"],\
           ["prettier", "npm:3.6.2"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:19.2.0"],\
@@ -6329,14 +6338,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["open", [\
-      ["npm:10.2.0", {\
-        "packageLocation": "./.yarn/unplugged/open-npm-10.2.0-e150b4e118/node_modules/open/",\
+      ["npm:11.0.0", {\
+        "packageLocation": "./.yarn/unplugged/open-npm-11.0.0-f702975017/node_modules/open/",\
         "packageDependencies": [\
-          ["default-browser", "npm:5.2.1"],\
+          ["default-browser", "npm:5.4.0"],\
           ["define-lazy-prop", "npm:3.0.0"],\
+          ["is-in-ssh", "npm:1.0.0"],\
           ["is-inside-container", "npm:1.0.0"],\
-          ["open", "npm:10.2.0"],\
-          ["wsl-utils", "npm:0.1.0"]\
+          ["open", "npm:11.0.0"],\
+          ["powershell-utils", "npm:0.1.0"],\
+          ["wsl-utils", "npm:0.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6514,6 +6525,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/postcss-value-parser-npm-4.2.0-3cef602a6a-10c0.zip/node_modules/postcss-value-parser/",\
         "packageDependencies": [\
           ["postcss-value-parser", "npm:4.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["powershell-utils", [\
+      ["npm:0.1.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/powershell-utils-npm-0.1.0-bce5e820f1-10c0.zip/node_modules/powershell-utils/",\
+        "packageDependencies": [\
+          ["powershell-utils", "npm:0.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8219,11 +8239,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["wsl-utils", [\
-      ["npm:0.1.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/wsl-utils-npm-0.1.0-c5611c2140-10c0.zip/node_modules/wsl-utils/",\
+      ["npm:0.3.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/wsl-utils-npm-0.3.0-979ba9d582-10c0.zip/node_modules/wsl-utils/",\
         "packageDependencies": [\
           ["is-wsl", "npm:3.1.0"],\
-          ["wsl-utils", "npm:0.1.0"]\
+          ["powershell-utils", "npm:0.1.0"],\
+          ["wsl-utils", "npm:0.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
