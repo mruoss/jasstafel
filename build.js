@@ -122,7 +122,6 @@ fs.rm(destDirectory, { recursive: true, force: true })
 			globDirectory: destDirectory,
 			globPatterns: ['**/*.{css,eot,html,ico,jpg,js,json,png,svg,ttf,txt,json,woff,woff2,webm,xml}'],
 			globFollow: true,
-			globStrict: true,
 			globIgnores: [
 				'**/*-es5.*.js',
 				'3rdpartylicenses.txt',
