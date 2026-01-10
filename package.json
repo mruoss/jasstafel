@@ -48,7 +48,7 @@
 		"prettier": "3.7.4",
 		"prop-types": "15.8.1",
 		"react-is": "19.2.3",
-		"styled-components": "6.3.0",
+		"styled-components": "6.3.1",
 		"workbox-build": "7.4.0",
 		"workbox-strategies": "^7.0.0",
 		"yargs": "18.0.0"
