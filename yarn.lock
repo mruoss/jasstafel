@@ -4126,7 +4126,7 @@ __metadata:
     redux: "npm:5.0.1"
     redux-undo: "npm:1.1.0"
     reselect: "npm:5.1.1"
-    styled-components: "npm:6.3.5"
+    styled-components: "npm:6.3.6"
     workbox-build: "npm:7.4.0"
     workbox-precaching: "npm:7.4.0"
     workbox-routing: "npm:^7.0.0"
@@ -5735,9 +5735,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:6.3.5":
-  version: 6.3.5
-  resolution: "styled-components@npm:6.3.5"
+"styled-components@npm:6.3.6":
+  version: 6.3.6
+  resolution: "styled-components@npm:6.3.6"
   dependencies:
     "@emotion/is-prop-valid": "npm:1.4.0"
     "@emotion/unitless": "npm:0.10.0"
@@ -5751,7 +5751,7 @@ __metadata:
   peerDependencies:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
-  checksum: 10c0/0c8c547259f96b321fc90e81e9710a8b89ad78d8d792ed479f843b0f084fd72f2bd3ce468f44f57bb5840f8d66113b0ff9b951488481066275f6f24fe7d10a83
+  checksum: 10c0/5ff6a25677636e60f76d0789760b6beed87d44d7c46b7a0dab5bab045faba79d9327a205eb62c4fa9e04b4d5d099b615cb51c1566803c618dea66b5e5080bfb9
   languageName: node
   linkType: hard
 
