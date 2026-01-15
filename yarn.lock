@@ -4111,7 +4111,7 @@ __metadata:
     eslint-plugin-lodash-fp: "npm:2.2.0-a1"
     eslint-plugin-prettier: "npm:5.5.5"
     eslint-plugin-react: "npm:7.37.5"
-    konva: "npm:10.1.0"
+    konva: "npm:10.2.0"
     lodash: "npm:4.17.21"
     mocha: "npm:11.7.5"
     mustache: "npm:4.2.0"
@@ -4258,10 +4258,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"konva@npm:10.1.0":
-  version: 10.1.0
-  resolution: "konva@npm:10.1.0"
-  checksum: 10c0/7b6a50d61979434819a6321f1b065dc6c9d29b37dc3ffaeefdb8211762b7d352d6ba63c477f77fe4609a03b7d876c30f19d8960ebc0cf446d6bd974a571c694a
+"konva@npm:10.2.0":
+  version: 10.2.0
+  resolution: "konva@npm:10.2.0"
+  checksum: 10c0/afbb59a8a83c41c75f6e3103aa7f2ddb7f4f2132dab612d54e7dcefcd50f9b28b6b02fb88ce1387fe2b33905e67dc73ba2dba2cd1cb01abfc47250798f61c88f
   languageName: node
   linkType: hard
 
