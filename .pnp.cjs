@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
           ["chai", "npm:6.2.2"],\
           ["chai-match-pattern", "npm:1.3.0"],\
           ["core-js", "npm:3.48.0"],\
-          ["date-and-time", "npm:4.3.0"],\
+          ["date-and-time", "npm:4.3.1"],\
           ["esbuild", "npm:0.27.3"],\
           ["eslint", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.0.2"],\
           ["eslint-config-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.1.8"],\
@@ -3680,10 +3680,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["date-and-time", [\
-      ["npm:4.3.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/date-and-time-npm-4.3.0-7c3a0ff7e8-10c0.zip/node_modules/date-and-time/",\
+      ["npm:4.3.1", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/date-and-time-npm-4.3.1-b9272cc0e5-10c0.zip/node_modules/date-and-time/",\
         "packageDependencies": [\
-          ["date-and-time", "npm:4.3.0"]\
+          ["date-and-time", "npm:4.3.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5606,7 +5606,7 @@ const RAW_RUNTIME_STATE =
           ["chai", "npm:6.2.2"],\
           ["chai-match-pattern", "npm:1.3.0"],\
           ["core-js", "npm:3.48.0"],\
-          ["date-and-time", "npm:4.3.0"],\
+          ["date-and-time", "npm:4.3.1"],\
           ["esbuild", "npm:0.27.3"],\
           ["eslint", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.0.2"],\
           ["eslint-config-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.1.8"],\
