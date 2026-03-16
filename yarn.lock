@@ -2057,11 +2057,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.9.0":
-  version: 2.10.0
-  resolution: "baseline-browser-mapping@npm:2.10.0"
+  version: 2.10.8
+  resolution: "baseline-browser-mapping@npm:2.10.8"
   bin:
     baseline-browser-mapping: dist/cli.cjs
-  checksum: 10c0/da9c3ec0fcd7f325226a47d2142794d41706b6e0a405718a2c15410bbdb72aacadd65738bedef558c6f1b106ed19458cb25b06f63b66df2c284799905dbbd003
+  checksum: 10c0/a77882e8ac37a900a9a0757b9bf4e50f407829ed17ee7630273ab5da0ae10d9c64ed4c5a1e03afb3490e39713440092417ded4bb856eeb9bd44856eacbd97497
   languageName: node
   linkType: hard
 
@@ -2197,9 +2197,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001759":
-  version: 1.0.30001777
-  resolution: "caniuse-lite@npm:1.0.30001777"
-  checksum: 10c0/e35443fa7c470edc06e315297cca706790840e96983fff12dfe502a4b123d6e4a64b9b4e8e35fb2f5bb60c31b24fbda93d76b2f700ce183df474671236fa7a4a
+  version: 1.0.30001779
+  resolution: "caniuse-lite@npm:1.0.30001779"
+  checksum: 10c0/6cae9492140722ebc6be76cf3057ff8d1b427c7d8c2588b92bba7979bb1ec7ece457c7d3578a099a757ec12cb01b893fe05f224ac8feb841072897f0c12de6cc
   languageName: node
   linkType: hard
 
@@ -2563,9 +2563,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.263":
-  version: 1.5.307
-  resolution: "electron-to-chromium@npm:1.5.307"
-  checksum: 10c0/eb773a28af0dd7b3717b9bc2b31f332bcb42b43019866e039276db75c8c14063f96e29d19bea47231b4335a319d8518997b2d577dec6b5b237b768c7afdc5588
+  version: 1.5.313
+  resolution: "electron-to-chromium@npm:1.5.313"
+  checksum: 10c0/f9ec325339a3727f1f7fe9e177c38fd002e2d5d261ac9303e576be3fe4af485e83cfef88d7b6f15872a677452328c5699ca1ebed35dad2e5afbf166742ca90c3
   languageName: node
   linkType: hard
 
@@ -2683,8 +2683,8 @@ __metadata:
   linkType: hard
 
 "es-iterator-helpers@npm:^1.2.1":
-  version: 1.2.2
-  resolution: "es-iterator-helpers@npm:1.2.2"
+  version: 1.3.1
+  resolution: "es-iterator-helpers@npm:1.3.1"
   dependencies:
     call-bind: "npm:^1.0.8"
     call-bound: "npm:^1.0.4"
@@ -2701,8 +2701,9 @@ __metadata:
     has-symbols: "npm:^1.1.0"
     internal-slot: "npm:^1.1.0"
     iterator.prototype: "npm:^1.1.5"
+    math-intrinsics: "npm:^1.1.0"
     safe-array-concat: "npm:^1.1.3"
-  checksum: 10c0/1ced8abf845a45e660dd77b5f3a64358421df70e4a0bd1897d5ddfefffed8409a6a2ca21241b9367e639df9eca74abc1c678b3020bffe6bee1f1826393658ddb
+  checksum: 10c0/39837bb23bf6e53a066ae6a218c62bbc2c3cdd7da19336104bd7a16521675fcd9a61abe9cecf37992616584bee1d72f057bac66f2115fcf4840c934df6e96689
   languageName: node
   linkType: hard
 
@@ -3255,9 +3256,9 @@ __metadata:
   linkType: hard
 
 "flatted@npm:^3.2.9":
-  version: 3.4.0
-  resolution: "flatted@npm:3.4.0"
-  checksum: 10c0/033b0d28dc7c11c20cdddfef160647d37ee6f49cac265e6315d7c172a8a518a971316938d49c72cce3e20bddd40f1bae1455a5cba29f9741fcfb0af4d3491fa4
+  version: 3.4.1
+  resolution: "flatted@npm:3.4.1"
+  checksum: 10c0/3987a7f1e39bc7215cece001354313b462cdb4fb2dde0df4f7acd9e5016fbae56ee6fb3f0870b2150145033be8bda4f01af6f87a00946049651131bbfca7dfa6
   languageName: node
   linkType: hard
 
@@ -4333,9 +4334,9 @@ __metadata:
   linkType: hard
 
 "lru-cache@npm:^11.0.0, lru-cache@npm:^11.1.0, lru-cache@npm:^11.2.1":
-  version: 11.2.6
-  resolution: "lru-cache@npm:11.2.6"
-  checksum: 10c0/73bbffb298760e71b2bfe8ebc16a311c6a60ceddbba919cfedfd8635c2d125fbfb5a39b71818200e67973b11f8d59c5a9e31d6f90722e340e90393663a66e5cd
+  version: 11.2.7
+  resolution: "lru-cache@npm:11.2.7"
+  checksum: 10c0/549cdb59488baa617135fc12159cafb1a97f91079f35093bb3bcad72e849fc64ace636d244212c181dfdf1a99bbfa90757ff303f98561958ee4d0f885d9bd5f7
   languageName: node
   linkType: hard
 
