@@ -1,4 +1,4 @@
 [tools]
 
-nodejs = "24.16.0"
+nodejs = "24.17.0"
 yarn = "4.17.0"
