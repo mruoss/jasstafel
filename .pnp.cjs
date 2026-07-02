@@ -50,7 +50,7 @@ const RAW_RUNTIME_STATE =
           ["mocha", "npm:11.7.6"],\
           ["mustache", "npm:4.2.0"],\
           ["open", "npm:11.0.0"],\
-          ["prettier", "npm:3.8.4"],\
+          ["prettier", "npm:3.9.4"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:19.2.7"],\
           ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:19.2.7"],\
@@ -4579,7 +4579,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.6.0"],\
           ["eslint-config-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.1.8"],\
           ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.5.6"],\
-          ["prettier", "npm:3.8.4"],\
+          ["prettier", "npm:3.9.4"],\
           ["prettier-linter-helpers", "npm:1.0.1"],\
           ["synckit", "npm:0.11.13"]\
         ],\
@@ -5733,7 +5733,7 @@ const RAW_RUNTIME_STATE =
           ["mocha", "npm:11.7.6"],\
           ["mustache", "npm:4.2.0"],\
           ["open", "npm:11.0.0"],\
-          ["prettier", "npm:3.8.4"],\
+          ["prettier", "npm:3.9.4"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:19.2.7"],\
           ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:19.2.7"],\
@@ -6482,10 +6482,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["prettier", [\
-      ["npm:3.8.4", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.8.4-fc713caa8e/node_modules/prettier/",\
+      ["npm:3.9.4", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.9.4-4fe91639db/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.8.4"]\
+          ["prettier", "npm:3.9.4"]\
         ],\
         "linkType": "HARD"\
       }]\
