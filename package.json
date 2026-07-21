@@ -19,7 +19,7 @@
 		"konva": "10.3.0",
 		"lodash": "4.18.1",
 		"react": "19.2.7",
-		"react-dom": "19.2.7",
+		"react-dom": "19.2.8",
 		"react-konva": "19.2.5",
 		"react-redux": "9.3.0",
 		"redux": "5.0.1",
