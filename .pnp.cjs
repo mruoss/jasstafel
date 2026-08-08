@@ -32,7 +32,7 @@ const RAW_RUNTIME_STATE =
           ["ansi-html", "npm:0.0.9"],\
           ["chai", "npm:6.2.2"],\
           ["chai-match-pattern", "npm:1.3.0"],\
-          ["core-js", "npm:3.49.0"],\
+          ["core-js", "npm:3.50.0"],\
           ["date-and-time", "npm:4.5.1"],\
           ["esbuild", "npm:0.28.1"],\
           ["eslint", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.8.0"],\
@@ -3722,10 +3722,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["core-js", [\
-      ["npm:3.49.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/core-js-npm-3.49.0-0a974f48cc-10c0.zip/node_modules/core-js/",\
+      ["npm:3.50.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/core-js-npm-3.50.0-c518f629d4-10c0.zip/node_modules/core-js/",\
         "packageDependencies": [\
-          ["core-js", "npm:3.49.0"]\
+          ["core-js", "npm:3.50.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5724,7 +5724,7 @@ const RAW_RUNTIME_STATE =
           ["ansi-html", "npm:0.0.9"],\
           ["chai", "npm:6.2.2"],\
           ["chai-match-pattern", "npm:1.3.0"],\
-          ["core-js", "npm:3.49.0"],\
+          ["core-js", "npm:3.50.0"],\
           ["date-and-time", "npm:4.5.1"],\
           ["esbuild", "npm:0.28.1"],\
           ["eslint", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.8.0"],\
