@@ -49,7 +49,7 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.18.1"],\
           ["mocha", "npm:11.8.0"],\
           ["mustache", "npm:4.2.0"],\
-          ["open", "npm:11.0.0"],\
+          ["open", "npm:11.0.1"],\
           ["prettier", "npm:3.9.6"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:19.2.8"],\
@@ -5741,7 +5741,7 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.18.1"],\
           ["mocha", "npm:11.8.0"],\
           ["mustache", "npm:4.2.0"],\
-          ["open", "npm:11.0.0"],\
+          ["open", "npm:11.0.1"],\
           ["prettier", "npm:3.9.6"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:19.2.8"],\
@@ -6310,16 +6310,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["open", [\
-      ["npm:11.0.0", {\
-        "packageLocation": "./.yarn/unplugged/open-npm-11.0.0-f702975017/node_modules/open/",\
+      ["npm:11.0.1", {\
+        "packageLocation": "./.yarn/unplugged/open-npm-11.0.1-c8121c2ef1/node_modules/open/",\
         "packageDependencies": [\
           ["default-browser", "npm:5.5.0"],\
           ["define-lazy-prop", "npm:3.0.0"],\
           ["is-in-ssh", "npm:1.0.0"],\
           ["is-inside-container", "npm:1.0.0"],\
-          ["open", "npm:11.0.0"],\
-          ["powershell-utils", "npm:0.1.0"],\
-          ["wsl-utils", "npm:0.3.1"]\
+          ["open", "npm:11.0.1"],\
+          ["powershell-utils", "npm:0.2.0"],\
+          ["wsl-utils", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6469,6 +6469,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/powershell-utils-npm-0.1.0-bce5e820f1-10c0.zip/node_modules/powershell-utils/",\
         "packageDependencies": [\
           ["powershell-utils", "npm:0.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.2.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/powershell-utils-npm-0.2.0-064921fe0c-10c0.zip/node_modules/powershell-utils/",\
+        "packageDependencies": [\
+          ["powershell-utils", "npm:0.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8055,12 +8062,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["wsl-utils", [\
-      ["npm:0.3.1", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/wsl-utils-npm-0.3.1-a4942ec282-10c0.zip/node_modules/wsl-utils/",\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/wsl-utils-npm-1.0.0-370b082a4f-10c0.zip/node_modules/wsl-utils/",\
         "packageDependencies": [\
           ["is-wsl", "npm:3.1.1"],\
           ["powershell-utils", "npm:0.1.0"],\
-          ["wsl-utils", "npm:0.3.1"]\
+          ["wsl-utils", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
