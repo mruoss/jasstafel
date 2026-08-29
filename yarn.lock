@@ -4150,7 +4150,7 @@ __metadata:
     eslint-plugin-lodash-fp: "npm:2.2.0-a1"
     eslint-plugin-prettier: "npm:5.5.6"
     eslint-plugin-react: "npm:7.37.5"
-    konva: "npm:10.3.1"
+    konva: "npm:10.3.2"
     lodash: "npm:4.18.1"
     mocha: "npm:11.8.0"
     mustache: "npm:4.2.0"
@@ -4290,9 +4290,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"konva@npm:10.3.1":
-  version: 10.3.1
-  resolution: "konva@npm:10.3.1"
+"konva@npm:10.3.2":
+  version: 10.3.2
+  resolution: "konva@npm:10.3.2"
   peerDependencies:
     canvas: ^3.0.0
     skia-canvas: ^3.0.0
@@ -4301,7 +4301,7 @@ __metadata:
       optional: true
     skia-canvas:
       optional: true
-  checksum: 10c0/6273d5ef81fe5e83903c8f2a5dbf8976e9fb635e72833d4ae679c04209adb286746180a867028db07daedd1ab6dcafb3c845b19491048f9fda177de730ab801e
+  checksum: 10c0/09725d1a350958f2ce6df1528d2f31005d8b2d15247808e26841a39480b5bcbe1b81d90e3eff6154346599362090a748e051db52f00b3be054755b66a5b30bb0
   languageName: node
   linkType: hard
 
