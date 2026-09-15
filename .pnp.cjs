@@ -49,7 +49,7 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.18.1"],\
           ["mocha", "npm:12.0.1"],\
           ["mustache", "npm:4.2.0"],\
-          ["open", "npm:11.0.3"],\
+          ["open", "npm:11.0.4"],\
           ["prettier", "npm:3.9.6"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:19.3.0"],\
@@ -5720,7 +5720,7 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.18.1"],\
           ["mocha", "npm:12.0.1"],\
           ["mustache", "npm:4.2.0"],\
-          ["open", "npm:11.0.3"],\
+          ["open", "npm:11.0.4"],\
           ["prettier", "npm:3.9.6"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:19.3.0"],\
@@ -6274,14 +6274,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["open", [\
-      ["npm:11.0.3", {\
-        "packageLocation": "./.yarn/unplugged/open-npm-11.0.3-d44c55cc2a/node_modules/open/",\
+      ["npm:11.0.4", {\
+        "packageLocation": "./.yarn/unplugged/open-npm-11.0.4-83ea1c2e5d/node_modules/open/",\
         "packageDependencies": [\
           ["default-browser", "npm:5.5.1"],\
           ["define-lazy-prop", "npm:3.0.0"],\
           ["is-in-ssh", "npm:1.0.0"],\
           ["is-inside-container", "npm:1.0.0"],\
-          ["open", "npm:11.0.3"],\
+          ["open", "npm:11.0.4"],\
           ["powershell-utils", "npm:0.2.1"],\
           ["wsl-utils", "npm:1.0.0"]\
         ],\
