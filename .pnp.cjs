@@ -65,7 +65,7 @@ const RAW_RUNTIME_STATE =
           ["workbox-precaching", "npm:7.4.1"],\
           ["workbox-routing", "npm:7.4.1"],\
           ["workbox-strategies", "npm:7.4.1"],\
-          ["yargs", "npm:18.1.0"]\
+          ["yargs", "npm:18.2.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -5736,7 +5736,7 @@ const RAW_RUNTIME_STATE =
           ["workbox-precaching", "npm:7.4.1"],\
           ["workbox-routing", "npm:7.4.1"],\
           ["workbox-strategies", "npm:7.4.1"],\
-          ["yargs", "npm:18.1.0"]\
+          ["yargs", "npm:18.2.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -7971,15 +7971,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["yargs", [\
-      ["npm:18.1.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/yargs-npm-18.1.0-afa3726326-10c0.zip/node_modules/yargs/",\
+      ["npm:18.2.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/yargs-npm-18.2.0-7d6567ecce-10c0.zip/node_modules/yargs/",\
         "packageDependencies": [\
           ["cliui", "npm:9.0.1"],\
           ["escalade", "npm:3.2.0"],\
           ["get-caller-file", "npm:2.0.5"],\
           ["string-width", "npm:8.2.2"],\
           ["y18n", "npm:5.0.8"],\
-          ["yargs", "npm:18.1.0"],\
+          ["yargs", "npm:18.2.0"],\
           ["yargs-parser", "npm:22.0.0"]\
         ],\
         "linkType": "HARD"\
