@@ -1885,21 +1885,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-reconciler@npm:0.34.0":
+  version: 0.34.0
+  resolution: "@types/react-reconciler@npm:0.34.0"
+  peerDependencies:
+    "@types/react": "*"
+  checksum: 10c0/4216eef57f1c6bbde544930c3fa5ff7278968b123c4232266463232603696e3d08a734022d79d47507d2cfcf3457b45ff18d2eea182508549a2333fd842e83d5
+  languageName: node
+  linkType: hard
+
 "@types/react-reconciler@npm:^0.28.9":
   version: 0.28.9
   resolution: "@types/react-reconciler@npm:0.28.9"
   peerDependencies:
     "@types/react": "*"
   checksum: 10c0/9fe71fa856aab2cd4742fe0416bdd4f5c82ecc05ef6451ee7fcb65a5efdf5fa588f5820fbe2a665b15371b0da3bfc4097f28bb6d450b9a834af2d0fc00f403bd
-  languageName: node
-  linkType: hard
-
-"@types/react-reconciler@npm:^0.33.0":
-  version: 0.33.1
-  resolution: "@types/react-reconciler@npm:0.33.1"
-  peerDependencies:
-    "@types/react": "*"
-  checksum: 10c0/89e4641cdebeb3ab93ff444a2ac29aa89f395e4c88b01ed000d4bf909e3acf0db284280cbd3a38042ea4894410ecc2c1f01d7ba61432673fc97b143272cc363e
   languageName: node
   linkType: hard
 
@@ -4067,7 +4067,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"its-fine@npm:^2.0.0":
+"its-fine@npm:^2.1.1":
   version: 2.1.1
   resolution: "its-fine@npm:2.1.1"
   dependencies:
@@ -4130,7 +4130,7 @@ __metadata:
     react: "npm:19.3.0"
     react-dom: "npm:19.3.0"
     react-is: "npm:19.3.0"
-    react-konva: "npm:19.3.0"
+    react-konva: "npm:19.3.2"
     react-redux: "npm:9.3.0"
     redux: "npm:5.0.1"
     redux-undo: "npm:1.1.0"
@@ -4839,19 +4839,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-konva@npm:19.3.0":
-  version: 19.3.0
-  resolution: "react-konva@npm:19.3.0"
+"react-konva@npm:19.3.2":
+  version: 19.3.2
+  resolution: "react-konva@npm:19.3.2"
   dependencies:
-    "@types/react-reconciler": "npm:^0.33.0"
-    its-fine: "npm:^2.0.0"
+    "@types/react-reconciler": "npm:0.34.0"
+    its-fine: "npm:^2.1.1"
     react-reconciler: "npm:0.34.0"
     scheduler: "npm:0.28.0"
   peerDependencies:
     konva: ^8.0.1 || ^7.2.5 || ^9.0.0 || ^10.0.0
     react: ^19.3.0
     react-dom: ^19.3.0
-  checksum: 10c0/e9c72f49f4e9ffaebd0cdbd2fe9db6688af5d9de406a0b5da06f2c3876541f6e300e7c9e99e96d6b5b9a2be81d8b4566a7317d925f96c6bff884fd29e24d27ec
+  checksum: 10c0/21ecdc90bdf93240207036838e74cd961c9a3c115b0ff2d5ff3384e61a6b1f677c68d44afd4c477b97d4ff8e11beb30129b8728957db93ca8134397648f6a5b9
   languageName: node
   linkType: hard
 
