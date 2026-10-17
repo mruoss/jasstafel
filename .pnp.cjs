@@ -60,7 +60,7 @@ const RAW_RUNTIME_STATE =
           ["redux", "npm:5.0.1"],\
           ["redux-undo", "npm:1.1.0"],\
           ["reselect", "npm:5.3.0"],\
-          ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.5.3"],\
+          ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.6.0"],\
           ["workbox-build", "npm:7.4.1"],\
           ["workbox-precaching", "npm:7.4.1"],\
           ["workbox-routing", "npm:7.4.1"],\
@@ -3097,6 +3097,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/stylis", [\
+      ["npm:4.2.7", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-stylis-npm-4.2.7-865de89a3e-10c0.zip/node_modules/@types/stylis/",\
+        "packageDependencies": [\
+          ["@types/stylis", "npm:4.2.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/trusted-types", [\
       ["npm:2.0.7", {\
         "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-trusted-types-npm-2.0.7-a07fc44f59-10c0.zip/node_modules/@types/trusted-types/",\
@@ -5740,7 +5749,7 @@ const RAW_RUNTIME_STATE =
           ["redux", "npm:5.0.1"],\
           ["redux-undo", "npm:1.1.0"],\
           ["reselect", "npm:5.3.0"],\
-          ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.5.3"],\
+          ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.6.0"],\
           ["workbox-build", "npm:7.4.1"],\
           ["workbox-precaching", "npm:7.4.1"],\
           ["workbox-routing", "npm:7.4.1"],\
@@ -7241,27 +7250,28 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["styled-components", [\
-      ["npm:6.5.3", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/styled-components-npm-6.5.3-a0bb8ba672-10c0.zip/node_modules/styled-components/",\
+      ["npm:6.6.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/styled-components-npm-6.6.0-bfb4ce680a-10c0.zip/node_modules/styled-components/",\
         "packageDependencies": [\
-          ["styled-components", "npm:6.5.3"]\
+          ["styled-components", "npm:6.6.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.5.3", {\
-        "packageLocation": "./.yarn/__virtual__/styled-components-virtual-1d76a5104b/7/runner/cache/others/berry/cache/styled-components-npm-6.5.3-a0bb8ba672-10c0.zip/node_modules/styled-components/",\
+      ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.6.0", {\
+        "packageLocation": "./.yarn/__virtual__/styled-components-virtual-218e8edaa7/7/runner/cache/others/berry/cache/styled-components-npm-6.6.0-bfb4ce680a-10c0.zip/node_modules/styled-components/",\
         "packageDependencies": [\
           ["@emotion/is-prop-valid", "npm:1.4.0"],\
           ["@types/css-to-react-native", null],\
           ["@types/react", null],\
           ["@types/react-dom", null],\
           ["@types/react-native", null],\
+          ["@types/stylis", "npm:4.2.7"],\
           ["css-to-react-native", "npm:3.2.0"],\
           ["csstype", "npm:3.2.3"],\
           ["react", "npm:19.3.0"],\
           ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:19.3.0"],\
           ["react-native", null],\
-          ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.5.3"],\
+          ["styled-components", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:6.6.0"],\
           ["stylis", "npm:4.3.6"]\
         ],\
         "packagePeers": [\
