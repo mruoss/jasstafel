@@ -36,11 +36,6 @@ checksum = "sha256:e2edda75bfb089654705cf65a13b58933bfd5f57148e8ebda916f58a2474f
 url = "https://nodejs.org/dist/v26.13.1/node-v26.13.1-win-x64.zip"
 
 [[tools.yarn]]
-version = "4.18.1"
+version = "4.19.0"
 backend = "vfox:yarn"
-specifiers = ["4.18.1"]
-
-[[tools.yarn]]
-version = "4.12.0"
-backend = "vfox:yarn"
-specifiers = ["4.12.0"]
+specifiers = ["4.19.0"]
