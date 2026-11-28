@@ -45,7 +45,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.5.7"],\
           ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.5"],\
           ["jasstafel", "workspace:."],\
-          ["konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.10.0"],\
+          ["konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.11.0"],\
           ["lodash", "npm:4.18.1"],\
           ["mocha", "npm:12.0.3"],\
           ["mustache", "npm:4.2.0"],\
@@ -5744,7 +5744,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-prettier", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:5.5.7"],\
           ["eslint-plugin-react", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:7.37.5"],\
           ["jasstafel", "workspace:."],\
-          ["konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.10.0"],\
+          ["konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.11.0"],\
           ["lodash", "npm:4.18.1"],\
           ["mocha", "npm:12.0.3"],\
           ["mustache", "npm:4.2.0"],\
@@ -5883,22 +5883,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["konva", [\
-      ["npm:10.10.0", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/konva-npm-10.10.0-f155a47db0-10c0.zip/node_modules/konva/",\
+      ["npm:10.11.0", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/konva-npm-10.11.0-5b4fc43135-10c0.zip/node_modules/konva/",\
         "packageDependencies": [\
-          ["konva", "npm:10.10.0"]\
+          ["konva", "npm:10.11.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.10.0", {\
-        "packageLocation": "./.yarn/__virtual__/konva-virtual-bc624aca56/7/runner/cache/others/berry/cache/konva-npm-10.10.0-f155a47db0-10c0.zip/node_modules/konva/",\
+      ["virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.11.0", {\
+        "packageLocation": "./.yarn/__virtual__/konva-virtual-b8dd8abb6f/7/runner/cache/others/berry/cache/konva-npm-10.11.0-5b4fc43135-10c0.zip/node_modules/konva/",\
         "packageDependencies": [\
           ["@napi-rs/canvas", null],\
           ["@types/canvas", null],\
           ["@types/napi-rs__canvas", null],\
           ["@types/skia-canvas", null],\
           ["canvas", null],\
-          ["konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.10.0"],\
+          ["konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.11.0"],\
           ["skia-canvas", null]\
         ],\
         "packagePeers": [\
@@ -6602,7 +6602,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", null],\
           ["@types/react-reconciler", "virtual:5f4cc78ae29cbbb491c3fde1c574f626a8d691737b1b2a2f1988c24b400baf23b36a1852b02f72240c25b29f0f2b87688ec241f10c0d4b59df9c0136970313c7#npm:0.34.0"],\
           ["its-fine", "virtual:5f4cc78ae29cbbb491c3fde1c574f626a8d691737b1b2a2f1988c24b400baf23b36a1852b02f72240c25b29f0f2b87688ec241f10c0d4b59df9c0136970313c7#npm:2.1.1"],\
-          ["konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.10.0"],\
+          ["konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:10.11.0"],\
           ["react", "npm:19.3.1"],\
           ["react-dom", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:19.3.1"],\
           ["react-konva", "virtual:126c49bd835c575c9fff9c580c6b1abc8379bae340cd78dc1695b128b6c332b11345f2cd0b8fe575a809a83d8a9dc51f697c8786b658110bb1c87df5ff56f4d4#npm:19.3.2"],\
